@@ -1,0 +1,289 @@
+services:
+  - type: web
+    name: artha-web
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    autoDeploy: false
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: NEON_API_KEY
+        sync: false
+      - key: NEON_ORG_ID
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: EXA_API_KEY
+        sync: false
+      - key: BRAVE_SEARCH_API_KEY
+        sync: false
+      - key: TAVILY_API_KEY_DEV
+        sync: false
+      - key: TAVILY_API_KEY_PROD
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: TWITTER_CLIENT_ID
+        sync: false
+      - key: TWITTER_CLIENT_SECRET
+        sync: false
+      - key: TWITTER_REFRESH_TOKEN
+        sync: false
+      - key: TWITTER_ACCOUNT_USERNAME
+        value: tryarthaHQ
+      - key: CLOUDFLARE_API_TOKEN
+        sync: false
+      - key: CLOUDFLARE_ACCOUNT_ID
+        sync: false
+      - key: CLOUDFLARE_ZONE_ID
+        sync: false
+      - key: R2_ACCESS_KEY_ID
+        sync: false
+      - key: R2_SECRET_ACCESS_KEY
+        sync: false
+      - key: R2_BUCKET_NAME
+        value: artha-files
+      - key: NEXT_PUBLIC_POSTHOG_KEY
+        sync: false
+      - key: NEXT_PUBLIC_POSTHOG_HOST
+        value: https://us.i.posthog.com
+      - key: NEXT_PUBLIC_SENTRY_DSN
+        sync: false
+      - key: SENTRY_ORG
+        sync: false
+      - key: SENTRY_PROJECT
+        sync: false
+      - key: SENTRY_AUTH_TOKEN
+        sync: false
+      - key: POSTMARK_ACCOUNT_TOKEN
+        sync: false
+      - key: POSTMARK_PLATFORM_SERVER_TOKEN
+        sync: false
+      - key: POSTMARK_PLATFORM_SERVER_ID
+        sync: false
+      - key: POSTMARK_PLATFORM_MESSAGE_STREAM
+        value: outbound
+      - key: POSTMARK_PLATFORM_BROADCAST_MESSAGE_STREAM
+        value: broadcasts
+      - key: POSTMARK_COMPANY_SERVER_TOKEN
+        sync: false
+      - key: POSTMARK_COMPANY_SERVER_ID
+        sync: false
+      - key: POSTMARK_COMPANY_MESSAGE_STREAM
+        value: outbound
+      - key: POSTMARK_COMPANY_BROADCAST_MESSAGE_STREAM
+        value: broadcasts
+      - key: POSTMARK_SERVER_TOKEN
+        sync: false
+      - key: POSTMARK_INBOUND_WEBHOOK_SECRET
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_ORG
+        sync: false
+      - key: SUPERMEMORY_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://artha.run
+      - key: NEXT_PUBLIC_APP_DOMAIN
+        value: artha.run
+      - key: NEXT_PUBLIC_COMPANY_DOMAIN
+        value: tryartha.com
+      - key: WAITLIST_MODE
+        value: "true"
+      - key: CRON_SECRET
+        generateValue: true
+      - key: CRONJOB_ORG_API_KEY
+        sync: false
+
+  - type: worker
+    name: artha-worker
+    runtime: docker
+    dockerfilePath: ./Dockerfile.worker
+    plan: starter
+    autoDeploy: false
+    envVars:
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: DATABASE_URL
+        key: DATABASE_URL
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: NEON_API_KEY
+        key: NEON_API_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: NEON_ORG_ID
+        key: NEON_ORG_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: OPENAI_API_KEY
+        key: OPENAI_API_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: ANTHROPIC_API_KEY
+        key: ANTHROPIC_API_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: EXA_API_KEY
+        key: EXA_API_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: BRAVE_SEARCH_API_KEY
+        key: BRAVE_SEARCH_API_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: TAVILY_API_KEY_DEV
+        key: TAVILY_API_KEY_DEV
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: TAVILY_API_KEY_PROD
+        key: TAVILY_API_KEY_PROD
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: TWITTER_CLIENT_ID
+        key: TWITTER_CLIENT_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: TWITTER_CLIENT_SECRET
+        key: TWITTER_CLIENT_SECRET
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: TWITTER_REFRESH_TOKEN
+        key: TWITTER_REFRESH_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: TWITTER_ACCOUNT_USERNAME
+        key: TWITTER_ACCOUNT_USERNAME
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_ACCOUNT_TOKEN
+        key: POSTMARK_ACCOUNT_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_PLATFORM_SERVER_TOKEN
+        key: POSTMARK_PLATFORM_SERVER_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_PLATFORM_SERVER_ID
+        key: POSTMARK_PLATFORM_SERVER_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_PLATFORM_MESSAGE_STREAM
+        key: POSTMARK_PLATFORM_MESSAGE_STREAM
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_PLATFORM_BROADCAST_MESSAGE_STREAM
+        key: POSTMARK_PLATFORM_BROADCAST_MESSAGE_STREAM
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_COMPANY_SERVER_TOKEN
+        key: POSTMARK_COMPANY_SERVER_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_COMPANY_SERVER_ID
+        key: POSTMARK_COMPANY_SERVER_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_COMPANY_MESSAGE_STREAM
+        key: POSTMARK_COMPANY_MESSAGE_STREAM
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_COMPANY_BROADCAST_MESSAGE_STREAM
+        key: POSTMARK_COMPANY_BROADCAST_MESSAGE_STREAM
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_SERVER_TOKEN
+        key: POSTMARK_SERVER_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: POSTMARK_INBOUND_WEBHOOK_SECRET
+        key: POSTMARK_INBOUND_WEBHOOK_SECRET
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: GITHUB_TOKEN
+        key: GITHUB_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: GITHUB_ORG
+        key: GITHUB_ORG
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: SUPERMEMORY_API_KEY
+        key: SUPERMEMORY_API_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: CLOUDFLARE_API_TOKEN
+        key: CLOUDFLARE_API_TOKEN
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: CLOUDFLARE_ACCOUNT_ID
+        key: CLOUDFLARE_ACCOUNT_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: CLOUDFLARE_ZONE_ID
+        key: CLOUDFLARE_ZONE_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: R2_ACCESS_KEY_ID
+        key: R2_ACCESS_KEY_ID
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: R2_SECRET_ACCESS_KEY
+        key: R2_SECRET_ACCESS_KEY
+      - fromService:
+          name: artha-web
+          type: web
+          envVarKey: R2_BUCKET_NAME
+        key: R2_BUCKET_NAME
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://artha.run
+      - key: NEXT_PUBLIC_APP_DOMAIN
+        value: artha.run
+      - key: NEXT_PUBLIC_COMPANY_DOMAIN
+        value: tryartha.com
+      - key: WORKER_POLL_INTERVAL
+        value: "2000"
+
+  # Cron jobs moved to cron-job.org (free). Run POST /api/admin/setup-crons to provision.

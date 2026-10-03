@@ -1,0 +1,944 @@
+[
+  {
+    "name": "Pallete",
+    "slug": "pallete-studio",
+    "tagline": "One prompt. An entire brand identity.",
+    "description": "Pallete generates complete brand identity systems from a single text prompt. Logos, color palettes, typography pairings, brand guidelines, and social templates — all coherent, all production-ready, all in under sixty seconds. Built for founders who need to look established before they are.",
+    "mission": "Starting a company already demands everything you have. You shouldn't also need to become a brand designer. Yet the alternatives are brutal: spend $5K-$30K on an agency (money most founders don't have), DIY something forgettable with free tools, or launch with no visual identity at all and hope nobody notices.\n\nPallete was founded on a conviction that brand identity is a solvable design problem. Not because branding is simple — it's deeply complex — but because the underlying principles of effective visual identity (contrast, harmony, hierarchy, cultural resonance) are learnable by machines when trained on the right data. We've studied tens of thousands of successful brand systems, from Fortune 500 companies to breakout D2C startups, and distilled the patterns that make identities feel both distinctive and trustworthy.\n\nOur system doesn't generate random aesthetics. You describe your company, your audience, and the feeling you want to evoke, and Pallete produces a coordinated identity system: primary and secondary logos, a curated color palette with accessibility-checked combinations, typography pairings with usage rules, and ready-to-use templates for social media, pitch decks, and business cards. Every element is connected by an internal design logic that ensures coherence.\n\nWe're building toward a future where every startup launches with the visual credibility of a company ten times its size. Not because appearances are everything, but because they shape first impressions — and first impressions determine whether someone reads your pitch, clicks your ad, or opens your email.",
+    "marketResearch": "The global branding services market exceeds $67B annually, with the subset of logo and identity design representing roughly $12B. AI-powered design tools are projected to capture 15-20% of this market by 2028, driven by SMBs and solo founders who cannot justify traditional agency pricing. Our TAM for automated brand identity generation is approximately $3.8B, with a SAM of $1.2B focused on English-speaking startups and small businesses.\n\nThe competitive landscape includes Looka (AI logo maker with 20M+ brands created, but limited to logos and basic brand kits), Brandmark (similar logo-centric approach), and broader design platforms like Canva that offer brand kit features but require manual assembly. Traditional agencies charge $10K-$100K for comprehensive brand identity systems. Pallete occupies the gap: full-system identity generation at software pricing.\n\nOur differentiation is systemic coherence. Competitors generate individual assets; Pallete generates interconnected identity systems where logo, colors, typography, and templates share an internal design logic. Our proprietary Brand Coherence Score evaluates every generated system against 47 criteria spanning legibility, distinctiveness, cultural sensitivity, and cross-medium adaptability.\n\nEarly traction shows 73% of users export their generated brand kit within the first session, versus industry-standard conversion rates of 15-20% for design tools. Our GTM leverages startup accelerators (Y Combinator, Techstars partnerships), Product Hunt launches, and integration with company formation platforms like Stripe Atlas and Clerky where brand identity is the natural next step after incorporation.",
+    "landingPage": {
+      "companyName": "Pallete",
+      "tagline": "One prompt. An entire brand identity.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#E11D48",
+          "primaryLight": "#FB7185",
+          "primaryDark": "#BE123C",
+          "accent": "#F59E0B",
+          "background": "#FFFBF7",
+          "surface": "#FFFFFF",
+          "text": "#1C1017",
+          "textMuted": "#78716C",
+          "border": "#F0E7E0"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "1.25rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Describe your company. Get a complete brand identity.",
+        "subheadline": "Pallete generates logos, color systems, typography, and templates from a single prompt. Coherent, production-ready brand kits in under 60 seconds.",
+        "ctaText": "Generate your brand free",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your brand should look as good as your idea",
+        "subheadline": "First brand kit free. Pro plans from $29/month with unlimited regenerations.",
+        "buttonText": "Create your identity"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From blank page to brand book in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Describe your vision", "description": "Tell Pallete about your company, your audience, and the personality you want to project. A sentence works. A paragraph works better." },
+            { "icon": "2", "title": "Review your brand system", "description": "Get a complete identity: logo variations, color palette with accessibility scores, typography pairings, and usage guidelines — all designed to work together." },
+            { "icon": "3", "title": "Export everything", "description": "Download production-ready files: SVG logos, Figma brand kit, social media templates, pitch deck theme, and a PDF brand guidelines document." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything a brand agency delivers. None of the timeline.",
+          "layout": "bento",
+          "items": [
+            { "icon": "🎨", "title": "Coherent color systems", "description": "Not random swatches. Full palettes with primary, secondary, neutral, and semantic colors — all checked for WCAG contrast compliance." },
+            { "icon": "✏️", "title": "Logo variations", "description": "Primary mark, wordmark, icon, and reversed versions. Each optimized for different contexts from favicon to billboard." },
+            { "icon": "🔤", "title": "Typography pairings", "description": "Heading and body font combinations with size scales, weight hierarchies, and line-height recommendations baked in." },
+            { "icon": "📐", "title": "Brand guidelines PDF", "description": "A professional brand book with usage rules, spacing guides, color specifications, and do/don't examples. Ready for your team or contractors." },
+            { "icon": "📱", "title": "Social templates", "description": "Instagram, LinkedIn, Twitter/X, and YouTube templates pre-loaded with your brand system. Swap the content, keep the identity." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Trusted by founders who move fast",
+          "stats": [
+            { "value": "42K", "label": "Brand kits generated", "suffix": "+" },
+            { "value": "58", "label": "Seconds average generation time", "suffix": "s" },
+            { "value": "73", "label": "Same-session export rate", "suffix": "%" },
+            { "value": "4.8", "label": "Average rating from founders", "suffix": "/5" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Founders who launched looking legit",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were three days from our Product Hunt launch with zero branding. Pallete gave us a complete identity that our designer friends thought we paid an agency for.", "author": "Sofia Lindberg", "role": "Co-founder, Stackpilot" },
+            { "quote": "I've rebranded twice using Pallete. The coherence between logo, colors, and templates is genuinely impressive — it doesn't feel AI-generated.", "author": "Rahul Desai", "role": "Founder, ClearMetrics" },
+            { "quote": "The brand guidelines PDF alone saved us $8K. We handed it to our freelance designer and she said it was more thorough than most agency deliverables.", "author": "Nina Johansson", "role": "CEO, Norrsken Labs" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we hear a lot",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Can I own the generated brand assets?", "answer": "Yes, completely. All generated assets are yours to use commercially with full ownership rights. No attribution required, no licensing fees." },
+            { "question": "What if I don't like the first result?", "answer": "Regenerate as many times as you want on Pro plans. You can also adjust specific elements — tweak the color warmth, try a different logo style, or swap typography pairings — without starting over." },
+            { "question": "Can I use this with my existing logo?", "answer": "Absolutely. Upload your logo and Pallete will build a complete identity system around it — matching colors, complementary typography, and templates that honor your existing mark." },
+            { "question": "What file formats do I get?", "answer": "SVG and PNG for logos, JSON and CSS for color tokens, Figma file for the full brand kit, and PDF for brand guidelines. Everything is production-ready." }
+          ]
+        }
+      ],
+      "companyEmail": "pallete-studio@tryartha.com",
+      "domain": "pallete-studio.tryartha.com",
+      "projectSlug": "pallete-studio",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Waveform",
+    "slug": "waveform-media",
+    "tagline": "Edit podcasts by editing text.",
+    "description": "Waveform reimagines podcast post-production by turning audio into an editable transcript. Cut filler words, rearrange segments, and remove tangents by highlighting and deleting text. The audio follows. Built for podcasters who'd rather tell stories than wrestle with waveforms.",
+    "mission": "Podcast editing is stuck in the DAW era. Tools built for music production — multi-track timelines, waveform scrubbing, sample-level precision — are wildly overpowered for what most podcasters actually need: removing ums, tightening transitions, and cutting the segment where the guest's dog started barking.\n\nWaveform started when our founders, both podcasters, realized they spent more time editing than recording. The bottleneck wasn't audio quality or microphone technique — it was the tedious, mechanical process of scrubbing through hours of audio to find and remove the parts that didn't belong. They could identify bad sections instantly by reading a transcript. But translating transcript edits to timeline edits required constant back-and-forth between text and waveform.\n\nSo we built the tool that should have existed from the start: an editor where the transcript is the timeline. Select text, delete it, and the audio cuts cleanly. Drag a paragraph to rearrange your episode structure. Highlight filler words across the entire episode and remove them in one click. The audio follows the text, not the other way around.\n\nWe're not replacing professional audio engineering. We're eliminating the 90% of podcast editing that's mechanical, repetitive, and doesn't require an audio degree. Our goal is to make weekly publishing sustainable for solo creators and small teams who currently spend six hours editing every hour of content.",
+    "marketResearch": "The podcast market has surpassed 4 million active shows globally, with 72% of podcasters editing their own content. The podcast tools and hosting market is valued at $4.1B in 2025, with editing software representing approximately $800M. AI-powered audio editing is the fastest-growing segment at 38% CAGR, driven by solo creators and small production teams seeking efficiency.\n\nDirect competitors include Descript (transcript-based editing pioneer, $100M+ ARR, recently acquired features that dilute podcast focus), Riverside (recording-focused with basic editing), and Adobe Podcast (AI enhancement but limited editing). Traditional DAWs like Audacity and GarageBand remain the default for budget-conscious creators but offer no transcript-based workflow. Waveform differentiates by being podcast-obsessed: every feature is designed for spoken-word content, from smart silence detection to cross-talk handling to show-notes generation.\n\nOur ICP is the weekly podcaster producing 1-4 episodes per month who currently spends 3-6 hours per episode on post-production. This represents roughly 1.8 million creators globally. With an average willingness-to-pay of $19/month, our SOM is approximately $410M annually.\n\nGo-to-market is community-driven: partnerships with podcast hosting platforms (Buzzsprout, Transistor, Podbean), presence in podcasting subreddits and Facebook groups, and a YouTube channel demonstrating real editing workflows. Our free tier (2 hours/month of transcription and editing) converts at 14% to paid plans, with the highest conversion trigger being the filler-word removal feature.",
+    "landingPage": {
+      "companyName": "Waveform",
+      "tagline": "Edit podcasts by editing text.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#8B5CF6",
+          "primaryLight": "#A78BFA",
+          "primaryDark": "#7C3AED",
+          "accent": "#34D399",
+          "background": "#0A0A12",
+          "surface": "#141422",
+          "text": "#F3F4F6",
+          "textMuted": "#9CA3AF",
+          "border": "#2A2A3C"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your podcast transcript is now your editing timeline.",
+        "subheadline": "Delete text to cut audio. Drag paragraphs to rearrange segments. Remove every filler word in one click. Waveform makes podcast editing feel like editing a document.",
+        "ctaText": "Upload your first episode",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Spend your time telling stories, not scrubbing waveforms",
+        "subheadline": "2 hours of free editing every month. No credit card, no DAW required.",
+        "buttonText": "Start editing free"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Upload. Read. Edit. Publish.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Upload your recording", "description": "Drop in any audio file. Waveform transcribes it with speaker detection, timestamps, and paragraph breaks in under two minutes." },
+            { "icon": "2", "title": "Edit the text", "description": "Read through your episode as text. Select and delete tangents, filler words, and dead air. The audio cuts match your text edits perfectly." },
+            { "icon": "3", "title": "Export and publish", "description": "Export polished audio with automatic loudness normalization. Generate show notes and chapter markers from your edited transcript." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Podcast editing, not audio engineering",
+          "layout": "alternating",
+          "items": [
+            { "icon": "✂️", "title": "Filler word detection", "description": "Waveform finds every um, uh, you know, and like across your episode. Remove them all in one click or review each individually." },
+            { "icon": "🔇", "title": "Smart silence removal", "description": "Long pauses are detected and shortened automatically. You control the threshold — tight for punchy editing, loose for conversational flow." },
+            { "icon": "🗣️", "title": "Speaker detection", "description": "Multi-speaker transcripts with color-coded labels. Edit each speaker's contributions independently or rearrange the conversation structure." },
+            { "icon": "📝", "title": "Auto show notes", "description": "Generate structured show notes, key takeaways, and timestamped chapter markers from your edited transcript. Copy-paste into your hosting platform." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Numbers from real podcasters",
+          "stats": [
+            { "value": "4.2", "label": "Hours saved per episode on average", "suffix": "hrs" },
+            { "value": "97.3", "label": "Transcription accuracy", "suffix": "%" },
+            { "value": "18K", "label": "Episodes edited on Waveform", "suffix": "+" },
+            { "value": "83", "label": "Of users publish more frequently", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Podcasters who got their weekends back",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I went from spending six hours per episode to ninety minutes. The filler-word removal alone changed my workflow permanently.", "author": "Marcus Chen", "role": "Host, The Indie Stack" },
+            { "quote": "My editor quit and I panicked. Waveform let me take over post-production myself without any audio engineering knowledge. My listeners can't tell the difference.", "author": "Aaliyah Foster", "role": "Host, Culture Circuit" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing that respects indie budgets",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "Free", "period": "", "features": ["2 hours/month transcription", "Basic filler word removal", "MP3 export", "7-day project storage"], "ctaText": "Start free" },
+            { "name": "Creator", "price": "$19", "period": "/month", "features": ["10 hours/month transcription", "Advanced filler + silence removal", "WAV & MP3 export", "Auto show notes", "Unlimited storage"], "ctaText": "Try Creator" },
+            { "name": "Studio", "price": "$49", "period": "/month", "features": ["40 hours/month transcription", "Team collaboration", "Custom vocabulary", "API access", "Priority processing"], "ctaText": "Go Studio" }
+          ]
+        }
+      ],
+      "companyEmail": "waveform-media@tryartha.com",
+      "domain": "waveform-media.tryartha.com",
+      "projectSlug": "waveform-media",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Prisma",
+    "slug": "prisma-create",
+    "tagline": "3D assets for games — generated, not modeled.",
+    "description": "Prisma generates production-quality 3D models, textures, and animations from text descriptions and reference images. Purpose-built for game developers who need dozens of assets fast without sacrificing art direction. From props to characters, Prisma outputs game-engine-ready files with proper topology, UV maps, and LOD variants.",
+    "mission": "Game development has a brutal asset bottleneck. A single environment in a modern game can require hundreds of unique 3D models, each needing proper topology, UV unwrapping, texturing, rigging, and LOD optimization. Even experienced 3D artists spend days on a single character model. For indie studios, the math simply doesn't work — you can't ship a visually competitive game when your art pipeline moves at human speed.\n\nPrisma exists to break the asset bottleneck. We're not building a novelty tool that generates impressive-looking renders with broken geometry underneath. We're building a production pipeline that outputs game-engine-ready assets with clean topology, efficient UV layouts, PBR texture sets, and multiple LOD variants. Every model we generate can go straight into Unity or Unreal without manual cleanup.\n\nOur approach is game-art-native. We trained our models on game assets, not general 3D datasets. This means Prisma understands polygon budgets, knows that a background prop needs different topology than a hero character, and generates textures that tile correctly on modular environment pieces. It thinks like a technical artist because we built it with technical artists.\n\nThe studio of the future ships great games with small teams. Not because the games are simpler, but because AI handles the production volume while humans focus on art direction, narrative, and the creative decisions that make a game feel authored rather than generated. Prisma is the asset pipeline for that studio.",
+    "marketResearch": "The game development tools market is valued at $3.2B in 2025, with 3D asset creation representing the largest subsegment at approximately $1.4B. AI-assisted 3D generation is projected to grow at 42% CAGR through 2029 as game studios seek to reduce the 60-70% of production budgets consumed by art asset creation. The addressable market for game-ready AI asset generation is approximately $2.1B.\n\nCompetitors span two categories: general 3D generators (Meshy, Kaedim, Luma AI) that produce impressive visuals but lack game-production optimization, and traditional DCC tools (Blender, Maya, 3ds Max) augmented with AI plugins. No existing solution combines text-to-3D generation with game-engine-ready output including proper topology, LODs, PBR textures, and animation-ready rigging.\n\nPrisma's technical moat is our game-art training data and engine-specific output optimization. Models generated for Unreal include Nanite-optimized meshes; Unity outputs include properly configured prefabs. Our topology is consistently quad-dominant with edge flow suitable for animation, not the triangulated soup that competing tools produce.\n\nOur ICP includes indie studios (2-20 people), mid-size studios needing to accelerate pre-production, and solo developers building ambitious projects. We price per-asset with subscription tiers: Free (10 assets/month), Pro ($39/month, 100 assets), and Studio ($149/month, unlimited with API access). Early traction includes partnerships with three indie studios on Steam's trending list.",
+    "landingPage": {
+      "companyName": "Prisma",
+      "tagline": "3D assets for games — generated, not modeled.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#06B6D4",
+          "primaryLight": "#67E8F9",
+          "primaryDark": "#0891B2",
+          "accent": "#FB923C",
+          "background": "#070B14",
+          "surface": "#0F1524",
+          "text": "#E2E8F0",
+          "textMuted": "#64748B",
+          "border": "#1E293B"
+        },
+        "fontFamily": "'JetBrains Mono', monospace",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Describe it. Generate it. Ship it to your game engine.",
+        "subheadline": "Prisma creates game-ready 3D assets from text prompts: clean topology, PBR textures, LOD variants, and proper rigging. Export directly to Unity or Unreal.",
+        "ctaText": "Generate your first asset",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your next game shouldn't be bottlenecked by your asset pipeline",
+        "subheadline": "10 free assets per month. No polygon limit, no watermarks.",
+        "buttonText": "Start generating"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Game-production quality, not demo-reel tricks",
+          "layout": "bento",
+          "items": [
+            { "icon": "🔺", "title": "Clean quad topology", "description": "Proper edge flow for animation. No triangulated soup. Every mesh is optimized for deformation and subdivision." },
+            { "icon": "🎨", "title": "PBR texture sets", "description": "Albedo, normal, roughness, metallic, and AO maps generated together. Textures tile correctly on modular pieces and share consistent art direction." },
+            { "icon": "📊", "title": "Automatic LODs", "description": "Each asset ships with 3-4 LOD variants optimized for distance rendering. Nanite-ready for Unreal, LOD Group configured for Unity." },
+            { "icon": "🦴", "title": "Animation-ready rigging", "description": "Character assets include properly weighted skeletons compatible with Mixamo, Unreal's mannequin, or your custom rig." },
+            { "icon": "🎮", "title": "Engine-native export", "description": "One-click export as FBX, glTF, or USDZ with engine-specific configurations. Materials auto-convert to UE5 or Unity URP/HDRP shaders." },
+            { "icon": "🧩", "title": "Style consistency", "description": "Lock your art style once and every generated asset follows it. Stylized, realistic, low-poly — Prisma maintains visual coherence across your entire project." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Built for production, not just prototyping",
+          "stats": [
+            { "value": "94", "label": "Assets pass engine import without errors", "suffix": "%" },
+            { "value": "120", "label": "Average generation time per asset", "suffix": "sec" },
+            { "value": "8.4K", "label": "Game-ready assets generated weekly", "suffix": "" },
+            { "value": "40x", "label": "Faster than traditional modeling workflow", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Shipping games, not waiting on assets",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We populated an entire open-world zone — 340 unique props — in two weeks. Our previous zone took three months with two full-time environment artists.", "author": "Leo Vasquez", "role": "Art Director, Iron Petal Games" },
+            { "quote": "The topology quality shocked me. I expected to spend days cleaning up meshes but the edge flow was genuinely animation-ready out of the box.", "author": "Yuki Tanaka", "role": "Technical Artist, Moonbow Studio" },
+            { "quote": "Prisma doesn't replace our artists — it lets them art-direct instead of pushing polygons. We went from five people doing production work to five people doing creative work.", "author": "Jakub Kowalski", "role": "Studio Head, Phantom Arcade" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Technical questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "What polygon counts can I expect?", "answer": "You control the target. Hero characters typically generate at 15K-60K tris with LODs down to 2K. Environment props range from 500 to 10K tris depending on detail requirements. You can specify exact budgets per asset." },
+            { "question": "Can I use generated assets commercially?", "answer": "Yes. All assets generated on paid plans include full commercial rights with no royalties or attribution requirements. Your games are your games." },
+            { "question": "Do you support stylized art styles?", "answer": "Absolutely. Prisma handles realistic PBR, hand-painted stylized, low-poly, cel-shaded, and voxel aesthetics. Create a style profile once and all subsequent assets match it." }
+          ]
+        }
+      ],
+      "companyEmail": "prisma-create@tryartha.com",
+      "domain": "prisma-create.tryartha.com",
+      "projectSlug": "prisma-create",
+      "animationPreset": "dramatic",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Inkwell",
+    "slug": "inkwell-studio",
+    "tagline": "Write the story. Let AI draw the panels.",
+    "description": "Inkwell is an AI-powered comic creation studio where writers craft narratives and the AI generates consistent artwork panel by panel. Maintain character consistency across entire issues, switch between art styles, and export print-ready pages. Comics and graphic novels, from script to shelf, without needing to draw a single line.",
+    "mission": "Every writer has a graphic novel trapped inside them. The medium is uniquely powerful — combining visual storytelling with narrative depth in ways that neither prose nor film can match. But the barrier to entry is impossibly high. Creating a single issue requires hundreds of individually drawn, inked, and colored panels with consistent characters across every page. Unless you can draw at a professional level or afford to hire an artist for months, your story stays a script.\n\nInkwell was built to break that barrier. We believe the creative bottleneck in comics should be storytelling, not illustration skill. Our platform lets writers focus on what they do best — crafting dialogue, pacing scenes, building worlds — while AI handles the visual execution with a level of consistency that previous tools couldn't achieve.\n\nCharacter consistency is where other AI art tools fail catastrophically for sequential art. A hero who looks different in every panel isn't a character — it's a collage. Inkwell solves this with character locking: define a character once and our system maintains their appearance, proportions, and style across hundreds of panels. Same face. Same build. Same costume details. This isn't trivial — it's the core technical challenge we've spent two years solving.\n\nOur ambition extends beyond making comics easier to make. We want to expand who makes them. The comics industry has been gatekept by illustration ability for a century. Inkwell opens the medium to the millions of writers, worldbuilders, and storytellers who think visually but can't draw — and in doing so, we believe entirely new kinds of stories will emerge.",
+    "marketResearch": "The global comic book and graphic novel market is valued at $14.2B in 2025, with digital comics growing at 9.1% CAGR. The adjacent market of webtoons and digital sequential art is exploding — platforms like Webtoon and Tapas collectively reach 180M+ monthly users. The AI creative tools market intersects here at roughly $2.6B, with comic-specific AI tools representing an early but fast-growing $340M segment.\n\nCompetitors include general AI image generators (Midjourney, DALL-E) which lack panel consistency, comic-specific tools like ComicAI and Neural Canvas which handle simple strips but not long-form narratives, and traditional digital art tools (Clip Studio Paint, Procreate) which still require drawing skill. Inkwell is unique in combining narrative-aware panel generation with cross-issue character consistency.\n\nOur key differentiator is the Character Persistence Engine — a proprietary system that maintains visual identity across unlimited panels. Combined with panel-aware composition (AI understands comic page layouts, speech bubble placement, and visual flow), Inkwell is the first tool that can produce a 24-page comic issue where characters look consistent from cover to back page.\n\nTarget segments include aspiring comic creators (25M+ globally who consume but can't create), indie authors looking to adapt their novels, educators creating visual learning materials, and professional writers prototyping visual narratives before hiring illustrators. Pricing: Free (5 pages/month), Creator ($24/month, 50 pages), and Publisher ($69/month, unlimited pages with print-ready export).",
+    "landingPage": {
+      "companyName": "Inkwell",
+      "tagline": "Write the story. Let AI draw the panels.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#1D4ED8",
+          "primaryLight": "#60A5FA",
+          "primaryDark": "#1E3A8A",
+          "accent": "#DC2626",
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "text": "#111827",
+          "textMuted": "#6B7280",
+          "border": "#E5E7EB"
+        },
+        "fontFamily": "'Merriweather', serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your graphic novel starts with words, not drawings.",
+        "subheadline": "Inkwell turns scripts into fully illustrated comics with AI-generated art that keeps characters consistent across every single panel. Write the story. We'll draw it.",
+        "ctaText": "Create your first page",
+        "ctaHref": "#start"
+      },
+      "cta": {
+        "layout": "banner",
+        "headline": "The graphic novel you've been planning deserves to exist",
+        "subheadline": "5 free pages per month. No drawing skills. No compromises on consistency.",
+        "buttonText": "Start your comic"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Script to shelf in four steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Write your script", "description": "Use our comic script editor with panel descriptions, dialogue, and pacing notes. Or import scripts from Celtx, Final Draft, or plain text." },
+            { "icon": "2", "title": "Define your characters", "description": "Describe each character and lock their appearance. Inkwell generates a reference sheet and maintains that exact look across your entire project." },
+            { "icon": "3", "title": "Generate panels", "description": "Inkwell interprets your panel descriptions and generates illustrated artwork with proper composition, perspective, and speech bubble placement." },
+            { "icon": "4", "title": "Export your comic", "description": "Download as print-ready PDF, digital comic (CBZ), or web-optimized images for Webtoon-style platforms." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for sequential art, not single images",
+          "layout": "alternating",
+          "items": [
+            { "icon": "👤", "title": "Character persistence", "description": "Define a character once. They look the same in panel 1 and panel 400. Same face, same proportions, same costume details across your entire series." },
+            { "icon": "📖", "title": "Page layout engine", "description": "Classic grids, dynamic bleeds, splash pages, and webtoon scrolls. Choose from layouts or let Inkwell auto-compose based on your script's pacing." },
+            { "icon": "💬", "title": "Smart speech bubbles", "description": "Dialogue is automatically placed in properly sized and positioned bubbles with tail direction matching the speaking character. Supports thought bubbles, narration boxes, and SFX text." },
+            { "icon": "🎭", "title": "Multiple art styles", "description": "Manga, American superhero, European BD, indie watercolor, noir, and more. Switch styles per project or mix within a single issue for effect." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Stories that finally got told",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've been writing comic scripts for twelve years without an artist. Inkwell is the first tool where my characters actually look like the same people from page to page. I cried when I saw my first complete issue.", "author": "Dante Morrison", "role": "Writer, The Last Archive" },
+            { "quote": "We use Inkwell to prototype visual narratives before commissioning artists. It's cut our pre-production timeline from months to weeks and our artists love having detailed visual references.", "author": "Camille Beaumont", "role": "Editor, Vault Comics" },
+            { "quote": "My students can now create complete graphic narratives for their assignments. The quality of visual storytelling in my classroom has completely transformed.", "author": "Prof. Amira Hassan", "role": "Visual Narrative, RISD" }
+          ]
+        }
+      ],
+      "companyEmail": "inkwell-studio@tryartha.com",
+      "domain": "inkwell-studio.tryartha.com",
+      "projectSlug": "inkwell-studio",
+      "animationPreset": "playful",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Cadence",
+    "slug": "cadence-media",
+    "tagline": "Licensed music for creators who actually care about music.",
+    "description": "Cadence is a music licensing marketplace connecting independent musicians with content creators. Every track is pre-cleared for YouTube, TikTok, podcasts, and commercial use. No copyright strikes, no claim disputes, no royalty surprises. Creators find the perfect track. Musicians earn real money. Everyone's license is clean.",
+    "mission": "The music licensing industry is broken from both sides. Creators wade through millions of generic stock tracks, terrified of copyright strikes that can tank a channel overnight. Musicians watch their work get stolen or earn fractions of a cent through streaming while stock music libraries pay flat buyout fees that don't reflect actual usage.\n\nCadence was founded to fix the transaction, not just the catalog. We built a marketplace where independent artists set their own prices, retain ownership of their masters, and earn usage-based royalties that grow as a creator's content grows. On the other side, creators get instant, unambiguous licenses with automated Content ID whitelisting — no more disputing claims or worrying about monetization being stolen by rights-holders.\n\nOur catalog is curated, not flooded. We reject 70% of submissions to maintain quality parity with custom composition at a fraction of the cost. Every track on Cadence is produced to broadcast standard, properly mastered, and tagged with mood, energy, tempo, and instrumentation metadata that makes discovery genuinely useful rather than keyword roulette.\n\nWe believe music licensing should feel like collaboration, not a legal transaction. When a creator finds the perfect track for their video, it should be a moment of creative alignment — not a moment of anxiety about whether they'll get a copyright notice three months later. And when a musician's track scores a viral video, they should share in that success, not receive a one-time $50 buyout.",
+    "marketResearch": "The music licensing and sync market is valued at $5.8B globally in 2025, with the creator economy segment (YouTubers, podcasters, social media creators) growing at 28% CAGR. An estimated 50M content creators need licensed music regularly, yet 63% report difficulty finding quality tracks they can afford and trust to be properly cleared.\n\nCompetitors include Epidemic Sound ($200M+ ARR, subscription model but limited to their in-house catalog), Artlist (growing but similar closed-catalog approach), Musicbed (premium positioning, high prices), and free/low-cost libraries like Pixabay Music and YouTube's Audio Library (poor quality and limited selection). Cadence differentiates as a two-sided marketplace: open to independent artists while maintaining curation standards, with transparent usage-based pricing rather than all-you-can-eat subscriptions.\n\nOur marketplace model creates a natural moat: more quality artists attract more creators, more usage generates more artist earnings, attracting more artists. We take a 20% platform fee — lower than Spotify's effective cut and dramatically more transparent. Artists on Cadence earn an average of $340/track/month versus $0.003-$0.005 per stream on Spotify.\n\nOur SOM targets mid-tier content creators (10K-1M followers) producing weekly content across YouTube, TikTok, and podcasts, representing approximately $1.4B in annual music licensing spend. GTM strategy combines creator community partnerships, artist referral programs, and integration with major video editing tools (Premiere Pro, DaVinci Resolve, CapCut).",
+    "landingPage": {
+      "companyName": "Cadence",
+      "tagline": "Licensed music for creators who actually care about music.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F59E0B",
+          "primaryLight": "#FCD34D",
+          "primaryDark": "#D97706",
+          "accent": "#EC4899",
+          "background": "#0C0A09",
+          "surface": "#1C1917",
+          "text": "#FAFAF9",
+          "textMuted": "#A8A29E",
+          "border": "#2C2825"
+        },
+        "fontFamily": "'Sora', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Find the perfect track. License it clean. Support real artists.",
+        "subheadline": "Cadence is a curated marketplace of independent music pre-cleared for YouTube, TikTok, podcasts, and commercial use. No copyright strikes. No claim disputes. Artists earn what they deserve.",
+        "ctaText": "Browse the catalog",
+        "ctaHref": "#explore"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Great content deserves great music — properly licensed",
+        "subheadline": "One license covers all platforms. Plans from $12/month for indie creators.",
+        "buttonText": "Start listening"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Better for creators. Better for musicians.",
+          "layout": "bento",
+          "items": [
+            { "icon": "🎵", "title": "Curated quality", "description": "We reject 70% of submissions. Every track on Cadence is broadcast-quality, properly mastered, and tagged with detailed mood and instrumentation metadata." },
+            { "icon": "🛡️", "title": "Clean licenses", "description": "Instant Content ID whitelisting for YouTube. Pre-cleared for TikTok, Instagram, Twitch, and podcasts. One license, all platforms, no surprises." },
+            { "icon": "💰", "title": "Artists earn fairly", "description": "Usage-based royalties, not flat buyouts. Musicians retain their masters and earn more as your content grows. Average artist earnings: $340/track/month." },
+            { "icon": "🔍", "title": "AI-powered search", "description": "Search by mood, energy, genre, tempo, or describe what you need in plain English. Upload a reference track and find similar vibes instantly." },
+            { "icon": "✂️", "title": "Editor integration", "description": "Browse and license directly inside Premiere Pro, DaVinci Resolve, Final Cut, and CapCut. Preview tracks against your timeline before committing." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The marketplace in numbers",
+          "stats": [
+            { "value": "28K", "label": "Curated tracks", "suffix": "+" },
+            { "value": "0", "label": "Copyright strikes on licensed content", "suffix": "" },
+            { "value": "340", "label": "Average monthly artist earning per track", "suffix": "$" },
+            { "value": "12K", "label": "Active creators licensing monthly", "suffix": "+" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Trusted by creators and musicians",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "After two copyright strikes from a 'royalty-free' library, I switched to Cadence. Eighteen months and 200+ videos later — zero claims. The music quality is leagues better too.", "author": "Jordan Reeves", "role": "YouTube Creator, 840K subscribers" },
+            { "quote": "I earn more from one popular track on Cadence than I do from my entire Spotify catalog. And I still own my masters.", "author": "Mika Olatunji", "role": "Independent Producer & Composer" },
+            { "quote": "The search is what sold me. I described 'hopeful but not cheesy, building momentum, minimal vocals' and the first result was exactly right.", "author": "Priya Sharma", "role": "Podcast Producer, The Morning Brief" },
+            { "quote": "We replaced our $30K annual custom scoring budget with Cadence. Our video team finds tracks in minutes instead of waiting weeks for composers.", "author": "Alex Moreno", "role": "Head of Content, Notion" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Simple licensing, honest pricing",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Indie", "price": "$12", "period": "/month", "features": ["5 track licenses/month", "YouTube + podcast coverage", "Personal channel use", "Standard quality downloads"], "ctaText": "Start Indie" },
+            { "name": "Pro", "price": "$29", "period": "/month", "features": ["Unlimited licenses", "All platform coverage", "Commercial use included", "Stems & loops access", "Editor plugins"], "ctaText": "Go Pro" },
+            { "name": "Business", "price": "$99", "period": "/month", "features": ["Unlimited licenses", "Multi-brand coverage", "Broadcast & advertising rights", "Team seats", "Custom curation"], "ctaText": "Contact sales" }
+          ]
+        }
+      ],
+      "companyEmail": "cadence-media@tryartha.com",
+      "domain": "cadence-media.tryartha.com",
+      "projectSlug": "cadence-media",
+      "animationPreset": "smooth",
+      "shadowStyle": "glow"
+    }
+  },
+  {
+    "name": "Moodboard",
+    "slug": "moodboard-design",
+    "tagline": "Visual research, organized. Finally.",
+    "description": "Moodboard is a collaborative visual research platform for design teams. Collect references from anywhere on the web, organize them into spatial canvases with AI-powered clustering, and share living moodboards that stay in sync across your team. Stop drowning in Pinterest boards and Figma frames full of screenshots.",
+    "mission": "The visual research phase of design is simultaneously the most important and the most chaotic. Before a single pixel gets pushed, designers spend hours — sometimes days — collecting references, screenshots, color palettes, typography samples, and inspiration from across the web. This research shapes every downstream decision. And yet it lives in the most disorganized places imaginable: browser bookmarks, Pinterest boards, scattered Figma frames, and Slack threads that disappear into the void.\n\nMoodboard was born from watching this chaos repeat across every design team we worked with. The research is critical, but the tools are afterthoughts. Pinterest wasn't built for professional design research. Figma's infinite canvas is a powerful design tool, not a research organizer. And dedicated tools like Eagle or Milanote don't understand visual design well enough to help with organization — they're just folders with thumbnails.\n\nWe built Moodboard to be the first tool that actually understands visual research. Our AI analyzes collected references not just by tags or titles, but by visual properties: color palette, composition style, typography approach, texture, and mood. It can cluster your references automatically, suggest related imagery you haven't found yet, and identify the common visual threads across a messy collection of 200 references that your team has been staring at for a week.\n\nCollaborative design research shouldn't be an oxymoron. When a team of four designers is researching a rebrand, they should be able to work in the same visual space, see each other's additions in real-time, and converge on a direction together rather than merging four separate Pinterest boards in a meeting.",
+    "marketResearch": "The design collaboration tools market is valued at $7.8B in 2025, with Figma, Miro, and Canva dominating broad collaboration. The niche of visual research and moodboarding tools — including Eagle, Milanote, Pinterest business, and Savee — represents approximately $620M in annual spend. This segment is growing at 22% CAGR driven by remote design teams needing better asynchronous visual communication.\n\nCurrent solutions fall into three categories: consumer platforms repurposed for professional use (Pinterest — good discovery, terrible organization), general-purpose canvases (Miro, FigJam — lack visual intelligence), and asset management tools (Eagle, Ember — local-first, weak collaboration). No existing tool combines web clipping, AI-powered visual analysis, spatial organization, and real-time team collaboration.\n\nMoodboard's technical differentiator is our Visual DNA engine — a proprietary system that analyzes every collected reference across 23 visual dimensions (color distribution, compositional balance, typographic style, texture density, etc.) and uses these vectors for intelligent clustering, similarity search, and trend identification. This lets design leads ask questions like 'show me the references that share this color energy but have more geometric compositions.'\n\nOur ICP is design teams of 3-15 people at agencies, tech companies, and brand studios. Average contract value is $18/seat/month with team sizes averaging 7 seats. Early adoption is strongest at branding agencies where visual research is billable work. GTM combines Figma community presence, design Twitter/X thought leadership, and partnerships with design education platforms.",
+    "landingPage": {
+      "companyName": "Moodboard",
+      "tagline": "Visual research, organized. Finally.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#8B5CF6",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#6D28D9",
+          "accent": "#14B8A6",
+          "background": "#FAFBFF",
+          "surface": "#FFFFFF",
+          "text": "#1E1B4B",
+          "textMuted": "#6366A0",
+          "border": "#E8E5F5"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Collect, cluster, and converge on a visual direction — together.",
+        "subheadline": "Moodboard is a collaborative research canvas that understands design. Clip references from anywhere, let AI organize them by visual properties, and align your team before a single pixel is pushed.",
+        "ctaText": "Start a moodboard",
+        "ctaHref": "#try-free"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your team's visual research deserves better than a Pinterest board",
+        "subheadline": "Free for personal use. Team plans from $18/seat/month.",
+        "buttonText": "Try Moodboard free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Research tools that think like a designer",
+          "layout": "bento",
+          "items": [
+            { "icon": "📌", "title": "Clip from anywhere", "description": "Browser extension captures full pages, selections, or specific elements. Automatically extracts color palettes, fonts, and layout structure from every reference." },
+            { "icon": "🧠", "title": "AI visual clustering", "description": "Drop 200 references on a canvas and Moodboard clusters them by visual similarity — color energy, composition style, typographic approach. See patterns your team missed." },
+            { "icon": "👥", "title": "Real-time collaboration", "description": "Multiple designers working the same canvas simultaneously. See cursors, annotations, and additions in real-time. Vote on references to surface team preferences." },
+            { "icon": "🔗", "title": "Living moodboards", "description": "Share boards with stakeholders as interactive links. Add comments, react to references, and track how the visual direction evolves over time." },
+            { "icon": "🎨", "title": "Color & type extraction", "description": "Moodboard automatically extracts and aggregates colors and typography from your references. See the emergent palette and font patterns across your entire collection." },
+            { "icon": "🔎", "title": "Visual similarity search", "description": "Select any reference and find visually similar images across the web, your previous projects, or within your current board. Discover what you didn't know you were looking for." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Not another general-purpose canvas",
+          "comparisonOurName": "Moodboard",
+          "comparisonCompetitorName": "Pinterest / Miro",
+          "comparisonRows": [
+            { "feature": "AI visual clustering", "us": true, "competitor": false },
+            { "feature": "Automatic color extraction", "us": true, "competitor": false },
+            { "feature": "Real-time team collaboration", "us": true, "competitor": "Miro only" },
+            { "feature": "Design-aware organization", "us": true, "competitor": false },
+            { "feature": "Browser clipping extension", "us": true, "competitor": "Pinterest only" },
+            { "feature": "Figma integration", "us": true, "competitor": false }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Design teams who research better together",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our brand research phase used to be four designers independently scrolling Pinterest and Dribbble, then trying to reconcile our references in a meeting. Moodboard collapsed that into a single collaborative session.", "author": "Elise Dupont", "role": "Design Director, Pentagram" },
+            { "quote": "The visual clustering is genuinely magical. I dumped 150 references onto a canvas and it organized them into five clear thematic groups that mapped perfectly to the directions we were debating.", "author": "Sam Torres", "role": "Senior Designer, Stripe" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions from design teams",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How does this differ from a Figma frame full of screenshots?", "answer": "Figma is great for designing, but it doesn't understand your references. Moodboard analyzes visual properties, clusters related references, extracts color and typography data, and lets your team vote and comment in a purpose-built research environment." },
+            { "question": "Can I export to Figma?", "answer": "Yes. Export any moodboard as a Figma file with images organized into frames. Color palettes and font references are included as Figma styles. We also support export to PDF, PNG, and shareable web links." },
+            { "question": "Is my visual research private?", "answer": "By default, all boards are private to your team. You can share individual boards via link with optional password protection. Enterprise plans include SSO, audit logs, and data residency options." }
+          ]
+        }
+      ],
+      "companyEmail": "moodboard-design@tryartha.com",
+      "domain": "moodboard-design.tryartha.com",
+      "projectSlug": "moodboard-design",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Reel",
+    "slug": "reel-create",
+    "tagline": "Short-form video that doesn't take all day to make.",
+    "description": "Reel is a browser-based short-form video editor built for speed. Auto-captioning, one-click templates, smart cut detection, and platform-specific export for TikTok, Reels, and Shorts. Go from raw footage to published content in minutes, not hours. Designed for creators and social media teams who post daily.",
+    "mission": "Short-form video has eaten the internet. TikTok, Instagram Reels, YouTube Shorts — collectively they consume more attention than any other content format. For creators and brands, posting regularly isn't optional; it's survival. But the production workflow is still agonizingly slow. Shoot a video, transfer it to your desktop, open a heavyweight editor, add captions manually frame by frame, export at the right aspect ratio, and upload to three different platforms. For a 60-second video, you easily burn two hours.\n\nReel exists because the editing tool should match the speed of the format. Short-form video is meant to be quick, raw, and high-volume. The editor should be too. We built everything in the browser — no downloads, no installations, no waiting for imports. Drag in your clip and start editing immediately.\n\nOur killer feature is intelligent auto-captioning with style templates. Captions aren't just accessibility anymore — they're a creative element that defines your content's visual identity. Reel generates word-level accurate captions and lets you style them with animations, highlights, and emoji reactions in a few clicks. The same captioning that takes 45 minutes in Premiere takes 30 seconds in Reel.\n\nWe're building the production stack that makes daily posting sustainable. Not by lowering quality, but by eliminating every mechanical step between having footage and having a post. When creation takes minutes instead of hours, creators can actually experiment, iterate, and find what resonates — instead of burning their energy on production busywork.",
+    "marketResearch": "The video editing software market is valued at $4.6B in 2025, with the mobile and browser-based segment growing at 31% CAGR. Short-form video tools specifically represent a $1.8B opportunity driven by 200M+ active content creators globally. The average creator spends 6.3 hours per week on video editing, creating massive demand for tools that compress this workflow.\n\nDirect competitors include CapCut (ByteDance's free editor with 400M+ downloads, dominant but primarily mobile), Opus Clip (AI-powered clip extraction from long-form, narrow use case), and traditional editors like Premiere Pro and DaVinci Resolve (powerful but overkill for short-form). Browser-based competitors like Kapwing and Veed.io are closest but lack the speed-focused UX and intelligent captioning depth that daily creators need.\n\nReel differentiates on three axes: browser-native speed (no downloads, instant import, sub-second previews), captioning as a first-class creative tool (not an afterthought checkbox), and platform intelligence (we understand TikTok's safe zones, Reels' aspect ratios, and Shorts' metadata requirements, exporting optimized versions for each). Our Smart Cut feature uses transcript analysis to identify and remove dead air, hesitations, and off-topic tangents automatically.\n\nOur ICP spans solo creators posting 5+ times per week, social media teams at D2C brands, and agency teams managing multiple client accounts. Pricing is freemium: Free (3 exports/month with watermark), Pro ($14/month, unlimited exports, all caption styles), and Team ($29/seat/month, brand kits, shared templates, approval workflows).",
+    "landingPage": {
+      "companyName": "Reel",
+      "tagline": "Short-form video that doesn't take all day to make.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F43F5E",
+          "primaryLight": "#FB7185",
+          "primaryDark": "#E11D48",
+          "accent": "#22D3EE",
+          "background": "#09090B",
+          "surface": "#18181B",
+          "text": "#FAFAFA",
+          "textMuted": "#A1A1AA",
+          "border": "#27272A"
+        },
+        "fontFamily": "'Manrope', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Raw footage to polished post in minutes.",
+        "subheadline": "Reel is a browser-based video editor built for short-form speed. Auto-captioning, smart cuts, one-click templates, and platform-specific export. No downloads. No bloat. Just fast.",
+        "ctaText": "Edit your first video",
+        "ctaHref": "#start"
+      },
+      "cta": {
+        "layout": "banner",
+        "headline": "Daily posting shouldn't require daily suffering",
+        "subheadline": "3 free exports per month. Pro at $14/mo for unlimited everything.",
+        "buttonText": "Start editing now"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Sixty seconds of content. Five minutes of editing.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Drop in your footage", "description": "Drag any video file into Reel. No upload wait — it starts processing while you browse templates. Works with phone recordings, screen captures, and webcam footage." },
+            { "icon": "2", "title": "Auto-caption and smart cut", "description": "Reel transcribes your video, generates styled captions, and identifies dead air and filler. Accept or reject cuts with one click." },
+            { "icon": "3", "title": "Style and export", "description": "Apply a visual template, tweak caption animations, and export optimized versions for TikTok, Reels, and Shorts simultaneously." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Every feature exists to save you time",
+          "layout": "alternating",
+          "items": [
+            { "icon": "💬", "title": "Caption studio", "description": "Word-level accurate captions with 40+ animation styles. Keyword highlighting, emoji reactions, and brand-colored text. The captions that took 45 minutes now take 30 seconds." },
+            { "icon": "✂️", "title": "Smart cuts", "description": "AI analyzes your transcript and identifies filler words, long pauses, and tangents. One-click removal tightens your video without touching the good parts." },
+            { "icon": "📱", "title": "Multi-platform export", "description": "Export simultaneously for TikTok (9:16, safe zones adjusted), Instagram Reels (with cover frame), and YouTube Shorts (metadata optimized). One edit, three platforms." },
+            { "icon": "🎨", "title": "Template library", "description": "Visual templates for talking head, tutorial, product showcase, and reaction formats. Apply a look in one click, then customize colors and fonts to match your brand." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Creators are editing faster",
+          "stats": [
+            { "value": "6.2", "label": "Minutes average edit time per video", "suffix": "min" },
+            { "value": "1.2M", "label": "Videos edited on Reel", "suffix": "+" },
+            { "value": "98.1", "label": "Caption accuracy", "suffix": "%" },
+            { "value": "3x", "label": "More content published per week", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Creators posting more, editing less",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I went from posting three times a week to daily. The captioning alone saves me an hour per video. My engagement is up 240% since switching to Reel.", "author": "Jess Liu", "role": "TikTok Creator, 1.2M followers" },
+            { "quote": "Our social team manages 12 client accounts. Reel cut our per-video turnaround from 90 minutes to 15. We actually have time for strategy now instead of just production.", "author": "Tom Brennan", "role": "Social Media Lead, Butter Agency" }
+          ]
+        }
+      ],
+      "companyEmail": "reel-create@tryartha.com",
+      "domain": "reel-create.tryartha.com",
+      "projectSlug": "reel-create",
+      "animationPreset": "energetic",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Typecast",
+    "slug": "typecast-studio",
+    "tagline": "Your voice. Your audiobook. No studio required.",
+    "description": "Typecast creates studio-quality AI voice clones for audiobook narration. Record 30 minutes of your voice, and Typecast generates a narrator that sounds like you — with natural pacing, emotional range, and consistent delivery across an entire book. Authors and publishers produce professional audiobooks at a fraction of traditional recording costs.",
+    "mission": "Only 7% of published books have an audiobook edition. Not because demand is low — audiobook revenue grew 25% last year — but because production is prohibitively expensive. A professional narrator charges $200-$400 per finished hour. A 10-hour audiobook costs $2,000-$4,000 in narrator fees alone, plus studio time, editing, and mastering. For indie authors earning $500-$2,000 per title, the math doesn't work.\n\nTypecast was built to democratize audiobook production. We don't use generic text-to-speech voices that sound robotic and lifeless. We clone the author's own voice — or let them choose from a library of professional narrator voices — and produce narration with natural pacing, emotional inflection, and the subtle prosodic variations that make audiobooks engaging rather than exhausting to listen to.\n\nThe technical challenge is enormous. Audiobook narration isn't just reading text aloud. It's performance. A great narrator handles dialogue with distinct character voices, adjusts pacing for tension and release, and maintains consistency across 80,000+ words. Our models are trained specifically for long-form narration, understanding paragraph-level context to deliver appropriate emotional tone, and maintaining voice stability across chapters that might take 12+ hours to render.\n\nWe see a future where every book has an audiobook. Where indie authors can reach the 45% of book consumers who prefer audio. Where publishers can produce audiobook editions simultaneously with print and digital, not months or years later. Typecast is the production engine that makes that future economically viable.",
+    "marketResearch": "The global audiobook market reached $7.8B in 2025 and is projected to hit $15B by 2030 at 14% CAGR. Yet supply is severely constrained: only 7% of the 4M+ books published annually get audiobook editions. The AI voice technology market, valued at $4.2B, is converging with audiobook production to create a new category worth an estimated $1.6B by 2028.\n\nCompetitors include ElevenLabs (powerful voice cloning but general-purpose, not optimized for long-form narration), Google and Amazon's TTS services (adequate for navigation, inadequate for storytelling), DeepZen (audiobook-focused but limited voice variety and high pricing), and Apple's AI narration (limited to Apple Books, restricted voice options). Typecast differentiates by combining author voice cloning with narration-specific training that handles dialogue, pacing, and emotional range at book length.\n\nOur core technical moat is long-form coherence. Competitors produce impressive 30-second samples that degrade over minutes. Typecast maintains voice quality, emotional consistency, and prosodic naturalness across 10+ hour narrations. Our Chapter Context Engine reads ahead to understand narrative arc and adjusts delivery accordingly — quieter for intimate scenes, faster for action sequences, distinct voices for different characters.\n\nPrimary segments include indie authors (2.3M self-published titles annually, $29/book pricing), small publishers (500-5,000 titles/year, volume licensing), and corporate/educational publishers needing training materials and course narration. GTM starts with integrations into self-publishing platforms (KDP, IngramSpark, Draft2Digital) where authors are already producing books without audiobook editions.",
+    "landingPage": {
+      "companyName": "Typecast",
+      "tagline": "Your voice. Your audiobook. No studio required.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0D9488",
+          "primaryLight": "#5EEAD4",
+          "primaryDark": "#0F766E",
+          "accent": "#7C3AED",
+          "background": "#F8FFFE",
+          "surface": "#FFFFFF",
+          "text": "#134E4A",
+          "textMuted": "#5F8C87",
+          "border": "#D1EDE8"
+        },
+        "fontFamily": "'Lora', serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Turn your manuscript into an audiobook narrated in your own voice.",
+        "subheadline": "Record 30 minutes. Typecast clones your voice with emotional range, natural pacing, and chapter-long consistency. Professional audiobooks at 1/10th the traditional cost.",
+        "ctaText": "Clone your voice free",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your readers are waiting to hear your story",
+        "subheadline": "First chapter free with your voice clone. Full books from $29.",
+        "buttonText": "Create your audiobook"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From manuscript to Audible in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Record your voice", "description": "Read our provided passages for 30 minutes on any decent microphone. Typecast learns your voice — tone, cadence, accent, and emotional range." },
+            { "icon": "2", "title": "Upload your manuscript", "description": "Paste text or upload EPUB, DOCX, or PDF. Typecast identifies chapters, dialogue, and narrative structure automatically." },
+            { "icon": "3", "title": "Review and publish", "description": "Listen to the full narration, adjust pacing or emphasis on any passage, and export ACX-ready files for Audible, Apple Books, or direct distribution." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Narration, not text-to-speech",
+          "layout": "bento",
+          "items": [
+            { "icon": "🎭", "title": "Emotional range", "description": "Typecast reads context. Tense scenes get faster pacing. Emotional moments slow down. Dialogue shifts in tone. It's narration, not a voice reading words sequentially." },
+            { "icon": "🗣️", "title": "Distinct character voices", "description": "Tag dialogue in your manuscript and assign voice variations for different characters. Subtle pitch and cadence shifts make conversations sound like performances." },
+            { "icon": "📏", "title": "12-hour consistency", "description": "Our models maintain voice identity and quality across entire books. Chapter 24 sounds exactly like chapter 1 — no drift, no degradation." },
+            { "icon": "✏️", "title": "Passage-level control", "description": "Don't like how a sentence was delivered? Adjust emphasis, pacing, or emotion for any passage. Re-render in seconds without re-processing the full book." },
+            { "icon": "📦", "title": "Distribution-ready export", "description": "Export as ACX-compliant files for Audible, M4B for Apple Books, or MP3 chapters for direct sales. Metadata, chapter markers, and loudness levels pre-configured." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Authors are publishing audiobooks",
+          "stats": [
+            { "value": "4,800", "label": "Audiobooks produced on Typecast", "suffix": "+" },
+            { "value": "93", "label": "Listener satisfaction rate", "suffix": "%" },
+            { "value": "1/10", "label": "The cost of traditional production", "suffix": "th" },
+            { "value": "48", "label": "Hours average turnaround for full book", "suffix": "hrs" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Authors who heard their books come alive",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I published 14 novels over eight years with zero audiobook editions because I couldn't justify the cost. Typecast let me produce all 14 in two months. Three of them are now in Audible's top 100 in their categories.", "author": "Margaret Ashford", "role": "Indie Author, Historical Fiction" },
+            { "quote": "The emotional range genuinely surprised me. During the climactic scene of my thriller, the narration quickened and tensed in exactly the way a professional narrator would deliver it.", "author": "David Oyelaran", "role": "Author, The Obsidian Protocol" },
+            { "quote": "We've used Typecast to produce audiobook editions for 230 of our backlist titles. The per-unit economics finally work for mid-list books that couldn't justify traditional recording.", "author": "Hannah Kim", "role": "VP Digital, Hachette Book Group" }
+          ]
+        }
+      ],
+      "companyEmail": "typecast-studio@tryartha.com",
+      "domain": "typecast-studio.tryartha.com",
+      "projectSlug": "typecast-studio",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Easel",
+    "slug": "easel-art",
+    "tagline": "Digital paint that feels like the real thing.",
+    "description": "Easel is a digital painting application built around natural brush physics. Real bristle simulation, paint mixing that behaves like actual pigment, and canvas textures you can feel through your stylus. No layers palette, no vector tools, no feature bloat — just the purest digital painting experience for artists who care about the craft.",
+    "mission": "Digital painting tools have spent thirty years adding features and forgetting what painting actually feels like. Photoshop has 300+ brushes but none that behave like a real sable round. Procreate is elegant but its brushes are stamp-based simulations. Corel Painter comes closest but it's buried under decades of enterprise feature creep. The tools optimized for painters — actual painters — don't exist.\n\nEasel started from a radically simple premise: what if we built a painting app for people who love painting? Not photo manipulation, not graphic design, not illustration workflows — painting. The act of loading a brush with color, touching it to a textured surface, and watching the pigment spread, thin, and blend in ways that respond to pressure, angle, and speed.\n\nOur brush engine simulates individual bristles interacting with canvas texture at the fiber level. When you press harder, the bristles splay. When paint runs low, the stroke dries out naturally. When two wet colors meet, they mix the way real pigments do — following subtractive color theory, not additive RGB blending. The result is a painting experience that makes artists forget they're using a screen.\n\nWe deliberately left features out. No layers palette (paint over it or scrape it off, like real paint). No selection tools. No filters. Easel is an opinionated tool that says: if you want to paint, we'll give you the best digital painting experience ever built. If you want to do graphic design, use a graphic design tool. This focus lets us pour all of our engineering into the one thing that matters — how the brush feels on the canvas.",
+    "marketResearch": "The digital art software market is valued at $3.9B in 2025, with painting-specific applications representing approximately $680M. The growing overlap between fine art and digital tools is driven by 15M+ digital artists globally, with the traditional/fine art crossover segment growing at 18% CAGR as established painters explore digital workflows and digital artists seek more natural, tactile experiences.\n\nDirect competitors include Procreate ($12.8M annual revenue, dominant on iPad but stamp-based brushes), Corel Painter ($200+ perpetual license, powerful but complex and aging), Adobe Fresco (free tier but shallow brush physics, part of Adobe ecosystem), and Rebelle (closest in natural media simulation but limited platform support and rough UX). Easel occupies a unique position: production-grade brush physics with the simplicity of a focused, modern app.\n\nOur technical moat is the Bristle Physics Engine — a real-time simulation of individual brush fibers interacting with canvas surface topology. Unlike stamp-based engines (which tile a pre-drawn brush shape), our engine calculates bristle flex, paint load, and surface friction on every frame. This produces brush behavior that traditional painters describe as 'the first digital tool that doesn't feel like a computer.'\n\nTarget segments include traditional artists transitioning to digital (5M+), digital artists seeking natural media aesthetics, art educators teaching painting fundamentals, and concept artists who prefer a painterly workflow. Pricing: $39.99 one-time purchase (iPad/desktop), with optional brush pack and canvas texture subscriptions at $4.99/month. Our App Store rating is 4.9/5 with particular praise for brush feel.",
+    "landingPage": {
+      "companyName": "Easel",
+      "tagline": "Digital paint that feels like the real thing.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#B45309",
+          "primaryLight": "#F59E0B",
+          "primaryDark": "#92400E",
+          "accent": "#1D4ED8",
+          "background": "#FFFDF7",
+          "surface": "#FFFFFF",
+          "text": "#292524",
+          "textMuted": "#78716C",
+          "border": "#E7E0D5"
+        },
+        "fontFamily": "'Playfair Display', serif",
+        "borderRadius": "0.25rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Finally, a brush that paints like a brush.",
+        "subheadline": "Easel simulates individual bristles, real pigment mixing, and canvas texture at the fiber level. No layers. No filters. Just the purest digital painting experience ever built.",
+        "ctaText": "Download Easel",
+        "ctaHref": "#download"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "The canvas is waiting",
+        "subheadline": "One-time purchase. $39.99. No subscriptions, no upsells, no nonsense.",
+        "buttonText": "Get Easel for $39.99"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What makes a brush feel real",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🖌️", "title": "Individual bristle simulation", "description": "Every brush stroke is the result of hundreds of simulated bristles interacting with canvas texture. Press harder and they splay. Lift gently and individual fiber marks appear." },
+            { "icon": "🎨", "title": "Subtractive color mixing", "description": "Easel mixes color the way real paint does. Blue and yellow make green, not cyan. Layering doesn't add light — it adds pigment. Artists can trust their color instincts." },
+            { "icon": "📄", "title": "Physical canvas textures", "description": "Cold press watercolor paper, linen canvas, smooth Bristol board. Each surface interacts differently with your brush, catching paint in its valleys and resisting on its peaks." },
+            { "icon": "💧", "title": "Wet-on-wet and drying", "description": "Wet paint blends with wet paint. Dry paint resists. Control drying time or let it happen naturally. Glazing, scumbling, and impasto all work as expected." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What painters are saying",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've painted with oils for 25 years and tried every digital tool on the market. Easel is the first one where my muscle memory transfers. The bristle physics are that good.", "author": "Catherine Whitfield", "role": "Fine Artist, represented by Gagosian" },
+            { "quote": "I switched my entire concept art workflow from Photoshop to Easel. The lack of layers scared me at first, but it forced me to paint with more intention and my work improved dramatically.", "author": "Oscar Diaz", "role": "Senior Concept Artist, Naughty Dog" },
+            { "quote": "My students struggle with the gap between traditional and digital. Easel eliminates it. They pick up their stylus and their traditional painting skills just work.", "author": "Prof. Ingrid Svensson", "role": "Painting Department, Royal College of Art" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Simple pricing. Because art supplies shouldn't be SaaS.",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Easel", "price": "$39.99", "period": "one-time", "features": ["Full brush physics engine", "12 natural brushes", "6 canvas textures", "iPad + desktop", "Unlimited canvas size", "Export as PSD, PNG, TIFF"], "ctaText": "Buy Easel" },
+            { "name": "Brush Packs", "price": "$4.99", "period": "/month", "features": ["New brushes every month", "Artist-designed presets", "Historical brush recreations", "Specialty tools (palette knife, fan brush)", "Cancel anytime"], "ctaText": "Subscribe" }
+          ]
+        }
+      ],
+      "companyEmail": "easel-art@tryartha.com",
+      "domain": "easel-art.tryartha.com",
+      "projectSlug": "easel-art",
+      "animationPreset": "subtle",
+      "shadowStyle": "none"
+    }
+  },
+  {
+    "name": "Montage",
+    "slug": "montage-media",
+    "tagline": "Remote video teams, one seamless timeline.",
+    "description": "Montage is a video collaboration platform for distributed production teams. Editors, directors, colorists, and sound designers work on the same project simultaneously from anywhere. Real-time timeline sync, frame-accurate commenting, version branching, and role-based workflows replace the fragmented mess of shared drives and review links.",
+    "mission": "Video production went remote but the tools didn't follow. Post-production workflows still assume everyone is in the same edit suite. Editors upload cuts to Frame.io for review. Directors leave timecoded comments that get manually translated back into timeline edits. Colorists receive exported XMLs that don't round-trip cleanly. Sound designers work with stems that are already outdated by the time they receive them. The entire process is a chain of exports, uploads, downloads, and version conflicts.\n\nMontage replaces that chain with a single, synchronized workspace. When an editor makes a cut, the director sees it in real-time. When a colorist adjusts a grade, it's immediately visible in the editor's timeline. When a sound designer adds a mix, everyone hears it. No exports. No uploads. No 'which version is current?' The project is one living thing that the whole team shapes together.\n\nWe built this because our founding team spent a decade in post-production, and the pandemic made the existing workflow's fragility impossible to ignore. Remote editors wasted 30% of their time on file management. Review cycles that should take hours stretched into days of async back-and-forth. Version control was a spreadsheet and a prayer. The creative work suffered because the logistics consumed everyone's energy.\n\nMontage is the infrastructure layer that makes distributed video production feel like being in the same room. Not through video calls and screen shares, but through a shared creative workspace where every team member's contribution is immediately integrated into the living project.",
+    "marketResearch": "The video post-production software market is valued at $4.1B in 2025, with cloud-based and collaborative solutions growing at 26% CAGR. Remote and hybrid production is now the default for 68% of production companies post-pandemic. The specific market for video collaboration tools — review, approval, and team workflow — is approximately $1.3B, dominated by Frame.io (acquired by Adobe) with significant greenfield opportunity in real-time collaborative editing.\n\nThe competitive landscape includes Frame.io (strong review and approval but not real-time editing), Evercast (screen sharing for remote sessions, not true collaboration), LucidLink (cloud storage that mimics local drives, solves file access but not workflow), and traditional NLEs (Premiere, Resolve, Avid) that are adding cloud features but remain fundamentally single-editor tools. No existing platform offers true simultaneous multi-role editing on a shared timeline.\n\nMontage's technical moat is our Conflict-Free Replicated Timeline (CRDT-based) that allows multiple editors to work on the same sequence without merge conflicts. Combined with role-based access (editors can cut, colorists can grade, sound designers can mix — each in their lane without stepping on each other), Montage enables genuine real-time collaboration rather than turn-taking.\n\nOur ICP includes independent production studios (15-50 person teams), advertising agencies with video departments, corporate video teams at large enterprises, and YouTube production teams with distributed editors. Pricing starts at $49/seat/month for teams, with enterprise plans including dedicated rendering infrastructure, compliance features, and custom integrations. Early traction includes pilots with two major advertising agencies and a Netflix-contracted post house.",
+    "landingPage": {
+      "companyName": "Montage",
+      "tagline": "Remote video teams, one seamless timeline.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#A855F7",
+          "primaryLight": "#C084FC",
+          "primaryDark": "#9333EA",
+          "accent": "#38BDF8",
+          "background": "#0B0712",
+          "surface": "#15101F",
+          "text": "#F5F3FF",
+          "textMuted": "#9B8FBF",
+          "border": "#2D2541"
+        },
+        "fontFamily": "'Figtree', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your editor in LA. Your colorist in London. Same timeline.",
+        "subheadline": "Montage is a real-time video collaboration platform where editors, directors, colorists, and sound designers work simultaneously on one living project. No exports. No version conflicts. Just flow.",
+        "ctaText": "Request early access",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Post-production doesn't have to mean post-office",
+        "subheadline": "Pilots now open for production teams. Enterprise and indie pricing available.",
+        "buttonText": "Join the waitlist"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Real collaboration, not just file sharing",
+          "layout": "bento",
+          "items": [
+            { "icon": "🎬", "title": "Shared timeline", "description": "Every team member sees the same project state in real-time. Editor cuts, colorist grades, and sound mixes are all live — no export-import cycles." },
+            { "icon": "🔀", "title": "Version branching", "description": "Create branches of your edit like git branches for code. Experiment with alternate cuts without disrupting the main timeline. Merge when ready." },
+            { "icon": "💬", "title": "Frame-accurate comments", "description": "Drop comments on exact frames with visual annotations. Draw on frames, tag team members, and resolve feedback without leaving the timeline." },
+            { "icon": "🔒", "title": "Role-based lanes", "description": "Editors cut, colorists grade, sound designers mix — each in their own lane. No accidental overwrites. Changes are visible to everyone but editable only by the right role." },
+            { "icon": "☁️", "title": "Cloud-native rendering", "description": "Render jobs run on cloud infrastructure, not your local machine. Preview proxies stream instantly. Full-resolution renders queue without blocking your workstation." },
+            { "icon": "📊", "title": "Production dashboard", "description": "Producers see real-time progress across all active projects. Track which scenes are in rough cut, color, sound, and final review without chasing status updates." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How a project flows through Montage",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Import your media", "description": "Upload footage to Montage's cloud storage or connect existing drives via LucidLink. Media is automatically proxied for real-time streaming while originals stay accessible for final output." },
+            { "icon": "2", "title": "Work simultaneously", "description": "Editor builds the cut while the colorist starts grading locked scenes. Sound designer lays in temp music. Director comments in real-time. Everyone works in parallel, not in sequence." },
+            { "icon": "3", "title": "Review and deliver", "description": "Internal review happens in the same workspace — no external links. When approved, export final deliverables in any format with all grades, mix, and titles baked in." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Production teams moving faster",
+          "stats": [
+            { "value": "47", "label": "Reduction in post-production timeline", "suffix": "%" },
+            { "value": "0", "label": "Version conflicts with CRDT sync", "suffix": "" },
+            { "value": "3.4", "label": "Avg team members per active project", "suffix": "" },
+            { "value": "89", "label": "Reduction in export-import cycles", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Production teams in sync",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We cut a 30-second spot with an editor in New York, a colorist in Mumbai, and a sound designer in Berlin — simultaneously. What would have been a two-week relay was done in three days.", "author": "Rachel Goldstein", "role": "Executive Producer, Wieden+Kennedy" },
+            { "quote": "The version branching changed how we approach creative. Directors can see two different cuts side-by-side without us duplicating the entire project. It's version control for video, finally.", "author": "Kofi Mensah", "role": "Lead Editor, Prettybird" },
+            { "quote": "Frame-accurate comments sound simple but it eliminated 80% of our review miscommunications. No more 'around the 2:30 mark' — just click exactly where the note applies.", "author": "Lucia Fernandez", "role": "Post Supervisor, Netflix Latin America" }
+          ]
+        }
+      ],
+      "companyEmail": "montage-media@tryartha.com",
+      "domain": "montage-media.tryartha.com",
+      "projectSlug": "montage-media",
+      "animationPreset": "dramatic",
+      "shadowStyle": "elevated"
+    }
+  }
+]

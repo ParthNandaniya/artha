@@ -1,0 +1,1042 @@
+[
+  {
+    "name": "Terravox",
+    "slug": "terravox-dev",
+    "tagline": "Your codebase, speaking back to you",
+    "description": "Terravox turns codebases into conversational interfaces. Engineers ask questions in plain English and get answers grounded in their actual code — not generic docs. Built for teams drowning in tribal knowledge.",
+    "mission": "Every engineering team has a dark matter problem. The most critical knowledge — why that service was split, which edge case broke prod last November, how the auth flow actually works — lives in Slack threads, PR comments, and the heads of three people who've been here since day one.\n\nTerravox exists because we believe code should be its own documentation. Not through comments or wikis that rot the moment they're written, but through a living intelligence layer that reads your entire codebase, your git history, your design docs, and your incident reports — and answers questions as if it were your most senior engineer.\n\nWe're not building another code search tool. We're building institutional memory for engineering organizations. When a new hire asks \"how does billing work?\", they should get the same quality answer at 2am on a Saturday that they'd get sitting next to your staff engineer on a Tuesday.\n\nOur founding team spent a combined 30 years at infrastructure companies watching brilliant engineers waste hours reverse-engineering systems that someone else already understood. We're fixing that by making codebases conversational — not as a novelty, but as the primary interface for understanding complex software systems.\n\nThe future we're building toward is one where onboarding takes days instead of months, where incident response is guided by full system context, and where the bus factor of any team approaches infinity.",
+    "marketResearch": "The developer productivity market has ballooned to $22B globally, with AI-assisted development tools growing at 34% CAGR. The specific niche of codebase intelligence — tools that provide deep understanding of existing codebases rather than generating new code — is nascent but rapidly emerging, with an addressable market of roughly $6B across enterprise engineering teams.\n\nOur SAM focuses on engineering organizations with 30+ developers running microservice architectures where knowledge fragmentation is acute. This represents approximately $2.1B in annual spend. Our initial SOM targets Series B-D startups and mid-market tech companies in North America, representing $350M in near-term opportunity.\n\nThe competitive landscape is bifurcated: on one side, code search tools like Sourcegraph and GitHub Code Search offer syntactic search but no semantic understanding. On the other, AI coding assistants like GitHub Copilot and Cursor focus on code generation rather than comprehension. Terravox occupies the gap — deep codebase understanding delivered through natural language. Our moat is the proprietary knowledge graph that connects code, git history, CI/CD data, and documentation into a unified semantic model.\n\nEarly traction includes design partnerships with two Series C infrastructure companies and one public fintech, all reporting 60%+ reduction in time spent on code archaeology. Our PLG motion starts with a free tier for open-source projects, converting to team plans when private repos are connected. Enterprise contracts include SSO, audit logs, and self-hosted deployment.",
+    "landingPage": {
+      "companyName": "Terravox",
+      "tagline": "Your codebase, speaking back to you",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#22D3EE",
+          "primaryLight": "#67E8F9",
+          "primaryDark": "#0891B2",
+          "accent": "#F472B6",
+          "background": "#0C0E1A",
+          "surface": "#151729",
+          "text": "#F1F5F9",
+          "textMuted": "#8B95A8",
+          "border": "#252840"
+        },
+        "fontFamily": "'Space Grotesk', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Ask your codebase anything. Get answers, not search results.",
+        "subheadline": "Terravox indexes your repos, git history, and docs into a conversational knowledge base. New hires ramp in days. Incidents resolve faster. Tribal knowledge becomes team knowledge.",
+        "ctaText": "Try with your repo",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your team's knowledge shouldn't walk out the door at 5pm",
+        "subheadline": "Free for open-source projects. Team plans start at $29/seat/month.",
+        "buttonText": "Get early access"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Connect. Index. Ask.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Point Terravox at your repos", "description": "Connect GitHub, GitLab, or Bitbucket. We index code, PRs, issues, and commit messages — building a knowledge graph of your entire system." },
+            { "icon": "2", "title": "It learns your architecture", "description": "Terravox maps service boundaries, data flows, and dependency chains. It understands not just what your code does, but why it's structured this way." },
+            { "icon": "3", "title": "Your team starts asking questions", "description": "\"How does the payment retry logic work?\" \"What services does user-service depend on?\" Answers are grounded in your actual code with clickable references." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for the questions your team actually asks",
+          "layout": "bento",
+          "items": [
+            { "icon": "🗺️", "title": "Architecture maps", "description": "Auto-generated service dependency diagrams that stay current. No more Lucidchart docs from 2019." },
+            { "icon": "🔍", "title": "Semantic code search", "description": "Search by intent, not keywords. \"Find where we validate webhook signatures\" works even if no function is named that." },
+            { "icon": "🧵", "title": "Decision archaeology", "description": "Surface the PR discussions and commit messages behind any piece of code. Understand the why behind the what." },
+            { "icon": "🚨", "title": "Incident context", "description": "During an incident, Terravox surfaces relevant code paths, recent changes, and historical incidents for the affected service." },
+            { "icon": "🔗", "title": "Cross-repo intelligence", "description": "Questions that span multiple repositories get unified answers. No more context-switching between codebases." },
+            { "icon": "🔒", "title": "Self-hosted option", "description": "Your code stays on your infrastructure. SOC 2 Type II certified. Zero-retention cloud option available." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What early teams are seeing",
+          "stats": [
+            { "value": "62", "label": "Faster onboarding", "suffix": "%" },
+            { "value": "3.2", "label": "Repos indexed on avg", "suffix": "M LOC" },
+            { "value": "41", "label": "Less time in code archaeology", "suffix": "%" },
+            { "value": "94", "label": "Answer accuracy rate", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From teams who stopped guessing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our new engineers used to spend their first two weeks just figuring out which service does what. Now they ask Terravox and start contributing on day three.", "author": "Priya Mehta", "role": "Head of Engineering, Clearbit" },
+            { "quote": "During our last incident, Terravox surfaced a related production issue from eight months ago that had the exact same root cause. It saved us hours.", "author": "James Okonkwo", "role": "SRE Lead, Brex" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Does my code leave my infrastructure?", "answer": "Only if you choose our cloud-hosted option. We offer a fully self-hosted deployment that processes everything within your VPC. Both options are SOC 2 certified." },
+            { "question": "How long does initial indexing take?", "answer": "Most codebases under 2M lines of code are fully indexed within 30 minutes. Larger monorepos may take a few hours, with incremental updates happening in real-time after that." },
+            { "question": "What languages do you support?", "answer": "We support all major languages with deep semantic understanding for TypeScript, Python, Go, Java, Ruby, and Rust. Other languages get syntactic analysis and git-history-based intelligence." },
+            { "question": "Can I use Terravox for open-source projects?", "answer": "Yes — Terravox is free for public repositories. We believe open-source projects deserve great tooling and we use public repos to improve our models." }
+          ]
+        }
+      ],
+      "companyEmail": "terravox-dev@tryartha.com",
+      "domain": "terravox-dev.tryartha.com",
+      "projectSlug": "terravox-dev",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Patchwork",
+    "slug": "patchwork-app",
+    "tagline": "Stitch your tools together without writing glue code",
+    "description": "Patchwork is a visual workflow builder that connects internal tools, APIs, and databases into automated pipelines. Think Zapier, but for engineering teams who need conditional logic, error handling, and observability built in.",
+    "mission": "Engineering teams are drowning in glue code. For every core system they build, there are dozens of scripts, cron jobs, and webhook handlers that shuttle data between tools, trigger notifications, and keep the machine running. This connective tissue is unglamorous, undertested, and the first thing to break.\n\nPatchwork was born from a simple observation: most of this glue code follows predictable patterns. Extract data from A, transform it, load it into B, handle errors, alert if something breaks. Yet every team rebuilds these patterns from scratch, scattered across Lambda functions and GitHub Actions that nobody wants to own.\n\nWe're building a visual workflow engine that treats integrations as first-class infrastructure. Our canvas lets engineers design complex, multi-step automations with branching logic, retry policies, and real-time observability — all without sacrificing the power that code provides. When you need custom logic, drop into TypeScript or Python within any node.\n\nWe're not trying to replace engineering. We're trying to free engineers from the maintenance burden of the 80% of automation that shouldn't require bespoke code. Our dream is that every internal process — from onboarding flows to data pipeline orchestration to incident response — lives in a Patchwork workflow that anyone on the team can understand, modify, and debug.",
+    "marketResearch": "The workflow automation and iPaaS market is valued at $13.4B in 2025, projected to hit $32B by 2030 at 19% CAGR. Consumer-oriented platforms (Zapier, Make) dominate SMB but lack the developer-grade features enterprises need. Enterprise iPaaS tools (MuleSoft, Boomi) are powerful but require months of implementation and cost six figures annually.\n\nPatchwork targets the underserved middle: engineering teams at companies with 50-2,000 employees who need robust automation without enterprise iPaaS overhead. This segment represents a $4.8B SAM. Our initial SOM — Series A-C tech companies and mid-market SaaS businesses in North America — is approximately $600M.\n\nCompetitors include Zapier (40M+ users but lacks error handling, branching, and observability), n8n (open-source, strong community but limited enterprise features), Temporal (excellent for orchestration but requires deep engineering investment), and Retool Workflows (good UI but tightly coupled to Retool ecosystem). Patchwork differentiates by combining visual design with production-grade reliability — built-in retry policies, dead letter queues, execution traces, and version-controlled workflow definitions stored as code.\n\nOur GTM strategy is bottom-up developer adoption. Engineers discover Patchwork when searching for workflow automation, start with the free tier (up to 1,000 executions/month), and upgrade when they need team collaboration, SSO, and higher throughput. We convert to annual contracts through platform engineering leads who see Patchwork reducing their team's operational burden.",
+    "landingPage": {
+      "companyName": "Patchwork",
+      "tagline": "Stitch your tools together without writing glue code",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#7C3AED",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#5B21B6",
+          "accent": "#F59E0B",
+          "background": "#FEFCF9",
+          "surface": "#FFFFFF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#E7E5E4"
+        },
+        "fontFamily": "'Plus Jakarta Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Stop writing glue code. Start building workflows.",
+        "subheadline": "Patchwork is a visual workflow engine for engineering teams. Connect APIs, databases, and internal tools with branching logic, retry policies, and full observability.",
+        "ctaText": "Start building free",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your internal automation deserves better than cron jobs",
+        "subheadline": "1,000 free executions per month. No credit card required.",
+        "buttonText": "Create your first workflow"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Automation that engineers actually trust",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🧩", "title": "Visual canvas, full power", "description": "Design multi-step workflows on an intuitive canvas. Drag, connect, configure. When you need custom logic, drop into TypeScript or Python inline." },
+            { "icon": "🔄", "title": "Built-in retry & error handling", "description": "Every node has configurable retry policies, timeout settings, and dead letter queues. Failed executions don't disappear — they're captured and replayable." },
+            { "icon": "📡", "title": "Real-time observability", "description": "Watch executions in real-time. Inspect payloads at every step. Set alerts for failures, latency spikes, or unexpected data shapes." },
+            { "icon": "🔀", "title": "Conditional branching", "description": "If/else, switch, parallel execution, and fan-out/fan-in patterns. Build complex business logic without tangling it in application code." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "How Patchwork compares",
+          "comparisonOurName": "Patchwork",
+          "comparisonCompetitorName": "Zapier / Make",
+          "comparisonRows": [
+            { "feature": "Conditional branching", "us": true, "competitor": "Limited" },
+            { "feature": "Built-in retry policies", "us": true, "competitor": false },
+            { "feature": "Execution traces & replay", "us": true, "competitor": false },
+            { "feature": "Custom code nodes", "us": "TypeScript & Python", "competitor": "Limited JS" },
+            { "feature": "Version-controlled workflows", "us": true, "competitor": false },
+            { "feature": "Self-hosted option", "us": true, "competitor": false }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Simple, execution-based pricing",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Hobby", "price": "Free", "period": "", "features": ["1,000 executions/month", "5 active workflows", "Community connectors", "7-day execution history"], "ctaText": "Start free" },
+            { "name": "Team", "price": "$49", "period": "/month", "features": ["25,000 executions/month", "Unlimited workflows", "Custom code nodes", "SSO & audit logs", "30-day history"], "ctaText": "Start trial" },
+            { "name": "Scale", "price": "Custom", "period": "", "features": ["Unlimited executions", "Self-hosted deployment", "SLA & dedicated support", "SOC 2 compliance", "Workflow versioning & rollback"], "ctaText": "Talk to us" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Teams who ditched the glue code",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We replaced 14 Lambda functions and 6 cron jobs with Patchwork workflows. The team can actually see what's happening now instead of digging through CloudWatch logs.", "author": "Nina Sokolov", "role": "Platform Lead, Loom" },
+            { "quote": "The execution traces alone are worth it. When something fails at 3am, I can see exactly what payload hit which step and replay from the failure point.", "author": "Devon Park", "role": "Staff Engineer, Ramp" },
+            { "quote": "Patchwork is what we wished Zapier was when we outgrew it. Real error handling, real branching, real observability.", "author": "Amara Diallo", "role": "Engineering Manager, Linear" }
+          ]
+        }
+      ],
+      "companyEmail": "patchwork-app@tryartha.com",
+      "domain": "patchwork-app.tryartha.com",
+      "projectSlug": "patchwork-app",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Mintlayer",
+    "slug": "mintlayer-io",
+    "tagline": "API docs that developers actually want to read",
+    "description": "Mintlayer generates beautiful, interactive API documentation from your OpenAPI specs with built-in playground, SDK generation, and changelog tracking. No more stale Swagger pages.",
+    "mission": "Documentation is where developer experience goes to die. Companies invest millions in building elegant APIs, then ship them with auto-generated Swagger UIs that look like tax forms. The result: frustrated developers, endless support tickets, and integration timelines measured in weeks instead of hours.\n\nMintlayer exists because we believe API documentation should be a product, not an afterthought. We take your OpenAPI spec and transform it into a developer portal that's as polished as your landing page — with interactive request builders, real-time playground environments, auto-generated SDKs in seven languages, and changelogs that track every breaking change.\n\nWe're a team of developer advocates and API designers who spent years on the other side of bad documentation. We know that the difference between a 5-minute integration and a 5-day integration is almost never the API's complexity — it's how well the docs communicate the happy path, the edge cases, and the mental model behind the design.\n\nOur long-term vision extends beyond documentation into the full API lifecycle. We want Mintlayer to be where developers discover, evaluate, and integrate with APIs — a developer portal that reduces time-to-first-API-call from hours to seconds.",
+    "marketResearch": "The API management market is projected to reach $41B by 2030, with developer portals and documentation tools representing roughly $3.2B of that. The shift toward API-first companies has created massive demand for better developer experience tooling. Our TAM includes every company with a public or partner API — estimated at $3.2B. Our SAM narrows to mid-market and enterprise API-first companies with 5+ public endpoints, representing $850M. Our SOM targets the US and European markets, roughly $200M.\n\nKey competitors: Readme.com (market leader, strong brand but aging UI), Stoplight (design-first approach, weaker on hosted portals), Redocly (open-source core, limited collaboration features), and Swagger/SwaggerHub (ubiquitous but universally disliked UX). Mintlayer differentiates through three pillars: a design-forward portal that matches the quality of the best marketing sites, built-in SDK generation that stays in sync with spec changes, and a changelog system that auto-detects breaking changes and notifies affected consumers.\n\nOur target buyer is the developer experience lead or VP Engineering at API-first companies. Sales motion is product-led: teams import their OpenAPI spec, see a beautiful portal in minutes, and upgrade for custom domains, team collaboration, and analytics. Enterprise deals add SSO, SLAs, and white-labeling.",
+    "landingPage": {
+      "companyName": "Mintlayer",
+      "tagline": "API docs that developers actually want to read",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#34D399",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#059669",
+          "accent": "#FBBF24",
+          "background": "#0A0F0D",
+          "surface": "#141F1A",
+          "text": "#ECFDF5",
+          "textMuted": "#86A896",
+          "border": "#1E3329"
+        },
+        "fontFamily": "'JetBrains Mono', monospace",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "From OpenAPI spec to stunning developer portal in 60 seconds",
+        "subheadline": "Import your spec. Get interactive docs, auto-generated SDKs, and breaking-change alerts. Your API deserves better than Swagger UI.",
+        "ctaText": "Import your spec",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Your API is only as good as its documentation",
+        "subheadline": "Free for public APIs. Pro plans start at $39/month.",
+        "buttonText": "Try Mintlayer free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything your developer portal needs",
+          "layout": "cards",
+          "items": [
+            { "icon": "📖", "title": "Interactive docs", "description": "Beautiful reference pages with try-it-now request builders, response examples, and authentication flows baked in." },
+            { "icon": "💻", "title": "SDK generation", "description": "Auto-generate type-safe SDKs in TypeScript, Python, Go, Ruby, Java, PHP, and C#. Kept in sync with every spec change." },
+            { "icon": "🔔", "title": "Changelog alerts", "description": "Breaking changes are auto-detected and consumer teams are notified before they're impacted. No more surprise migrations." },
+            { "icon": "🎨", "title": "Custom branding", "description": "Match your docs to your brand. Custom domains, logos, colors, and layouts. Your portal, your identity." },
+            { "icon": "📊", "title": "Usage analytics", "description": "See which endpoints are most viewed, where developers drop off, and what errors they encounter. Optimize your DX with data." }
+          ]
+        },
+        {
+          "id": "timeline",
+          "type": "timeline",
+          "headline": "Our roadmap",
+          "timelineEvents": [
+            { "date": "Q1 2026", "title": "Public launch", "description": "Interactive docs, SDK generation, and custom branding for all plans.", "icon": "🚀" },
+            { "date": "Q2 2026", "title": "API analytics", "description": "Endpoint-level usage analytics and developer journey tracking.", "icon": "📈" },
+            { "date": "Q3 2026", "title": "Multi-spec support", "description": "Support for GraphQL schemas and gRPC proto files alongside OpenAPI.", "icon": "🔌" },
+            { "date": "Q4 2026", "title": "Developer marketplace", "description": "Discoverability layer where developers can find, evaluate, and subscribe to APIs.", "icon": "🏪" }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Built for serious API teams",
+          "stats": [
+            { "value": "850", "label": "API portals hosted" },
+            { "value": "7", "label": "SDK languages supported" },
+            { "value": "2.4", "label": "Minutes avg. to first portal", "suffix": "min" },
+            { "value": "99.9", "label": "Uptime SLA", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "What spec formats do you support?", "answer": "Currently OpenAPI 3.0 and 3.1 (both JSON and YAML). GraphQL and gRPC support is on our Q3 roadmap." },
+            { "question": "Can I self-host Mintlayer?", "answer": "Not yet, but it's on our roadmap for enterprise customers. Today we offer custom domains and white-labeling on our hosted infrastructure." },
+            { "question": "How do SDK updates work?", "answer": "When you push a spec update, SDKs are regenerated automatically. You can publish them to npm, PyPI, and other registries with one click, or integrate with your CI/CD pipeline." },
+            { "question": "Is there a free tier?", "answer": "Yes — public APIs get free documentation hosting forever. Pro features like custom domains, analytics, and SDK generation start at $39/month." }
+          ]
+        }
+      ],
+      "companyEmail": "mintlayer-io@tryartha.com",
+      "domain": "mintlayer-io.tryartha.com",
+      "projectSlug": "mintlayer-io",
+      "animationPreset": "none",
+      "shadowStyle": "flat"
+    }
+  },
+  {
+    "name": "Canopy",
+    "slug": "canopy-ops",
+    "tagline": "Feature flags with built-in experimentation",
+    "description": "Canopy merges feature flagging with A/B testing in a single platform. Ship features behind flags, run experiments with statistical rigor, and make data-driven rollout decisions — all without stitching together LaunchDarkly and Amplitude.",
+    "mission": "The modern software release process is split-brained. Feature flags live in one tool. Experimentation lives in another. Analytics lives in a third. Engineers toggle flags in LaunchDarkly, set up experiments in Optimizely, and check results in Amplitude — switching between dashboards, duplicating targeting rules, and hoping the data lines up.\n\nCanopy unifies this workflow. We believe that every feature rollout is an experiment, and every experiment needs a flag. By combining these capabilities in a single platform, we eliminate the coordination overhead that slows teams down and introduce statistical rigor into decisions that are currently made by gut feeling.\n\nOur founders built experimentation infrastructure at Spotify and Netflix, where A/B testing is a cultural practice, not just a tool. We saw that even at these companies, the gap between \"flag on\" and \"experiment complete\" was filled with duct tape. At smaller companies, it's a chasm. Most teams ship features to 100% on day one and hope for the best.\n\nWe're building Canopy so that every team — not just those with dedicated experimentation platforms — can ship features safely, measure their impact, and make rollout decisions with confidence. Progressive rollouts should be the default, not a luxury.",
+    "marketResearch": "The feature management market is valued at $1.8B in 2025, growing at 25% CAGR to reach $5.5B by 2030. The experimentation/A/B testing market adds another $1.2B. The convergence of these categories — what we call \"experimentation-aware feature management\" — represents a $3B combined TAM. Our SAM targets product-led SaaS companies with 20+ engineers, approximately $900M. Initial SOM focusing on US-based Series A-C startups is $150M.\n\nPrimary competitors: LaunchDarkly ($3.4B valuation, market leader in flags but limited experimentation), Split.io (closest to our vision but complex setup and enterprise-only pricing), Statsig (strong experimentation but weaker flag management), and Eppo (analytics-first, less focus on flag operations). Open-source options like Unleash and Flagsmith cover basic flags but lack experimentation entirely.\n\nCanopy's differentiation: unified flag+experiment lifecycle (create flag, define hypothesis, set rollout percentage, auto-analyze results, graduate or kill), Bayesian statistics engine that reaches significance faster than frequentist competitors, and a pricing model based on monthly tracked users rather than per-seat licensing.\n\nGTM strategy: developer-led growth through excellent DX. Our SDK is a single line of code. Free tier supports up to 10,000 MTUs. We convert through product teams who want experiment results alongside their flag configuration. Enterprise motion targets VP Product and VP Engineering with compliance features and premium SLAs.",
+    "landingPage": {
+      "companyName": "Canopy",
+      "tagline": "Feature flags with built-in experimentation",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#2563EB",
+          "primaryLight": "#93C5FD",
+          "primaryDark": "#1D4ED8",
+          "accent": "#EC4899",
+          "background": "#FFFFFF",
+          "surface": "#F8FAFF",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "left",
+        "headline": "Ship features like experiments. Because they are.",
+        "subheadline": "Canopy unifies feature flags and A/B testing so every rollout has a hypothesis, every experiment has a kill switch, and every decision has data behind it.",
+        "ctaText": "Get started free",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Stop shipping and hoping",
+        "subheadline": "Free for up to 10,000 monthly tracked users. Setup takes 5 minutes.",
+        "buttonText": "Add Canopy to your app"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Flags and experiments, finally in one place",
+          "layout": "bento",
+          "items": [
+            { "icon": "🚩", "title": "Smart feature flags", "description": "Boolean, multivariate, and percentage-based flags with user targeting. SDKs for React, Node, Python, Go, iOS, and Android." },
+            { "icon": "🧪", "title": "Bayesian experimentation", "description": "Attach experiments to any flag. Our Bayesian engine reaches significance faster and gives you probability-of-winning, not just p-values." },
+            { "icon": "📊", "title": "Metrics pipeline", "description": "Connect your event stream or use our lightweight SDK. Track conversion, retention, and any custom metric without a separate analytics tool." },
+            { "icon": "🎯", "title": "Progressive rollouts", "description": "Roll out to 1%, 10%, 50%, 100% — watching metrics at every stage. Auto-rollback if error rates spike." },
+            { "icon": "🔒", "title": "Audit & compliance", "description": "Every flag change is logged with who, when, and why. Approval workflows for production changes. SOC 2 certified." },
+            { "icon": "⚡", "title": "Edge evaluation", "description": "Flags evaluate at the edge in <10ms. No round-trips to our servers. Works offline with local fallbacks." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pay for users, not seats",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Free", "price": "$0", "period": "", "features": ["10,000 MTUs", "Unlimited flags", "Basic experiments", "Community support", "1 environment"], "ctaText": "Start free" },
+            { "name": "Growth", "price": "$0.01", "period": "/MTU/month", "features": ["Unlimited MTUs", "Bayesian analysis", "Auto-rollback", "SSO & audit logs", "Unlimited environments"], "ctaText": "Start trial" },
+            { "name": "Enterprise", "price": "Custom", "period": "", "features": ["Volume discounts", "Approval workflows", "Dedicated support", "Custom SLA", "On-premise evaluation"], "ctaText": "Contact sales" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Teams shipping with confidence",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We used to have LaunchDarkly for flags and Amplitude for experiments. Canopy replaced both and our product team finally has a single view of rollout + impact.", "author": "Rachel Greenfield", "role": "VP Product, Notion" },
+            { "quote": "The Bayesian engine is the real differentiator. We reach significance in half the time compared to our old frequentist setup, which means faster shipping decisions.", "author": "Kai Tanaka", "role": "Growth Lead, Vercel" }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Trusted by product teams",
+          "stats": [
+            { "value": "180", "label": "Companies", "suffix": "+" },
+            { "value": "12", "label": "Experiments run monthly", "suffix": "K" },
+            { "value": "8", "label": "Median ms for flag eval", "suffix": "ms" },
+            { "value": "99.99", "label": "Uptime", "suffix": "%" }
+          ]
+        }
+      ],
+      "companyEmail": "canopy-ops@tryartha.com",
+      "domain": "canopy-ops.tryartha.com",
+      "projectSlug": "canopy-ops",
+      "animationPreset": "subtle",
+      "shadowStyle": "glass"
+    }
+  },
+  {
+    "name": "Overture",
+    "slug": "overture-hq",
+    "tagline": "The operating system for product launches",
+    "description": "Overture coordinates the chaos of product launches — syncing engineering, marketing, sales, and support across timelines, checklists, and go/no-go gates. One dashboard to replace the spreadsheet that nobody trusts.",
+    "mission": "Product launches are the highest-stakes cross-functional moment in any company. They involve engineering shipping code, marketing preparing campaigns, sales enabling reps, support writing help docs, legal reviewing terms, and leadership making go/no-go decisions. And all of this is coordinated in... a Google Sheet.\n\nOverture exists because we've lived through the pain of launches managed by spreadsheets and Slack threads. We've seen launches slip because marketing didn't know engineering was a week behind. We've seen support tickets spike because help docs weren't updated. We've seen revenue targets missed because sales enablement started too late.\n\nWe're building a purpose-built coordination layer for product launches. Overture provides a shared timeline that every team can see, checklists that auto-assign tasks based on launch type, dependency tracking that surfaces blockers before they become emergencies, and go/no-go dashboards that give leadership a single source of truth.\n\nOur vision goes beyond launches into the broader category of cross-functional coordination. Every company has high-stakes moments that require multiple teams to execute in sync — launches, migrations, compliance deadlines, annual planning. These moments deserve better tooling than spreadsheets and prayer.",
+    "marketResearch": "The project management software market is $7.2B and growing at 13% CAGR, but the specific niche of launch management and cross-functional coordination is underserved by existing tools. Jira, Asana, and Monday.com handle individual team workflows well but struggle with the cross-team coordination that launches require. The TAM for launch/program management tools is approximately $2B. Our SAM — product-led companies with 100-5,000 employees doing 4+ launches per year — is $650M. Our initial SOM targeting Series B+ SaaS companies is $120M.\n\nCompetitors include generic PM tools (Asana, Monday.com — too flexible, require heavy customization for launches), LaunchNotes (focused on changelog/release notes, not coordination), and Productboard (roadmap-focused, no execution layer). Overture differentiates as the only purpose-built launch coordination platform with cross-functional templates, automated dependency tracking, and integrated go/no-go workflows.\n\nTarget buyers are Heads of Product, PMOs, and Chiefs of Staff who own launch coordination today. Our sales motion starts with a free tier for individual launches, expanding to team plans for recurring launch programs. Enterprise deals include custom templates, integrations with Jira/Asana/Slack, and launch analytics.",
+    "landingPage": {
+      "companyName": "Overture",
+      "tagline": "The operating system for product launches",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#DC2626",
+          "primaryLight": "#FCA5A5",
+          "primaryDark": "#991B1B",
+          "accent": "#7C3AED",
+          "background": "#FFFBF7",
+          "surface": "#FFFFFF",
+          "text": "#1A1523",
+          "textMuted": "#6B5E76",
+          "border": "#EDE9FE"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "1.25rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Launch day shouldn't feel like a fire drill",
+        "subheadline": "Overture gives every team a shared timeline, automated checklists, and a go/no-go dashboard so product launches are coordinated — not chaotic.",
+        "ctaText": "Plan your next launch",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your next launch deserves better than a spreadsheet",
+        "subheadline": "Free for your first launch. Team plans start at $199/month.",
+        "buttonText": "Start your launch plan"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything launch day needs",
+          "layout": "cards",
+          "items": [
+            { "icon": "📅", "title": "Shared launch timeline", "description": "A single timeline that engineering, marketing, sales, and support all see. No more \"I didn't know we slipped.\"" },
+            { "icon": "✅", "title": "Smart checklists", "description": "Pre-built templates for SaaS launches, feature releases, and major versions. Tasks auto-assign based on team and role." },
+            { "icon": "🔗", "title": "Dependency tracking", "description": "When engineering's timeline shifts, marketing's campaign dates adjust automatically. Blockers surface before they cascade." },
+            { "icon": "🚦", "title": "Go/no-go gates", "description": "Structured readiness checks for each team. Leadership sees a real-time dashboard, not a status meeting PowerPoint." },
+            { "icon": "📣", "title": "Stakeholder updates", "description": "Auto-generated status updates in Slack, email, or your PM tool. Stop writing the weekly launch update manually." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Three steps to a coordinated launch",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Choose a launch template", "description": "Pick from SaaS release, feature launch, major version, or create your own. Templates include pre-built checklists for every team." },
+            { "icon": "2", "title": "Set your timeline and teams", "description": "Add dates, milestones, and team leads. Dependencies are tracked automatically. Overture syncs with Jira, Asana, and Linear." },
+            { "icon": "3", "title": "Coordinate and ship", "description": "Track progress in real-time. Stakeholders get automatic updates. Hit your go/no-go gate with confidence." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Launch stories",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our last three launches before Overture all had the same problem: marketing was ready, engineering wasn't, and nobody surfaced it until the day before. That doesn't happen anymore.", "author": "Sophie Laurent", "role": "Head of Product, Calendly" },
+            { "quote": "I used to spend 4 hours a week just maintaining the launch spreadsheet. Now Overture handles it and I actually have time to do PM work.", "author": "Marcus Chen", "role": "Senior PM, Webflow" }
+          ]
+        },
+        {
+          "id": "early-access",
+          "type": "early-access",
+          "headline": "Get early access",
+          "subheadline": "We're onboarding teams in batches. Join the waitlist and we'll set up your first launch plan together."
+        }
+      ],
+      "companyEmail": "overture-hq@tryartha.com",
+      "domain": "overture-hq.tryartha.com",
+      "projectSlug": "overture-hq",
+      "animationPreset": "dramatic",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Steno",
+    "slug": "steno-run",
+    "tagline": "Meeting intelligence that writes itself into your workflow",
+    "description": "Steno records, transcribes, and extracts structured data from meetings — then pushes action items to Jira, decisions to Notion, and summaries to Slack. It's not another transcript. It's meeting-to-workflow automation.",
+    "mission": "The modern knowledge worker attends 15-20 meetings per week. Each meeting generates decisions, action items, and context that need to flow into project management tools, documentation, and communication channels. Today, that flow depends on someone taking notes and manually updating five different tools afterward. It rarely happens.\n\nSteno was built on a radical premise: meetings shouldn't create work — they should complete it. When your team decides to push the launch date by a week, that decision should automatically update the Jira epic, notify the Slack channel, and create a Notion entry. When your manager assigns you a follow-up, it should appear in your task list without anyone copying and pasting.\n\nWe're not building a better transcription tool. We're building the connective tissue between what happens in meetings and what happens after them. Steno uses AI to extract structured data — decisions, action items, blockers, owners, deadlines — and routes them to the right tools with the right context.\n\nOur team comes from backgrounds in NLP research and workflow automation. We believe meetings are the most underutilized data source in any organization. They contain the real decisions, the nuanced context, and the unwritten agreements that never make it into documentation. Steno's job is to capture that signal and make it actionable.",
+    "marketResearch": "The meeting technology market (recording, transcription, intelligence) is valued at $5.8B in 2025, projected to reach $12.1B by 2030 at 16% CAGR. Within this, the meeting intelligence sub-segment — tools that go beyond transcription to extract insights and automate follow-ups — is growing at 28% CAGR and represents a $2.4B opportunity.\n\nOur SAM targets knowledge-work organizations with 50-5,000 employees where meetings are a primary coordination mechanism. This represents approximately $1.1B. Our initial SOM focuses on product and engineering teams at Series B+ tech companies, roughly $180M.\n\nCompetitor landscape: Otter.ai (largest player, strong transcription but limited action extraction), Fireflies.ai (good integrations but AI extraction is surface-level), Grain (video clips, good for sales but not for engineering/product), Fathom (free note-taking, no workflow automation). Steno differentiates through deep workflow integration — we don't just identify action items, we create Jira tickets with the right project, assignee, and context. Our extraction model is trained on meeting-specific language patterns (\"let's circle back on this\" = action item, \"we decided to go with option B\" = decision).\n\nGTM is PLG. Steno works with Zoom, Google Meet, and Teams. Free tier records and transcribes up to 10 meetings/month. The conversion trigger is workflow automation — when teams see the value of auto-created Jira tickets, they upgrade for unlimited meetings and custom routing rules.",
+    "landingPage": {
+      "companyName": "Steno",
+      "tagline": "Meeting intelligence that writes itself into your workflow",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#A78BFA",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#7C3AED",
+          "accent": "#38BDF8",
+          "background": "#0E0B1A",
+          "surface": "#1A1630",
+          "text": "#F5F3FF",
+          "textMuted": "#9B8FBE",
+          "border": "#2E2750"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your meetings just became your most productive tool",
+        "subheadline": "Steno captures decisions and action items from every meeting, then pushes them to Jira, Notion, Slack, and Linear automatically. No more note-taking. No more lost follow-ups.",
+        "ctaText": "Connect your calendar",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Every meeting generates work. Steno makes sure it gets done.",
+        "subheadline": "10 free meetings per month. Pro plans from $12/user.",
+        "buttonText": "Start capturing meetings"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "From meeting to workflow in real-time",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🎙️", "title": "Smart transcription", "description": "Speaker-attributed transcripts with 97% accuracy across accents. Works with Zoom, Meet, and Teams." },
+            { "icon": "📋", "title": "Structured extraction", "description": "Decisions, action items, blockers, and deadlines are pulled out automatically. Each tagged with owner and context." },
+            { "icon": "🔄", "title": "Workflow routing", "description": "Action items become Jira tickets. Decisions land in Notion. Summaries post to Slack. You configure the routing once." },
+            { "icon": "🔍", "title": "Meeting search", "description": "\"What did we decide about the pricing model?\" Search across all your meetings by topic, speaker, or decision type." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Meetings reclaimed",
+          "stats": [
+            { "value": "4.2", "label": "Hours saved per person weekly", "suffix": "hrs" },
+            { "value": "89", "label": "Action item capture rate", "suffix": "%" },
+            { "value": "50K", "label": "Meetings processed monthly" },
+            { "value": "12", "label": "Integrations available" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Plans that scale with your team",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Personal", "price": "Free", "period": "", "features": ["10 meetings/month", "Transcription + summary", "Slack summary delivery", "7-day history"], "ctaText": "Get started" },
+            { "name": "Pro", "price": "$12", "period": "/user/month", "features": ["Unlimited meetings", "Action item extraction", "Jira + Notion routing", "Unlimited history", "Search across meetings"], "ctaText": "Start trial" },
+            { "name": "Business", "price": "$24", "period": "/user/month", "features": ["Everything in Pro", "Custom routing rules", "Meeting analytics", "SSO & admin controls", "API access"], "ctaText": "Contact sales" }
+          ]
+        },
+        {
+          "id": "newsletter",
+          "type": "newsletter-signup",
+          "headline": "Get meeting productivity tips",
+          "subheadline": "A monthly newsletter on making meetings actually useful. No spam, unsubscribe anytime.",
+          "newsletterButtonText": "Subscribe",
+          "newsletterPlaceholder": "you@company.com"
+        }
+      ],
+      "companyEmail": "steno-run@tryartha.com",
+      "domain": "steno-run.tryartha.com",
+      "projectSlug": "steno-run",
+      "animationPreset": "subtle",
+      "shadowStyle": "glass"
+    }
+  },
+  {
+    "name": "Driftwood",
+    "slug": "driftwood-pm",
+    "tagline": "Project management for teams that think in documents, not tickets",
+    "description": "Driftwood is a document-first project management tool where specs, tasks, and status updates live in the same rich-text workspace. It's what happens when Notion and Linear have a baby that actually ships on time.",
+    "mission": "There are two types of project management tools in the world: ticket trackers and document platforms. Jira and Linear are great at tracking work items but terrible at capturing the context behind them. Notion and Coda are great at documentation but their project management features feel bolted on.\n\nDriftwood merges these worlds. We believe that a task without context is just busywork, and a document without accountability is just a wiki page. Every Driftwood project starts with a spec — a rich document that captures the what, why, and how. Tasks are extracted from the spec and tracked inline. As the spec evolves, tasks stay in sync. As tasks are completed, the spec reflects progress.\n\nOur founding team built product at companies where the gap between \"the document\" and \"the board\" caused real problems. Engineers worked off stale specs. PMs updated documents that nobody checked. Status meetings existed solely to bridge the gap between what was written and what was happening.\n\nDriftwood eliminates that gap by making documents and tasks the same thing. Your spec is your project plan is your status dashboard. We're building for teams that think in prose and paragraphs, not just checkboxes and story points.",
+    "marketResearch": "The project management software market is $7.2B, growing at 13% CAGR. The knowledge management/collaborative docs market adds $3.4B. The intersection — document-centric project management — is an emerging category with an estimated TAM of $2.8B. Our SAM targets 10-200 person teams at product-led companies that use both Notion (or Confluence) and Linear (or Jira), representing $800M. Initial SOM targeting early-stage startups and SMBs is $130M.\n\nCompetitors: Linear (excellent task tracking, minimal document capabilities), Notion (strong docs, weak project tracking), Asana (feature-rich but complex), Height (AI-powered but still ticket-first). Driftwood differentiates by making the document the atomic unit of project management — tasks emerge from documents rather than existing in a separate system.\n\nTarget user: product managers, engineering leads, and founders at 10-200 person companies who currently maintain both a documentation tool and a project tracker. Our insight is that they'd prefer one tool that does both well rather than two tools that need constant syncing.\n\nGTM: PLG with a generous free tier (up to 5 users). Teams adopt for a single project, realize the document-task integration saves them from maintaining two tools, and expand to team-wide adoption. Pricing is per-workspace-member, competitive with Linear + Notion combined pricing.",
+    "landingPage": {
+      "companyName": "Driftwood",
+      "tagline": "Project management for teams that think in documents, not tickets",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#92400E",
+          "primaryLight": "#FDE68A",
+          "primaryDark": "#78350F",
+          "accent": "#059669",
+          "background": "#FFFDF7",
+          "surface": "#FEF9EF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#E7E5E4"
+        },
+        "fontFamily": "'Literata', serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Your spec is your project plan",
+        "subheadline": "Driftwood unifies documents and tasks in a single workspace. Write specs, extract tasks inline, and track progress without switching tools. For teams that think before they ticket.",
+        "ctaText": "Try Driftwood free",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "One tool for thinking and shipping",
+        "subheadline": "Free for teams up to 5. Start a project in 30 seconds.",
+        "buttonText": "Create your workspace"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Documents and tasks, finally unified",
+          "layout": "cards",
+          "items": [
+            { "icon": "📝", "title": "Rich spec editor", "description": "Write specs with Notion-quality formatting. Embed diagrams, code blocks, and tables. Your thinking deserves a real canvas." },
+            { "icon": "✅", "title": "Inline task extraction", "description": "Highlight any sentence and turn it into a tracked task. Tasks live inside the spec and on the board simultaneously." },
+            { "icon": "🔄", "title": "Bidirectional sync", "description": "Update a task's status on the board — the spec reflects it. Edit the spec — related tasks update automatically." },
+            { "icon": "📊", "title": "Progress, not points", "description": "See project health through document completion, not velocity charts. How much of the spec has shipped? That's your real metric." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Driftwood vs. the two-tool setup",
+          "comparisonOurName": "Driftwood",
+          "comparisonCompetitorName": "Notion + Linear",
+          "comparisonRows": [
+            { "feature": "Specs and tasks in one place", "us": true, "competitor": false },
+            { "feature": "Bidirectional doc-task sync", "us": true, "competitor": false },
+            { "feature": "Rich document editor", "us": true, "competitor": "Notion only" },
+            { "feature": "Project board view", "us": true, "competitor": "Linear only" },
+            { "feature": "Single subscription", "us": "$8/user", "competitor": "$18+/user" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Replace two subscriptions with one",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "Free", "period": "", "features": ["Up to 5 members", "Unlimited projects", "Rich editor + board view", "7-day version history"], "ctaText": "Start free" },
+            { "name": "Team", "price": "$8", "period": "/member/month", "features": ["Unlimited members", "Unlimited history", "API & webhooks", "Integrations (Slack, GitHub)", "Priority support"], "ctaText": "Start trial" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From teams who unified their workflow",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were paying for Notion AND Linear and spending half our time keeping them in sync. Driftwood replaced both and our specs are actually connected to what we're building now.", "author": "Tomás Herrera", "role": "CTO, Campsite" },
+            { "quote": "As a PM, I write specs. As a PM, I also maintain a project board. Driftwood is the first tool that understands these are the same job.", "author": "Ava Krishnamurthy", "role": "Product Lead, Raycast" }
+          ]
+        }
+      ],
+      "companyEmail": "driftwood-pm@tryartha.com",
+      "domain": "driftwood-pm.tryartha.com",
+      "projectSlug": "driftwood-pm",
+      "animationPreset": "none",
+      "shadowStyle": "flat"
+    }
+  },
+  {
+    "name": "Arcline",
+    "slug": "arcline-dev",
+    "tagline": "Database branching for development teams",
+    "description": "Arcline lets development teams branch their database the way they branch code. Create isolated database copies for every feature branch, run migrations safely, and merge schema changes without stepping on each other.",
+    "mission": "Git solved collaboration for code. But databases are still a shared mutable resource that everyone tiptoes around. Every developer on the team either shares a staging database (and breaks each other's work) or maintains a local database (and falls out of sync). Migrations are tested by crossing fingers. Schema conflicts are discovered at merge time.\n\nArcline brings the branching paradigm to databases. When you create a feature branch, Arcline creates a corresponding database branch — an isolated, full-fidelity copy of your database that you can migrate, seed, and test against without affecting anyone else. When your code merges, your database changes merge too, with conflict detection and resolution built in.\n\nWe're not building another database hosting platform. We're building a workflow layer that sits between your application and your database, making the development experience match what engineers already expect from their code workflow. Branch, develop, test, merge — for data, not just code.\n\nOur team built developer tools at PlanetScale and Neon and saw firsthand that database branching isn't just a nice-to-have — it's the missing piece of the modern development workflow. We started Arcline because we believe databases should be as easy to collaborate on as code.",
+    "marketResearch": "The database-as-a-service market is $18B and growing at 20% CAGR. Within this, developer workflow tools for databases — migration management, branching, schema design — represent an emerging $1.5B segment. Our TAM spans all development teams using relational databases, roughly $1.5B. Our SAM focuses on teams of 10-200 developers using PostgreSQL or MySQL in cloud environments, approximately $500M. Initial SOM targeting mid-market tech companies is $80M.\n\nCompetitors: PlanetScale (branching for MySQL, shutting down free tier, Vitess complexity), Neon (PostgreSQL branching but focused on serverless compute, not workflow), Atlas (Terraform for databases, migration-focused), Prisma (ORM with migrate tool, no branching). Arcline differentiates by supporting multiple database engines (Postgres, MySQL, SQLite) and focusing on the complete branch-develop-merge workflow rather than just infrastructure.\n\nTarget users: backend engineers and platform teams at companies running relational databases. Our wedge is migration safety — teams adopt Arcline to test migrations on branched databases before running them in production. The expansion motion is full branching adoption for development workflows.\n\nGTM: open-core model. The CLI and local branching are free and open-source. Cloud sync, team collaboration, and CI/CD integration are paid features. Pricing is per-developer-seat plus storage.",
+    "landingPage": {
+      "companyName": "Arcline",
+      "tagline": "Database branching for development teams",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F97316",
+          "primaryLight": "#FDBA74",
+          "primaryDark": "#C2410C",
+          "accent": "#06B6D4",
+          "background": "#0C0A09",
+          "surface": "#1C1917",
+          "text": "#FAFAF9",
+          "textMuted": "#A8A29E",
+          "border": "#292524"
+        },
+        "fontFamily": "'IBM Plex Mono', monospace",
+        "borderRadius": "0.25rem"
+      },
+      "hero": {
+        "layout": "left",
+        "headline": "Branch your database like you branch your code",
+        "subheadline": "Arcline gives every feature branch an isolated database copy. Run migrations safely. Merge schema changes without conflicts. No more shared staging database chaos.",
+        "ctaText": "Install the CLI",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Your database workflow should be as good as your git workflow",
+        "subheadline": "Open-source CLI. Free forever for local development.",
+        "buttonText": "Get started"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "It works like git, because it should",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "arcline branch create feature/user-roles", "description": "Creates an isolated copy of your database linked to your git branch. Fast — uses copy-on-write, not full copies." },
+            { "icon": "2", "title": "Develop and migrate freely", "description": "Run migrations, seed data, test queries. Your branch database is yours alone. Break things without breaking anyone else." },
+            { "icon": "3", "title": "arcline branch merge", "description": "When your code PR merges, Arcline detects schema changes and applies them to the target branch. Conflicts are flagged with a resolution UI." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for real development workflows",
+          "layout": "bento",
+          "items": [
+            { "icon": "🌿", "title": "Copy-on-write branching", "description": "Branch creation is near-instant regardless of database size. You only pay for the delta, not the full copy." },
+            { "icon": "🔀", "title": "Schema merge", "description": "Automatic conflict detection when two branches modify the same table. Visual resolution for schema conflicts." },
+            { "icon": "🧪", "title": "Migration testing", "description": "Run migrations against a branched copy before touching production. See exactly what will change and verify data integrity." },
+            { "icon": "🔌", "title": "CI/CD integration", "description": "Branch databases are auto-created for CI runs and destroyed after. Every test suite gets a clean, isolated database." },
+            { "icon": "🗄️", "title": "Multi-engine support", "description": "PostgreSQL, MySQL, and SQLite. Use the same branching workflow regardless of your database engine." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Developers love branches",
+          "stats": [
+            { "value": "2.1K", "label": "GitHub stars" },
+            { "value": "340", "label": "Teams in early access" },
+            { "value": "94", "label": "Less migration incidents", "suffix": "%" },
+            { "value": "<1", "label": "Second to branch", "suffix": "s" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Frequently asked",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How fast is branch creation?", "answer": "Sub-second for databases up to 50GB using copy-on-write snapshots. You only pay storage for the rows that differ between branches." },
+            { "question": "Does it work with my existing ORM?", "answer": "Yes — Arcline works at the connection level. Your ORM (Prisma, Drizzle, SQLAlchemy, etc.) connects to the branch database as if it were any other database." },
+            { "question": "What about production?", "answer": "Arcline is for development and CI environments. We don't touch production. But you can use branch databases to safely test production migration scripts before running them." },
+            { "question": "Is it open-source?", "answer": "The CLI and local branching engine are fully open-source (Apache 2.0). Cloud sync, team features, and CI/CD integration are paid." }
+          ]
+        }
+      ],
+      "companyEmail": "arcline-dev@tryartha.com",
+      "domain": "arcline-dev.tryartha.com",
+      "projectSlug": "arcline-dev",
+      "animationPreset": "none",
+      "shadowStyle": "flat"
+    }
+  },
+  {
+    "name": "Haystack",
+    "slug": "haystack-search",
+    "tagline": "Internal search that actually finds things",
+    "description": "Haystack is a unified search engine for your company's internal tools. Search across Notion, Slack, Google Drive, Jira, Confluence, and GitHub from a single bar. Find the thing, not ten tabs.",
+    "mission": "The average knowledge worker uses 13 different SaaS tools. Each tool has its own search — and each search only sees what's inside that tool. When you're looking for \"that doc Sarah shared about the Q3 pricing strategy,\" you have to guess whether it's in Notion, Google Docs, Slack, or email. You open four tabs and search four times.\n\nHaystack replaces those four searches with one. We index your company's internal tools — Notion, Slack, Google Drive, Jira, Confluence, GitHub, Linear, and more — into a unified search layer that understands context, permissions, and relevance. One search bar. One answer.\n\nBut search is just the beginning. Once we've indexed your company's knowledge, we can do things that individual tool search can't: find information that spans multiple tools, surface knowledge that's about to become stale, and answer questions using your company's collective intelligence.\n\nWe started Haystack because we lived in the world of tab-switching and context-guessing that every knowledge worker experiences. We believe that internal search should be as good as Google — but for your company's private knowledge.",
+    "marketResearch": "The enterprise search market is valued at $5.2B in 2025, growing at 14% CAGR. The subset focused on SaaS-native unified search — tools that connect to cloud applications rather than on-premise systems — is a $1.8B opportunity growing at 22% CAGR. Our TAM is the broader enterprise search market. Our SAM targets companies with 50-5,000 employees using 5+ SaaS tools, approximately $900M. Initial SOM is $140M focusing on tech companies and knowledge-work organizations.\n\nCompetitors: Glean (raised $260M, dominant in enterprise AI search but priced for large enterprises at $10+ per user/month), Dashworks (smaller competitor, good UX but limited connector coverage), Guru (knowledge management focused, less search-oriented), and native search within platforms (limited to single-tool scope). Haystack differentiates through three vectors: aggressive pricing ($4/user/month vs Glean's $10+), faster onboarding (most connectors activate in under 2 minutes), and a developer API that lets teams build internal search into their own tools.\n\nTarget buyer: IT admins and operations leaders who field \"where do I find X?\" questions daily. Our PLG motion starts with individuals connecting personal instances of tools (free for up to 3 connectors), converting to team plans when admins connect organization-wide accounts with permission syncing.",
+    "landingPage": {
+      "companyName": "Haystack",
+      "tagline": "Internal search that actually finds things",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0369A1",
+          "primaryLight": "#BAE6FD",
+          "primaryDark": "#075985",
+          "accent": "#E11D48",
+          "background": "#FFFFFF",
+          "surface": "#F0F9FF",
+          "text": "#0C4A6E",
+          "textMuted": "#64748B",
+          "border": "#E0F2FE"
+        },
+        "fontFamily": "'Manrope', sans-serif",
+        "borderRadius": "2rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "One search bar for everything at your company",
+        "subheadline": "Haystack connects Notion, Slack, Drive, Jira, GitHub, and 30+ tools into a single searchable index. Stop tab-switching. Start finding.",
+        "ctaText": "Connect your tools",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your company's knowledge shouldn't be scattered across 13 tools",
+        "subheadline": "Free for up to 3 connectors. Team plans from $4/user/month.",
+        "buttonText": "Try Haystack free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Search everything. Find anything.",
+          "layout": "cards",
+          "items": [
+            { "icon": "🔍", "title": "Unified index", "description": "One search across Notion, Slack, Google Drive, Jira, Confluence, GitHub, Linear, Figma, and 30+ more tools." },
+            { "icon": "🔐", "title": "Permission-aware", "description": "Haystack respects existing access controls. You only see results you're authorized to see in the source tool." },
+            { "icon": "🧠", "title": "Semantic understanding", "description": "Search by meaning, not just keywords. \"Q3 pricing discussion\" finds the right results even if those exact words aren't used." },
+            { "icon": "⚡", "title": "Instant answers", "description": "For factual questions, Haystack generates a direct answer from your company's knowledge — with source citations." },
+            { "icon": "🔌", "title": "Developer API", "description": "Build internal search into your own tools. Our API lets you query the unified index programmatically." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Enterprise search, startup pricing",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Personal", "price": "Free", "period": "", "features": ["3 connectors", "Personal accounts only", "Basic search", "30-day index"], "ctaText": "Start free" },
+            { "name": "Team", "price": "$4", "period": "/user/month", "features": ["Unlimited connectors", "Org-wide accounts", "Semantic search + AI answers", "Permission sync", "Admin dashboard"], "ctaText": "Start trial" },
+            { "name": "Enterprise", "price": "$8", "period": "/user/month", "features": ["Everything in Team", "SSO & SCIM", "Custom connectors", "Dedicated support", "Data residency options"], "ctaText": "Talk to sales" }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Finding things fast",
+          "stats": [
+            { "value": "35", "label": "Connectors available", "suffix": "+" },
+            { "value": "480", "label": "Avg ms to search results", "suffix": "ms" },
+            { "value": "2.3", "label": "Hours saved per user weekly", "suffix": "hrs" },
+            { "value": "92", "label": "Search satisfaction score", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "No more \"where was that doc?\"",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I used to ask on Slack where things were. Now I search Haystack first and find it in seconds. It's like having a personal assistant who remembers where everything is.", "author": "Lena Fischer", "role": "Product Designer, Figma" },
+            { "quote": "Our ops team fielded 40+ 'where is X?' messages per week. After Haystack, that dropped to near zero. People just find things themselves.", "author": "Andre Williams", "role": "Head of Operations, Airtable" }
+          ]
+        }
+      ],
+      "companyEmail": "haystack-search@tryartha.com",
+      "domain": "haystack-search.tryartha.com",
+      "projectSlug": "haystack-search",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Litmus",
+    "slug": "litmus-qa",
+    "tagline": "Visual regression testing that doesn't cry wolf",
+    "description": "Litmus catches UI bugs before users do. It takes intelligent screenshots of your app across browsers and screen sizes, diffs them against your baseline, and only alerts on visual changes that actually matter — ignoring dynamic content, animations, and rendering noise.",
+    "mission": "Visual regression testing has a reputation problem. Teams try it, get buried in false positives — a timestamp changed, a loading spinner was mid-rotation, an ad shifted by 2 pixels — and turn it off. The idea is right but the execution has been terrible.\n\nLitmus fixes visual testing by being smart about what constitutes a real change. Our diffing engine uses perceptual comparison models trained on real UI components to distinguish meaningful visual regressions from harmless rendering variance. A button that moved from the left to the center of a card? That's a regression. A tooltip that rendered 1ms later? That's noise.\n\nWe're a team of frontend engineers and QA specialists who got tired of either maintaining flaky visual tests or shipping UI bugs to production. We built Litmus because we believe visual testing should be like a senior QA engineer: observant enough to catch real issues, experienced enough to ignore noise.\n\nOur goal is to make visual testing a reliable, always-on part of every CI pipeline. Not something teams try and abandon, but something they trust as deeply as their unit tests.",
+    "marketResearch": "The testing tools market is valued at $8.3B in 2025 with visual testing tools representing approximately $600M of that, growing at 30% CAGR as frontend complexity increases. Our TAM is the broader visual testing market. Our SAM targets web application teams with CI/CD pipelines running automated tests, approximately $350M. Initial SOM focusing on React/Next.js teams is $60M.\n\nCompetitors: Percy (Browserstack-owned, market leader but plagued by false positives), Chromatic (Storybook-focused, great for component libraries but limited for full-page testing), Applitools (enterprise pricing, AI-based but expensive at $60+/user/month), and Playwright's built-in screenshot comparison (free but requires heavy manual configuration). Litmus differentiates through perceptual AI that reduces false positives by 85% compared to pixel-based diffing, sub-10-minute feedback in CI, and pricing accessible to small teams ($19/month flat for up to 5,000 snapshots).\n\nTarget users: frontend engineers and QA leads at companies with 5-50 developers. Our wedge is the team that tried Percy, got burned by false positives, and turned off visual testing. Litmus gives them a second chance with testing that actually works.\n\nGTM: developer-led. Free tier supports 500 snapshots/month. Integration with GitHub, GitLab, and Bitbucket PRs. Screenshots appear inline as PR checks, making adoption frictionless.",
+    "landingPage": {
+      "companyName": "Litmus",
+      "tagline": "Visual regression testing that doesn't cry wolf",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#9333EA",
+          "primaryLight": "#D8B4FE",
+          "primaryDark": "#7E22CE",
+          "accent": "#14B8A6",
+          "background": "#FAF5FF",
+          "surface": "#FFFFFF",
+          "text": "#2E1065",
+          "textMuted": "#7C3AED",
+          "border": "#E9D5FF"
+        },
+        "fontFamily": "'Satoshi', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Catch UI bugs. Ignore the noise.",
+        "subheadline": "Litmus uses perceptual AI to diff your UI across browsers and screen sizes. Real visual regressions trigger alerts. Harmless rendering variance is filtered out. 85% fewer false positives than pixel-based tools.",
+        "ctaText": "Start catching bugs",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Visual testing that earns your trust",
+        "subheadline": "500 free snapshots per month. Setup takes 5 minutes.",
+        "buttonText": "Add Litmus to your CI"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Visual testing, rebuilt from scratch",
+          "layout": "alternating",
+          "items": [
+            { "icon": "👁️", "title": "Perceptual diffing", "description": "Our AI model understands UI semantics. It knows a shifted button matters but a loading indicator caught mid-spin doesn't." },
+            { "icon": "🖥️", "title": "Cross-browser, cross-device", "description": "Test across Chrome, Firefox, Safari, and WebKit at multiple viewport sizes. One config, comprehensive coverage." },
+            { "icon": "⚡", "title": "Fast CI feedback", "description": "Results appear as GitHub PR checks in under 10 minutes. Approve or reject visual changes inline without leaving your PR." },
+            { "icon": "📦", "title": "Component + full-page", "description": "Test individual Storybook components or capture full application pages. Mix both approaches in the same project." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Litmus vs. pixel-based tools",
+          "comparisonOurName": "Litmus",
+          "comparisonCompetitorName": "Percy / Chromatic",
+          "comparisonRows": [
+            { "feature": "False positive rate", "us": "<5%", "competitor": "25-40%" },
+            { "feature": "Dynamic content handling", "us": "Automatic", "competitor": "Manual exclusion zones" },
+            { "feature": "CI feedback time", "us": "<10 min", "competitor": "15-30 min" },
+            { "feature": "Starting price", "us": "$19/month", "competitor": "$99+/month" },
+            { "feature": "Storybook + full-page", "us": true, "competitor": "One or the other" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Simple snapshot pricing",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Free", "price": "$0", "period": "", "features": ["500 snapshots/month", "1 browser", "GitHub integration", "7-day history"], "ctaText": "Start free" },
+            { "name": "Pro", "price": "$19", "period": "/month", "features": ["5,000 snapshots/month", "3 browsers + viewports", "Perceptual AI diffing", "30-day history", "Slack alerts"], "ctaText": "Start trial" },
+            { "name": "Team", "price": "$49", "period": "/month", "features": ["25,000 snapshots/month", "All browsers + viewports", "Approval workflows", "90-day history", "Priority support"], "ctaText": "Start trial" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Teams who stopped ignoring visual tests",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We turned off Percy after three months because 30% of our alerts were false positives. Litmus has been running for six months and I can count the false alerts on one hand.", "author": "Yuki Watanabe", "role": "Frontend Lead, Vercel" },
+            { "quote": "The inline PR checks are everything. My team reviews visual changes the same way they review code — no extra tool, no extra step.", "author": "Elena Rossi", "role": "QA Lead, Shopify" }
+          ]
+        }
+      ],
+      "companyEmail": "litmus-qa@tryartha.com",
+      "domain": "litmus-qa.tryartha.com",
+      "projectSlug": "litmus-qa",
+      "animationPreset": "subtle",
+      "shadowStyle": "glass"
+    }
+  },
+  {
+    "name": "Conduit",
+    "slug": "conduit-data",
+    "tagline": "Real-time data pipelines you can set up in an afternoon",
+    "description": "Conduit is a managed data streaming platform that connects databases, APIs, and SaaS tools into real-time pipelines. Change data capture, transformations, and delivery — without managing Kafka or writing Flink jobs.",
+    "mission": "Every company is a data company now. But moving data between systems in real-time still requires a PhD in distributed systems or a six-figure Confluent contract. Teams that need their Postgres changes reflected in Elasticsearch within seconds — not hours — are stuck choosing between managed Kafka (expensive, complex) or batch ETL (slow, stale).\n\nConduit makes real-time data movement as simple as connecting two endpoints and defining a transformation. We handle the hard parts — change data capture, exactly-once delivery, schema evolution, backpressure, and failure recovery — so your team can focus on what the data does, not how it moves.\n\nWe're engineers who spent years building and maintaining data infrastructure at companies where Kafka was simultaneously the most critical and most feared system in the stack. We saw teams avoid real-time architectures because the operational overhead was too high, even when their products desperately needed fresh data.\n\nConduit's mission is to democratize real-time data. Not just for companies that can afford a dedicated data platform team, but for any team that needs data in the right place at the right time.",
+    "marketResearch": "The data integration and ETL market is valued at $14.2B, with real-time streaming and CDC representing the fastest-growing segment at 28% CAGR. Our TAM includes all companies needing real-time data movement between systems, approximately $6B. Our SAM focuses on mid-market companies (100-5,000 employees) that need real-time pipelines but can't justify dedicated data platform teams, roughly $2B. Initial SOM targeting tech companies replacing batch ETL with streaming is $300M.\n\nCompetitors: Confluent/Kafka (the default for streaming, but complex and expensive for mid-market), Fivetran (dominant in batch ETL, adding streaming but it's not their strength), Airbyte (open-source ETL, good community but limited real-time capabilities), Estuary (CDC-focused, closest to our positioning). Conduit differentiates through radical simplicity — a web UI where you connect source to destination, define transforms in SQL, and deploy in minutes — combined with production-grade reliability underneath.\n\nTarget buyer: data engineers and backend engineers who need real-time data movement but don't want to operate Kafka. Our PLG motion offers a free tier with up to 1M events/month. Teams upgrade when they need higher throughput, more connectors, and SLAs.",
+    "landingPage": {
+      "companyName": "Conduit",
+      "tagline": "Real-time data pipelines you can set up in an afternoon",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#10B981",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#047857",
+          "accent": "#F59E0B",
+          "background": "#020617",
+          "surface": "#0F172A",
+          "text": "#F8FAFC",
+          "textMuted": "#94A3B8",
+          "border": "#1E293B"
+        },
+        "fontFamily": "'Space Grotesk', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Real-time data pipelines. Zero Kafka headaches.",
+        "subheadline": "Conduit streams data between your databases, APIs, and SaaS tools with change data capture, SQL transformations, and exactly-once delivery. Set up in minutes, not months.",
+        "ctaText": "Build your first pipeline",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Your data should move as fast as your product",
+        "subheadline": "1M free events per month. No infrastructure to manage.",
+        "buttonText": "Start streaming"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Source -> Transform -> Deliver",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your source", "description": "Postgres, MySQL, MongoDB, S3, webhooks, or any of our 40+ connectors. CDC is built in — just point and stream." },
+            { "icon": "2", "title": "Transform with SQL", "description": "Filter, map, join, and aggregate in-flight using familiar SQL syntax. No Flink, no Spark, no custom code." },
+            { "icon": "3", "title": "Deliver in real-time", "description": "Send transformed data to Elasticsearch, Snowflake, BigQuery, Redis, webhooks, or your own API. Exactly-once guaranteed." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Production-grade, startup-simple",
+          "layout": "bento",
+          "items": [
+            { "icon": "🔄", "title": "Change data capture", "description": "Stream database changes as they happen. Postgres logical replication, MySQL binlog, MongoDB change streams — all handled automatically." },
+            { "icon": "🛡️", "title": "Exactly-once delivery", "description": "No duplicates, no data loss. Conduit tracks delivery state and handles retries transparently." },
+            { "icon": "📈", "title": "Auto-scaling", "description": "Pipelines scale with your data volume. From 100 events/second to 100,000 — no configuration changes needed." },
+            { "icon": "🔍", "title": "Pipeline observability", "description": "Real-time throughput, latency, and error metrics. Alert on lag, failures, or schema changes." },
+            { "icon": "🧩", "title": "40+ connectors", "description": "Databases, warehouses, queues, APIs, SaaS tools. If you use it, we probably connect to it." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pay for what flows",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Dev", "price": "Free", "period": "", "features": ["1M events/month", "5 pipelines", "Standard connectors", "Community support"], "ctaText": "Start free" },
+            { "name": "Pro", "price": "$99", "period": "/month", "features": ["50M events/month", "Unlimited pipelines", "SQL transforms", "Priority support", "14-day replay"], "ctaText": "Start trial" },
+            { "name": "Scale", "price": "Custom", "period": "", "features": ["Unlimited events", "Dedicated infrastructure", "Custom connectors", "SLA & dedicated support", "SOC 2 compliance"], "ctaText": "Talk to us" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Teams who stopped managing Kafka",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We spent six months trying to get Kafka Connect working reliably. Conduit took an afternoon to set up and it just works. Our data team is finally building features instead of fixing pipelines.", "author": "Chris Morales", "role": "Data Lead, Faire" },
+            { "quote": "The SQL transform layer is genius. We went from writing custom Flink jobs for every pipeline to expressing transforms in SQL that anyone on the team can read and modify.", "author": "Sunita Nair", "role": "Staff Engineer, Plaid" }
+          ]
+        }
+      ],
+      "companyEmail": "conduit-data@tryartha.com",
+      "domain": "conduit-data.tryartha.com",
+      "projectSlug": "conduit-data",
+      "animationPreset": "dramatic",
+      "shadowStyle": "elevated"
+    }
+  }
+]

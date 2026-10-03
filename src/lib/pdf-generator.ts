@@ -1,0 +1,241 @@
+/**
+ * PDF generation for research reports and documents.
+ * Uses a simple HTML-to-PDF approach via Playwright's PDF generation.
+ */
+
+interface PdfOptions {
+  title: string;
+  content: string;
+  companyName?: string;
+  generatedAt?: string;
+  format?: "A4" | "Letter";
+}
+
+/**
+ * Convert markdown content to styled HTML suitable for PDF rendering.
+ */
+function markdownToHtml(markdown: string): string {
+  let html = markdown
+    // Headers
+    .replace(/^### (.+)$/gm, "<h3>$1</h3>")
+    .replace(/^## (.+)$/gm, "<h2>$1</h2>")
+    .replace(/^# (.+)$/gm, "<h1>$1</h1>")
+    // Bold
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    // Italic
+    .replace(/\*(.+?)\*/g, "<em>$1</em>")
+    // Code blocks
+    .replace(/```[\s\S]*?```/g, (match) => {
+      const code = match.replace(/```\w*\n?/, "").replace(/\n?```$/, "");
+      return `<pre><code>${code}</code></pre>`;
+    })
+    // Inline code
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    // Unordered lists
+    .replace(/^- (.+)$/gm, "<li>$1</li>")
+    // Links
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    // Horizontal rules
+    .replace(/^---$/gm, "<hr/>")
+    // Line breaks to paragraphs
+    .replace(/\n\n/g, "</p><p>")
+    .replace(/\n/g, "<br/>");
+
+  // Wrap list items
+  html = html.replace(/(<li>.*?<\/li>)+/g, (match) => `<ul>${match}</ul>`);
+
+  // Wrap table detection (basic markdown tables)
+  html = html.replace(
+    /\|(.+)\|[\s\S]*?\|[-|: ]+\|[\s\S]*?(?=\n\n|\n$|$)/g,
+    (match) => {
+      const lines = match.trim().split("<br/>");
+      if (lines.length < 2) return match;
+
+      const headerCells = lines[0].split("|").filter(Boolean).map((c) => c.trim());
+      const headerRow = headerCells.map((c) => `<th>${c}</th>`).join("");
+
+      const dataRows = lines
+        .slice(2)
+        .filter((line) => line.includes("|"))
+        .map((line) => {
+          const cells = line.split("|").filter(Boolean).map((c) => c.trim());
+          return `<tr>${cells.map((c) => `<td>${c}</td>`).join("")}</tr>`;
+        })
+        .join("");
+
+      return `<table><thead><tr>${headerRow}</tr></thead><tbody>${dataRows}</tbody></table>`;
+    },
+  );
+
+  return `<p>${html}</p>`;
+}
+
+function buildPdfHtml(options: PdfOptions): string {
+  const { title, content, companyName, generatedAt } = options;
+  const htmlContent = markdownToHtml(content);
+
+  return `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 11pt;
+      line-height: 1.6;
+      color: #1f2937;
+      padding: 60px 50px;
+    }
+
+    .header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 24pt;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+
+    .header .meta {
+      font-size: 9pt;
+      color: #6b7280;
+    }
+
+    h1 { font-size: 20pt; font-weight: 700; color: #111827; margin: 24px 0 12px; }
+    h2 { font-size: 16pt; font-weight: 600; color: #1f2937; margin: 20px 0 10px; border-bottom: 1px solid #e5e7eb; padding-bottom: 6px; }
+    h3 { font-size: 13pt; font-weight: 600; color: #374151; margin: 16px 0 8px; }
+
+    p { margin: 8px 0; }
+
+    strong { font-weight: 600; }
+
+    ul, ol { margin: 8px 0 8px 24px; }
+    li { margin: 4px 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 10pt;
+    }
+
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    th {
+      background: #f9fafb;
+      font-weight: 600;
+      color: #374151;
+    }
+
+    tr:nth-child(even) { background: #f9fafb; }
+
+    pre {
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 12px;
+      overflow-x: auto;
+      font-size: 9pt;
+      margin: 12px 0;
+    }
+
+    code {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      background: #f3f4f6;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-size: 9pt;
+    }
+
+    pre code { background: none; padding: 0; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 20px 0;
+    }
+
+    a { color: #2563eb; text-decoration: none; }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 8pt;
+      color: #9ca3af;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>${escapeHtml(title)}</h1>
+    <div class="meta">
+      ${companyName ? `${escapeHtml(companyName)} · ` : ""}Generated ${generatedAt || new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+    </div>
+  </div>
+
+  <div class="content">
+    ${htmlContent}
+  </div>
+
+  <div class="footer">
+    Generated by Artha AI${companyName ? ` for ${escapeHtml(companyName)}` : ""}
+  </div>
+</body>
+</html>`;
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+/**
+ * Generate a PDF buffer from a document.
+ * Uses Playwright for high-fidelity rendering.
+ */
+export async function generatePdf(options: PdfOptions): Promise<Buffer> {
+  const html = buildPdfHtml(options);
+
+  try {
+    const { chromium } = await import("playwright");
+    const browser = await chromium.launch({ headless: true });
+    const page = await browser.newPage();
+    await page.setContent(html, { waitUntil: "networkidle" });
+
+    const pdfBuffer = await page.pdf({
+      format: options.format || "A4",
+      printBackground: true,
+      margin: { top: "0", bottom: "0", left: "0", right: "0" },
+    });
+
+    await browser.close();
+    return Buffer.from(pdfBuffer);
+  } catch {
+    // Fallback: return HTML as buffer if Playwright is not available
+    return Buffer.from(html);
+  }
+}
+
+/**
+ * Generate PDF HTML string (for preview or alternative rendering).
+ */
+export function generatePdfHtml(options: PdfOptions): string {
+  return buildPdfHtml(options);
+}

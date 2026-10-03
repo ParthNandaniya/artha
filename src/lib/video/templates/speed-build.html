@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, height=1080">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background: #0a0a0a;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #fff;
+  }
+
+  /* ── Background grid ─────────────────────────────────────── */
+  .bg-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    animation: gridFade 1s ease-out 0s forwards;
+    opacity: 0;
+  }
+
+  @keyframes gridFade {
+    to { opacity: 1; }
+  }
+
+  /* ── Glow orbs ────────────────────────────────────────────── */
+  .glow-1 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.15), transparent 70%);
+    top: -100px;
+    right: -100px;
+    animation: glowPulse 15s ease-in-out 0s infinite;
+  }
+
+  .glow-2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.1), transparent 70%);
+    bottom: -100px;
+    left: -100px;
+    animation: glowPulse 15s ease-in-out 2s infinite;
+  }
+
+  @keyframes glowPulse {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
+  }
+
+  /* ── Main container ───────────────────────────────────────── */
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  /* ── Phase 1: Hook text ───────────────────────────────────── */
+  .hook {
+    position: absolute;
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.2;
+    opacity: 0;
+    animation:
+      fadeIn 0.6s ease-out 0.5s forwards,
+      fadeOut 0.4s ease-in 3.5s forwards;
+  }
+
+  .hook .highlight {
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* ── Phase 2: Typing animation ────────────────────────────── */
+  .typing-section {
+    position: absolute;
+    width: 900px;
+    opacity: 0;
+    animation:
+      fadeIn 0.5s ease-out 4.2s forwards,
+      fadeOut 0.4s ease-in 8s forwards;
+  }
+
+  .typing-label {
+    font-size: 20px;
+    color: #6366f1;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 24px;
+  }
+
+  .typing-box {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 32px 40px;
+    font-size: 28px;
+    line-height: 1.6;
+    color: #e2e8f0;
+    position: relative;
+  }
+
+  .typing-text {
+    display: inline;
+  }
+
+  .typing-text .char {
+    opacity: 0;
+    animation: charAppear 0.03s ease forwards;
+  }
+
+  @keyframes charAppear {
+    to { opacity: 1; }
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 3px;
+    height: 32px;
+    background: #6366f1;
+    vertical-align: middle;
+    margin-left: 2px;
+    animation: blink 0.6s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /* ── Phase 3: Build progress ──────────────────────────────── */
+  .build-section {
+    position: absolute;
+    width: 800px;
+    opacity: 0;
+    animation:
+      fadeIn 0.5s ease-out 8.5s forwards,
+      fadeOut 0.4s ease-in 13s forwards;
+  }
+
+  .build-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #a855f7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .build-step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 24px;
+    opacity: 0;
+  }
+
+  .build-step:nth-child(2) { animation: stepIn 0.5s ease-out 9s forwards; }
+  .build-step:nth-child(3) { animation: stepIn 0.5s ease-out 9.8s forwards; }
+  .build-step:nth-child(4) { animation: stepIn 0.5s ease-out 10.6s forwards; }
+  .build-step:nth-child(5) { animation: stepIn 0.5s ease-out 11.4s forwards; }
+
+  @keyframes stepIn {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  .step-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+
+  .step-icon.research { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+  .step-icon.mission { background: rgba(168, 85, 247, 0.15); color: #a855f7; }
+  .step-icon.website { background: rgba(16, 185, 129, 0.15); color: #10b981; }
+  .step-icon.email { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+
+  .step-content {
+    flex: 1;
+  }
+
+  .step-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .step-desc {
+    font-size: 16px;
+    color: #94a3b8;
+  }
+
+  .step-progress {
+    width: 100%;
+    height: 6px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 3px;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+
+  .step-progress-bar {
+    height: 100%;
+    border-radius: 3px;
+    width: 0%;
+  }
+
+  .build-step:nth-child(2) .step-progress-bar {
+    background: #3b82f6;
+    animation: progressFill 0.6s ease-out 9.3s forwards;
+  }
+  .build-step:nth-child(3) .step-progress-bar {
+    background: #a855f7;
+    animation: progressFill 0.6s ease-out 10.1s forwards;
+  }
+  .build-step:nth-child(4) .step-progress-bar {
+    background: #10b981;
+    animation: progressFill 0.6s ease-out 10.9s forwards;
+  }
+  .build-step:nth-child(5) .step-progress-bar {
+    background: #f59e0b;
+    animation: progressFill 0.6s ease-out 11.7s forwards;
+  }
+
+  @keyframes progressFill {
+    to { width: 100%; }
+  }
+
+  /* ── Phase 4: Result reveal ───────────────────────────────── */
+  .result-section {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out 13.5s forwards;
+  }
+
+  .result-check {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10b981, #059669);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 32px;
+    font-size: 48px;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 13.8s forwards;
+  }
+
+  @keyframes popIn {
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .result-name {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 14.2s forwards;
+  }
+
+  .result-url {
+    font-size: 28px;
+    color: #6366f1;
+    font-weight: 500;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 14.5s forwards;
+  }
+
+  .result-tagline {
+    font-size: 22px;
+    color: #94a3b8;
+    margin-top: 16px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 14.8s forwards;
+  }
+
+  /* ── Artha branding ───────────────────────────────────────── */
+  .branding {
+    position: absolute;
+    bottom: 48px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 0.3s forwards;
+  }
+
+  .branding-logo {
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .branding-tagline {
+    font-size: 18px;
+    color: #64748b;
+    font-weight: 500;
+  }
+
+  /* ── CTA ──────────────────────────────────────────────────── */
+  .cta {
+    position: absolute;
+    bottom: 120px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 15.2s forwards;
+  }
+
+  .cta-button {
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 48px;
+    border-radius: 14px;
+    border: none;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── Shared keyframes ─────────────────────────────────────── */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="glow-1"></div>
+<div class="glow-2"></div>
+
+<div class="container">
+
+  <!-- Phase 1: Hook (0.5s - 3.5s) -->
+  <div class="hook">
+    I built a company<br>
+    in <span class="highlight">3 minutes</span><br>
+    with one sentence.
+  </div>
+
+  <!-- Phase 2: Typing (4.2s - 8s) -->
+  <div class="typing-section">
+    <div class="typing-label">Your idea</div>
+    <div class="typing-box">
+      <span class="typing-text" id="typingText"></span>
+      <span class="cursor"></span>
+    </div>
+  </div>
+
+  <!-- Phase 3: Building (8.5s - 13s) -->
+  <div class="build-section">
+    <div class="build-title">Building your company...</div>
+
+    <div class="build-step">
+      <div class="step-icon research">&#x1F50D;</div>
+      <div class="step-content">
+        <div class="step-name">Market Research</div>
+        <div class="step-desc">Analyzing competitors & market size</div>
+        <div class="step-progress"><div class="step-progress-bar"></div></div>
+      </div>
+    </div>
+
+    <div class="build-step">
+      <div class="step-icon mission">&#x1F3AF;</div>
+      <div class="step-content">
+        <div class="step-name">Mission & Strategy</div>
+        <div class="step-desc">Defining vision, goals & positioning</div>
+        <div class="step-progress"><div class="step-progress-bar"></div></div>
+      </div>
+    </div>
+
+    <div class="build-step">
+      <div class="step-icon website">&#x1F310;</div>
+      <div class="step-content">
+        <div class="step-name">Landing Page</div>
+        <div class="step-desc">Live website at yourcompany.tryartha.com</div>
+        <div class="step-progress"><div class="step-progress-bar"></div></div>
+      </div>
+    </div>
+
+    <div class="build-step">
+      <div class="step-icon email">&#x2709;</div>
+      <div class="step-content">
+        <div class="step-name">Company Email</div>
+        <div class="step-desc">Professional inbox at yourcompany@tryartha.com</div>
+        <div class="step-progress"><div class="step-progress-bar"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase 4: Result (13.5s+) -->
+  <div class="result-section">
+    <div class="result-check">&#x2713;</div>
+    <div class="result-name" id="companyName">EduSpark AI</div>
+    <div class="result-url" id="companyUrl">eduspark-ai.tryartha.com</div>
+    <div class="result-tagline">Your company is live.</div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta">
+    <div class="cta-button">Try it free at artha.run</div>
+  </div>
+
+  <!-- Branding -->
+  <div class="branding">
+    <span class="branding-logo">artha</span>
+    <span class="branding-tagline">Idea to company in minutes</span>
+  </div>
+</div>
+
+<script>
+  // Typing animation — inject characters with staggered delays
+  const text = document.body.dataset.ideaText || "An AI-powered tutoring platform that adapts to each student's learning style";
+  const container = document.getElementById("typingText");
+
+  // Create character spans with animation delays starting at 4.5s
+  const startDelay = 4.5; // seconds
+  const charDuration = 0.035; // seconds per character
+
+  text.split("").forEach((char, i) => {
+    const span = document.createElement("span");
+    span.className = "char";
+    span.textContent = char;
+    span.style.animationDelay = `${startDelay + i * charDuration}s`;
+    container.appendChild(span);
+  });
+
+  // Update company name/URL from data attributes
+  const companyName = document.body.dataset.companyName;
+  const companySlug = document.body.dataset.companySlug;
+  if (companyName) document.getElementById("companyName").textContent = companyName;
+  if (companySlug) document.getElementById("companyUrl").textContent = `${companySlug}.tryartha.com`;
+</script>
+
+</body>
+</html>

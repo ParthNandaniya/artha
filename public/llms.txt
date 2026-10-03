@@ -1,0 +1,44 @@
+# Artha
+
+> Artha is an AI company builder. Describe your business idea in one prompt and Artha builds your company — market research, mission, landing page, email, and automated tasks — in minutes.
+
+Each company gets an isolated database, a custom website at {slug}.tryartha.com, a dedicated email address ({slug}@tryartha.com), and an AI agent that runs recurring business tasks on autopilot.
+
+## What Artha Does
+
+- Generates a fully designed landing page tailored to your business
+- Runs market research and competitor analysis automatically
+- Sets up a company email and sends a morning digest with analytics and tasks
+- Creates an action plan of business tasks that run on a recurring schedule
+- Tracks website analytics per company in a dedicated dashboard
+- Supports Stripe-powered pricing plans on generated websites
+
+## Who It's For
+
+Founders, solopreneurs, and early-stage builders who want to launch fast without hiring a team.
+
+## Primary Pages
+
+- [Homepage](https://artha.run/index.md): Product overview
+- [Pricing](https://artha.run/pricing.md): Plans, credits, and what is included
+- [Companies built on Artha](https://artha.run/companies): Live directory of companies
+- [Free AI tools](https://artha.run/tools): Standalone tools (logo maker, SEO audit, business plan, etc.)
+- [Blog](https://artha.run/blog): Product updates and how‑tos
+
+## Legal
+
+- [Privacy Policy](https://artha.run/privacy.md)
+- [Terms of Service](https://artha.run/terms.md)
+
+## Machine-Readable Endpoints
+
+- [Full corpus (llms-full.txt)](https://artha.run/llms-full.txt)
+- [Agents descriptor](https://artha.run/agents.json)
+- [Sitemap](https://artha.run/sitemap.xml)
+- [Company sitemap](https://artha.run/sitemap-companies.xml)
+- [Security contact](https://artha.run/.well-known/security.txt)
+
+## Contact
+
+- Support: support@artha.run
+- Security: security@artha.run

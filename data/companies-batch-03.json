@@ -1,0 +1,999 @@
+[
+  {
+    "name": "Vessel",
+    "slug": "vessel-health",
+    "tagline": "Know what's happening inside you before symptoms show up",
+    "description": "Vessel is an at-home blood biomarker testing platform that makes preventive health accessible. Users collect a finger-prick sample, mail it in, and receive clinician-reviewed results with actionable wellness plans within 48 hours. No lab visit. No guessing.",
+    "mission": "Modern medicine is built around treating sickness, not maintaining health. By the time you feel symptoms, the underlying issue has often been progressing for months or years. Blood biomarkers tell a different story — they reveal metabolic shifts, nutrient deficiencies, hormonal imbalances, and inflammatory markers long before you'd ever think to see a doctor.\n\nVessel was founded on a conviction that blood testing should be as routine as checking your phone. Not an annual event gatekept by insurance codes and 6-week appointment waits, but a regular practice you do from your kitchen table. We've engineered a clinical-grade dried blood spot collection kit that captures over 40 biomarkers from a single finger prick, processed in our CLIA-certified partner labs with the same rigor as a hospital draw.\n\nBut data without context is just noise. Every Vessel report is reviewed by a licensed clinician who translates your numbers into plain language — what's optimal, what needs attention, and what to do about it. We pair results with personalized nutrition, supplement, and lifestyle recommendations that evolve as your biomarkers change over time.\n\nWe believe preventive health shouldn't be a luxury reserved for biohackers and concierge medicine patients. Our pricing starts lower than a single copay, and our longitudinal tracking means each test builds on the last, creating a biological timeline that gets smarter the longer you use it.\n\nThe healthcare system won't fix prevention. It's not designed to. Vessel is building the infrastructure for a world where understanding your own biology is effortless, affordable, and empowering.",
+    "marketResearch": "The global preventive health and wellness testing market is valued at $28B in 2025, with at-home diagnostics growing at 19% CAGR. Direct-to-consumer blood testing is a $2.4B segment accelerating as consumers demand ownership of their health data. The broader consumer health monitoring TAM — including wearables integration — reaches $45B by 2028.\n\nOur SAM focuses on health-conscious adults aged 28-55 in the US who already spend on wellness (supplements, fitness, organic food) but lack objective data to guide decisions. This represents roughly $4.2B in addressable spend. Our initial SOM targets the biohacker-adjacent mainstream — people who use fitness trackers and read nutrition labels — in major metros, approximately $380M.\n\nThe competitive landscape includes Everlywell (broad DTC testing, brand awareness but limited longitudinal tracking), InsideTracker (strong science but premium pricing excludes most consumers), and Quest/Labcorp's DTC arms (clinical credibility but terrible UX). Vessel differentiates through three axes: a genuinely painless collection experience with dried blood spot technology, longitudinal tracking that surfaces trends across tests, and clinician-reviewed reports at a price point 60% below InsideTracker.\n\nOur GTM motion is subscription-first. Users start with a comprehensive baseline panel ($79), then subscribe to quarterly monitoring ($49/test). Retention is strong because each test adds context to previous results. B2B channels include employer wellness programs and health coaches who white-label our testing under their practice.",
+    "landingPage": {
+      "companyName": "Vessel",
+      "tagline": "Know what's happening inside you before symptoms show up",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#DC2626",
+          "primaryLight": "#FCA5A5",
+          "primaryDark": "#991B1B",
+          "accent": "#0D9488",
+          "background": "#FFFBF7",
+          "surface": "#FFFFFF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#E7E5E4"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "40+ biomarkers from one finger prick. Results in 48 hours.",
+        "subheadline": "Vessel brings clinical-grade blood testing to your kitchen table. Track what matters — inflammation, hormones, nutrients, metabolic markers — with clinician-reviewed reports and personalized action plans.",
+        "ctaText": "Get your baseline",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your body has been trying to tell you something",
+        "subheadline": "Baseline panel starts at $79. Quarterly monitoring at $49/test. No lab visit needed.",
+        "buttonText": "Start testing"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Three steps. Zero needles.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Collect at home", "description": "Our painless finger-prick kit uses dried blood spot technology. Takes 5 minutes. Mail it back in the prepaid envelope." },
+            { "icon": "2", "title": "Lab-grade analysis", "description": "CLIA-certified labs process your sample across 40+ biomarkers — metabolic health, inflammation, thyroid, vitamins, hormones, and more." },
+            { "icon": "3", "title": "Clinician-reviewed results", "description": "A licensed clinician reviews your report and delivers personalized recommendations for nutrition, supplements, and lifestyle changes." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What makes Vessel different",
+          "layout": "bento",
+          "items": [
+            { "icon": "📊", "title": "Longitudinal tracking", "description": "Each test builds on the last. See how your biomarkers trend over months and years — not just a single snapshot in time." },
+            { "icon": "🩸", "title": "Painless collection", "description": "Dried blood spot technology means no needles, no tourniquets, no sitting in a lab. Just a quick finger prick at home." },
+            { "icon": "👩‍⚕️", "title": "Clinician in the loop", "description": "Every report is reviewed by a licensed provider. No algorithm-only results — a real human checks your numbers." },
+            { "icon": "🧬", "title": "40+ biomarkers", "description": "Comprehensive panels covering metabolic health, inflammation, thyroid, sex hormones, vitamins, minerals, and liver function." },
+            { "icon": "📱", "title": "Action plans that adapt", "description": "Personalized supplement, nutrition, and lifestyle recommendations that evolve as your biomarkers change." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The numbers behind the numbers",
+          "stats": [
+            { "value": "40", "label": "Biomarkers per panel", "suffix": "+" },
+            { "value": "48", "label": "Hour turnaround", "suffix": "hr" },
+            { "value": "97", "label": "Accuracy vs venous draw", "suffix": "%" },
+            { "value": "12", "label": "Users tracking quarterly", "suffix": "K+" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Less than a copay. More than a checkup.",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Baseline", "price": "$79", "period": "/one-time", "features": ["40+ biomarker panel", "Clinician-reviewed report", "Personalized action plan", "Digital dashboard access"], "ctaText": "Get your baseline" },
+            { "name": "Quarterly", "price": "$49", "period": "/test", "features": ["All Baseline features", "Quarterly test cadence", "Trend tracking over time", "Updated recommendations each cycle", "Priority lab processing"], "ctaText": "Subscribe & save" },
+            { "name": "Family", "price": "$149", "period": "/quarter", "features": ["Up to 4 household members", "Individual reports per person", "Family health dashboard", "Dedicated care coordinator", "Annual comprehensive panel included"], "ctaText": "Cover your household" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What our members are discovering",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "My doctor said everything was 'normal' for years. Vessel showed my B12 was tanking and my inflammation markers were creeping up. I caught it early enough to fix with diet alone.", "author": "Rachel Simmons", "role": "Product designer, 34" },
+            { "quote": "I've done InsideTracker and Everlywell. Vessel is the first one where I felt like a real clinician actually looked at my results, not just an algorithm.", "author": "Marcus Webb", "role": "Marathon runner, 41" },
+            { "quote": "The trend tracking is what keeps me subscribed. Seeing my vitamin D climb over three quarters after changing my routine — that's the kind of feedback loop that sticks.", "author": "Priya Anand", "role": "Yoga instructor, 29" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we hear most",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Is a finger prick really as accurate as a blood draw?", "answer": "For the biomarkers we test, dried blood spot collection has been validated against venous draws with 97%+ concordance. Our CLIA-certified labs use the same analytical methods as hospital labs." },
+            { "question": "Who reviews my results?", "answer": "A licensed clinician (MD or NP) reviews every report before it reaches you. They flag anything concerning and provide context that goes beyond just listing numbers." },
+            { "question": "Can I share results with my doctor?", "answer": "Absolutely. Every report includes a clinician-facing PDF you can bring to appointments. Many of our members use Vessel results to have more informed conversations with their primary care physician." },
+            { "question": "How is this different from annual bloodwork?", "answer": "Annual bloodwork is a snapshot. Vessel is a movie. We test quarterly so you can see trends, catch regressions early, and verify that lifestyle changes are actually working." }
+          ]
+        }
+      ],
+      "companyEmail": "vessel-health@tryartha.com",
+      "domain": "vessel-health.tryartha.com",
+      "projectSlug": "vessel-health",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Meadow",
+    "slug": "meadow-care",
+    "tagline": "Menopause care designed by women who've been there",
+    "description": "Meadow is a comprehensive menopause care platform combining board-certified menopause specialists, evidence-based treatment plans, and a supportive community. From perimenopause through postmenopause, Meadow provides personalized hormonal and non-hormonal interventions, symptom tracking, and ongoing clinical guidance.",
+    "mission": "Menopause affects every woman who lives long enough to experience it — roughly 1.3 billion worldwide by 2030. Yet it remains one of the most undertreated, under-researched, and poorly understood transitions in medicine. The average woman sees three doctors before getting adequate menopause care. Many never do.\n\nMeadow exists because this is unacceptable. We've built a clinical platform purpose-designed for menopause — not a general telehealth service that treats it as an afterthought. Every provider on our platform is a board-certified menopause specialist. Every treatment protocol reflects the latest evidence, not the outdated fear-based guidance that still dominates primary care.\n\nWe meet women where they are. Whether you're experiencing your first hot flash at 43 or navigating bone density concerns at 58, Meadow creates a personalized care plan that considers your complete health picture — hormonal therapy when appropriate, non-hormonal alternatives when preferred, and lifestyle interventions that actually move the needle.\n\nBut clinical care is only half the equation. Menopause is isolating in a way that few health transitions are. Friends don't talk about it. Partners don't understand it. Meadow's community brings together women at every stage — sharing experiences, asking questions, and proving that this transition can be powerful rather than diminishing.\n\nWe're building the menopause care infrastructure that should have existed decades ago. Not incremental improvement, but a fundamental reimagining of how women experience this chapter of their health.",
+    "marketResearch": "The global menopause market is projected to reach $24.4B by 2030, driven by the largest generation of women entering menopause in history. FemTech overall is growing at 16% CAGR, with menopause-specific solutions emerging as the fastest-growing subsegment. The US menopause care market alone represents $6.8B, with digital health platforms capturing an increasing share from traditional pharma.\n\nMeadow's SAM targets women aged 40-65 in the US and UK with commercial insurance or willingness to self-pay for specialized menopause care — approximately $2.1B. Our SOM focuses on urban and suburban women who are already digitally engaged with health platforms, representing $320M in the first three years.\n\nCompetitors include Evernow (telemedicine-focused, limited to HRT prescriptions), Gennev (acquired by Unified Women's Healthcare, broad but shallow clinical depth), Midi Health (strong clinical model but enterprise-only), and Alloy (DTC hormone therapy, pharmacy-forward). Meadow differentiates through comprehensive longitudinal care — not just prescribing hormones but managing the full menopause journey with specialist providers, symptom tracking that informs treatment adjustments, and an integrated community that improves retention.\n\nOur GTM strategy combines DTC acquisition through search and social (menopause content performs exceptionally well on Instagram and TikTok) with B2B2C partnerships with self-insured employers offering menopause benefits. The employer channel is accelerating as companies recognize that menopause-related productivity loss costs $1.8B annually in the US alone.",
+    "landingPage": {
+      "companyName": "Meadow",
+      "tagline": "Menopause care designed by women who've been there",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#9333EA",
+          "primaryLight": "#C084FC",
+          "primaryDark": "#6B21A8",
+          "accent": "#E879AA",
+          "background": "#FDF8FF",
+          "surface": "#FFFFFF",
+          "text": "#2E1065",
+          "textMuted": "#7C6F8A",
+          "border": "#EDE5F5"
+        },
+        "fontFamily": "'Libre Baskerville', serif",
+        "borderRadius": "1.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "You deserve a doctor who actually understands menopause",
+        "subheadline": "Meadow connects you with board-certified menopause specialists for personalized care — hormonal, non-hormonal, or both. Track symptoms, adjust treatment, and join a community of women navigating this together.",
+        "ctaText": "Find your specialist",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "This chapter deserves better care",
+        "subheadline": "First consultation is complimentary. Most insurance accepted.",
+        "buttonText": "Book a consultation"
+      },
+      "sections": [
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "Care that actually fits your life",
+          "layout": "alternating",
+          "items": [
+            { "icon": "👩‍⚕️", "title": "Menopause-certified specialists only", "description": "No general practitioners guessing. Every Meadow provider holds NAMS certification and treats menopause patients full-time." },
+            { "icon": "📋", "title": "Personalized treatment plans", "description": "Hormonal therapy, non-hormonal options, supplements, lifestyle changes — your plan reflects your symptoms, your preferences, and your health history." },
+            { "icon": "📈", "title": "Symptom tracking that drives decisions", "description": "Log symptoms daily. Your provider reviews trends monthly. Treatment adjustments happen proactively, not reactively." },
+            { "icon": "💬", "title": "A community that gets it", "description": "Connect with thousands of women in moderated groups organized by stage, symptoms, and interests. Ask anything. No judgment." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Why women stay with Meadow",
+          "stats": [
+            { "value": "89", "label": "Symptom improvement in 90 days", "suffix": "%" },
+            { "value": "4.9", "label": "Average provider rating", "suffix": "/5" },
+            { "value": "3", "label": "Avg doctors seen before Meadow", "suffix": "" },
+            { "value": "92", "label": "Member retention at 12 months", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "In their words",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I spent two years being told it was anxiety. My Meadow doctor diagnosed perimenopause in the first visit and had me feeling like myself again within six weeks.", "author": "Jennifer Hartley", "role": "Attorney, age 47" },
+            { "quote": "The symptom tracker changed everything. My doctor could see patterns I couldn't. She adjusted my HRT dose based on actual data, not just how I felt on one random Tuesday.", "author": "Sandra Okafor", "role": "Teacher, age 52" },
+            { "quote": "I didn't want hormones and was terrified every doctor would push them. My Meadow specialist built a plan around CBT, supplements, and lifestyle changes. No pressure. Just options.", "author": "Amy Chen", "role": "Photographer, age 49" },
+            { "quote": "The community alone is worth it. Knowing other women are going through exactly what I'm going through — it made me feel less broken.", "author": "Diane Morales", "role": "Marketing director, age 54" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "What you're probably wondering",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do I need to be in menopause to join?", "answer": "No. Many of our members start during perimenopause, which can begin in your early 40s. If you're experiencing irregular periods, hot flashes, sleep disruption, mood changes, or brain fog, we can help." },
+            { "question": "Do you prescribe hormone therapy?", "answer": "When clinically appropriate and desired by the patient, yes. Our providers are experts in both hormonal and non-hormonal approaches and will work with your preferences." },
+            { "question": "Is this covered by insurance?", "answer": "We accept most major commercial insurance plans. For uninsured members, self-pay consultations start at $89. We also partner with employers who offer menopause benefits." },
+            { "question": "How is this different from my regular doctor?", "answer": "Most primary care physicians receive less than one hour of menopause training in medical school. Our providers are NAMS-certified menopause specialists who do this full-time. The difference in care quality is dramatic." }
+          ]
+        },
+        {
+          "id": "newsletter",
+          "type": "newsletter-signup",
+          "headline": "The Meadow Weekly",
+          "subheadline": "Evidence-based menopause insights, community stories, and wellness tips. No spam, no fearmongering — just clarity.",
+          "buttonText": "Subscribe"
+        }
+      ],
+      "companyEmail": "meadow-care@tryartha.com",
+      "domain": "meadow-care.tryartha.com",
+      "projectSlug": "meadow-care",
+      "animationPreset": "gentle",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Kairos",
+    "slug": "kairos-med",
+    "tagline": "Sleep isn't rest. It's engineering.",
+    "description": "Kairos is a precision sleep optimization platform that combines clinical-grade sleep diagnostics, circadian rhythm analysis, and personalized intervention protocols. Using data from wearables, environmental sensors, and validated questionnaires, Kairos builds a sleep architecture profile and delivers evidence-based protocols to optimize each stage of sleep.",
+    "mission": "We spend a third of our lives asleep, yet treat it as dead time. The sleep industry is split between two extremes: consumer gadgets that count hours without understanding physiology, and clinical sleep labs that are expensive, inconvenient, and designed to diagnose disorders rather than optimize performance.\n\nKairos bridges that gap. We're building a precision sleep platform grounded in chronobiology — the science of how biological rhythms govern every system in your body. Your sleep architecture isn't random. It follows patterns shaped by your genetics, light exposure, meal timing, stress physiology, and circadian chronotype. Understanding these patterns is the key to sleeping better, not just longer.\n\nOur platform ingests data from the devices you already wear — Oura, Whoop, Apple Watch — and layers in environmental data from our optional bedroom sensor. We analyze sleep staging, HRV patterns, respiratory metrics, and room conditions to build a comprehensive sleep architecture profile. Then we deliver personalized protocols: light exposure timing, temperature adjustments, supplement stacking, breathwork sequences, and meal timing windows calibrated to your unique circadian profile.\n\nWe don't believe in one-size-fits-all sleep hygiene tips. The person who naturally peaks at 10pm needs fundamentally different interventions than the person who's sharpest at 6am. Kairos makes that distinction and builds around it.\n\nOur team includes sleep researchers from Stanford's Sleep Epidemiology Research Center, circadian biologists, and engineers obsessed with the intersection of data and human performance. We're here to turn sleep from a mystery into a controllable variable.",
+    "marketResearch": "The global sleep economy is valued at $585B in 2025, encompassing mattresses, supplements, devices, and clinical services. The sleep technology segment — wearables, apps, and diagnostic platforms — represents $32B and is growing at 17% CAGR. Precision sleep optimization (data-driven, personalized protocols) is an emerging $4.8B subsegment with no dominant player.\n\nKairos's SAM targets high-performers aged 25-50 who already own sleep wearables and are willing to invest in optimizing cognitive and physical performance. This represents approximately $1.6B in the US. Our SOM focuses on existing Oura, Whoop, and Apple Watch users in knowledge-worker demographics — roughly $240M in near-term opportunity.\n\nCompetitors include Oura (excellent hardware, minimal intervention guidance), Whoop (fitness-focused, limited sleep optimization), Eight Sleep (hardware-dependent, temperature only), Sleep Cycle (alarm app, no clinical depth), and Rise Science (circadian tracking but no personalized protocols). Kairos differentiates as a device-agnostic intelligence layer — we work with the wearable you already own and deliver the interventions that none of these platforms provide. Our moat is the proprietary chronotype-matching algorithm that maps individual circadian profiles to evidence-based intervention protocols.\n\nGTM is product-led through integration partnerships with wearable manufacturers. Users connect their device, complete a chronotype assessment, and receive their first protocol within 24 hours. Free tier includes basic sleep scoring; premium ($19/mo) unlocks full protocol generation, environmental optimization, and monthly clinician check-ins.",
+    "landingPage": {
+      "companyName": "Kairos",
+      "tagline": "Sleep isn't rest. It's engineering.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#6366F1",
+          "primaryLight": "#A5B4FC",
+          "primaryDark": "#4338CA",
+          "accent": "#38BDF8",
+          "background": "#07080F",
+          "surface": "#0F1121",
+          "text": "#E8ECFF",
+          "textMuted": "#7B83A6",
+          "border": "#1E2140"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Your sleep has architecture. We optimize every layer of it.",
+        "subheadline": "Kairos analyzes your sleep staging, circadian rhythm, and environment to deliver precision protocols — not generic tips. Works with the wearable you already own.",
+        "ctaText": "Connect your device",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "You're already tracking sleep. Start actually improving it.",
+        "subheadline": "Free sleep architecture analysis. Premium protocols at $19/month.",
+        "buttonText": "Get your sleep profile"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Precision tools for sleep optimization",
+          "layout": "cards",
+          "items": [
+            { "icon": "🧠", "title": "Chronotype mapping", "description": "We identify your circadian chronotype — not just 'morning person' or 'night owl,' but a precise profile that governs your optimal sleep, wake, and activity windows." },
+            { "icon": "📊", "title": "Sleep architecture analysis", "description": "Go beyond 'hours slept.' Kairos breaks down your light, deep, and REM stages, HRV trends, and respiratory patterns to find where quality is lost." },
+            { "icon": "🌡️", "title": "Environmental optimization", "description": "Our optional bedroom sensor tracks temperature, humidity, CO2, light, and noise — correlating environmental factors with your best and worst nights." },
+            { "icon": "⚡", "title": "Personalized protocols", "description": "Light exposure timing, temperature sequences, supplement stacks, breathwork routines, and meal windows — all calibrated to your chronotype." },
+            { "icon": "🔗", "title": "Device agnostic", "description": "Oura, Whoop, Apple Watch, Garmin, Fitbit — Kairos works with what you already wear. No proprietary hardware required." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Kairos vs the rest of the sleep market",
+          "comparisonOurName": "Kairos",
+          "comparisonCompetitorName": "Sleep Trackers",
+          "comparisonRows": [
+            { "feature": "Sleep architecture analysis", "us": "Full staging + HRV + respiratory", "competitor": "Basic duration/stages" },
+            { "feature": "Personalized protocols", "us": true, "competitor": false },
+            { "feature": "Chronotype-matched interventions", "us": true, "competitor": false },
+            { "feature": "Environmental correlation", "us": true, "competitor": "Eight Sleep only" },
+            { "feature": "Device agnostic", "us": "Works with any wearable", "competitor": "Locked to own hardware" },
+            { "feature": "Clinician access", "us": "Monthly check-ins", "competitor": false }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What optimized sleep looks like",
+          "stats": [
+            { "value": "27", "label": "More deep sleep on average", "suffix": "min" },
+            { "value": "42", "label": "Faster sleep onset", "suffix": "%" },
+            { "value": "3.1", "label": "Devices supported", "suffix": "K+" },
+            { "value": "89", "label": "Users report better daytime energy", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From users who stopped guessing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've worn an Oura ring for two years but never knew what to do with the data. Kairos turned those numbers into a protocol that added 30 minutes of deep sleep within three weeks.", "author": "David Ishikawa", "role": "VP Engineering, Series C startup" },
+            { "quote": "The chronotype assessment alone was revelatory. I'd been fighting my natural rhythm for years. Once I shifted my schedule by 90 minutes, everything improved.", "author": "Elena Voss", "role": "Neurosurgery resident, 31" }
+          ]
+        },
+        {
+          "id": "early-access",
+          "type": "early-access",
+          "headline": "Join the precision sleep movement",
+          "subheadline": "Connect your wearable and get your sleep architecture profile within 24 hours. Free during beta.",
+          "buttonText": "Request early access"
+        }
+      ],
+      "companyEmail": "kairos-med@tryartha.com",
+      "domain": "kairos-med.tryartha.com",
+      "projectSlug": "kairos-med",
+      "animationPreset": "subtle",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Tendril",
+    "slug": "tendril-well",
+    "tagline": "Eat plants with purpose, not guesswork",
+    "description": "Tendril is a plant-based nutrition planning platform that eliminates the guesswork from eating well without animal products. Using clinical nutrient modeling and real food databases, Tendril creates personalized meal plans that hit every micronutrient target — no supplements required unless you want them.",
+    "mission": "Plant-based eating is surging, but nutritional literacy hasn't kept pace. Millions of people are cutting out animal products for ethical, environmental, or health reasons, only to discover that avoiding deficiency is harder than Instagram makes it look. Iron, B12, zinc, omega-3s, complete proteins — the gaps are real, and most meal planning apps treat every diet the same.\n\nTendril was built specifically for people who eat plants. Not as a filter on a general nutrition app, but as a ground-up platform that understands the unique nutritional landscape of plant-based eating. Our nutrient modeling engine knows that spinach iron isn't the same as lentil iron, that vitamin C pairing increases absorption by 6x, and that a 'complete protein' can be built across a day, not just a single meal.\n\nWe create weekly meal plans that are clinically modeled to hit every micronutrient target for your age, sex, activity level, and health goals. Each plan uses real foods from real grocery stores — not obscure superfoods or expensive specialty items. And every recipe is designed to be genuinely delicious, because nutritional completeness means nothing if nobody wants to eat the food.\n\nOur founding team includes a registered dietitian who specializes in plant-based nutrition, a food scientist, and engineers who believe that the most sustainable diet on Earth shouldn't require a PhD to do well. We're building the tool we wished existed when we made the switch ourselves.",
+    "marketResearch": "The plant-based food market is valued at $44.2B globally in 2025, growing at 12% CAGR. Adjacent to this, the nutrition app market is $4.8B with meal planning apps specifically representing $1.2B. The intersection — nutrition tools designed specifically for plant-based eaters — is an underserved niche with fewer than five serious competitors and approximately $380M in addressable revenue.\n\nTendril's SAM focuses on committed plant-based eaters (vegan and vegetarian) in the US, UK, and Western Europe who are willing to pay for personalized nutrition guidance — roughly $620M. Our SOM targets health-conscious plant-based eaters aged 22-45 in urban areas, representing $95M.\n\nCompetitors include Cronometer (excellent tracking but no meal planning), Dr. Greger's Daily Dozen (free but simplistic), Forks Over Knives (recipes without nutrient modeling), and general apps like MyFitnessPal (not designed for plant-based micronutrient optimization). Tendril is the only platform that combines clinical-grade nutrient modeling with practical, grocery-store-friendly meal planning specifically for plant-based diets.\n\nGTM is content-led. Plant-based nutrition content drives massive organic search volume, and our free nutrient gap assessment converts curious visitors into users. The freemium model offers basic meal suggestions free; premium ($12/mo) unlocks full weekly plans, grocery lists, nutrient tracking, and seasonal menu rotation. B2B partnerships with plant-based food brands provide sponsored recipe integration and additional revenue.",
+    "landingPage": {
+      "companyName": "Tendril",
+      "tagline": "Eat plants with purpose, not guesswork",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#16A34A",
+          "primaryLight": "#86EFAC",
+          "primaryDark": "#15803D",
+          "accent": "#D97706",
+          "background": "#F7FDF9",
+          "surface": "#FFFFFF",
+          "text": "#14532D",
+          "textMuted": "#6B8F7B",
+          "border": "#D1E7D9"
+        },
+        "fontFamily": "'Nunito', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Plant-based meal plans that actually hit your nutrient targets",
+        "subheadline": "Tendril builds weekly meal plans modeled for complete nutrition — iron, B12, zinc, omega-3s, protein — using real foods from real grocery stores. No supplements required.",
+        "ctaText": "Find your nutrient gaps",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your plants should be pulling their weight",
+        "subheadline": "Free nutrient gap assessment. Premium plans at $12/month.",
+        "buttonText": "Get your free assessment"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From gaps to groceries in minutes",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Assess your nutrient profile", "description": "Answer questions about your diet, health goals, activity level, and preferences. Our engine identifies where you're likely falling short." },
+            { "icon": "2", "title": "Get a modeled meal plan", "description": "Receive a weekly plan built to hit every micronutrient target — with recipes that use accessible, affordable ingredients from your local store." },
+            { "icon": "3", "title": "Track and refine", "description": "Log what you actually eat. Tendril adjusts future plans based on your real patterns, preferences, and seasonal ingredient availability." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for how plants actually work",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🥬", "title": "Bioavailability-aware modeling", "description": "We know that plant iron absorbs differently than heme iron. Our nutrient engine accounts for absorption rates, anti-nutrients, and pairing synergies." },
+            { "icon": "🛒", "title": "Grocery-store ingredients", "description": "No spirulina or ashwagandha required. Every recipe uses ingredients you can find at a normal supermarket." },
+            { "icon": "📊", "title": "Clinical-grade tracking", "description": "Track 30+ micronutrients with a database built for plant foods. See exactly where you're excelling and where to adjust." },
+            { "icon": "🌿", "title": "Seasonal rotation", "description": "Meal plans rotate with the seasons. Eat what's fresh, local, and affordable — not the same smoothie bowl every day in January." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From plant eaters who stopped guessing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've been vegan for six years and was constantly tired. Tendril showed me my iron was technically adequate but my vitamin C pairing was terrible, tanking absorption. Fixed it in a week.", "author": "Laura Bergström", "role": "Graphic designer, vegan 6 years" },
+            { "quote": "Finally a meal planner that doesn't assume I want to eat the same five recipes on rotation. The seasonal variety keeps things interesting and my bloodwork has never looked better.", "author": "Kai Torres", "role": "High school teacher, plant-based 2 years" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do I need to take B12 supplements?", "answer": "We always recommend a B12 supplement for fully plant-based eaters — it's the one nutrient that can't be reliably obtained from whole foods alone. Beyond B12, our meal plans are designed to meet all other targets through food." },
+            { "question": "Can I exclude allergens or ingredients I don't like?", "answer": "Yes. You can exclude any ingredient, allergen, or food group. The engine will work around your restrictions while still hitting nutrient targets." },
+            { "question": "Is this just for vegans?", "answer": "Tendril is designed for anyone eating primarily plants — vegan, vegetarian, flexitarian, or just trying to eat more plant-forward. The nutrient modeling adjusts based on what you include or exclude." }
+          ]
+        }
+      ],
+      "companyEmail": "tendril-well@tryartha.com",
+      "domain": "tendril-well.tryartha.com",
+      "projectSlug": "tendril-well",
+      "animationPreset": "playful",
+      "shadowStyle": "natural"
+    }
+  },
+  {
+    "name": "Neura",
+    "slug": "neura-bio",
+    "tagline": "Your brain. Your genes. Your formula.",
+    "description": "Neura creates personalized brain health supplements using genomic data. By analyzing genetic variants that affect neurotransmitter production, methylation pathways, and neuroinflammation, Neura formulates custom nootropic stacks tailored to each individual's neurobiological profile.",
+    "mission": "The supplement industry is broken. Walk into any store and you'll find walls of identical pills making identical claims with zero personalization. Meanwhile, the science of nutrigenomics has quietly proven that genetic variants dramatically alter how individuals metabolize nutrients, produce neurotransmitters, and manage neuroinflammation. What works for one brain may be useless — or harmful — for another.\n\nNeura is applying this science to brain health. We start with a simple saliva test that analyzes over 80 genetic variants relevant to cognitive function: COMT and MAO variants that govern neurotransmitter breakdown, MTHFR polymorphisms that affect methylation and B-vitamin utilization, APOE status for neuroinflammation risk, and BDNF variants that influence neuroplasticity.\n\nFrom this profile, we formulate a custom supplement stack manufactured in our FDA-registered facility. Not a generic multivitamin with a personalization sticker, but a genuinely unique formulation where ingredient selection, dosing, and form (methylfolate vs folic acid, for instance) are determined by your genetics.\n\nWe pair the supplement with a cognitive tracking protocol that measures working memory, processing speed, and mood over time — creating a feedback loop between your genomic profile, your supplementation, and your actual cognitive performance. This is how personalized nutrition should work: test, intervene, measure, refine.\n\nOur advisory board includes neurogenomics researchers from UCSF and formulators with decades of experience in evidence-based supplementation. We're not selling brain pills. We're building a precision brain health platform.",
+    "marketResearch": "The global nootropics market is valued at $5.3B in 2025, growing at 15% CAGR. The broader brain health supplement market reaches $12B. Personalized supplements — where formulation is driven by genetic, biomarker, or questionnaire data — represent $2.8B and are the fastest-growing segment at 28% CAGR. Consumers are moving decisively from generic stacks to individualized formulations.\n\nNeura's SAM targets knowledge workers, students, and cognitive health-conscious adults aged 25-55 in the US who are willing to pay premium prices for genetically personalized supplementation — approximately $1.4B. Our SOM focuses on existing nootropic users and biohacking enthusiasts who've already demonstrated willingness to experiment, representing $180M.\n\nCompetitors include Thesis (personalized by questionnaire, not genetics), Nootopia (complex stacks, no genomic basis), Rootine (genetically personalized but focused on general health, not brain-specific), and generic nootropic brands (Alpha Brain, Mind Lab Pro). Neura differentiates as the only platform combining genomic analysis with brain-specific formulation and cognitive outcome tracking. Our moat is the proprietary neurogenomic-to-formulation mapping built with clinical advisors.\n\nGTM leverages the biohacking and nootropics community through podcast sponsorships, Reddit engagement, and partnerships with cognitive performance coaches. Users order a saliva kit ($149 including first month's supply), receive genomic results and their custom formula in 10 days, and subscribe for monthly deliveries ($69/mo). LTV is strong due to the lock-in of genomic personalization.",
+    "landingPage": {
+      "companyName": "Neura",
+      "tagline": "Your brain. Your genes. Your formula.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#A78BFA",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#7C3AED",
+          "accent": "#34D399",
+          "background": "#0C0A15",
+          "surface": "#16132A",
+          "text": "#EDE9FE",
+          "textMuted": "#8B83A8",
+          "border": "#2A2545"
+        },
+        "fontFamily": "'Sora', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Generic nootropics ignore what makes your brain unique. We don't.",
+        "subheadline": "Neura analyzes 80+ genetic variants that govern your neurotransmitter production, methylation, and neuroplasticity — then formulates a supplement stack built specifically for your neurobiological profile.",
+        "ctaText": "Get your genomic profile",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Stop guessing what your brain needs",
+        "subheadline": "Genomic kit + first month's formula: $149. Monthly refills at $69.",
+        "buttonText": "Order your kit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From saliva to formula in 10 days",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Spit. Ship. Simple.", "description": "Our at-home saliva collection kit analyzes 80+ genetic variants across neurotransmitter metabolism, methylation pathways, neuroinflammation markers, and BDNF expression." },
+            { "icon": "2", "title": "We decode your neurogenomics", "description": "Our platform maps your variants to evidence-based interventions — which nutrients you metabolize efficiently, which you need in active forms, and which pathways need support." },
+            { "icon": "3", "title": "Your custom formula arrives", "description": "Manufactured in our FDA-registered facility, your unique stack arrives monthly. Ingredients, dosing, and nutrient forms are all determined by your genetics." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What we analyze and why it matters",
+          "layout": "bento",
+          "items": [
+            { "icon": "🧬", "title": "COMT & MAO variants", "description": "These genes control how fast you break down dopamine, norepinephrine, and serotonin. Your variant determines whether stimulatory or calming compounds serve you better." },
+            { "icon": "🔄", "title": "MTHFR & methylation", "description": "Up to 40% of people have MTHFR variants that impair folate metabolism. Neura uses methylfolate, methylcobalamin, or standard forms based on your specific polymorphism." },
+            { "icon": "🛡️", "title": "APOE & neuroinflammation", "description": "Your APOE status influences neuroinflammation risk and omega-3 utilization. We adjust anti-inflammatory support and DHA dosing accordingly." },
+            { "icon": "⚡", "title": "BDNF & neuroplasticity", "description": "BDNF Val66Met variants affect how your brain grows new connections. We include targeted compounds that support neuroplasticity for your specific variant." },
+            { "icon": "📈", "title": "Cognitive tracking", "description": "Monthly assessments of working memory, processing speed, and mood create a feedback loop between your supplementation and actual cognitive outcomes." },
+            { "icon": "🏭", "title": "FDA-registered manufacturing", "description": "Every formula is manufactured in our FDA-registered, GMP-certified facility. Third-party tested for purity. No proprietary blends — full transparency on every ingredient." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What personalized brain health feels like",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've spent thousands on nootropics over the years. Neura showed me I have a slow COMT variant — meaning most of the stimulatory stacks I was taking were actually making my anxiety worse. The switch to their formula was night and day.", "author": "Ryan Choi", "role": "Software architect, 36" },
+            { "quote": "The cognitive tracking sold me. After two months, my working memory scores improved 18%. I can actually see the impact instead of guessing based on vibes.", "author": "Samira El-Amin", "role": "PhD candidate, neuroscience" },
+            { "quote": "Turns out my MTHFR variant means I can't use regular folic acid effectively. Neura's formula uses methylfolate at the right dose for my genotype. My energy levels completely changed.", "author": "Tom Brennan", "role": "Financial analyst, 42" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Precision doesn't have to be premium",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter Kit", "price": "$149", "period": "/one-time", "features": ["Saliva genomic test (80+ variants)", "Full neurogenomic report", "First month's custom formula", "Baseline cognitive assessment"], "ctaText": "Order your kit" },
+            { "name": "Monthly", "price": "$69", "period": "/month", "features": ["Custom-manufactured formula", "Monthly cognitive tracking", "Formula adjustments as needed", "Priority support"], "ctaText": "Subscribe" }
+          ]
+        }
+      ],
+      "companyEmail": "neura-bio@tryartha.com",
+      "domain": "neura-bio.tryartha.com",
+      "projectSlug": "neura-bio",
+      "animationPreset": "subtle",
+      "shadowStyle": "glow"
+    }
+  },
+  {
+    "name": "Paloma",
+    "slug": "paloma-health",
+    "tagline": "Finally, thyroid care that keeps up with you",
+    "description": "Paloma is a dedicated thyroid care management platform offering at-home thyroid testing, virtual endocrinologist consultations, and continuous medication optimization. For the 20 million Americans living with thyroid conditions, Paloma replaces the cycle of undertested, undertreated thyroid care with a proactive, data-driven approach.",
+    "mission": "Thyroid disease is one of the most common chronic conditions on Earth, yet it remains stubbornly mismanaged. The standard of care — a single TSH test and a levothyroxine prescription — ignores the complexity of thyroid physiology. Millions of patients remain symptomatic despite being told their labs are 'normal,' because no one is testing Free T3, Free T4, TPO antibodies, or reverse T3. No one is optimizing medication based on symptoms, not just reference ranges.\n\nPaloma was founded to fix this. We provide comprehensive thyroid care that starts with the right tests and ends with patients who actually feel well — not patients who merely fall within a lab range. Our at-home blood test measures the complete thyroid panel, not just TSH. Our virtual endocrinologists specialize in thyroid conditions and take the time that a 7-minute PCP appointment never allows.\n\nBut testing and consultations are just the beginning. Thyroid care is longitudinal — it requires ongoing monitoring, medication adjustments, and attention to the constellation of symptoms that thyroid patients know intimately: fatigue, weight changes, brain fog, hair loss, mood swings, temperature sensitivity. Paloma's symptom tracking and periodic retesting create a continuous care loop that catches drift before patients start feeling terrible again.\n\nWe believe that no one should have to fight their doctor for a complete thyroid panel. No one should be told they're fine when they clearly aren't. Paloma exists because thyroid patients deserve care that's as persistent as their condition.",
+    "marketResearch": "The thyroid diagnostics and therapeutics market is valued at $4.6B globally, with digital health platforms for chronic endocrine conditions growing at 21% CAGR. In the US alone, 20 million people have some form of thyroid disease, with up to 60% undiagnosed. This represents a massive underserved population ripe for direct-to-consumer clinical platforms.\n\nPaloma's SAM targets diagnosed thyroid patients in the US who are dissatisfied with current care or seeking comprehensive testing beyond TSH-only screening — approximately $1.8B. Our SOM focuses on women aged 30-60 (who represent 80% of thyroid patients) in the top 50 US metros, roughly $280M.\n\nCompetitors include Everlywell (offers thyroid panel but no clinical care), Parsley Health (functional medicine, not thyroid-specific), traditional endocrinology practices (long wait times, limited telehealth), and LetsGetChecked (testing without treatment optimization). Paloma differentiates through deep specialization — every interaction is thyroid-specific, from the expanded panel to the specialist consultations to the symptom tracking calibrated for thyroid symptoms.\n\nGTM leverages the massive thyroid patient community. Thyroid-related searches exceed 3M monthly in the US, and patient communities on Facebook, Reddit, and Instagram are highly engaged and vocal about inadequate care. Our content marketing targets these searches, and our patient community drives word-of-mouth. Revenue model: testing kits ($99 for complete panel), consultation packages ($175 initial, $99 follow-up), and an annual membership ($249) that bundles quarterly testing, unlimited messaging, and priority scheduling.",
+    "landingPage": {
+      "companyName": "Paloma",
+      "tagline": "Finally, thyroid care that keeps up with you",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#E76F51",
+          "primaryLight": "#F4A261",
+          "primaryDark": "#C4472A",
+          "accent": "#2A9D8F",
+          "background": "#FFFAF5",
+          "surface": "#FFFFFF",
+          "text": "#264653",
+          "textMuted": "#6B8A7A",
+          "border": "#E5DDD3"
+        },
+        "fontFamily": "'Poppins', sans-serif",
+        "borderRadius": "1.25rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your thyroid deserves more than a TSH test and a shrug",
+        "subheadline": "Paloma provides the complete thyroid panel, specialist consultations, and ongoing medication optimization that standard care misses. At-home testing. Virtual endocrinologists. Real answers.",
+        "ctaText": "Order your thyroid panel",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Tired of being told your labs look fine?",
+        "subheadline": "Complete thyroid panel starts at $99. Your first specialist consultation is included.",
+        "buttonText": "Start with a full panel"
+      },
+      "sections": [
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "What proper thyroid care actually looks like",
+          "layout": "cards",
+          "items": [
+            { "icon": "🩸", "title": "The complete picture", "description": "TSH, Free T3, Free T4, TPO antibodies, and reverse T3. Not just the one number your PCP checks." },
+            { "icon": "👩‍⚕️", "title": "Thyroid-specialist endocrinologists", "description": "Not a general practitioner reading from a flowchart. Our providers specialize exclusively in thyroid conditions and listen to symptoms, not just ranges." },
+            { "icon": "📊", "title": "Continuous optimization", "description": "Quarterly retesting, symptom tracking, and proactive medication adjustments. Your care doesn't end when a prescription is written." },
+            { "icon": "💊", "title": "Medication that's actually dialed in", "description": "T4-only isn't the only option. Our specialists consider combination therapy, dosing timing, and the nuances your doctor never mentioned." }
+          ]
+        },
+        {
+          "id": "timeline",
+          "type": "timeline",
+          "headline": "Your first 90 days with Paloma",
+          "items": [
+            { "title": "Week 1", "description": "Order your at-home complete thyroid panel. Quick finger-prick collection, mail it back in the prepaid envelope." },
+            { "title": "Week 2", "description": "Results arrive with a detailed breakdown. Your specialist consultation is scheduled to review findings and symptoms." },
+            { "title": "Week 3-4", "description": "Meet your thyroid endocrinologist via video. Discuss your full history, current treatment, and develop your personalized optimization plan." },
+            { "title": "Month 2-3", "description": "Track symptoms daily in the Paloma app. Your specialist reviews trends and makes proactive adjustments to your treatment protocol." },
+            { "title": "Month 3", "description": "Retest to measure progress. Compare panels side-by-side. Refine your plan based on both numbers and how you actually feel." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Patients who finally got answers",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "My PCP tested only TSH for five years and said I was fine. Paloma's full panel showed my Free T3 was in the basement. Six weeks after adjusting treatment, I felt like a different person.", "author": "Catherine Moore", "role": "Hashimoto's patient, 38" },
+            { "quote": "The symptom tracking is what I needed. My endocrinologist can see that my fatigue spikes every afternoon, and we adjusted my medication timing around it. Such a simple change made a huge difference.", "author": "Rebecca Flores", "role": "Hypothyroid, diagnosed at 31" },
+            { "quote": "I cried during my first Paloma consultation because it was the first time a doctor actually listened to my symptoms instead of just pointing at a lab range.", "author": "Jasmine Williams", "role": "Graves' disease, 44" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Straightforward pricing. No insurance games.",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Complete Panel", "price": "$99", "period": "/test", "features": ["TSH, Free T3, Free T4, TPO, rT3", "At-home collection kit", "Clinician-reviewed results", "Digital report with explanations"], "ctaText": "Order panel" },
+            { "name": "Consultation", "price": "$175", "period": "/initial", "features": ["45-min video with thyroid specialist", "Full history review", "Treatment plan", "Follow-ups at $99"], "ctaText": "Book specialist" },
+            { "name": "Annual Membership", "price": "$249", "period": "/year", "features": ["4 complete panels per year", "Unlimited specialist messaging", "Priority scheduling", "Symptom tracking + trends", "Medication optimization reviews"], "ctaText": "Join Paloma" }
+          ]
+        }
+      ],
+      "companyEmail": "paloma-health@tryartha.com",
+      "domain": "paloma-health.tryartha.com",
+      "projectSlug": "paloma-health",
+      "animationPreset": "smooth",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Solace",
+    "slug": "solace-care",
+    "tagline": "Grief doesn't follow a timeline. Neither should your support.",
+    "description": "Solace is a therapy matching platform designed specifically for grief and loss. Using a detailed intake that considers loss type, grieving style, cultural context, and therapeutic preferences, Solace connects individuals with therapists who specialize in bereavement — not generalists who happen to list it on their profile.",
+    "mission": "When someone experiences a significant loss, the last thing they should have to do is become a project manager for their own healing. Yet that's exactly what the mental health system demands: search directories, make cold calls, explain your story to voicemails, wait weeks for intake appointments, and hope the therapist you finally see actually understands grief beyond the five stages model that was never meant to be prescriptive.\n\nSolace was built to eliminate every barrier between a grieving person and the right therapist. Our matching algorithm considers dimensions that generic directories ignore: the type of loss (partner, child, parent, pregnancy, suicide, ambiguous loss), the griever's cultural and spiritual framework, their attachment style, whether they prefer structured or open-ended therapy, and whether they need someone who's experienced a similar loss themselves.\n\nWe believe that grief therapy is not general therapy with a sad topic. It requires specialized training — in complicated grief, disenfranchised grief, meaning reconstruction, and continuing bonds. Every therapist on Solace has completed advanced bereavement training and dedicates at least 50% of their practice to grief work. We don't just check a box on a directory. We verify depth of specialization.\n\nBeyond matching, Solace provides continuity. Grief doesn't resolve in 12 sessions. It resurfaces at anniversaries, holidays, and unexpected moments years later. Our platform maintains your therapeutic relationship and makes it easy to return when you need support again — even after a long gap.\n\nLoss is universal. Good grief care shouldn't be a matter of luck.",
+    "marketResearch": "The US mental health market is valued at $280B, with therapy and counseling representing $42B. Grief-specific therapy is an underquantified niche, but with 2.5 million deaths annually in the US alone — each affecting an average of 5 close survivors — the population seeking bereavement support at any given time exceeds 10 million. At an average therapy spend of $2,400 annually, the grief therapy TAM is approximately $6B.\n\nSolace's SAM targets adults actively seeking grief therapy who prefer online matching over cold-calling directories — roughly $1.2B. Our SOM focuses on the initial match (where our value proposition is strongest) in top-50 US metros, approximately $150M.\n\nCompetitors include BetterHelp/Talkspace (massive scale but no grief specialization), Psychology Today directory (self-service, no quality vetting), GriefShare (peer support groups, not individual therapy), and traditional therapist referrals (slow, limited by personal networks). Solace differentiates through specialization — every therapist is grief-vetted, matching considers loss-specific variables, and the platform is designed for the non-linear nature of bereavement.\n\nGTM is referral-driven. Funeral homes, hospice organizations, and estate attorneys are natural partners who encounter grieving individuals at the moment of need. We provide co-branded resources these organizations can share, driving warm leads. Organic search for grief therapy terms is substantial (400K+ monthly searches in the US). Revenue model: therapists pay a monthly platform fee ($79) plus a per-match fee ($25). No cost to grieving individuals for matching.",
+    "landingPage": {
+      "companyName": "Solace",
+      "tagline": "Grief doesn't follow a timeline. Neither should your support.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#94A3B8",
+          "primaryLight": "#CBD5E1",
+          "primaryDark": "#64748B",
+          "accent": "#A78BFA",
+          "background": "#0F1219",
+          "surface": "#1A1F2E",
+          "text": "#E2E8F0",
+          "textMuted": "#8492A6",
+          "border": "#2D3548"
+        },
+        "fontFamily": "'Cormorant Garamond', serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Find a therapist who truly understands loss",
+        "subheadline": "Solace matches you with grief-specialized therapists based on your type of loss, cultural context, and therapeutic preferences. Not generalists. Not directories. Therapists who do this work every day.",
+        "ctaText": "Start your match",
+        "ctaHref": "#contact-form"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "You shouldn't have to explain your grief to find help",
+        "subheadline": "Matching is always free. Most therapists accept insurance.",
+        "buttonText": "Find your therapist"
+      },
+      "sections": [
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "What makes Solace different",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🎯", "title": "Loss-specific matching", "description": "We match based on the type of loss you've experienced — partner, child, parent, pregnancy, suicide, pet, ambiguous. Your therapist has deep experience with losses like yours." },
+            { "icon": "✅", "title": "Verified grief specialists", "description": "Every Solace therapist has advanced bereavement training and dedicates at least half their practice to grief. We verify credentials, not just directory checkboxes." },
+            { "icon": "🌍", "title": "Cultural sensitivity built in", "description": "Grief is shaped by culture, faith, and identity. Our intake captures what matters to you so we can match you with someone who honors your framework." },
+            { "icon": "🔄", "title": "Easy to return", "description": "Grief resurfaces. Anniversaries, holidays, a song. Your therapeutic relationship stays on Solace, making it easy to reconnect when you need support again." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Because the right match matters",
+          "stats": [
+            { "value": "93", "label": "Match satisfaction rate", "suffix": "%" },
+            { "value": "48", "label": "Hours to first appointment", "suffix": "hr" },
+            { "value": "100", "label": "Grief-specialized therapists", "suffix": "%" },
+            { "value": "0", "label": "Cost to match", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From people who found their way through",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "After losing my daughter, I called four therapists from a directory. Two never called back. One had a three-month wait. The fourth clearly wasn't equipped. Solace matched me with someone who specializes in child loss within two days.", "author": "Michael Torres", "role": "Father, grieving since 2024" },
+            { "quote": "I needed a therapist who understood disenfranchised grief. My loss wasn't one most people recognize. Solace found someone who knew exactly what I was going through without me having to justify why it hurt.", "author": "Anonymous", "role": "Solace member" }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact-form",
+          "headline": "Tell us about your loss, and we'll find the right support",
+          "subheadline": "Your information is confidential. Matching takes less than 5 minutes and is always free.",
+          "fields": ["name", "email", "phone", "message"],
+          "buttonText": "Begin matching"
+        }
+      ],
+      "companyEmail": "solace-care@tryartha.com",
+      "domain": "solace-care.tryartha.com",
+      "projectSlug": "solace-care",
+      "animationPreset": "gentle",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Kinetic",
+    "slug": "kinetic-health",
+    "tagline": "Your phone is your physical therapist's eyes between visits",
+    "description": "Kinetic uses smartphone camera-based motion tracking to monitor physical therapy exercise form, count reps, measure range of motion, and report adherence to care providers. No wearables, no special equipment — just the phone patients already have.",
+    "mission": "Physical therapy has an adherence crisis. Studies consistently show that only 35% of PT patients complete their prescribed home exercise programs. The result: slower recovery, repeated injuries, unnecessary surgeries, and billions in avoidable healthcare spending. The core problem isn't motivation — it's that patients go home with a printout of stick figures and no feedback on whether they're doing the exercises correctly.\n\nKinetic turns any smartphone camera into a real-time exercise coach. Using computer vision and pose estimation, our app tracks joint angles, movement speed, range of motion, and form quality as patients perform their prescribed exercises at home. Reps are counted automatically. Form deviations trigger gentle corrections. Progress is logged and shared with the prescribing PT in real time.\n\nBut we're not replacing physical therapists — we're extending their reach. Kinetic gives PTs visibility into what happens between visits, replacing the unreliable 'How did your exercises go this week?' with actual data: adherence rates, range of motion trends, and flagged form issues that need attention. Clinicians can adjust programs remotely based on objective progress data instead of patient self-report.\n\nOur founding team includes a sports medicine physician, a computer vision researcher, and physical therapists who saw firsthand how much clinical value was being lost in the gap between visits. We believe the phone in every patient's pocket is the most powerful rehab tool nobody's using.\n\nThe goal isn't to make physical therapy virtual. It's to make home exercises actually work.",
+    "marketResearch": "The physical therapy market is valued at $45B in the US alone, with the digital MSK (musculoskeletal) health segment growing at 28% CAGR to reach $8.4B by 2028. Home exercise program compliance is the single largest driver of PT outcomes, yet existing solutions (paper handouts, generic exercise video libraries) haven't moved adherence above 35% in decades.\n\nKinetic's SAM targets PT clinics and health systems seeking to improve home exercise adherence and demonstrate outcomes to payers — approximately $2.8B. Our SOM focuses on progressive PT practices (5+ clinicians) and hospital-affiliated outpatient rehab programs in the US, roughly $400M.\n\nCompetitors include Hinge Health ($6.2B valuation, employer-focused MSK, requires sensor), Kaia Health (app-based exercise guidance, limited motion tracking), SWORD Health (sensor-dependent, enterprise-only), and MedBridge (exercise library, no motion tracking). Kinetic differentiates as the only camera-only solution that provides real-time form feedback, objective adherence data, and clinician-facing dashboards — with zero hardware cost to patients or clinics.\n\nGTM strategy is clinic-led. PTs prescribe Kinetic alongside their exercise programs. Patients download the free app. Clinics pay $199/month per clinician for the provider dashboard, adherence analytics, and EHR integration. Enterprise contracts with health systems and payers add remote therapeutic monitoring (RTM) billing support, which creates a direct reimbursement pathway for providers using the platform.",
+    "landingPage": {
+      "companyName": "Kinetic",
+      "tagline": "Your phone is your physical therapist's eyes between visits",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0369A1",
+          "primaryLight": "#38BDF8",
+          "primaryDark": "#075985",
+          "accent": "#F97316",
+          "background": "#F8FAFC",
+          "surface": "#FFFFFF",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Camera-powered PT exercise tracking. No wearables. No excuses.",
+        "subheadline": "Kinetic uses your phone's camera to track form, count reps, measure range of motion, and share progress with your physical therapist — turning home exercises from guesswork into data.",
+        "ctaText": "See it in action",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "35% exercise adherence isn't a patient problem. It's a tools problem.",
+        "subheadline": "Free for patients. $199/mo per clinician for the provider dashboard.",
+        "buttonText": "Book a clinic demo"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How Kinetic works",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "PT prescribes exercises", "description": "Your physical therapist selects exercises from Kinetic's library and customizes sets, reps, and targets for your specific condition." },
+            { "icon": "2", "title": "Patient opens the app", "description": "Prop up your phone, hit start. Kinetic's camera tracks your movement in real time — counting reps, measuring angles, and flagging form issues." },
+            { "icon": "3", "title": "PT sees everything", "description": "Adherence data, range of motion trends, and form quality scores appear in the clinician dashboard. Adjustments can be made remotely between visits." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for real rehab, not fitness tracking",
+          "layout": "bento",
+          "items": [
+            { "icon": "📐", "title": "Joint angle measurement", "description": "Precise range of motion tracking at clinical-grade accuracy. Compare week over week to quantify progress." },
+            { "icon": "⚡", "title": "Real-time form correction", "description": "Gentle audio and visual cues when form deviates from the prescribed movement pattern. Fewer compensations, better outcomes." },
+            { "icon": "📊", "title": "Clinician dashboard", "description": "See every patient's adherence, progress, and flagged issues. Spend visit time on treatment, not interrogation." },
+            { "icon": "🔌", "title": "EHR integration", "description": "Exercise data flows into Epic, Athena, and WebPT. RTM billing codes documented automatically." },
+            { "icon": "📱", "title": "Zero hardware required", "description": "Works with the smartphone camera patients already have. No sensors to buy, charge, lose, or forget." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Outcomes that speak for themselves",
+          "stats": [
+            { "value": "78", "label": "Exercise adherence with Kinetic", "suffix": "%" },
+            { "value": "2.3", "label": "Fewer visits to achieve outcomes", "suffix": "x" },
+            { "value": "35", "label": "Industry average adherence", "suffix": "%" },
+            { "value": "94", "label": "Patient satisfaction score", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Kinetic vs alternatives",
+          "comparisonOurName": "Kinetic",
+          "comparisonCompetitorName": "Sensor-based solutions",
+          "comparisonRows": [
+            { "feature": "Hardware required", "us": "Phone only", "competitor": "Proprietary sensor" },
+            { "feature": "Patient cost", "us": "Free", "competitor": "$150+ device" },
+            { "feature": "Real-time form feedback", "us": true, "competitor": "Limited" },
+            { "feature": "Range of motion tracking", "us": "Clinical-grade", "competitor": "Varies" },
+            { "feature": "EHR integration", "us": true, "competitor": "Some" },
+            { "feature": "RTM billing support", "us": true, "competitor": true }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From clinicians and patients",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Before Kinetic, I had no idea if patients were doing exercises at home or just telling me what I wanted to hear. Now I see exactly what happened between visits and can adjust in real time.", "author": "Dr. Sarah Kim", "role": "PT, DPT — Sports Medicine Clinic" },
+            { "quote": "The real-time feedback made me actually want to do my exercises. It felt like my PT was in the room coaching me. My knee ROM improved twice as fast as my surgeon predicted.", "author": "James Oladipo", "role": "ACL reconstruction patient, 28" },
+            { "quote": "We rolled Kinetic out across 12 clinicians. Adherence went from 31% to 74% in the first quarter. The ROI case basically made itself.", "author": "Lisa Chen", "role": "Clinical Director, PhysioWorks" }
+          ]
+        }
+      ],
+      "companyEmail": "kinetic-health@tryartha.com",
+      "domain": "kinetic-health.tryartha.com",
+      "projectSlug": "kinetic-health",
+      "animationPreset": "energetic",
+      "shadowStyle": "crisp"
+    }
+  },
+  {
+    "name": "Bloom",
+    "slug": "bloom-wellness",
+    "tagline": "What's growing inside you matters more than what you eat",
+    "description": "Bloom is a gut microbiome testing and personalized meal planning platform. Using shotgun metagenomic sequencing, Bloom maps the bacterial species in your gut and creates meal plans designed to cultivate a healthier microbiome — reducing inflammation, improving digestion, and supporting immune function through food, not pills.",
+    "mission": "The gut microbiome is arguably the most important organ system that medicine still barely understands in clinical practice. Research has linked microbiome composition to everything from autoimmune disease and depression to metabolic health and cancer treatment response. Yet when a patient presents with IBS, bloating, fatigue, or skin issues, the standard medical response hasn't changed in decades: try elimination diets, take a probiotic, see if it helps.\n\nBloom is building the bridge between microbiome science and everyday nutrition. We use shotgun metagenomic sequencing — not the cheaper 16S rRNA method — to identify bacterial species in your gut at strain-level resolution. This matters because two people might both have Lactobacillus, but at different strains with completely different functional roles.\n\nFrom your microbiome profile, we generate a personalized meal plan designed to shift your gut composition toward a healthier state. Not through restrictive elimination or expensive supplements, but through strategic inclusion of prebiotic fibers, fermented foods, and polyphenol-rich ingredients that feed the specific beneficial species your gut needs more of — and starve the inflammatory ones you have too much of.\n\nOur science team includes microbiome researchers from the Human Microbiome Project, registered dietitians, and food scientists who translate genomic data into recipes you'll actually want to cook. We believe the gap between cutting-edge microbiome research and patient benefit can be closed with better technology and better food.\n\nThe gut isn't just a digestive organ. It's a garden. Bloom helps you grow the right things.",
+    "marketResearch": "The gut health market is valued at $53B globally, with microbiome testing growing at 22% CAGR as consumer awareness of the gut-health connection accelerates. The DTC microbiome testing segment alone is $1.8B, while the broader gut-health nutrition market (probiotics, prebiotics, functional foods) reaches $19B. The intersection — testing-informed personalized nutrition — represents approximately $3.2B in addressable opportunity.\n\nBloom's SAM targets health-conscious adults experiencing digestive issues who prefer food-based solutions over supplements — roughly $1.5B in the US. Our SOM focuses on women aged 25-50 with IBS, bloating, or inflammatory symptoms in metro areas, approximately $220M.\n\nCompetitors include Viome (microbiome testing with supplement recommendations, not meal planning), ZOE (blood sugar + microbiome, meal scores but not full plans), Floré by Sun Genomics (custom probiotics, not food-based), and Thryve (microbiome testing with generic probiotic recs). Bloom differentiates by being food-first — we don't sell supplements as the primary intervention. Our meal plans are clinically designed to reshape the microbiome through dietary fiber diversity, fermented food integration, and strategic polyphenol intake.\n\nGTM combines DTC acquisition through gut-health content marketing with partnerships with functional medicine practitioners and registered dietitians who want to incorporate microbiome data into their nutrition counseling. Revenue: initial test kit + report ($189), meal plan subscription ($14.99/mo), retest kits ($149) recommended quarterly to track microbiome shifts.",
+    "landingPage": {
+      "companyName": "Bloom",
+      "tagline": "What's growing inside you matters more than what you eat",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#D946EF",
+          "primaryLight": "#F0ABFC",
+          "primaryDark": "#A21CAF",
+          "accent": "#10B981",
+          "background": "#FEFBFF",
+          "surface": "#FFFFFF",
+          "text": "#1A0527",
+          "textMuted": "#7B6A8A",
+          "border": "#EDE0F2"
+        },
+        "fontFamily": "'Bricolage Grotesque', sans-serif",
+        "borderRadius": "2rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Map your microbiome. Eat to reshape it.",
+        "subheadline": "Bloom uses strain-level gut sequencing to create personalized meal plans that cultivate a healthier microbiome — through food, not pills. Reduce inflammation. Improve digestion. Feed the species that matter.",
+        "ctaText": "Explore your gut",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your gut is an ecosystem. Let's cultivate it.",
+        "subheadline": "Complete microbiome test and report: $189. Meal plans from $14.99/month.",
+        "buttonText": "Order your test kit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From sample to supper",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Collect at home", "description": "Our discreet at-home stool collection kit takes two minutes. Mail it back and our lab runs shotgun metagenomic sequencing — the gold standard in microbiome analysis." },
+            { "icon": "2", "title": "Meet your microbiome", "description": "Your report identifies hundreds of bacterial species at strain-level resolution, maps their functional roles, and highlights imbalances linked to your symptoms." },
+            { "icon": "3", "title": "Eat to reshape it", "description": "Receive weekly meal plans designed to increase beneficial species and decrease inflammatory ones — through prebiotic fibers, fermented foods, and polyphenol-rich ingredients." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "The science behind the recipes",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🔬", "title": "Shotgun sequencing, not 16S", "description": "16S rRNA identifies genera. Shotgun metagenomics identifies species and strains. The difference matters — two strains of the same species can have opposite effects on your health." },
+            { "icon": "🥗", "title": "Food-first intervention", "description": "No proprietary supplements. Bloom's meal plans use real food from real grocery stores to shift your microbiome composition through fiber diversity and fermented food integration." },
+            { "icon": "📈", "title": "Track your shift", "description": "Retest quarterly to see how your microbiome responds to dietary changes. Compare reports side by side and watch beneficial species grow." },
+            { "icon": "🧪", "title": "Functional analysis", "description": "Beyond species identification, we map metabolic pathways — how your microbiome produces short-chain fatty acids, metabolizes bile acids, and modulates inflammation." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Guts that got better",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've had IBS for twelve years. Three months of Bloom's meal plans reduced my bloating by 80%. The retest showed my Akkermansia levels tripled. I never thought food alone could do this.", "author": "Nicole Andersen", "role": "IBS patient, 39" },
+            { "quote": "I was taking six different supplements for gut health. Bloom's report showed most of them were redundant for my specific microbiome profile. Now I take one, eat strategically, and feel significantly better.", "author": "Dev Patel", "role": "Software engineer, 33" },
+            { "quote": "As a dietitian, the strain-level data gives me so much more to work with than a food sensitivity test. I use Bloom with about half my clients now.", "author": "Hannah Lim, RD", "role": "Functional dietitian" },
+            { "quote": "The recipes are actually good. That sounds like a low bar, but every other health-food plan I've tried was miserable to eat. Bloom makes gut-healthy food that my whole family enjoys.", "author": "Sarah Bennett", "role": "Mother of two, 35" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Your gut questions, answered",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How is this different from Viome or ZOE?", "answer": "Viome and ZOE are excellent products with different approaches. Viome focuses on supplement recommendations; ZOE focuses on blood sugar response. Bloom is food-first — we create full meal plans designed to reshape your microbiome composition through dietary changes, not supplements." },
+            { "question": "Why shotgun sequencing instead of 16S?", "answer": "16S identifies bacteria at the genus level — like knowing someone is 'American.' Shotgun metagenomics identifies species and strains — like knowing their name and what they do for a living. The clinical recommendations we can make at strain-level resolution are dramatically more specific." },
+            { "question": "Do I need to give up foods I love?", "answer": "Bloom is about adding, not restricting. We focus on increasing dietary fiber diversity and fermented food intake while incorporating polyphenol-rich ingredients. You won't be eliminating food groups unless there's a specific clinical reason." },
+            { "question": "How quickly will I see changes in my microbiome?", "answer": "Dietary shifts can begin changing microbiome composition in as little as 48 hours, though meaningful, stable shifts typically take 6-12 weeks. We recommend retesting at the 3-month mark to see progress." }
+          ]
+        }
+      ],
+      "companyEmail": "bloom-wellness@tryartha.com",
+      "domain": "bloom-wellness.tryartha.com",
+      "projectSlug": "bloom-wellness",
+      "animationPreset": "playful",
+      "shadowStyle": "natural"
+    }
+  },
+  {
+    "name": "Aegis",
+    "slug": "aegis-med",
+    "tagline": "Rare disease patients deserve more than rare options",
+    "description": "Aegis is a clinical trial matching platform for patients with rare diseases. By integrating electronic health records, genetic test results, and a comprehensive global trial database, Aegis identifies eligible clinical trials that patients and their physicians would otherwise never find — reducing the average rare disease diagnostic odyssey from 7 years of searching to days of matching.",
+    "mission": "There are over 7,000 known rare diseases affecting roughly 400 million people worldwide. For most, there is no FDA-approved treatment. Clinical trials represent the only path to potential therapy, yet fewer than 5% of rare disease patients ever participate in one. The reason isn't lack of trials — it's that patients can't find them, and trials can't find patients.\n\nAegis exists to solve the matching problem. A parent with a child diagnosed with a rare mitochondrial disorder shouldn't need to become a medical researcher to discover that a Phase II trial at a hospital 200 miles away is enrolling patients with exactly their child's genetic mutation. Yet that's the reality today — trial recruitment relies on physician awareness (which is spotty), ClinicalTrials.gov (which is impenetrable for non-experts), and patient advocacy groups (which are fragmented).\n\nOur platform ingests patient health records, genetic test results, and diagnosis codes, and matches them against a continuously updated global database of rare disease clinical trials. We understand the nuanced eligibility criteria that make rare disease trials uniquely complex: specific genetic variants, biomarker thresholds, prior treatment history, and geographic constraints. Our matching engine doesn't just find trials — it pre-qualifies patients against inclusion and exclusion criteria, dramatically reducing the back-and-forth that delays enrollment.\n\nFor pharmaceutical sponsors, Aegis solves the existential challenge of rare disease drug development: finding enough patients. We partner with biotech companies running rare disease trials to accelerate enrollment timelines that often stretch years beyond projections, threatening the viability of programs that could bring life-changing therapies to patients with no other options.\n\nEvery rare disease patient is searching for hope. Many clinical trials are searching for patients. Aegis connects the two.",
+    "marketResearch": "The rare disease drug development market exceeds $209B in annual revenue, with the clinical trial recruitment segment valued at $2.1B. Rare disease trials face the most acute recruitment challenges in pharma — the average rare disease trial takes 2.5x longer to enroll than common disease trials, and 80% fail to meet enrollment timelines. This delays treatments, increases costs, and in many cases kills programs that would otherwise succeed.\n\nAegis's SAM targets pharmaceutical and biotech companies sponsoring rare disease clinical trials (approximately 2,800 active trials globally), representing $1.4B in recruitment spend. Our SOM focuses on US-based sponsors and CROs running Phase I-III rare disease trials, roughly $350M.\n\nCompetitors include TrialSpark (general trial matching, not rare-disease specialized), Antidote Technologies (patient matching, acquired by Precision Medicine Group), Clinical Trial GPS (physician-facing, limited patient engagement), and disease-specific registries (fragmented, single-disease). Aegis differentiates through rare disease specialization — our matching engine handles the genetic variant-level specificity that general platforms miss, and our patient-facing tools are designed for the unique complexity of rare disease populations.\n\nGTM is dual-sided. Patient acquisition comes through partnerships with rare disease advocacy organizations (NORD, Global Genes, disease-specific foundations) and genetic testing companies who can surface matching opportunities at the point of diagnosis. Sponsor revenue comes from per-trial matching fees ($50K-200K depending on disease prevalence) and enrollment success bonuses. We've launched with partnerships covering 14 rare disease indications.",
+    "landingPage": {
+      "companyName": "Aegis",
+      "tagline": "Rare disease patients deserve more than rare options",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F59E0B",
+          "primaryLight": "#FCD34D",
+          "primaryDark": "#D97706",
+          "accent": "#3B82F6",
+          "background": "#0D0B07",
+          "surface": "#1A1610",
+          "text": "#FEF3C7",
+          "textMuted": "#A89E84",
+          "border": "#302A1E"
+        },
+        "fontFamily": "'IBM Plex Sans', sans-serif",
+        "borderRadius": "0.25rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Your diagnosis is rare. Your clinical trial options shouldn't be invisible.",
+        "subheadline": "Aegis matches rare disease patients with eligible clinical trials worldwide — using your genetic data, health records, and diagnosis to surface trials you and your doctor would never find alone.",
+        "ctaText": "Find matching trials",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Somewhere, a trial is looking for someone exactly like you",
+        "subheadline": "Matching is free for patients. Always.",
+        "buttonText": "Start your search"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From diagnosis to matched trials in days, not years",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Share your health profile", "description": "Securely upload genetic test results, connect your health records, or manually enter your diagnosis and treatment history. HIPAA-compliant throughout." },
+            { "icon": "2", "title": "We search the global landscape", "description": "Aegis scans thousands of active rare disease trials worldwide, matching your specific genetic variants, biomarker levels, and clinical history against eligibility criteria." },
+            { "icon": "3", "title": "Review pre-qualified matches", "description": "Receive a list of trials you're likely eligible for, with plain-language summaries, location info, and direct contact details for study coordinators." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Closing the gap",
+          "stats": [
+            { "value": "7000", "label": "Known rare diseases", "suffix": "+" },
+            { "value": "5", "label": "Of patients find trials today", "suffix": "%" },
+            { "value": "2800", "label": "Active rare disease trials globally", "suffix": "+" },
+            { "value": "14", "label": "Disease areas at launch", "suffix": "" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for the complexity of rare disease",
+          "layout": "cards",
+          "items": [
+            { "icon": "🧬", "title": "Genetic variant matching", "description": "General trial matchers stop at diagnosis codes. Aegis matches at the genetic variant level — because in rare disease, the specific mutation determines trial eligibility." },
+            { "icon": "🌍", "title": "Global trial database", "description": "We index trials from the US, EU, UK, Japan, Australia, and emerging markets. Rare disease trials are global by necessity — your match might be across the world." },
+            { "icon": "📋", "title": "Pre-qualification engine", "description": "Our engine pre-screens you against inclusion and exclusion criteria before you contact a site. Less wasted time, fewer false starts." },
+            { "icon": "🤝", "title": "Advocacy partnerships", "description": "We partner with NORD, Global Genes, and disease-specific foundations to reach patients through the communities they already trust." },
+            { "icon": "🔒", "title": "HIPAA-compliant vault", "description": "Your genetic data and health records are encrypted at rest and in transit. You control who sees what. Deletion requests are honored within 24 hours." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Stories that shouldn't be rare",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "My son has a rare genetic epilepsy. We spent three years searching for trials. Aegis matched us with a gene therapy trial in Boston within a week. He's been seizure-free for four months.", "author": "Maria Gonzalez", "role": "Mother, KCNQ2 epilepsy family" },
+            { "quote": "As a rare disease investigator, patient recruitment is my biggest challenge. Aegis referred 23 pre-qualified candidates to our Fabry disease trial in two months — more than we'd found in the prior year.", "author": "Dr. Andrew Pemberton", "role": "Principal Investigator, academic medical center" },
+            { "quote": "I have a condition that affects maybe 500 people in the world. I didn't think there could possibly be a trial for me. Aegis found two.", "author": "Anonymous", "role": "Rare metabolic disorder patient" }
+          ]
+        },
+        {
+          "id": "early-access",
+          "type": "early-access",
+          "headline": "Matching is free. Hope shouldn't have a paywall.",
+          "subheadline": "Whether you're a patient, caregiver, or physician — start searching for eligible trials today. No cost, no obligation.",
+          "buttonText": "Find trials now"
+        }
+      ],
+      "companyEmail": "aegis-med@tryartha.com",
+      "domain": "aegis-med.tryartha.com",
+      "projectSlug": "aegis-med",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  }
+]

@@ -1,0 +1,964 @@
+[
+  {
+    "name": "Ledger & Lime",
+    "slug": "ledger-lime-fin",
+    "tagline": "Bookkeeping that feels like a conversation, not a chore",
+    "description": "Ledger & Lime is an AI bookkeeping companion built specifically for freelancers, contractors, and solo business owners. It watches your transactions, asks smart clarifying questions, and keeps your books clean year-round so tax season is just another Tuesday.",
+    "mission": "There are over 70 million freelancers in the United States alone. They design logos, write code, consult on strategy, teach yoga, and build furniture. What almost none of them signed up for is spending their Sunday evenings reconciling bank statements.\n\nLedger & Lime was founded on a simple belief: financial clarity should not require a finance degree. We watched friends — talented photographers, brilliant copywriters, skilled therapists — lose sleep over whether they had set aside enough for quarterly taxes. We watched them pay $400/hour CPAs to fix problems that never should have happened. And we watched a generation of independent workers slowly accept that financial anxiety was just the price of freedom.\n\nWe reject that premise entirely. Ledger & Lime is an AI bookkeeper that speaks human. It connects to your bank accounts and payment platforms, categorizes every transaction, and when something is ambiguous, it asks — in plain language, through the channel you prefer. \"Was that $47 at Office Depot for your photography business or personal?\" One tap, done. Over time, it learns your patterns and stops asking.\n\nOur founding team combines backgrounds in public accounting, consumer product design, and natural language AI. We built Ledger & Lime because we believe the warmth and judgment of a great bookkeeper can coexist with the speed and accuracy of modern AI. The organic, approachable brand you see is not decoration — it reflects our core product philosophy that financial tools should feel welcoming, not intimidating.\n\nWe are building toward a future where every independent worker has a financial copilot that knows their business inside out, anticipates tax obligations, flags unusual spending, and delivers a year-end package so clean their CPA sends a thank-you note.",
+    "marketResearch": "The SMB accounting software market reached $16.8 billion in 2025 and is growing at 10.8% CAGR, with the freelancer sub-segment representing approximately $4.2 billion in TAM. The shift toward independent work — accelerated by remote work normalization — means this segment is expanding faster than the overall market at roughly 15% annually.\n\nDirect competitors include QuickBooks Self-Employed (dominant but notoriously complex for non-accountants, $15/month), FreshBooks (strong invoicing but limited automated categorization), Bench (human bookkeepers starting at $299/month), and newer entrants like Keeper Tax (narrow focus on tax deductions only). Ledger & Lime differentiates through its conversational interface — instead of forcing users into accounting workflows, it meets them where they are with natural language interactions across SMS, WhatsApp, and in-app chat.\n\nOur serviceable addressable market focuses on English-speaking freelancers in the US, UK, Canada, and Australia earning $30K-$500K annually, representing roughly $1.1 billion. Our initial SOM targets US-based freelancers active on platforms like Upwork, Fiverr, Contra, and Toptal — a $180 million near-term opportunity. Customer research across 400+ freelancers revealed that 73% would pay $15-25/month for bookkeeping they never had to think about.\n\nOur go-to-market strategy relies on community-led growth through freelancer Slack groups, subreddits, and partnerships with coworking spaces. A generous free tier (up to 50 transactions/month) creates a natural upgrade path, and our referral program offers a free month for both parties — leveraging the tight-knit nature of freelancer networks.",
+    "landingPage": {
+      "companyName": "Ledger & Lime",
+      "tagline": "Bookkeeping that feels like a conversation, not a chore",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#5E7A3A",
+          "primaryLight": "#8FB560",
+          "primaryDark": "#3D5226",
+          "accent": "#E8A83E",
+          "background": "#FFFDF7",
+          "surface": "#F5F2EA",
+          "text": "#2C2416",
+          "textMuted": "#7A7060",
+          "border": "#E3DECE"
+        },
+        "fontFamily": "'Lora', serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your books, tended like a garden.",
+        "subheadline": "Ledger & Lime connects to your accounts, categorizes every transaction, and asks simple clarifying questions when needed. Freelancers get year-round financial clarity without ever opening a spreadsheet.",
+        "ctaText": "Start your free trial",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Tax season should not keep you up at night",
+        "subheadline": "Free for up to 50 transactions per month. Paid plans start at $19/mo.",
+        "buttonText": "Try Ledger & Lime free"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How Ledger & Lime keeps your books clean",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your money", "description": "Link your bank accounts, Stripe, PayPal, Venmo Business, or whatever you use. Ledger & Lime syncs transactions in real time." },
+            { "icon": "2", "title": "We sort, you confirm", "description": "Our AI categorizes 95% of transactions automatically. For the rest, we send a quick plain-English question via text or app. One tap to confirm." },
+            { "icon": "3", "title": "Clean books, always", "description": "Monthly summaries, quarterly tax estimates, and a year-end package your CPA will love. All generated without you lifting a finger." }
+          ]
+        },
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "Why freelancers switch to Ledger & Lime",
+          "items": [
+            { "icon": "🌿", "title": "No accounting jargon", "description": "We speak your language, not your CPA's. Every report, every notification, every summary is in plain English." },
+            { "icon": "🕐", "title": "5 hours saved per month", "description": "Our average user reclaims 5+ hours monthly they used to spend on bookkeeping. That is billable time back in your pocket." },
+            { "icon": "📱", "title": "Works where you do", "description": "Manage your finances from SMS, WhatsApp, or our app. No desktop accounting software required." },
+            { "icon": "🎯", "title": "Tax-ready year-round", "description": "Quarterly estimates update automatically. Never scramble in April again." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From freelancers who stopped dreading tax season",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I went from spending every other Sunday categorizing transactions to literally never thinking about it. Ledger & Lime just handles it and texts me if anything is unclear.", "author": "Maren Schultz", "role": "Freelance Brand Designer" },
+            { "quote": "My CPA called me after I sent my year-end package and asked what happened. She said it was the cleanest set of books she had ever seen from a freelancer. That was all Ledger & Lime.", "author": "Devonte Harris", "role": "Independent Software Consultant" },
+            { "quote": "As someone who genuinely feared anything finance-related, this app changed my relationship with money. It feels like having a really patient friend who happens to be an accountant.", "author": "Yuki Tanaka", "role": "Freelance Illustrator" },
+            { "quote": "The quarterly tax estimate feature alone is worth the subscription. No more surprise tax bills in April.", "author": "Rachel Osei", "role": "Copywriter & Content Strategist" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Simple pricing for simple books",
+          "plans": [
+            { "name": "Seedling", "price": "Free", "description": "For freelancers just starting out", "features": ["Up to 50 transactions/month", "Basic categorization", "Monthly summary email", "One connected account"] },
+            { "name": "Growth", "price": "$19/mo", "description": "For established freelancers", "features": ["Unlimited transactions", "Smart categorization with learning", "Quarterly tax estimates", "Unlimited connected accounts", "CPA export package", "SMS & WhatsApp notifications"] },
+            { "name": "Harvest", "price": "$39/mo", "description": "For high-earning independents", "features": ["Everything in Growth", "Multiple business tracking", "Revenue forecasting", "Priority support", "Dedicated bookkeeper review quarterly"] }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Frequently asked questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do I still need a CPA?", "answer": "We recommend it for annual tax filing, but Ledger & Lime handles everything in between. Your CPA will spend far less time (and bill you far less) when your books are already perfect." },
+            { "question": "How accurate is the automatic categorization?", "answer": "Our AI categorizes about 95% of transactions correctly out of the box. For the remaining 5%, we ask you a quick question. Over time, accuracy improves as the system learns your patterns." },
+            { "question": "Is my financial data secure?", "answer": "Absolutely. We use bank-grade 256-bit encryption, connect through Plaid's secure infrastructure, and never store your banking credentials. We are SOC 2 Type II certified." },
+            { "question": "Can I switch from QuickBooks?", "answer": "Yes. We offer a one-click import from QuickBooks, FreshBooks, and Wave. Most freelancers are fully migrated within 10 minutes." }
+          ]
+        }
+      ],
+      "companyEmail": "ledger-lime-fin@tryartha.com",
+      "domain": "ledger-lime-fin.tryartha.com",
+      "projectSlug": "ledger-lime-fin",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Vaultstream",
+    "slug": "vaultstream-pay",
+    "tagline": "See every dollar moving through your startup in real time",
+    "description": "Vaultstream is a real-time treasury management platform built for startups and growth-stage companies. It consolidates bank accounts, tracks burn rate, and automates cash positioning so finance teams always know exactly where their money is and where it is going.",
+    "mission": "Most startups die not because they run out of ideas, but because they run out of cash. And the cruelest irony is that many of them had enough cash — they just could not see it clearly enough to make the right decisions at the right time.\n\nVaultstream was born in the aftermath of the 2023 banking crisis, when our founders watched startup after startup scramble to figure out basic questions: How much cash do we actually have? Across which banks? What is our real burn rate this month versus what the model says? These questions should have instant answers. Instead, CFOs were exporting CSVs from four different banking portals and pasting them into spreadsheets at 11pm.\n\nWe are building the treasury operating system that every startup deserves from day one. Vaultstream connects to every bank account, every credit card, every payment processor, and every line of credit your company touches. It normalizes that data into a single real-time dashboard where your CFO, your CEO, and your board can see cash position, runway, burn rate, and liquidity risk at a glance.\n\nBut visibility is just the beginning. Vaultstream also automates cash positioning — sweeping idle balances into yield-bearing accounts, flagging concentration risk, and alerting your team when spending patterns deviate from plan. We are building the infrastructure layer that makes startup treasury as sophisticated as enterprise treasury, without the enterprise headcount.\n\nOur long-term vision is a world where no startup is surprised by its own finances. Where every board meeting starts with a shared, real-time understanding of the company's financial position. Where the question \"how much runway do we have?\" has a precise, live answer — not a spreadsheet estimate from last Tuesday.",
+    "marketResearch": "The treasury management systems market is projected to reach $7.4 billion by 2028, growing at 13.2% CAGR. However, the startup and SMB segment has been historically underserved — legacy TMS platforms like Kyriba, FIS, and ION are designed for enterprises with $500M+ in revenue and cost $100K-$500K annually. This gap has created a $1.8 billion opportunity for modern, startup-first treasury solutions.\n\nThe competitive landscape is evolving rapidly. Mercury and Brex have built banking products that include basic cash management features but lack sophisticated multi-bank treasury capabilities. Trovata offers bank data aggregation but is focused on mid-market and enterprise. Puzzle provides accounting automation but does not address treasury operations. Vaultstream occupies the specific intersection of multi-bank visibility, automated cash positioning, and startup-native UX — a combination no current player delivers.\n\nOur serviceable market focuses on venture-backed startups in the US and Europe with $2M-$100M in annual revenue and 2+ bank relationships, representing approximately $600M in annual spend. Our initial SOM targets Series A-C startups in the US with active finance teams, a $120M near-term market.\n\nThe go-to-market motion is CFO-led: we reach finance leaders through VC portfolio support programs, CFO communities (like those run by First Round and a16z), and content marketing around cash management best practices. Our free tier for companies with under $5M in tracked balances creates a land-and-expand opportunity as companies grow.",
+    "landingPage": {
+      "companyName": "Vaultstream",
+      "tagline": "See every dollar moving through your startup in real time",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#3B82F6",
+          "primaryLight": "#60A5FA",
+          "primaryDark": "#1D4ED8",
+          "accent": "#06D6A0",
+          "background": "#070B14",
+          "surface": "#0F1629",
+          "text": "#E8ECF4",
+          "textMuted": "#7C8DB5",
+          "border": "#1C2847"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "8px"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Your startup's cash. All of it. Right now.",
+        "subheadline": "Vaultstream connects every bank account, credit card, and payment processor into one real-time treasury dashboard. Know your burn, your runway, and your cash position — not last week's version, but right now.",
+        "ctaText": "Get real-time visibility",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Stop guessing where your cash is",
+        "subheadline": "Free for startups tracking under $5M in balances. Enterprise plans for Series B and beyond.",
+        "buttonText": "Connect your first bank"
+      },
+      "sections": [
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Trusted by finance teams at high-growth startups",
+          "stats": [
+            { "value": "2.4", "label": "Cash tracked across platform", "suffix": "B" },
+            { "value": "340", "label": "Startups using Vaultstream", "suffix": "+" },
+            { "value": "18", "label": "Average bank accounts per customer", "suffix": "" },
+            { "value": "99.9", "label": "Uptime SLA", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Treasury operations, startup speed",
+          "layout": "bento",
+          "items": [
+            { "icon": "💰", "title": "Unified cash view", "description": "Every bank, every card, every processor in one dashboard. Real-time balances that update every 60 seconds, not every business day." },
+            { "icon": "📉", "title": "Burn rate intelligence", "description": "Actual burn rate calculated from real transactions, not accounting estimates. See how this month compares to plan and to trend." },
+            { "icon": "🔄", "title": "Automated cash sweeps", "description": "Move idle cash into yield-bearing accounts automatically based on rules you define. Earn on every dollar that is not actively deployed." },
+            { "icon": "⚠️", "title": "Concentration alerts", "description": "Get notified when too much cash sits in a single institution. Set custom FDIC coverage thresholds per entity." },
+            { "icon": "📊", "title": "Board-ready reports", "description": "Generate cash position and runway reports formatted for your board deck. One click, always current, always accurate." },
+            { "icon": "🔐", "title": "Role-based access", "description": "Give your CEO a high-level dashboard and your controller granular transaction views. Custom permissions for every stakeholder." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Live in 15 minutes",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your banks", "description": "Securely link every bank account through Plaid, MX, or direct API connections. We support 12,000+ financial institutions." },
+            { "icon": "2", "title": "See your full picture", "description": "Within minutes, Vaultstream assembles a unified view of all balances, transactions, and cash flows across your entire banking infrastructure." },
+            { "icon": "3", "title": "Set your rules", "description": "Define cash sweep thresholds, concentration limits, and burn rate alerts. Vaultstream monitors and acts on your behalf 24/7." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What CFOs are saying",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Before Vaultstream, I was logging into six different bank portals every morning to build a cash position spreadsheet. Now I open one tab and everything is there, updated to the minute.", "author": "Sarah Chen", "role": "VP Finance, Series C SaaS Company" },
+            { "quote": "The automated cash sweeps alone have generated an extra $340K in yield this year from balances that were previously just sitting in checking accounts earning nothing.", "author": "Marcus Williams", "role": "CFO, Growth-Stage Fintech" }
+          ]
+        },
+        {
+          "id": "early-access",
+          "type": "early-access",
+          "headline": "Get real-time treasury visibility today",
+          "description": "Free for companies tracking under $5M in balances. No credit card required. Setup takes 15 minutes.",
+          "buttonText": "Start for free",
+          "inputPlaceholder": "Work email address"
+        }
+      ],
+      "companyEmail": "vaultstream-pay@tryartha.com",
+      "domain": "vaultstream-pay.tryartha.com",
+      "projectSlug": "vaultstream-pay",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Pennyfold",
+    "slug": "pennyfold-money",
+    "tagline": "Investing your spare change into your actual future",
+    "description": "Pennyfold is a micro-investing app designed for Gen Z. It rounds up purchases, invests spare change into diversified portfolios, and gamifies the saving habit with streaks, challenges, and social features that make building wealth feel less like adulting and more like leveling up.",
+    "mission": "Gen Z is the first generation to grow up with Venmo in one hand and student debt in the other. They are financially aware — TikTok finance creators have billions of views — but they are also paralyzed by the gap between knowing they should invest and actually doing it. The median Gen Z savings account balance is under $1,000. Not because they do not care, but because every investing app feels like it was designed for someone with a six-figure portfolio.\n\nPennyfold exists to close that gap. We built a micro-investing platform that meets Gen Z where they are: small amounts, high frequency, zero jargon. Every purchase you make gets rounded up to the nearest dollar, and the difference goes into a diversified portfolio tailored to your risk tolerance and time horizon. Spend $4.30 on coffee, invest $0.70 in your future. It adds up — our average user invests $47/month without ever making a conscious deposit.\n\nBut Pennyfold is not just a round-up app. We built investing into a social experience because that is how this generation learns and stays motivated. You can see how your friends' portfolios are performing (without dollar amounts — just percentages), join savings challenges, maintain investment streaks, and earn badges for hitting milestones. It sounds gamified because it is. We studied what keeps people opening Duolingo and applied those same behavioral loops to wealth building.\n\nOur founding team includes a behavioral economist from Duke, a former Robinhood product designer, and two engineers who built payment systems at Cash App. We are not building a toy. We are building the on-ramp to financial independence for an entire generation — and we believe that on-ramp needs to feel native to how they already live their lives.",
+    "marketResearch": "The micro-investing market is projected to grow from $1.7 billion in 2024 to $6.2 billion by 2030, driven by Gen Z entering their prime earning years and demanding mobile-first investment experiences. There are approximately 68 million Gen Z individuals in the US alone, with 45 million of earning age — representing a massive greenfield opportunity.\n\nKey competitors include Acorns (pioneer in round-up investing, 12M+ users, but brand feels dated and targets millennials), Stash ($3-$9/month, broader financial platform but lacks social features), and Robinhood (powerful but intimidating for true beginners with <$1K to invest). International players like Moneybox (UK) and Raiz (Australia) validate the model but have not cracked the US Gen Z segment. Pennyfold differentiates through its social layer, gamification mechanics, and a brand identity that feels native to the TikTok generation rather than adapted from a millennial playbook.\n\nOur SAM focuses on US Gen Z individuals aged 18-27 with smartphone access, earning income, and not yet actively investing — approximately 22 million people representing $880M in potential annual subscription revenue at our $3.33/month price point. Our initial SOM targets digitally native Gen Z in urban and suburban markets who follow finance content creators, roughly $110M.\n\nGo-to-market leverages creator partnerships (finance TikTokers, YouTube educators), campus ambassador programs at 50 universities, and viral referral mechanics built into the product. Our free tier includes basic round-ups; the premium tier ($3.99/month) unlocks social features, advanced portfolios, and savings challenges.",
+    "landingPage": {
+      "companyName": "Pennyfold",
+      "tagline": "Investing your spare change into your actual future",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#6C3CE1",
+          "primaryLight": "#9B7AF0",
+          "primaryDark": "#4A1FB8",
+          "accent": "#FF6B8A",
+          "background": "#FEFBFF",
+          "surface": "#F4EFFE",
+          "text": "#1A0E33",
+          "textMuted": "#6E5F8A",
+          "border": "#E4D8F5"
+        },
+        "fontFamily": "'Nunito', sans-serif",
+        "borderRadius": "1.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Your coffee money is building a portfolio.",
+        "subheadline": "Pennyfold rounds up every purchase and invests the change. Join savings challenges with friends. Build wealth without thinking about it.",
+        "ctaText": "Download the app",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your future self will thank present you",
+        "subheadline": "Start investing with literally zero effort. Free to start, $3.99/mo for premium.",
+        "buttonText": "Get started for free"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Investing on autopilot",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Link your debit card", "description": "Connect any debit card or bank account. Takes about 90 seconds." },
+            { "icon": "2", "title": "Spend like normal", "description": "Every purchase gets rounded up. $3.40 coffee becomes $4.00 — the $0.60 goes to your portfolio." },
+            { "icon": "3", "title": "Watch it grow", "description": "Your spare change is invested in a diversified portfolio. Check in, join challenges, and watch your money work." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Not your parents' investment app",
+          "layout": "cards",
+          "items": [
+            { "icon": "🔄", "title": "Smart round-ups", "description": "Round up every purchase automatically. Multiply your round-ups by 2x, 5x, or 10x when you are feeling ambitious." },
+            { "icon": "👯", "title": "Social investing", "description": "See how friends are doing (percentages only, no dollar amounts). Stay motivated by investing alongside people you know." },
+            { "icon": "🔥", "title": "Streaks & challenges", "description": "30-day no-skip streaks, monthly savings challenges, and milestone badges. Building wealth should feel rewarding." },
+            { "icon": "📚", "title": "Learn as you earn", "description": "Bite-sized financial lessons delivered alongside your portfolio updates. Understand what your money is actually doing." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The numbers so far",
+          "stats": [
+            { "value": "47", "label": "Average monthly investment", "suffix": "/mo" },
+            { "value": "89", "label": "Of users maintain weekly streaks", "suffix": "%" },
+            { "value": "14", "label": "Day streak average", "suffix": " days" },
+            { "value": "2.3", "label": "Friends invited per user", "suffix": " avg" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pick your vibe",
+          "plans": [
+            { "name": "Starter", "price": "Free", "description": "Dip your toes in", "features": ["Basic round-ups", "One portfolio option", "Monthly portfolio summary", "Learning content"] },
+            { "name": "Premium", "price": "$3.99/mo", "description": "The full experience", "features": ["Multiplied round-ups (2x-10x)", "Social features & challenges", "5 portfolio options", "Streak rewards", "Priority withdrawals", "Custom savings goals"] }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Real users, real talk",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I have tried Robinhood and Acorns and always stopped using them within a month. Pennyfold is the first investing app I have actually kept open for six months straight. The streaks are weirdly addictive.", "author": "Jordan Martinez", "role": "College Senior, UT Austin" },
+            { "quote": "I invested $560 without even noticing. I genuinely forgot it was running and then checked one day and was like... wait, I have an investment portfolio now?", "author": "Aisha Patel", "role": "Junior Designer at a Startup" },
+            { "quote": "The group challenges are what keep me going. My roommates and I have a running competition and it has turned all of us into actual investors.", "author": "Tyler Washington", "role": "Recent Grad, Software Engineer" }
+          ]
+        }
+      ],
+      "companyEmail": "pennyfold-money@tryartha.com",
+      "domain": "pennyfold-money.tryartha.com",
+      "projectSlug": "pennyfold-money",
+      "animationPreset": "playful",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Tidewater",
+    "slug": "tidewater-capital",
+    "tagline": "Growth capital that rises with your revenue",
+    "description": "Tidewater is a revenue-based financing platform that provides non-dilutive growth capital to SaaS and e-commerce companies. Instead of giving up equity or taking on rigid debt, founders repay as a percentage of monthly revenue — when revenue dips, payments dip with it.",
+    "mission": "The venture capital model works beautifully for a small number of companies pursuing exponential, winner-take-all outcomes. But it is a terrible fit for the vast majority of profitable, growing businesses that simply need capital to scale. A SaaS company doing $2M ARR growing at 40% annually should not have to give up 20% of their company to fund their next marketing hire.\n\nTidewater was founded to give these companies a better option. Revenue-based financing aligns the incentives of the capital provider and the business in a way that traditional debt and equity simply do not. When your revenue grows, your payment amount grows proportionally. When you have a slow month, your payment shrinks. There is no personal guarantee, no board seat, no preference stack, and no dilution.\n\nOur founding team spent a decade in venture lending and saw the same story repeat: founders who took equity financing not because they wanted to, but because they thought it was their only option. Banks would not lend without two years of profitability and hard assets. Revenue-based financing existed in theory but was dominated by predatory players with opaque terms and aggressive collection practices.\n\nWe built Tidewater to be different. Transparent pricing with a single flat fee disclosed upfront. No hidden covenants. A purpose-built underwriting engine that evaluates real-time revenue data, cohort retention, and unit economics — not just credit scores and tax returns. We can issue term sheets in 24 hours and fund in under a week because we built the entire stack in-house.\n\nOur north star is a world where profitable growth companies never have to choose between dilution and deprivation. Capital should be a utility, not a transaction that reshapes your cap table.",
+    "marketResearch": "The alternative lending market for SMBs is valued at $300 billion globally, with revenue-based financing emerging as the fastest-growing sub-segment at 28% CAGR. The specific niche of RBF for SaaS and digital businesses represents approximately $18 billion in annual origination volume in North America, with significant room for growth as awareness increases.\n\nDirect competitors include Pipe (pioneered revenue-as-collateral trading but pivoted after operational challenges), Clearco (formerly Clearbanc, focused on e-commerce and recently restructured), Capchase (SaaS-focused RBF with strong traction in mid-market), and Lighter Capital (established player but slow underwriting and traditional approach). Traditional alternatives include venture debt from Silicon Valley Bank successors and HSBC Innovation Banking, which require more collateral and come with warrants. Tidewater differentiates through speed (24-hour term sheets), transparency (single flat fee, no covenants), and a proprietary underwriting model that evaluates real-time Stripe, Chargebee, and Shopify data.\n\nOur SAM targets SaaS and e-commerce companies in the US with $500K-$20M in ARR, representing approximately $8 billion in annual financing demand. Our initial SOM focuses on Stripe-integrated SaaS companies in the $1M-$5M ARR range seeking $100K-$1M in growth capital — roughly $1.2 billion in near-term opportunity.\n\nDistribution leverages partnerships with SaaS-focused accountants, fractional CFO firms, and startup communities. We also integrate directly with billing platforms — when a Stripe-connected company hits certain revenue thresholds, Tidewater can present a pre-qualified offer within their existing workflow.",
+    "landingPage": {
+      "companyName": "Tidewater",
+      "tagline": "Growth capital that rises with your revenue",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#0EA5E9",
+          "primaryLight": "#38BDF8",
+          "primaryDark": "#0369A1",
+          "accent": "#34D399",
+          "background": "#0A1628",
+          "surface": "#122035",
+          "text": "#E2E8F0",
+          "textMuted": "#7B8FA8",
+          "border": "#1E3350"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "4px"
+      },
+      "hero": {
+        "layout": "left",
+        "headline": "Fund your growth. Keep your equity.",
+        "subheadline": "Tidewater provides $100K to $5M in non-dilutive capital to SaaS and e-commerce businesses. Repay as a percentage of monthly revenue. No equity. No personal guarantees. No board seats.",
+        "ctaText": "Check your offer",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your next growth milestone should not cost you 20% of your company",
+        "subheadline": "See your offer in minutes. Fund in under a week.",
+        "buttonText": "Get your term sheet"
+      },
+      "sections": [
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "How Tidewater compares",
+          "columns": ["Feature", "Tidewater", "Venture Capital", "Bank Loan"],
+          "rows": [
+            ["Dilution", "None", "15-25% equity", "None (but warrants possible)"],
+            ["Personal guarantee", "Never", "No", "Almost always"],
+            ["Time to fund", "Under 7 days", "3-6 months", "4-12 weeks"],
+            ["Revenue-linked payments", "Yes, automatic", "No", "No"],
+            ["Board seat required", "No", "Usually", "No"]
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From application to funded in days",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your revenue", "description": "Link Stripe, Chargebee, Shopify, or your billing system. We analyze real-time revenue data to underwrite your offer." },
+            { "icon": "2", "title": "Get a term sheet in 24 hours", "description": "A transparent offer with a single flat fee. No hidden covenants, no surprises. Accept when you are ready." },
+            { "icon": "3", "title": "Capital hits your account", "description": "Funds arrive within 5 business days. Repayment adjusts automatically based on your monthly revenue." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Capital deployed with clarity",
+          "stats": [
+            { "value": "127", "label": "Total capital deployed", "suffix": "M" },
+            { "value": "340", "label": "Companies funded", "suffix": "+" },
+            { "value": "0", "label": "Equity taken", "suffix": "%" },
+            { "value": "24", "label": "Average time to term sheet", "suffix": " hrs" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Founders who kept their cap table clean",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were about to close a bridge round that would have diluted us by 18%. Tidewater gave us $750K in a week at a fraction of the cost. That round of dilution we avoided is now worth millions.", "author": "Nadia Petrova", "role": "CEO, B2B SaaS ($3.2M ARR)" },
+            { "quote": "The revenue-linked repayment is what sold us. We have a seasonal business and the idea of fixed monthly payments terrified me. With Tidewater, slow months mean smaller payments. It just makes sense.", "author": "Ben Okafor", "role": "Founder, E-commerce Brand" },
+            { "quote": "From connecting Stripe to having cash in our account took four days. We hired two senior engineers that same month and doubled our product velocity.", "author": "Lisa Huang", "role": "CTO, Developer Tools Startup" }
+          ]
+        }
+      ],
+      "companyEmail": "tidewater-capital@tryartha.com",
+      "domain": "tidewater-capital.tryartha.com",
+      "projectSlug": "tidewater-capital",
+      "animationPreset": "subtle",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Clearance",
+    "slug": "clearance-fin",
+    "tagline": "Turn unpaid invoices into cash before lunch",
+    "description": "Clearance is an instant invoice factoring platform for small and medium-sized businesses. Upload an outstanding invoice, get up to 95% of its value deposited into your account within hours — not weeks. Built for businesses tired of waiting 30, 60, or 90 days to get paid.",
+    "mission": "There is a quiet crisis in small business that rarely makes headlines. It is not about funding rounds or market conditions — it is about the gap between doing the work and getting paid for it. A construction contractor finishes a $50,000 job in March and waits until June to see the money. A marketing agency delivers a campaign in January and invoices net-60. Meanwhile, payroll is due Friday.\n\nThis cash flow gap kills more small businesses than competition, bad products, or economic downturns combined. The U.S. Small Business Administration estimates that 82% of small businesses fail due to cash flow problems. Not revenue problems — cash flow problems. They have the contracts. They have the clients. They just cannot survive the waiting.\n\nClearance was built to eliminate that waiting. We are an invoice factoring platform that advances up to 95% of an invoice's value within hours of submission. No multi-week underwriting process. No requirement to factor your entire receivables book. No long-term contracts. You pick the invoices you want to advance, one at a time or in batches, and we handle the rest.\n\nTraditional factoring companies are built on information asymmetry and lock-in. Opaque fee structures, mandatory minimums, long-term contracts, and notification requirements that can damage client relationships. We built Clearance as the antidote: transparent per-invoice pricing displayed before you commit, no minimums, no contracts, and a confidential option where your clients never know you factored.\n\nOur underwriting engine uses real-time business data — accounting software connections, payment history, and client creditworthiness — to make decisions in minutes instead of weeks. We believe that working capital should be as accessible as any other business tool, and that no business should suffocate while waiting for money it has already earned.",
+    "marketResearch": "The global invoice factoring market was valued at $3.1 trillion in 2024 and is expected to reach $4.6 trillion by 2030, growing at 6.8% CAGR. The SMB segment, specifically businesses with $500K-$50M in annual revenue, represents the fastest-growing sub-market as traditional banks continue tightening lending standards and fintech platforms lower access barriers.\n\nThe competitive landscape includes traditional factoring companies (BlueVine, Riviera Finance, TCI Capital), bank-affiliated programs (Wells Fargo Capital Finance, JPMorgan Chase Commercial), and newer fintech entrants (Fundbox, C2FO, and Prevail Capital). Traditional players typically require long-term contracts, full-book factoring, and notification to debtors. Clearance differentiates through single-invoice factoring with no contracts, confidential processing, and same-day funding — a combination that no major competitor currently offers at scale.\n\nOur TAM encompasses US-based SMBs with outstanding receivables, roughly $1.2 trillion in annual factoring volume. Our SAM narrows to businesses with $1M-$30M in revenue across construction, professional services, staffing, and manufacturing — sectors with chronically long payment terms — representing approximately $180 billion. Our initial SOM targets QuickBooks- and Xero-connected businesses in construction and professional services, roughly $8 billion in near-term opportunity.\n\nDistribution strategy combines direct partnerships with accounting software providers (in-app \"advance this invoice\" buttons), a content marketing engine targeting business owners searching for cash flow solutions, and referral relationships with bookkeepers and fractional CFOs who see cash flow problems firsthand.",
+    "landingPage": {
+      "companyName": "Clearance",
+      "tagline": "Turn unpaid invoices into cash before lunch",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#DC4A1A",
+          "primaryLight": "#F07A54",
+          "primaryDark": "#B33612",
+          "accent": "#1A7A5C",
+          "background": "#FDFCFB",
+          "surface": "#FFF7F4",
+          "text": "#2B1810",
+          "textMuted": "#8C7568",
+          "border": "#EBDED6"
+        },
+        "fontFamily": "'Satoshi', sans-serif",
+        "borderRadius": "12px"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "You did the work. Get paid now.",
+        "subheadline": "Upload an invoice. Get up to 95% of its value in your account within hours. No long-term contracts. No minimums. Pick the invoices you want to advance, leave the rest.",
+        "ctaText": "Advance your first invoice",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Waiting 60 days to get paid is not a business model",
+        "subheadline": "Your first advance is fee-free. See what your invoices are worth in 30 seconds.",
+        "buttonText": "Check my invoices"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Three steps to getting paid today",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Upload your invoice", "description": "Snap a photo, upload a PDF, or connect QuickBooks and select invoices directly. We accept invoices from $1,000 to $500,000." },
+            { "icon": "2", "title": "See your offer instantly", "description": "Our engine evaluates the invoice and your client's payment history. You see the advance amount and fee before committing — no surprises." },
+            { "icon": "3", "title": "Cash in your account", "description": "Accept the offer and funds arrive within hours. When your client pays the original invoice, we collect and send you the remaining balance minus our fee." }
+          ]
+        },
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "Why 2,100 businesses choose Clearance",
+          "items": [
+            { "icon": "⚡", "title": "Same-day funding", "description": "Submit before noon, get funded by end of day. No more waiting weeks for underwriting committees." },
+            { "icon": "🔓", "title": "No contracts, no lock-in", "description": "Factor one invoice or one hundred. No minimums, no long-term commitments, no penalty for not using us." },
+            { "icon": "🤫", "title": "Confidential option", "description": "Your clients never need to know. We offer non-notification factoring so your business relationships stay unchanged." },
+            { "icon": "💎", "title": "Transparent pricing", "description": "A single percentage fee displayed before you accept. No hidden charges, no surprise deductions, no fine print." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The numbers speak",
+          "stats": [
+            { "value": "890", "label": "Advanced to SMBs this year", "suffix": "M" },
+            { "value": "4.2", "label": "Average hours to funding", "suffix": " hrs" },
+            { "value": "2100", "label": "Businesses served", "suffix": "+" },
+            { "value": "95", "label": "Maximum advance rate", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions about invoice factoring",
+          "layout": "faq",
+          "faqs": [
+            { "question": "What types of invoices do you accept?", "answer": "We accept B2B invoices from $1,000 to $500,000 across most industries. The invoice must be for completed work or delivered goods, and the debtor must be a US-based business with verifiable payment history." },
+            { "question": "Will my clients know I factored their invoice?", "answer": "Not unless you want them to. We offer confidential (non-notification) factoring as our default option. Your client pays you as usual, and you remit the payment to us." },
+            { "question": "What happens if my client pays late?", "answer": "Late payments extend the factoring period but do not change your advance amount. We charge a small daily holding fee after the original due date, clearly disclosed upfront. If the invoice becomes uncollectible, our recourse terms depend on your plan." },
+            { "question": "How is Clearance different from a business line of credit?", "answer": "A line of credit is debt that shows on your balance sheet and requires strong credit history. Factoring is a sale of your receivable — it does not add debt, does not require a personal guarantee, and approval depends on your client's creditworthiness, not yours." },
+            { "question": "Is there a minimum number of invoices?", "answer": "No. Factor one invoice when cash is tight, then do not use us for three months. There are no minimums, no monthly fees, and no penalties for inactivity." }
+          ]
+        }
+      ],
+      "companyEmail": "clearance-fin@tryartha.com",
+      "domain": "clearance-fin.tryartha.com",
+      "projectSlug": "clearance-fin",
+      "animationPreset": "smooth",
+      "shadowStyle": "medium"
+    }
+  },
+  {
+    "name": "Basis",
+    "slug": "basis-banking",
+    "tagline": "The banking layer your product is missing",
+    "description": "Basis is a banking-as-a-service API platform that lets any company embed financial features — accounts, cards, payments, and lending — directly into their product. One API, one compliance layer, full banking capabilities without a banking license.",
+    "mission": "Every SaaS platform eventually reaches a moment where its users need to move money. A property management tool needs to collect rent. A gig platform needs to pay workers instantly. A marketplace needs to hold escrow funds. And at that moment, every platform faces the same brutal realization: building financial features from scratch requires a banking license, a compliance team, a relationship with a sponsor bank, and twelve months of integration work.\n\nBasis exists to collapse that timeline from years to weeks. We provide a single, well-documented API that gives any software company the ability to embed bank accounts, issue cards, process payments, and offer lending products directly within their existing product. Behind our API sits a complete compliance and regulatory layer — KYC/KYB verification, BSA/AML monitoring, FDIC insurance through our partner banks, and ongoing regulatory reporting — all managed by Basis so you do not have to.\n\nWe are not the first BaaS platform, but we are building for the next wave. Early BaaS players like Synapse collapsed under regulatory pressure. Others like Treasury Prime and Unit have strong products but require months of onboarding and custom integration. Basis was designed from the ground up for developer speed and regulatory durability. Our sandbox is live in five minutes. Our production onboarding takes two weeks, not six months. And our compliance infrastructure is built to withstand the heightened regulatory scrutiny that the entire BaaS industry now faces.\n\nOur founding team includes a former OCC examiner, two ex-Plaid engineers, and a product leader from Marqeta. We understand both sides of the equation: the developers who need elegant APIs and the regulators who need bulletproof compliance. Basis is the bridge.\n\nWe envision a future where every software platform can offer financial services as naturally as they offer user authentication today. Banking should be a feature, not a separate app.",
+    "marketResearch": "The banking-as-a-service market is projected to reach $74 billion by 2030, growing at 17% CAGR. The embedded finance opportunity — financial features built into non-financial products — is even larger at an estimated $230 billion by 2030. The collapse of Synapse in 2024 and subsequent regulatory tightening has actually increased demand for well-capitalized, compliance-first BaaS providers.\n\nKey competitors include Unit (strong API, compliance-focused, but slow onboarding and high minimums), Treasury Prime (established bank partnerships but enterprise-only), Solid (developer-friendly but limited product breadth), and Bond (card issuing focus). Legacy payment processors like Stripe Treasury and Adyen Platforms offer partial solutions but lack full banking capabilities. Basis differentiates through a combination of developer experience (sandbox in 5 minutes, production in 2 weeks), comprehensive product coverage (accounts, cards, ACH, wires, and lending through one API), and a compliance infrastructure specifically designed for the post-Synapse regulatory environment.\n\nOur TAM encompasses all software platforms that could benefit from embedded finance, approximately $74 billion. Our SAM focuses on US-based vertical SaaS platforms, marketplaces, and gig economy companies with 10K+ end users, representing roughly $12 billion. Our initial SOM targets Series A-C vertical SaaS companies in property management, healthcare, and professional services — markets where money movement is core to the workflow — approximately $1.5 billion.\n\nGo-to-market is developer-first: comprehensive documentation, a free sandbox tier, and an active presence in engineering communities. We convert to revenue through usage-based pricing (per account, per transaction) that scales with our customers' growth.",
+    "landingPage": {
+      "companyName": "Basis",
+      "tagline": "The banking layer your product is missing",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#A78BFA",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#7C3AED",
+          "accent": "#FCD34D",
+          "background": "#0C0A1A",
+          "surface": "#16132B",
+          "text": "#EDE9FE",
+          "textMuted": "#8B82B0",
+          "border": "#2D2752"
+        },
+        "fontFamily": "'JetBrains Mono', monospace",
+        "borderRadius": "0"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Embed banking. Ship in weeks.",
+        "subheadline": "Basis gives your product bank accounts, cards, ACH, wires, and lending through one API. Compliance included. Sandbox live in 5 minutes.",
+        "ctaText": "Read the docs",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your users need to move money. Let them.",
+        "subheadline": "Free sandbox. Usage-based pricing in production. No minimums.",
+        "buttonText": "Start building"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "One API. Full banking stack.",
+          "layout": "bento",
+          "items": [
+            { "icon": "🏦", "title": "FDIC-insured accounts", "description": "Create checking and savings accounts for your users with FDIC insurance through our partner banks. Individual and business accounts supported." },
+            { "icon": "💳", "title": "Card issuing", "description": "Issue virtual and physical debit cards with custom spend controls, real-time transaction webhooks, and your brand on the card." },
+            { "icon": "🔄", "title": "Payments", "description": "ACH, same-day ACH, RTP, wires, and internal book transfers through a single unified payments API. Batch processing for payroll use cases." },
+            { "icon": "🛡️", "title": "Compliance built in", "description": "KYC/KYB verification, BSA/AML transaction monitoring, and OFAC screening. Regulatory reporting handled entirely by Basis." },
+            { "icon": "📊", "title": "Lending rails", "description": "Offer credit products to your users — lines of credit, installment loans, or charge cards — with Basis handling origination compliance." },
+            { "icon": "🔗", "title": "Webhooks for everything", "description": "Real-time webhooks for account events, transactions, card authorizations, and compliance status changes. Build reactive financial products." }
+          ]
+        },
+        {
+          "id": "timeline",
+          "type": "timeline",
+          "headline": "From zero to production",
+          "items": [
+            { "label": "Day 1", "title": "Sandbox access", "description": "Sign up and start making API calls against our full-featured sandbox. Test accounts, cards, and payments with simulated data." },
+            { "label": "Week 1", "title": "Build your integration", "description": "Use our SDKs (Node, Python, Go, Ruby) and comprehensive documentation to build your financial features. Our solutions engineers are available for pairing sessions." },
+            { "label": "Week 2", "title": "Compliance review", "description": "Submit your use case for compliance review. Our team evaluates your program design and ensures regulatory alignment." },
+            { "label": "Week 3", "title": "Production launch", "description": "Go live with real money movement. Our monitoring systems and support team ensure a smooth launch and ongoing operations." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From the teams building on Basis",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We evaluated Unit, Treasury Prime, and Basis. Basis was the only one where we had a working sandbox integration in a single afternoon. We launched our embedded accounts feature six weeks later.", "author": "Kevin Zhao", "role": "CTO, Property Management SaaS" },
+            { "quote": "The compliance layer is what made our decision. After what happened with Synapse, our board required us to use a BaaS provider with a former regulator on the founding team. Basis checked every box.", "author": "Amara Jackson", "role": "VP Product, Healthcare Payments Platform" }
+          ]
+        }
+      ],
+      "companyEmail": "basis-banking@tryartha.com",
+      "domain": "basis-banking.tryartha.com",
+      "projectSlug": "basis-banking",
+      "animationPreset": "none",
+      "shadowStyle": "none"
+    }
+  },
+  {
+    "name": "Splitwise Pro",
+    "slug": "splitwise-pro-pay",
+    "tagline": "Team expenses, split fairly, settled instantly",
+    "description": "Splitwise Pro is an expense splitting and reimbursement platform purpose-built for remote and distributed teams. From team dinners and conference travel to shared software subscriptions, it tracks who owes what, settles balances automatically, and integrates with your company's expense policy.",
+    "mission": "Remote work solved a lot of problems. It also created a new one that nobody talks about enough: how do distributed teams handle shared expenses? When five people go to a team offsite and someone puts the Airbnb on their personal card, the resulting chain of Venmo requests, Slack messages, and forgotten reimbursements creates friction that compounds over time.\n\nSplitwise Pro was born from this exact frustration. Our co-founders ran a 40-person remote company and watched their team spend hours every month chasing expense splits, submitting reimbursement requests, and reconciling who owed what from the last team dinner. The consumer version of expense-splitting apps got them halfway there, but none were built for the workplace context — where expense policies, corporate cards, tax implications, and manager approvals add layers of complexity.\n\nWe built Splitwise Pro to handle all of it. Create a group for any shared expense scenario — offsite travel, team meals, conference attendance, shared subscriptions. Add expenses naturally by snapping receipts or forwarding email confirmations. The platform calculates optimal splits (equal, proportional, or custom), routes approval requests according to your company's expense policy, and settles balances through direct deposit or corporate card credits.\n\nWhat makes us different is not just the splitting — it is the settlement. Other tools tell you who owes what and then leave you to figure out the Venmo dance. Splitwise Pro actually moves the money, integrates with your payroll provider to add reimbursements to the next pay cycle, and generates the accounting entries your finance team needs. End to end, no loose threads.",
+    "marketResearch": "The expense management market is valued at $7.5 billion in 2025, projected to reach $14.2 billion by 2030. Within this, the team expense splitting niche — distinct from traditional individual expense reporting — is an emerging category driven by the rise of remote and distributed workforces. An estimated 35% of US workers operate in hybrid or fully remote arrangements, creating over 50 million potential users for team expense tools.\n\nCompetitors include Splitwise (consumer app with 100M+ users, no enterprise features), Expensify (enterprise expense management but no group splitting), Brex (corporate cards with spend management but not designed for peer-to-peer splits), and Ramp (excellent corporate card product but focused on top-down expense control, not bottom-up team splitting). Splitwise Pro occupies the whitespace between consumer splitting apps and enterprise expense management — purpose-built for the group expense scenarios that remote teams face weekly.\n\nOur SAM targets remote and hybrid companies with 20-500 employees in the US, UK, and EU who regularly incur shared team expenses, representing approximately $1.2 billion. Our initial SOM focuses on remote-first tech companies in the 50-200 employee range, roughly $150M in near-term opportunity.\n\nGo-to-market strategy combines a freemium model (free for teams under 10), integration partnerships with popular remote team tools (Slack, Notion, Gusto), and a content strategy targeting operations managers and team leads who manage offsite budgets. Viral adoption is built into the product: when one person creates a split, everyone involved joins the platform.",
+    "landingPage": {
+      "companyName": "Splitwise Pro",
+      "tagline": "Team expenses, split fairly, settled instantly",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0D9488",
+          "primaryLight": "#2DD4BF",
+          "primaryDark": "#0F766E",
+          "accent": "#F59E0B",
+          "background": "#FAFFFE",
+          "surface": "#F0FDFA",
+          "text": "#1A2E2B",
+          "textMuted": "#5E807A",
+          "border": "#CCF2EC"
+        },
+        "fontFamily": "'Plus Jakarta Sans', sans-serif",
+        "borderRadius": "16px"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "No more Venmo chains after the team dinner.",
+        "subheadline": "Splitwise Pro splits shared team expenses, routes approvals, and settles balances automatically. Built for remote teams that actually get together sometimes.",
+        "ctaText": "Split your first expense",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Stop chasing reimbursements in Slack",
+        "subheadline": "Free for teams under 10. Paid plans start at $6/person/month.",
+        "buttonText": "Get started free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything your team offsite budget needs",
+          "layout": "cards",
+          "items": [
+            { "icon": "📸", "title": "Snap and split", "description": "Take a photo of any receipt. Splitwise Pro reads the total and lets you split it equally, by item, or by custom amounts." },
+            { "icon": "✅", "title": "Policy-aware approvals", "description": "Connect your expense policy. Splits over threshold automatically route to the right manager. Under threshold, they settle instantly." },
+            { "icon": "💸", "title": "Automatic settlement", "description": "No more Venmo requests. Balances settle through direct deposit, payroll integration, or corporate card credits." },
+            { "icon": "📊", "title": "Finance-ready exports", "description": "Every split generates proper accounting entries. Export to QuickBooks, Xero, or NetSuite with correct GL codes." },
+            { "icon": "🔗", "title": "Slack integration", "description": "Create splits from Slack. Get notified about pending approvals. Settle balances without leaving your team's workspace." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Plans for every team size",
+          "plans": [
+            { "name": "Free", "price": "$0", "description": "For small teams", "features": ["Up to 10 team members", "Basic expense splitting", "Receipt scanning", "Monthly settlement"] },
+            { "name": "Team", "price": "$6/person/mo", "description": "For growing companies", "features": ["Unlimited members", "Policy-aware approvals", "Automatic settlement", "Accounting integrations", "Slack & Teams integration"] },
+            { "name": "Enterprise", "price": "Custom", "description": "For large organizations", "features": ["Everything in Team", "SSO/SAML", "Custom approval workflows", "API access", "Dedicated account manager", "Custom GL mapping"] }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What ops teams are saying",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We do quarterly team offsites with 30 people. Before Splitwise Pro, I spent two full days afterward reconciling who paid for what. Now it happens in real time during the offsite.", "author": "Kim Nakamura", "role": "Head of Operations, Series B Startup" },
+            { "quote": "The Slack integration is everything. Someone drops a receipt in the channel, tags the people involved, and it is split and pending approval in seconds.", "author": "Derek Olsen", "role": "Engineering Manager, Distributed Team" }
+          ]
+        },
+        {
+          "id": "newsletter",
+          "type": "newsletter-signup",
+          "headline": "Get our remote team finance playbook",
+          "description": "Monthly tips on managing team expenses, offsite budgets, and distributed team finance operations.",
+          "buttonText": "Subscribe",
+          "inputPlaceholder": "Your work email"
+        }
+      ],
+      "companyEmail": "splitwise-pro-pay@tryartha.com",
+      "domain": "splitwise-pro-pay.tryartha.com",
+      "projectSlug": "splitwise-pro-pay",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Ironclad Pay",
+    "slug": "ironclad-payments",
+    "tagline": "Payment processing where fraud goes to die",
+    "description": "Ironclad Pay is a payment processing platform built from the ground up around fraud prevention. Every transaction passes through a multi-layered detection engine that stops fraud before it clears — without adding friction for legitimate customers. Built for e-commerce merchants losing sleep over chargebacks.",
+    "mission": "Online fraud is a $48 billion problem, and it is getting worse. Every year, attack vectors become more sophisticated. Synthetic identities pass KYC checks. Stolen card credentials are tested against thousands of merchants simultaneously. Friendly fraud chargebacks eat into margins. And the merchants — especially mid-market e-commerce businesses doing $5M-$200M in annual GMV — bear the brunt of it.\n\nThe existing solutions force merchants into an impossible choice: block aggressively and lose legitimate customers, or accept more risk and eat the chargebacks. Fraud prevention has been bolted onto payment processing as an afterthought — a third-party integration that adds latency, complexity, and cost without fundamentally solving the problem.\n\nIronclad Pay takes a different approach. We built fraud detection into the payment processing layer itself, not on top of it. Every transaction is evaluated by our multi-signal engine that analyzes device fingerprints, behavioral biometrics, network patterns, and transaction history in under 100 milliseconds. Legitimate customers experience zero additional friction. Fraudulent transactions are blocked before they clear, not disputed after the fact.\n\nOur founding team includes the former head of fraud at a top-five US payment processor, a machine learning engineer who built anomaly detection systems at Palantir, and a payments infrastructure veteran from Adyen. We have seen the fraud problem from every angle — processor, merchant, and issuer — and we built Ironclad Pay to solve it holistically.\n\nOur vision is simple but ambitious: a world where accepting online payments does not require accepting online fraud. Where every merchant, regardless of size, has access to the same caliber of fraud prevention that was previously reserved for the world's largest retailers.",
+    "marketResearch": "The global payment fraud detection and prevention market reached $32 billion in 2025 and is projected to grow to $62 billion by 2030 at 14% CAGR. E-commerce fraud losses alone exceeded $48 billion in 2024, with mid-market merchants suffering disproportionately due to limited fraud prevention resources. The average chargeback rate for mid-market e-commerce is 0.6-1.2%, translating to hundreds of thousands in lost revenue annually.\n\nCompetitors fall into two categories: standalone fraud prevention tools (Forter, Signifyd, Riskified) that sit on top of existing processors, and payment processors with built-in fraud features (Stripe Radar, Adyen Risk, Checkout.com). Standalone tools add latency and cost ($0.05-$0.10 per transaction plus chargeback guarantees), while built-in processor tools are typically basic rule-based systems. Ironclad Pay is the first to deeply integrate ML-powered fraud detection into the payment rail itself, eliminating the latency penalty while delivering detection accuracy that rivals standalone specialists.\n\nOur SAM targets US and European e-commerce merchants processing $5M-$500M in annual GMV, representing approximately $4.8 billion in payment processing and fraud prevention spend. Our initial SOM focuses on DTC e-commerce brands in fashion, electronics, and luxury goods — categories with the highest fraud rates — roughly $800M in near-term opportunity.\n\nGo-to-market leverages the pain of chargeback costs: we offer a chargeback rate guarantee and charge a blended processing fee that is competitive with Stripe while including fraud prevention that would otherwise cost extra. Merchants adopt because the total cost of payments decreases, not increases.",
+    "landingPage": {
+      "companyName": "Ironclad Pay",
+      "tagline": "Payment processing where fraud goes to die",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#EF4444",
+          "primaryLight": "#F87171",
+          "primaryDark": "#B91C1C",
+          "accent": "#FBBF24",
+          "background": "#110E0E",
+          "surface": "#1C1717",
+          "text": "#F5F0F0",
+          "textMuted": "#A39393",
+          "border": "#352B2B"
+        },
+        "fontFamily": "'Space Grotesk', sans-serif",
+        "borderRadius": "4px"
+      },
+      "hero": {
+        "layout": "left",
+        "headline": "Accept payments. Reject fraud. No tradeoff.",
+        "subheadline": "Ironclad Pay processes payments and detects fraud in a single layer. Sub-100ms decisions. Zero customer friction. Chargeback rates that make your CFO smile.",
+        "ctaText": "See it stop fraud live",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Every chargeback is a failure of your payment stack",
+        "subheadline": "Switch to Ironclad Pay and we guarantee a chargeback rate under 0.3% or we cover the difference.",
+        "buttonText": "Talk to our fraud team"
+      },
+      "sections": [
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Fraud does not stand a chance",
+          "stats": [
+            { "value": "99.7", "label": "Legitimate transaction approval rate", "suffix": "%" },
+            { "value": "0.08", "label": "Average merchant chargeback rate", "suffix": "%" },
+            { "value": "87", "label": "Average fraud loss reduction", "suffix": "%" },
+            { "value": "94", "label": "Median decision time", "suffix": "ms" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Multi-signal fraud detection, built into every transaction",
+          "layout": "bento",
+          "items": [
+            { "icon": "🧬", "title": "Device fingerprinting", "description": "Advanced device intelligence that identifies returning devices across sessions — even when cookies are cleared or VPNs are used." },
+            { "icon": "🧠", "title": "Behavioral biometrics", "description": "How a user types, scrolls, and navigates reveals more than their IP address. Our models detect bot behavior and account takeover in real time." },
+            { "icon": "🕸️", "title": "Network analysis", "description": "Graph-based detection that identifies fraud rings by connecting seemingly unrelated transactions through shared signals — shipping addresses, payment methods, device clusters." },
+            { "icon": "⚡", "title": "Sub-100ms decisions", "description": "Fraud scoring happens inline with payment authorization. No additional API calls, no added latency, no separate integration." },
+            { "icon": "📈", "title": "Adaptive learning", "description": "Models retrain on your transaction data weekly. Fraud patterns unique to your business are detected faster over time." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Ironclad Pay vs. the old way",
+          "columns": ["", "Ironclad Pay", "Processor + Fraud Tool", "Processor Only"],
+          "rows": [
+            ["Fraud detection", "ML, built into rail", "Third-party add-on", "Basic rules"],
+            ["Additional latency", "0ms", "100-300ms", "0ms"],
+            ["Chargeback guarantee", "Yes", "Varies", "No"],
+            ["Separate integration", "No", "Yes", "No"],
+            ["Total cost per txn", "2.7% + $0.25", "2.9% + $0.30 + fraud fee", "2.9% + $0.30"]
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From merchants who stopped losing to fraud",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were losing $380K per year to chargebacks on our old processor. Ironclad Pay cut that to $22K in the first quarter. The fraud engine caught patterns we did not even know existed.", "author": "Raj Patel", "role": "VP E-commerce, Luxury Fashion Brand" },
+            { "quote": "What sold us was the zero-friction promise. Our conversion rate actually went up 4% after switching because Ironclad Pay approved more legitimate transactions than our old processor plus Signifyd combined.", "author": "Emma Lindström", "role": "Head of Payments, European DTC Electronics" },
+            { "quote": "The chargeback guarantee removes all the risk. If fraud gets through, they pay. Simple.", "author": "Carlos Mendez", "role": "CFO, Subscription Box Company" }
+          ]
+        }
+      ],
+      "companyEmail": "ironclad-payments@tryartha.com",
+      "domain": "ironclad-payments.tryartha.com",
+      "projectSlug": "ironclad-payments",
+      "animationPreset": "none",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Numera",
+    "slug": "numera-capital",
+    "tagline": "Financial models for founders who think in products, not spreadsheets",
+    "description": "Numera is a financial modeling platform built for non-finance founders. It replaces the intimidating blank spreadsheet with guided, interactive models that help early-stage founders build investor-ready projections, understand their unit economics, and make better capital allocation decisions.",
+    "mission": "Here is a truth that nobody in venture capital wants to admit: most early-stage financial models are fiction. Not because founders are dishonest, but because they are forced to express their business intuition in a medium they do not understand. A brilliant product founder who can articulate exactly why their users will grow and how their margins will expand gets handed a blank Google Sheet and told to \"build a three-year model.\" The result is a spreadsheet full of made-up numbers that satisfies nobody.\n\nNumera was created to fix this disconnect. We believe that financial modeling should start with the business, not the spreadsheet. Our platform asks founders the questions they actually know the answers to: How much does it cost to acquire a customer? How long do they stay? What is your average contract value? Then it builds the model — revenue projections, cash flow forecasts, headcount plans, and runway calculations — using established SaaS and e-commerce frameworks that investors actually trust.\n\nBut Numera is not a template. It is an interactive modeling environment where founders can explore scenarios by adjusting the inputs they understand. \"What if we increase prices 20% but churn goes up 5%?\" \"What if we hire three engineers instead of two sales reps?\" \"What happens to runway if revenue growth slows from 15% to 8% monthly?\" These questions get instant visual answers, not another hour in a spreadsheet.\n\nOur founding team spent years watching the gap between great founders and great financial communication destroy fundraising outcomes. A seed-stage CEO should not need a fractional CFO to build a model that makes sense. Numera is the tool that makes financial literacy accessible without requiring financial expertise.\n\nThe future we are building is one where every founder — technical or non-technical, finance background or not — can confidently walk into an investor meeting understanding their numbers inside out, because they built their model by thinking about their business rather than fighting a spreadsheet.",
+    "marketResearch": "The financial planning and analysis software market is valued at $8.3 billion globally, but the vast majority of that spend is enterprise-focused (Anaplan, Adaptive Planning, Vena). The early-stage founder segment — companies pre-Series B with limited finance headcount — is dramatically underserved. An estimated 1.5 million startups are founded annually in the US alone, and virtually all need financial models for fundraising, yet no purpose-built tool exists for non-finance founders.\n\nCompetitors include generic spreadsheet tools (Google Sheets, Excel — the default, but intimidating and error-prone), financial model templates (Slidebean, Coda templates — better starting points but still require spreadsheet proficiency), fractional CFO services ($3K-$10K/month — excellent but expensive), and emerging tools like Caena and Pry (which was acquired by Brex but focused on post-revenue companies). Numera differentiates by targeting pre-revenue to early-revenue founders with a guided, conversational interface that does not require spreadsheet skills.\n\nOur TAM encompasses all early-stage startups globally that need financial models, approximately $2.4 billion. Our SAM focuses on English-speaking founders in the US, UK, and Canada at pre-seed through Series A, representing roughly $400 million. Our initial SOM targets founders active in accelerator programs (Y Combinator, Techstars, 500 Global) and startup communities, approximately $60 million.\n\nGo-to-market centers on accelerator partnerships (offering Numera as the standard modeling tool for cohort companies), content marketing around fundraising financial models, and integrations with cap table tools (Carta, Pulley) and banking platforms (Mercury, Brex) where founders already manage their finances.",
+    "landingPage": {
+      "companyName": "Numera",
+      "tagline": "Financial models for founders who think in products, not spreadsheets",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#2563EB",
+          "primaryLight": "#60A5FA",
+          "primaryDark": "#1D4ED8",
+          "accent": "#8B5CF6",
+          "background": "#FAFBFF",
+          "surface": "#EFF2FC",
+          "text": "#111827",
+          "textMuted": "#6B7280",
+          "border": "#D5DBF0"
+        },
+        "fontFamily": "'Source Serif 4', serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Build your financial model by answering questions, not filling cells.",
+        "subheadline": "Numera guides non-finance founders through building investor-ready financial projections. Describe your business in your terms. We translate it into the numbers investors expect.",
+        "ctaText": "Build your first model",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "You built the product. Let us help you build the model.",
+        "subheadline": "Free for your first model. Unlimited models for $29/month.",
+        "buttonText": "Start modeling free"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From blank page to board deck in an afternoon",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Answer questions about your business", "description": "How do customers find you? What do you charge? How long do they stay? Numera asks what you know and does not pretend you know the rest." },
+            { "icon": "2", "title": "Numera builds the model", "description": "Using established SaaS, marketplace, or e-commerce frameworks, we generate revenue projections, cost structures, headcount plans, and cash flow forecasts." },
+            { "icon": "3", "title": "Explore scenarios visually", "description": "Drag sliders to test assumptions. What if growth slows? What if you raise at a higher valuation? See instant impact on runway, burn, and profitability." },
+            { "icon": "4", "title": "Export and present", "description": "Download as a formatted spreadsheet, a pitch deck appendix, or a live link you can share with investors." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What Numera handles for you",
+          "layout": "cards",
+          "items": [
+            { "icon": "📐", "title": "Unit economics calculator", "description": "LTV, CAC, payback period, and gross margin calculated from your real inputs — not industry averages." },
+            { "icon": "🔮", "title": "Scenario modeling", "description": "Best case, base case, worst case. Test every assumption and see how it flows through your P&L, cash flow, and headcount." },
+            { "icon": "💰", "title": "Fundraise planning", "description": "Model different round sizes, dilution scenarios, and use-of-proceeds breakdowns. Know exactly what you are asking for and why." },
+            { "icon": "👥", "title": "Headcount planning", "description": "Plan your hiring roadmap with loaded costs, start dates, and department breakdowns that tie directly to your revenue assumptions." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Founders who stopped fearing spreadsheets",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I am a designer who started a SaaS company. I had no idea how to build a financial model. Numera walked me through it in two hours and my lead investor said it was the best seed-stage model he had seen all year.", "author": "Priya Subramanian", "role": "Founder & CEO, Design Tool Startup" },
+            { "quote": "We used Numera to model three different pricing strategies before our Series A. Being able to see how each scenario affected runway and unit economics saved us from a pricing mistake that would have cost us the round.", "author": "Tom Bakker", "role": "Co-founder, European Marketplace" },
+            { "quote": "I replaced my $8K/month fractional CFO with Numera for our pre-revenue projections. For post-revenue, I still use the CFO, but Numera handles 80% of what I needed at a fraction of the cost.", "author": "Jessica Morales", "role": "Solo Founder, Health Tech" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "A model for every stage",
+          "plans": [
+            { "name": "Explorer", "price": "Free", "description": "Build your first model", "features": ["One financial model", "Basic revenue projection", "PDF export", "Community templates"] },
+            { "name": "Founder", "price": "$29/mo", "description": "For active fundraisers", "features": ["Unlimited models", "Scenario modeling", "Investor-ready exports", "Unit economics dashboard", "Headcount planning", "Shareable live links"] },
+            { "name": "Accelerator", "price": "$99/cohort seat", "description": "For programs and studios", "features": ["Everything in Founder", "Cohort management dashboard", "Mentor access to models", "Bulk onboarding", "Branded exports", "Dedicated support"] }
+          ]
+        }
+      ],
+      "companyEmail": "numera-capital@tryartha.com",
+      "domain": "numera-capital.tryartha.com",
+      "projectSlug": "numera-capital",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Denari",
+    "slug": "denari-fin",
+    "tagline": "One payroll run. Every currency. Every country.",
+    "description": "Denari is a multi-currency payroll platform for distributed teams. Pay employees and contractors in 80+ countries in their local currency, with automated tax compliance, benefits administration, and real-time FX rates — all from a single dashboard.",
+    "mission": "The way companies pay people has not caught up with the way companies hire people. A 50-person startup might have engineers in Poland, designers in Argentina, a marketing lead in Nigeria, and customer success in the Philippines. Each of those countries has different tax codes, labor laws, mandatory benefits, and payment rails. Today, paying that team means juggling three or four vendors, maintaining separate payroll calendars, and accepting FX markups that quietly eat 3-5% of every international payment.\n\nDenari was founded because we lived this problem. Our CEO ran payroll for a 120-person distributed team across 22 countries and spent more time on payroll operations than on product strategy. The tools that existed were either enterprise-grade solutions with six-figure minimums and months of onboarding, or patchwork combinations of contractor platforms and wire transfers that created compliance blind spots.\n\nWe are building the payroll infrastructure that the distributed workforce deserves. One platform where you can pay full-time employees in Germany (with proper social security contributions), contractors in Brazil (with compliant service agreements), and freelancers in India (with TDS handling) — all in a single payroll run. Every payment goes out in local currency at wholesale FX rates. Every tax obligation is calculated and filed automatically. Every worker gets a payslip in their language.\n\nDenari is not just about moving money across borders. It is about making distributed teams operationally viable for companies that are not large enough to have a global payroll department. We handle employer-of-record services in countries where you do not have an entity, and we integrate with your existing HR and accounting stack so payroll does not become another silo.\n\nOur long-term vision is a world where hiring the best person for the job is never constrained by where they live, because paying them correctly is as simple as adding them to your Denari dashboard.",
+    "marketResearch": "The global payroll outsourcing market is valued at $24.6 billion in 2025, with the multi-country payroll segment growing at 18% CAGR as distributed work becomes the norm. The specific intersection of multi-currency payroll and employer-of-record services represents a $9.2 billion TAM, driven by the 40% increase in cross-border hiring since 2020.\n\nKey competitors include Deel (dominant player with $500M+ ARR, strong brand but increasingly complex pricing), Remote.com (well-funded, strong EOR capabilities but limited payroll customization), Papaya Global ($250M+ raised, enterprise-focused with complex onboarding), and Rippling (expanding internationally but primarily a US-centric HRIS). Traditional global payroll providers like ADP GlobalView and Safeguard Global serve enterprise but require six-figure annual commitments. Denari differentiates through transparent per-employee pricing ($49-$99/employee/month with no hidden FX markup beyond 0.5%), a purpose-built dashboard for companies with 10-500 international workers, and an onboarding process that takes days rather than months.\n\nOur SAM targets venture-backed startups and mid-market tech companies in the US, UK, and EU with 10-500 employees across multiple countries, representing approximately $3.1 billion. Our initial SOM focuses on US-headquartered remote-first tech companies hiring in Latin America, Eastern Europe, and South/Southeast Asia — roughly $450M in near-term opportunity.\n\nGo-to-market combines partnerships with remote work communities and publications (Remote OK, We Work Remotely, Running Remote), integration partnerships with HRIS platforms (BambooHR, Gusto, Personio), and content marketing targeting heads of people operations at scaling startups. Our free trial lets companies run their first international payroll at no cost.",
+    "landingPage": {
+      "companyName": "Denari",
+      "tagline": "One payroll run. Every currency. Every country.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#10B981",
+          "primaryLight": "#34D399",
+          "primaryDark": "#059669",
+          "accent": "#F472B6",
+          "background": "#0B1120",
+          "surface": "#131D33",
+          "text": "#E5EAF2",
+          "textMuted": "#7E8FA6",
+          "border": "#213049"
+        },
+        "fontFamily": "'General Sans', sans-serif",
+        "borderRadius": "2rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Pay your global team like they are all in one office.",
+        "subheadline": "Denari runs payroll in 80+ countries from a single dashboard. Local currencies, local compliance, local benefits. One click, every pay cycle.",
+        "ctaText": "Run your first payroll free",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your team is global. Your payroll should be too.",
+        "subheadline": "First payroll run is free. Plans start at $49/employee/month.",
+        "buttonText": "Start for free"
+      },
+      "sections": [
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Trusted by distributed teams worldwide",
+          "stats": [
+            { "value": "80", "label": "Countries supported", "suffix": "+" },
+            { "value": "12K", "label": "Workers paid monthly", "suffix": "+" },
+            { "value": "0.5", "label": "FX markup (wholesale rates)", "suffix": "%" },
+            { "value": "99.8", "label": "On-time payment rate", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Global payroll without the global headache",
+          "layout": "bento",
+          "items": [
+            { "icon": "🌍", "title": "80+ country coverage", "description": "Pay employees and contractors in their local currency with compliant payroll processing. New countries added monthly." },
+            { "icon": "📋", "title": "Automated tax compliance", "description": "Local tax calculations, withholdings, and filings handled automatically. Social security, pension contributions, and statutory benefits included." },
+            { "icon": "🏢", "title": "Employer of record", "description": "Hire in countries where you do not have a legal entity. Denari serves as the local employer while you manage the work." },
+            { "icon": "💱", "title": "Wholesale FX rates", "description": "0.5% markup on wholesale interbank rates. No hidden fees, no inflated exchange rates. See the rate before you confirm." },
+            { "icon": "📄", "title": "Localized payslips", "description": "Every worker receives a payslip in their local language with locally compliant formatting. Delivered via email or mobile app." },
+            { "icon": "🔌", "title": "Integrations", "description": "Connect with BambooHR, Gusto, Personio, QuickBooks, Xero, and NetSuite. Payroll data flows into your existing HR and accounting stack." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Running global payroll in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Add your team", "description": "Import employees and contractors from your HRIS or add them manually. Denari collects the right tax and banking information for each country." },
+            { "icon": "2", "title": "Review and approve", "description": "See every payment — gross pay, deductions, employer costs, and FX rate — before you approve. Adjust anything that needs changing." },
+            { "icon": "3", "title": "Everyone gets paid", "description": "One approval triggers payments in all currencies. Workers receive funds in their local bank accounts within 1-3 business days." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Transparent per-employee pricing",
+          "plans": [
+            { "name": "Contractors", "price": "$29/person/mo", "description": "For contractor-heavy teams", "features": ["Contractor payments in 80+ countries", "Compliant service agreements", "Automated invoicing", "Local currency payments"] },
+            { "name": "Full Payroll", "price": "$79/person/mo", "description": "For teams with employees", "features": ["Full employee payroll in 80+ countries", "Tax calculation and filing", "Benefits administration", "Localized payslips", "HRIS integrations"] },
+            { "name": "EOR", "price": "$499/person/mo", "description": "Hire without an entity", "features": ["Everything in Full Payroll", "Employer of record services", "Local employment contracts", "IP protection clauses", "Dedicated country specialists"] },
+            { "name": "Enterprise", "price": "Custom", "description": "For 200+ global workers", "features": ["Volume discounts", "Custom FX rates", "Dedicated payroll manager", "API access", "Custom approval workflows", "Priority support"] }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From companies that hired without borders",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We have 47 people in 14 countries. Before Denari, payroll was a three-day process involving four different vendors. Now it takes 30 minutes on the first of every month.", "author": "Sandra Eriksson", "role": "Head of People, Remote-First SaaS" },
+            { "quote": "The FX savings alone paid for the platform. We were losing nearly $4,000 per month to markup from our previous provider. Denari's wholesale rates cut that to under $600.", "author": "Amir Hassan", "role": "CFO, Distributed Engineering Agency" }
+          ]
+        }
+      ],
+      "companyEmail": "denari-fin@tryartha.com",
+      "domain": "denari-fin.tryartha.com",
+      "projectSlug": "denari-fin",
+      "animationPreset": "smooth",
+      "shadowStyle": "medium"
+    }
+  }
+]

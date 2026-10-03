@@ -1,0 +1,939 @@
+[
+  {
+    "name": "Vector",
+    "slug": "vector-fleet",
+    "tagline": "Electrify your fleet without the guesswork",
+    "description": "Vector helps logistics companies plan and execute fleet electrification with confidence. From route-level energy modeling to charging infrastructure placement, we turn the messy EV transition into a phased, data-driven rollout that actually pencils out.",
+    "mission": "Every major logistics company has an electrification target on paper. Almost none of them have a credible plan to get there. The gap between commitment and execution is enormous — fleet managers face a maze of vehicle options, charging infrastructure decisions, utility rate structures, and route constraints that make the transition feel impossibly complex.\n\nVector was built to close that gap. We model every route in your fleet against real-world EV performance data — accounting for payload, terrain, weather, and charging availability — to produce a phased electrification roadmap that maximizes ROI at each stage. No more pilot programs that stall after five trucks.\n\nOur founding team spent years at fleet management companies watching electrification initiatives die in spreadsheet purgatory. The technology exists to make fleets electric. What's missing is an intelligent planning layer that tells you which vehicles to replace first, where to put chargers, how to negotiate utility rates, and when the economics flip in your favor.\n\nWe're starting with regional delivery fleets in the 50-500 vehicle range — large enough to benefit from structured planning, small enough to move quickly. Our first customers are saving an average of $12,000 per vehicle annually once they transition, and our planning tool cuts the typical 18-month analysis phase down to weeks.",
+    "marketResearch": "The commercial fleet electrification market is expected to reach $180B globally by 2030, with fleet management software for EVs representing an $8.5B addressable market. North American medium-duty delivery fleets — our beachhead — account for roughly $2.3B of that. Our initial SOM targets regional carriers and last-mile delivery companies with 50-500 vehicles, representing $380M in near-term software spend.\n\nCompetitors fall into two camps: legacy fleet management platforms (Geotab, Samsara) adding EV modules as afterthoughts, and pure-play EV analytics startups (Electriphi, acquired by Ford; Amply Power) focused narrowly on charging management. Vector differentiates by owning the full planning lifecycle — from route-level feasibility analysis through infrastructure deployment to ongoing optimization. We don't just tell you if EVs will work; we tell you exactly which trucks to replace, in what order, and how to finance it.\n\nOur go-to-market starts with direct sales to fleet operations directors at regional carriers, supported by partnerships with EV OEMs (BrightDrop, Rivian Commercial) who bundle our planning tool with vehicle purchases. Early traction includes 8 paid pilots across beverage distribution and parcel delivery, with an average contract value of $45K annually.\n\nKey tailwinds include the EPA's 2027 emissions standards, state-level fleet electrification mandates (California's Advanced Clean Fleets rule), and rapidly declining battery costs. The window for planning tools is now — fleets that wait will face charger installation backlogs and miss incentive deadlines.",
+    "landingPage": {
+      "companyName": "Vector",
+      "tagline": "Electrify your fleet without the guesswork",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#34D399",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#059669",
+          "accent": "#FBBF24",
+          "background": "#0A0F1A",
+          "surface": "#131B2E",
+          "text": "#F0FDF4",
+          "textMuted": "#94A3B8",
+          "border": "#1E293B"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your fleet electrification plan, built on real route data — not hope.",
+        "subheadline": "Vector models every route in your fleet against EV performance, charging infrastructure, and utility rates to produce a phased rollout that actually saves money from day one.",
+        "ctaText": "Model your fleet",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "The EV transition doesn't have to be a leap of faith",
+        "subheadline": "Free fleet assessment for companies with 50+ vehicles. See your ROI timeline in under a week.",
+        "buttonText": "Get your fleet assessment"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From spreadsheet purgatory to a real plan",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Upload your route data", "description": "Connect your telematics provider or upload historical route CSVs. We ingest mileage, payload, dwell times, and depot locations." },
+            { "icon": "2", "title": "We model every vehicle", "description": "Each truck gets scored against real EV performance curves — factoring in terrain, weather, payload weight, and available charging windows." },
+            { "icon": "3", "title": "Get a phased rollout plan", "description": "A prioritized replacement schedule with ROI projections, charger placement recommendations, and utility rate optimization per depot." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything between the commitment and the charging cable",
+          "layout": "bento",
+          "items": [
+            { "icon": "🔋", "title": "Route-level energy modeling", "description": "Not averages — actual energy demand per route, per season, per payload. Know exactly which routes are EV-ready today." },
+            { "icon": "⚡", "title": "Charger placement optimizer", "description": "Determines how many chargers each depot needs, what type, and when to install them based on your rollout timeline." },
+            { "icon": "💰", "title": "Incentive navigator", "description": "Maps your fleet against federal, state, and utility incentive programs. Some customers recoup 40% of vehicle cost through stacked credits." },
+            { "icon": "📊", "title": "TCO comparison engine", "description": "Side-by-side total cost of ownership for every vehicle: diesel vs. EV, factoring fuel, maintenance, incentives, and residual value." },
+            { "icon": "🔌", "title": "Utility rate analysis", "description": "We model demand charges, time-of-use rates, and managed charging schedules to minimize your electricity costs." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Results from fleets already in transition",
+          "stats": [
+            { "value": "12", "label": "Saved per vehicle annually", "suffix": "K" },
+            { "value": "73", "label": "Of routes EV-feasible today", "suffix": "%" },
+            { "value": "4.2", "label": "Average payback period", "suffix": " yrs" },
+            { "value": "18", "label": "Planning time reduction", "suffix": " mo→wks" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Fleet operators who stopped guessing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We'd been sitting on an electrification goal for two years with no actionable plan. Vector gave us a depot-by-depot rollout in three weeks that our CFO actually approved.", "author": "Marcus Benavides", "role": "VP of Fleet Operations, Pacific Beverage Distributors" },
+            { "quote": "The incentive mapping alone saved us $1.2M. We had no idea we qualified for half the programs Vector identified.", "author": "Rachel Ting", "role": "Director of Sustainability, QuickParcel" },
+            { "quote": "Every EV vendor gives you best-case range numbers. Vector showed us real performance on our routes, in our climate. That honesty is what got our board comfortable.", "author": "David Osuji", "role": "COO, MidSouth Logistics" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we hear from fleet teams",
+          "layout": "faq",
+          "faqs": [
+            { "question": "What telematics providers do you integrate with?", "answer": "Geotab, Samsara, Motive, Verizon Connect, and Teletrac Navman out of the box. We also accept CSV uploads and have an open API for custom integrations." },
+            { "question": "Do you work with all EV manufacturers?", "answer": "We model vehicles from BrightDrop, Rivian, Freightliner, Volvo, and Lion Electric, with new models added monthly. Our platform is manufacturer-agnostic by design." },
+            { "question": "What size fleet is a good fit?", "answer": "We're optimized for 50-500 vehicle fleets, though we work with some larger operators. Below 50 vehicles, the economics are simpler and a spreadsheet may suffice." },
+            { "question": "How accurate are the energy consumption models?", "answer": "Within 8% of actual consumption based on validation against 14,000 real-world EV delivery routes. We account for terrain, HVAC load, payload, and seasonal temperature variation." }
+          ]
+        }
+      ],
+      "companyEmail": "vector-fleet@tryartha.com",
+      "domain": "vector-fleet.tryartha.com",
+      "projectSlug": "vector-fleet",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Anchor",
+    "slug": "anchor-prop",
+    "tagline": "Commercial leases shouldn't require a legal team to manage",
+    "description": "Anchor is a lease management platform for growing companies navigating commercial real estate. We centralize lease data, automate critical date tracking, and surface cost-saving opportunities hidden in your portfolio — so your ops team stops drowning in PDFs.",
+    "mission": "Growing companies sign commercial leases the way most people sign gym memberships — with optimism and very little ongoing attention. Then renewal deadlines sneak up, escalation clauses kick in unnoticed, and CAM reconciliations arrive as incomprehensible spreadsheets. By the time anyone realizes there was a problem, the leverage is gone.\n\nAnchor exists because we watched this pattern repeat at every company we worked at. The CFO finds out about an auto-renewal two weeks too late. The ops manager discovers they've been overpaying common area maintenance for three years. The head of real estate keeps critical dates in a personal calendar that nobody else can access.\n\nWe're building the system of record for commercial leases that growing companies actually deserve. Not enterprise software designed for REITs with 500-person real estate teams, but a focused tool that extracts the critical data from your leases, tracks every deadline, benchmarks your rates against market data, and flags when it's time to negotiate or exit.\n\nOur long-term play is to become the intelligence layer between tenants and their real estate decisions. When you're ready to expand, Anchor already knows your lease terms, your space utilization patterns, and the market conditions in your target cities. The best real estate decision is an informed one, and right now most growing companies are flying blind.",
+    "marketResearch": "The commercial real estate technology market is projected to hit $35B by 2030, with lease management and administration software growing at 12% CAGR. The new ASC 842 and IFRS 16 lease accounting standards have forced every company with material lease obligations to digitize — creating a $4.2B market for lease management tools.\n\nThe competitive landscape is dominated by enterprise players: LeaseAccelerator (acquired by Eptura), Visual Lease, and CoStar's lease management tools. These platforms are built for large real estate portfolios and come with 6-figure implementation costs and 3-month onboarding timelines. On the lower end, companies use spreadsheets, shared drives, and calendar reminders — a $0 solution that costs them thousands in missed deadlines and overpayments.\n\nAnchor targets the gap: companies with 3-50 commercial leases who need professional lease management without enterprise overhead. This represents approximately $900M in addressable spend across 180,000 mid-market companies in North America. Our initial SOM focuses on Series B+ startups and mid-market companies in tech, professional services, and healthcare — roughly $150M.\n\nOur PLG motion starts with free lease extraction: upload a PDF, get structured lease data in minutes. Teams upgrade when they need critical date alerts, portfolio analytics, and ASC 842 compliance reporting. We partner with commercial brokers who recommend Anchor to their tenant clients, creating a referral flywheel.",
+    "landingPage": {
+      "companyName": "Anchor",
+      "tagline": "Commercial leases shouldn't require a legal team to manage",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#1D4ED8",
+          "primaryLight": "#93C5FD",
+          "primaryDark": "#1E3A8A",
+          "accent": "#F97316",
+          "background": "#F8FAFC",
+          "surface": "#FFFFFF",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Stop managing your leases in spreadsheets and prayer.",
+        "subheadline": "Anchor extracts critical data from your commercial leases, tracks every deadline, and flags cost-saving opportunities your team is missing. Built for growing companies, not REITs.",
+        "ctaText": "Upload your first lease",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your next renewal deadline might be closer than you think",
+        "subheadline": "Upload any commercial lease PDF. We'll extract the data and show you what you're missing — free.",
+        "buttonText": "Extract my lease data"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Your leases, finally under control",
+          "layout": "grid",
+          "items": [
+            { "icon": "📄", "title": "Instant lease extraction", "description": "Upload a PDF and get structured data in minutes — rent schedules, escalation clauses, renewal options, CAM obligations, and every critical date." },
+            { "icon": "🔔", "title": "Never miss a deadline", "description": "Automated alerts for renewals, termination windows, escalation triggers, and reconciliation deadlines. Routed to the right person on your team." },
+            { "icon": "📈", "title": "Market rate benchmarks", "description": "See how your lease rates compare to current market conditions in your submarket. Know when you have leverage before you negotiate." },
+            { "icon": "🧾", "title": "ASC 842 compliance", "description": "Automated lease accounting calculations and journal entries that satisfy your auditors without a dedicated lease accounting team." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What Anchor customers are seeing",
+          "stats": [
+            { "value": "23", "label": "Avg savings found in year one", "suffix": "%" },
+            { "value": "0", "label": "Missed renewal deadlines", "suffix": "" },
+            { "value": "4", "label": "Minutes to extract a lease", "suffix": " min" },
+            { "value": "2.1", "label": "Avg overpayment recovered", "suffix": "M" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From ops teams who got their weekends back",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We discovered we'd been overpaying CAM charges at two locations for four years. Anchor paid for itself in the first month.", "author": "Samira Patel", "role": "Head of Operations, Brightwheel" },
+            { "quote": "I used to keep renewal dates in my personal Google Calendar. When I went on maternity leave, nobody knew our biggest office lease was about to auto-renew. Anchor fixed that permanently.", "author": "Jen Kolstad", "role": "VP Finance, Cityblock Health" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing that scales with your portfolio",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "Free", "period": "", "features": ["Up to 3 leases", "Lease data extraction", "Basic deadline alerts", "Email support"], "ctaText": "Get started free" },
+            { "name": "Growth", "price": "$149", "period": "/month", "features": ["Up to 25 leases", "Market rate benchmarks", "ASC 842 reporting", "Team collaboration", "Slack integration"], "ctaText": "Start trial" },
+            { "name": "Portfolio", "price": "$399", "period": "/month", "features": ["Unlimited leases", "Custom workflows", "API access", "Dedicated success manager", "Audit-ready exports"], "ctaText": "Talk to us" }
+          ]
+        }
+      ],
+      "companyEmail": "anchor-prop@tryartha.com",
+      "domain": "anchor-prop.tryartha.com",
+      "projectSlug": "anchor-prop",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Silo",
+    "slug": "silo-ops",
+    "tagline": "Pick faster. Walk less. Ship more.",
+    "description": "Silo optimizes warehouse slotting — the art of deciding where every SKU lives on the shelf. By analyzing order patterns, pick sequences, and velocity data, we rearrange your warehouse so pickers walk less and throughput climbs. No racking changes required.",
+    "mission": "In most warehouses, products end up where they end up. Fast movers sit in the back because that's where they were put during the last big receiving day. Slow movers hog prime pick slots because nobody reassigned them when demand shifted. The result: pickers walk miles of unnecessary distance every shift, and throughput hits a ceiling that no amount of overtime can fix.\n\nSilo was born in a 200,000 square foot fulfillment center where we watched pickers average 8.3 miles per shift — not because the warehouse was large, but because it was badly slotted. We ran a manual reslotting project that took six weeks of analysis and cut pick time by 22%. Then demand patterns changed two months later and we were back to square one.\n\nThat experience made one thing clear: warehouse slotting isn't a project, it's a continuous optimization problem. Silo treats it that way. We ingest your WMS data, analyze order co-occurrence patterns, velocity curves, and physical constraints, then generate reslotting recommendations that your team can execute in waves — no forklift rodeo required.\n\nWe're not replacing your WMS. We're making the one you have dramatically more effective by ensuring every item lives in the right place at the right time. Our customers see 15-30% pick time reductions within the first reslotting wave, and the gains compound as Silo continuously adapts to shifting demand.",
+    "marketResearch": "The warehouse management systems market is projected to reach $11.1B by 2030, with optimization add-ons like slotting, labor planning, and simulation tools growing at 15% CAGR. The slotting optimization niche specifically represents approximately $1.8B in addressable spend. Our SAM — mid-market fulfillment operations in North America running pick-pack-ship workflows — is roughly $520M. Our initial SOM targets direct-to-consumer e-commerce fulfillment centers and 3PLs with 50K-500K square feet, representing $85M.\n\nCompetitors include built-in slotting modules from WMS vendors (Manhattan Associates, Blue Yonder) that require expensive licenses and consultant-led implementations, standalone tools like Optricity (acquired by Honeywell) that focus on enterprise distribution centers, and homegrown spreadsheet-based approaches used by 70%+ of mid-market warehouses. Silo wins by being WMS-agnostic, fast to deploy (days, not months), and continuously adaptive rather than project-based.\n\nOur GTM strategy targets operations managers and warehouse directors through content marketing around pick efficiency metrics, partnerships with 3PL technology consultants, and a free slotting audit that analyzes WMS data exports to quantify improvement potential. Early customers convert from the free audit at 40%, with average contracts of $2,800/month for a single facility.",
+    "landingPage": {
+      "companyName": "Silo",
+      "tagline": "Pick faster. Walk less. Ship more.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F59E0B",
+          "primaryLight": "#FCD34D",
+          "primaryDark": "#D97706",
+          "accent": "#EF4444",
+          "background": "#111318",
+          "surface": "#1A1D27",
+          "text": "#FFFBEB",
+          "textMuted": "#9CA3AF",
+          "border": "#2D3040"
+        },
+        "fontFamily": "'JetBrains Mono', monospace",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Your warehouse is slotted wrong. Let's fix it without ripping out racking.",
+        "subheadline": "Silo analyzes your order data and SKU velocity to generate reslotting plans that cut pick times 15-30%. Continuous optimization, not a one-time project.",
+        "ctaText": "Get a free slotting audit",
+        "ctaHref": "#audit"
+      },
+      "cta": {
+        "layout": "banner",
+        "headline": "Every mile your pickers walk unnecessarily costs you money",
+        "subheadline": "Upload 90 days of order data. We'll show you exactly how much.",
+        "buttonText": "Start free audit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Three steps to a faster warehouse",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Export your order data", "description": "Pull 90 days of order history from your WMS. We accept CSV, API integrations with ShipHero, Logiwa, and 3PL Central, or direct database connections." },
+            { "icon": "2", "title": "We map your optimal layout", "description": "Silo analyzes SKU velocity, order co-occurrence, pick path geometry, and physical constraints to generate a reslotting plan ranked by impact." },
+            { "icon": "3", "title": "Execute in waves", "description": "Your team moves products in manageable batches — highest impact first. No shutdown required. Silo tracks compliance and adjusts recommendations as patterns shift." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Numbers from real warehouses",
+          "stats": [
+            { "value": "27", "label": "Average pick time reduction", "suffix": "%" },
+            { "value": "2.4", "label": "Fewer miles walked per shift", "suffix": " mi" },
+            { "value": "19", "label": "Throughput increase", "suffix": "%" },
+            { "value": "6", "label": "Weeks to full ROI", "suffix": " wks" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for warehouse ops, not IT departments",
+          "layout": "alternating",
+          "items": [
+            { "icon": "📦", "title": "Velocity-based zoning", "description": "Automatically classify SKUs into velocity tiers and assign optimal zone placements. A-movers get golden zone slots, C-movers move to the back." },
+            { "icon": "🔄", "title": "Continuous adaptation", "description": "Demand shifts. Seasons change. Silo re-analyzes weekly and surfaces reslotting opportunities before your pick times creep back up." },
+            { "icon": "🗺️", "title": "Pick path simulation", "description": "Visualize picker travel paths before and after reslotting. Show your team (and your CFO) exactly where the savings come from." },
+            { "icon": "📋", "title": "Wave planning", "description": "Reslotting plans broken into executable waves with move lists, bin assignments, and compliance tracking your floor team can follow." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Operations teams who stopped guessing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We thought our warehouse was well-organized. Silo showed us our pickers were walking 3 extra miles per shift because of how we'd slotted seasonal inventory. Fixed it in one weekend.", "author": "Tony Ramos", "role": "Warehouse Director, PeakFulfillment" },
+            { "quote": "The continuous reslotting is what sold us. Our old approach was a big annual project that was outdated within weeks. Silo keeps us optimized as our catalog changes.", "author": "Linda Xu", "role": "VP Operations, NorthCoast 3PL" }
+          ]
+        }
+      ],
+      "companyEmail": "silo-ops@tryartha.com",
+      "domain": "silo-ops.tryartha.com",
+      "projectSlug": "silo-ops",
+      "animationPreset": "none",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Waypoint",
+    "slug": "waypoint-route",
+    "tagline": "Last-mile delivery that stops burning money on wrong turns",
+    "description": "Waypoint optimizes last-mile delivery routes in real time, balancing delivery windows, driver capacity, traffic patterns, and fuel costs. Built for regional delivery fleets that need enterprise-grade routing without enterprise-grade budgets.",
+    "mission": "Last-mile delivery is the most expensive, most chaotic, and most customer-visible part of the supply chain. A single bad routing decision cascades — late deliveries, angry customers, exhausted drivers, and margins that evaporate with every extra mile driven.\n\nWaypoint was founded by a team that ran delivery operations for a regional grocery chain and lived through the daily chaos firsthand. Dispatchers using Google Maps and tribal knowledge to plan 200 deliveries across 30 drivers. Routes built on assumptions from last Tuesday's traffic. Delivery windows missed because nobody accounted for a school zone on Third Street.\n\nWe built the routing engine we wished we'd had: one that ingests real-time traffic, historical delivery times, customer time windows, vehicle capacity, and driver hours-of-service constraints — then produces routes that are genuinely optimal, not just directionally correct. And it does this in minutes, not the hours it takes a human dispatcher.\n\nOur vision is simple: every regional delivery fleet should have access to the same routing intelligence that Amazon and FedEx spend billions developing in-house. The technology isn't the hard part anymore. The hard part was making it accessible, affordable, and fast enough for a dispatcher to use at 5am before the trucks roll out.",
+    "marketResearch": "The route optimization software market is valued at $7.4B and growing at 11.2% CAGR, driven by e-commerce growth and rising fuel costs. The last-mile segment specifically represents $3.1B of this market. Our SAM focuses on regional delivery fleets in North America — grocery, beverage, building materials, and home services — with 10-200 vehicles, representing roughly $850M. Our SOM targets the eastern US corridor, approximately $140M.\n\nThe competitive field includes enterprise platforms (Descartes, ORTEC, PTV Group) with complex implementations and six-figure annual costs, mid-market tools (OptimoRoute, Routific, Route4Me) with varying levels of sophistication, and free tools (Google Maps, Circuit) that lack multi-constraint optimization. Waypoint positions between mid-market and enterprise: real optimization that handles complex constraints (time windows, vehicle types, driver skills, live traffic) at a price point mid-market fleets can absorb.\n\nOur differentiation is speed and accuracy in constrained environments. Most competitors optimize for distance; Waypoint optimizes for total delivery cost including fuel, labor, failed delivery penalties, and customer satisfaction scores. Our engine produces routes in under 90 seconds for 500-stop problems, versus 10-30 minutes for comparable solutions.\n\nGTM strategy combines content marketing targeting fleet operations managers with partnerships with fleet management platforms (Fleetio, Azuga) and delivery management software providers. Free tier handles up to 50 stops/day, converting to paid plans for multi-driver, multi-depot operations.",
+    "landingPage": {
+      "companyName": "Waypoint",
+      "tagline": "Last-mile delivery that stops burning money on wrong turns",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#059669",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#047857",
+          "accent": "#8B5CF6",
+          "background": "#F0FDF4",
+          "surface": "#FFFFFF",
+          "text": "#022C22",
+          "textMuted": "#6B7280",
+          "border": "#D1FAE5"
+        },
+        "fontFamily": "'Plus Jakarta Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Routes your dispatchers would build — if they had 10,000 hours to think.",
+        "subheadline": "Waypoint produces optimized delivery routes in 90 seconds, balancing time windows, traffic, vehicle capacity, and driver constraints. No PhD required.",
+        "ctaText": "Try with your stops",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Every unoptimized route is money left on the road",
+        "subheadline": "Free for up to 50 stops per day. No credit card, no sales call.",
+        "buttonText": "Start routing free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Routing that accounts for the real world",
+          "layout": "grid",
+          "items": [
+            { "icon": "🚛", "title": "Multi-constraint optimization", "description": "Time windows, vehicle capacity, driver hours, service times, and priority stops — all solved simultaneously in under 90 seconds." },
+            { "icon": "🗺️", "title": "Live traffic integration", "description": "Routes adjust for real-time traffic conditions, road closures, and weather. What's optimal at 6am may not be optimal at 9am." },
+            { "icon": "📱", "title": "Driver mobile app", "description": "Turn-by-turn navigation, proof of delivery capture, and real-time status updates. Dispatchers see every driver's progress on a live map." },
+            { "icon": "📊", "title": "Performance analytics", "description": "Track planned vs. actual routes, on-time rates, cost per delivery, and driver utilization. See exactly where money leaks out." },
+            { "icon": "🔗", "title": "WMS and OMS integrations", "description": "Connect to your order management system and let Waypoint auto-generate routes as orders come in. Works with ShipBob, Shopify, and custom systems." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Built for fleets, not pizza delivery",
+          "comparisonOurName": "Waypoint",
+          "comparisonCompetitorName": "Mid-market tools",
+          "comparisonRows": [
+            { "feature": "Multi-vehicle type support", "us": true, "competitor": "Limited" },
+            { "feature": "Time window constraints", "us": "Hard & soft windows", "competitor": "Hard only" },
+            { "feature": "Live traffic rerouting", "us": true, "competitor": false },
+            { "feature": "Driver hours-of-service", "us": true, "competitor": false },
+            { "feature": "500-stop optimization", "us": "< 90 seconds", "competitor": "10-30 min" },
+            { "feature": "Multi-depot support", "us": true, "competitor": "Limited" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From dispatchers who sleep better now",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were spending 2 hours every morning building routes manually for 14 drivers. Waypoint does it in 90 seconds and the routes are consistently better. My dispatchers actually leave on time now.", "author": "Carlos Reyes", "role": "Fleet Manager, FreshDirect Northeast" },
+            { "quote": "Our fuel costs dropped 18% in the first month. Turns out human-planned routes had a lot of unnecessary backtracking that nobody noticed until Waypoint showed us the heat maps.", "author": "Amanda Schreiber", "role": "Operations Director, BuildersDirect" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How fast is the route optimization?", "answer": "Under 90 seconds for up to 500 stops across multiple vehicles, including all constraints. Larger problems take 2-3 minutes. We prioritize speed because dispatchers need answers before trucks leave the depot." },
+            { "question": "Can drivers override routes in the field?", "answer": "Yes. Drivers can skip stops, reorder within their route, or add on-the-fly stops. Changes sync back to the dispatch view in real-time and trigger re-optimization for remaining stops." },
+            { "question": "What if we have different vehicle types?", "answer": "Waypoint handles mixed fleets — box trucks, vans, refrigerated units, flatbeds. Each vehicle type has its own capacity, speed, and access constraints factored into optimization." }
+          ]
+        }
+      ],
+      "companyEmail": "waypoint-route@tryartha.com",
+      "domain": "waypoint-route.tryartha.com",
+      "projectSlug": "waypoint-route",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Cornerstone",
+    "slug": "cornerstone-space",
+    "tagline": "Run your coworking space like a business, not a hobby",
+    "description": "Cornerstone is a management platform purpose-built for coworking and flex space operators. Billing, member management, room booking, access control, and community tools — unified in one system instead of duct-taped across seven.",
+    "mission": "The coworking industry has exploded, but the tools haven't kept up. Most operators run their spaces on a Frankenstein stack — Stripe for billing, Google Calendar for room bookings, a spreadsheet for member tracking, and a physical keycard system that nobody bothers to update. The result: manual work that scales linearly with membership, billing errors that erode trust, and zero visibility into what's actually working.\n\nCornerstone was built by operators, for operators. Our founding team ran three coworking spaces in Austin and spent more time wrestling with software than building community. We tried every platform on the market — some handled billing well but had terrible booking. Others had nice member portals but couldn't manage multi-location operations. None of them talked to our access control system.\n\nWe decided to build the platform we couldn't find: a single system that handles the entire coworking operation from first tour to monthly invoice. Member lifecycle management, automated billing with flexible plan structures, room and desk booking with real-time availability, access control integration, community features, and the analytics operators need to make smart decisions about pricing and space utilization.\n\nOur north star is freeing operators to focus on what actually differentiates their space: the community, the experience, and the programming. The back-office shouldn't eat your day.",
+    "marketResearch": "The global coworking space market is projected to reach $40B by 2030, growing at 15% CAGR. The management software segment supporting this market represents approximately $2.8B in TAM. Our SAM focuses on independent coworking operators and small chains (1-20 locations) in North America and Europe, representing $780M. Our SOM targets single-location and small multi-location operators in the US, roughly $120M.\n\nThe competitive landscape includes Optix (strong mobile experience, weak on billing complexity), OfficeRnD (good feature breadth, dated UX), Nexudus (European market leader, complex to configure), and Cobot (developer-friendly but limited scaling). Enterprise flex operators use in-house solutions or platforms like Yardi/MRI that aren't coworking-native. Cornerstone differentiates through operational simplicity — a single platform that covers billing, booking, access control, and community without requiring a technical co-founder to configure.\n\nOur GTM is community-led, starting with coworking operator communities (GWA, GCUC conferences) and content marketing around operational benchmarks. We offer a free tier for spaces under 25 members, converting to paid plans as spaces grow. Average contract value is $350/month for a single location, scaling to $1,200/month for multi-location operators. Our biggest growth lever is the access control integration — once a space's door locks run through Cornerstone, switching costs become significant.",
+    "landingPage": {
+      "companyName": "Cornerstone",
+      "tagline": "Run your coworking space like a business, not a hobby",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#7C3AED",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#5B21B6",
+          "accent": "#EC4899",
+          "background": "#FDFAFF",
+          "surface": "#FFFFFF",
+          "text": "#1E1133",
+          "textMuted": "#71717A",
+          "border": "#EDE9FE"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "One platform for your entire coworking operation. Finally.",
+        "subheadline": "Cornerstone unifies billing, member management, room booking, access control, and community tools — so you can stop duct-taping seven different apps together.",
+        "ctaText": "See it in action",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your members deserve a better experience. You deserve fewer spreadsheets.",
+        "subheadline": "Free for spaces under 25 members. Upgrade as you grow.",
+        "buttonText": "Start free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything your coworking space needs, nothing it doesn't",
+          "layout": "bento",
+          "items": [
+            { "icon": "💳", "title": "Flexible billing engine", "description": "Hot desks, dedicated desks, private offices, meeting room credits, day passes — all with automated invoicing, proration, and failed payment recovery." },
+            { "icon": "📅", "title": "Room and desk booking", "description": "Real-time availability for meeting rooms, phone booths, and hot desks. Members book from the app. You set capacity, pricing, and cancellation policies." },
+            { "icon": "🔐", "title": "Access control", "description": "Integrates with Kisi, Salto, and Brivo. Members get access tied to their plan — private office 24/7, hot desk during business hours, meeting room when booked." },
+            { "icon": "👥", "title": "Community hub", "description": "Member directory, event calendar, announcements, and a feed that helps members connect. Because community is what keeps them renewing." },
+            { "icon": "📊", "title": "Occupancy analytics", "description": "Utilization rates by zone, time, and plan type. Know which spaces earn their rent and which need repricing or repurposing." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "From operators using Cornerstone",
+          "stats": [
+            { "value": "8", "label": "Hours saved per week on admin", "suffix": " hrs" },
+            { "value": "94", "label": "Billing accuracy rate", "suffix": "%" },
+            { "value": "31", "label": "Increase in meeting room revenue", "suffix": "%" },
+            { "value": "12", "label": "Higher member retention", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Operators who got their time back",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Before Cornerstone, I spent every Monday morning reconciling Stripe payments against a Google Sheet of members. Now billing just works and I spend that time actually talking to members.", "author": "Kira Oduya", "role": "Founder, The Hive Coworking (Austin, TX)" },
+            { "quote": "The access control integration was the game changer. No more physical keycards, no more chasing down expired members. When a membership lapses, door access turns off automatically.", "author": "Marco Bellini", "role": "Operations Manager, WorkHub (Denver, CO)" },
+            { "quote": "We opened our second location and Cornerstone made it feel like expanding a dashboard, not starting from scratch. Multi-location billing and reporting just worked.", "author": "Priya Anand", "role": "Co-founder, Nomad Spaces (Portland, OR)" }
+          ]
+        }
+      ],
+      "companyEmail": "cornerstone-space@tryartha.com",
+      "domain": "cornerstone-space.tryartha.com",
+      "projectSlug": "cornerstone-space",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Manifest",
+    "slug": "manifest-ops",
+    "tagline": "Stop overpaying on freight. Start auditing automatically.",
+    "description": "Manifest automates freight bill auditing and payment for shippers who are tired of overpaying carriers. We catch billing errors, duplicate charges, and contract non-compliance that manual processes miss — then handle payment so your AP team can focus on literally anything else.",
+    "mission": "Freight invoices are wrong more often than most shippers realize. Industry studies put the error rate between 5-15%, but in our experience it's often higher. Duplicate charges, incorrect accessorial fees, weight discrepancies, fuel surcharge miscalculations, and rates that don't match contracted terms. Multiply that by thousands of shipments per month and you're bleeding money you'll never recover.\n\nManifest started because our founder spent a decade in logistics finance and watched companies hire entire teams just to check invoices against contracts — a process that's tedious, error-prone, and always behind. The worst part: even the best manual audit catches maybe 60% of errors. The other 40% gets paid without question.\n\nWe built an engine that ingests every freight invoice, matches it against your carrier contracts and shipment records, flags discrepancies with specific dollar amounts and root causes, and either auto-approves clean invoices or routes exceptions to your team with all the context they need to resolve them. No more spreadsheet reconciliation. No more paying invoices on faith.\n\nBut auditing is just the entry point. Our vision is to become the financial intelligence layer for freight operations — helping shippers understand their true landed cost per shipment, identify carrier performance trends, and negotiate better contracts with data they've never had access to before.",
+    "marketResearch": "The freight audit and payment market is valued at $3.2B globally, growing at 9% CAGR as supply chains digitize and shipping volumes increase. The North American segment represents $1.4B, with mid-market shippers (500-50,000 shipments/month) being the most underserved — too large for manual processes, too small for enterprise solutions like Cass Information Systems or nVision Global.\n\nOur SAM targets mid-market manufacturers, distributors, and retailers shipping via LTL, TL, and parcel in North America — approximately $480M in addressable spend. Our initial SOM focuses on companies with $5M-$100M in annual freight spend, representing roughly $80M.\n\nCompetitors include legacy freight payment companies (Cass, CTSI-Global) with lengthy implementations and outdated technology, newer platforms (Loop, Shipwell's audit features) with narrower scope, and in-house AP teams using spreadsheets and manual processes. Manifest differentiates through automation depth — we don't just flag errors, we identify root causes, calculate recovery amounts, and generate carrier dispute documentation automatically.\n\nOur GTM strategy starts with a free freight audit on 90 days of historical invoices — showing shippers exactly how much they've been overpaying before they commit. This creates a powerful conversion moment. Average savings identified in the free audit: $47K. Paid plans charge a percentage of recovered savings in year one, transitioning to flat monthly pricing, aligning our incentives with customer value.",
+    "landingPage": {
+      "companyName": "Manifest",
+      "tagline": "Stop overpaying on freight. Start auditing automatically.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#3B82F6",
+          "primaryLight": "#93C5FD",
+          "primaryDark": "#1D4ED8",
+          "accent": "#10B981",
+          "background": "#09090B",
+          "surface": "#18181B",
+          "text": "#FAFAFA",
+          "textMuted": "#A1A1AA",
+          "border": "#27272A"
+        },
+        "fontFamily": "'Space Grotesk', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Your freight invoices have errors. We find them before you pay.",
+        "subheadline": "Manifest automatically audits every freight bill against your contracts, flags discrepancies, and handles payment. Shippers using Manifest recover 5-12% of freight spend they were losing to billing errors.",
+        "ctaText": "Get your free audit",
+        "ctaHref": "#audit"
+      },
+      "cta": {
+        "layout": "banner",
+        "headline": "The average shipper overpays $47,000 before they find out",
+        "subheadline": "Send us 90 days of freight invoices. We'll show you exactly what you've been overpaying — free, no commitment.",
+        "buttonText": "Start free freight audit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From invoice chaos to automated recovery",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your freight data", "description": "Integrate with your TMS, ERP, or upload invoices directly. We ingest carrier contracts, rate agreements, and shipment records to build your audit baseline." },
+            { "icon": "2", "title": "Every invoice gets audited", "description": "Our engine checks rates, accessorials, fuel surcharges, weights, and terms against your contracts. Errors are flagged with exact dollar amounts and root cause analysis." },
+            { "icon": "3", "title": "Recover what you're owed", "description": "Clean invoices auto-approve for payment. Errors generate carrier dispute packages automatically. Your team reviews exceptions with full context, not raw data." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What our audits uncover",
+          "stats": [
+            { "value": "8.3", "label": "Average freight spend recovered", "suffix": "%" },
+            { "value": "47", "label": "Avg savings found in free audit", "suffix": "K" },
+            { "value": "12", "label": "Error types we catch", "suffix": "+" },
+            { "value": "92", "label": "Dispute win rate with carriers", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Freight finance on autopilot",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🔍", "title": "Rate compliance checking", "description": "Every line item verified against your contracted rates. Catches incorrect base rates, wrong service levels, and expired contract rates that carriers forget to update." },
+            { "icon": "⚖️", "title": "Weight and dimension audit", "description": "Cross-references billed weights against BOL and actual weights. Catches the reweigh discrepancies that silently inflate your invoices." },
+            { "icon": "📑", "title": "Accessorial validation", "description": "Liftgate, residential delivery, inside delivery — we verify every accessorial charge was actually incurred and priced correctly per your agreement." },
+            { "icon": "💵", "title": "Automated payment", "description": "Approved invoices flow to payment automatically with full audit trail. Consolidate carrier payments and eliminate manual AP processing." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Shippers who stopped leaving money on the table",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Manifest found $312K in freight billing errors in our first 90 days. Our AP team had been approving these invoices for years. It was honestly embarrassing how much we were overpaying.", "author": "Greg Halloran", "role": "VP Supply Chain, Consolidated Building Materials" },
+            { "quote": "The automated dispute packages are incredible. We used to spend hours building cases for carrier credits. Now Manifest generates them with all supporting documentation and our recovery rate went from 45% to 92%.", "author": "Michelle Torres", "role": "Freight Payment Manager, NorthStar Distribution" },
+            { "quote": "We thought our freight audit process was solid until Manifest's free audit found a 9% error rate. Turned out our team was only catching the obvious stuff. The accessorial errors were invisible to manual review.", "author": "Dan Kirkpatrick", "role": "CFO, RapidShip Fulfillment" }
+          ]
+        }
+      ],
+      "companyEmail": "manifest-ops@tryartha.com",
+      "domain": "manifest-ops.tryartha.com",
+      "projectSlug": "manifest-ops",
+      "animationPreset": "subtle",
+      "shadowStyle": "none"
+    }
+  },
+  {
+    "name": "Domicile",
+    "slug": "domicile-prop",
+    "tagline": "Property management that doesn't require a property manager",
+    "description": "Domicile is built for small landlords managing 1-20 rental units who need professional-grade tools without the overhead. Rent collection, maintenance coordination, tenant screening, and accounting — all in one place, designed for people who have a day job.",
+    "mission": "There are 11 million individual landlords in the United States, and most of them manage their properties with a combination of Venmo, text messages, and a shoebox of receipts. They're not real estate professionals — they're teachers, engineers, and small business owners who own a duplex or a handful of rental units as an investment. And the software industry has mostly ignored them.\n\nEnterprise property management platforms like Yardi and AppFolio are designed for professional management companies with hundreds of units and dedicated office staff. They're powerful, expensive, and wildly over-engineered for someone managing four apartments. On the other end, tools like Cozy (now Apartments.com) have been hollowed out or absorbed into platforms that prioritize listing revenue over landlord experience.\n\nDomicile fills this gap with genuine care for the small landlord. We automate the operational burden — rent collection with automatic late fees and receipts, maintenance requests that tenants submit through the app instead of 11pm text messages, lease management with e-signatures, and accounting that generates Schedule E tax reports without a bookkeeper.\n\nWe believe small landlords provide essential housing in communities across America, and they deserve tools that respect their time and intelligence. Not dumbed-down versions of enterprise software, and not consumer apps that treat property management as an afterthought.",
+    "marketResearch": "The US residential property management software market is $3.4B, growing at 8% CAGR. However, the small landlord segment (1-20 units) represents 70% of all rental units nationally but only 15% of software spend — a massive underserved opportunity estimated at $1.2B. Our SAM targets individual landlords and small LLCs in the US with 1-20 units, approximately $680M. Our SOM focuses on digitally-savvy landlords in the top 50 metro areas, roughly $110M.\n\nThe competitive landscape: Buildium and AppFolio serve the 50-500 unit professional segment. TurboTenant and Avail target small landlords but are primarily tenant screening and listing tools with property management bolted on. Stessa handles financials well but lacks operational features. Domicile differentiates by being the only purpose-built, full-stack platform for the small landlord — combining the operational tools of enterprise platforms with the simplicity that part-time landlords need.\n\nOur freemium model offers free rent collection (monetized via optional tenant-paid ACH fees) and upgrades to $12/unit/month for the full suite including maintenance management, accounting, document storage, and tax reporting. This pricing is 60-80% below AppFolio or Buildium on a per-unit basis.\n\nGTM strategy leverages content marketing targeting real estate investing communities (BiggerPockets, Reddit r/landlord), partnerships with real estate investment education platforms, and a referral program that gives landlords a free month per referral. Our CAC is $38, with LTV of $1,400 based on average 3.2-year retention and 6.8 units per account.",
+    "landingPage": {
+      "companyName": "Domicile",
+      "tagline": "Property management that doesn't require a property manager",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#D97706",
+          "primaryLight": "#FDE68A",
+          "primaryDark": "#B45309",
+          "accent": "#0EA5E9",
+          "background": "#FFFBF0",
+          "surface": "#FFFFFF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#FDE68A"
+        },
+        "fontFamily": "'Instrument Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "You bought the rental property. Now manage it without losing your mind.",
+        "subheadline": "Domicile handles rent collection, maintenance requests, tenant screening, and tax-ready accounting — designed for landlords with 1-20 units who have better things to do than chase Venmo payments.",
+        "ctaText": "Add your first property free",
+        "ctaHref": "#signup"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your rental properties should build wealth, not steal your weekends",
+        "subheadline": "Rent collection is free forever. Full suite starts at $12/unit/month.",
+        "buttonText": "Get started free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything you need, nothing you don't",
+          "layout": "grid",
+          "items": [
+            { "icon": "💰", "title": "Rent collection that works", "description": "Tenants pay online with auto-pay. Late fees apply automatically. You get direct deposits and a paper trail. No more Venmo requests on the 3rd of the month." },
+            { "icon": "🔧", "title": "Maintenance without midnight texts", "description": "Tenants submit requests through the app with photos and descriptions. You assign vendors, track progress, and keep a maintenance history per unit." },
+            { "icon": "📋", "title": "Leases and e-signatures", "description": "State-specific lease templates, e-signature workflows, and automatic renewal reminders. Everything stored and organized per property." },
+            { "icon": "🧮", "title": "Tax-ready accounting", "description": "Income, expenses, and depreciation tracked automatically. Generate Schedule E reports at tax time without a spreadsheet or a bookkeeper." },
+            { "icon": "🔍", "title": "Tenant screening", "description": "Credit checks, background checks, and income verification in one flow. Applicants pay the screening fee. You get a clear report with a recommendation." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From landlords who got their time back",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I'm a high school teacher who owns a triplex. Before Domicile, I was spending my Sunday evenings doing landlord paperwork. Now rent shows up in my account and maintenance requests go through the app. I barely think about it.", "author": "Kevin Cho", "role": "Owner, 3 units in Sacramento" },
+            { "quote": "My accountant used to charge me $800 to sort through my rental income receipts at tax time. Domicile generated my Schedule E in two clicks. That alone pays for the whole year.", "author": "Natasha Williams", "role": "Owner, 7 units in Atlanta" },
+            { "quote": "The tenant screening feature is what won me over. I used to Google applicants and hope for the best. Now I get credit reports, background checks, and verified income before I hand over keys.", "author": "Roberto Fuentes", "role": "Owner, 12 units in Phoenix" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing that respects your margins",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Collect", "price": "Free", "period": "", "features": ["Unlimited units", "Online rent collection", "Basic payment tracking", "Tenant portal", "Email support"], "ctaText": "Start free" },
+            { "name": "Manage", "price": "$12", "period": "/unit/month", "features": ["Everything in Collect", "Maintenance management", "Lease e-signatures", "Accounting & Schedule E", "Tenant screening", "Document storage"], "ctaText": "Try 30 days free" },
+            { "name": "Portfolio", "price": "$9", "period": "/unit/month", "features": ["Everything in Manage", "20+ units volume pricing", "Multi-entity accounting", "Priority phone support", "API access"], "ctaText": "Contact us" }
+          ]
+        }
+      ],
+      "companyEmail": "domicile-prop@tryartha.com",
+      "domain": "domicile-prop.tryartha.com",
+      "projectSlug": "domicile-prop",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Berth",
+    "slug": "berth-fleet",
+    "tagline": "Port scheduling that actually keeps ships moving",
+    "description": "Berth optimizes dock and port scheduling for maritime terminals, reducing vessel wait times and maximizing berth utilization. We replace the whiteboards, phone calls, and spreadsheets that most ports still use to manage the most expensive parking spots on earth.",
+    "mission": "A single container vessel sitting idle at anchor costs between $30,000 and $80,000 per day. Multiply that by the dozens of ships waiting outside every major port and you start to understand the scale of the scheduling problem in maritime logistics. Ports are the critical bottleneck in global trade, and most of them still coordinate berth assignments with phone calls, emails, and whiteboards.\n\nBerth was founded by a team with deep roots in port operations who saw this inefficiency from the inside. The problem isn't that port operators lack skill — it's that they lack tools. A modern container terminal juggles vessel arrivals, tide windows, crane availability, berth depth restrictions, cargo type compatibility, and labor scheduling simultaneously. Doing this in spreadsheets means decisions are reactive instead of optimized.\n\nWe built a scheduling engine purpose-built for the unique constraints of port operations. Berth considers vessel dimensions, draft requirements, cargo handling equipment, terminal operating system data, tide tables, and weather forecasts to produce berth schedules that maximize throughput while minimizing vessel wait times.\n\nOur initial focus is mid-size ports and private terminals that lack the IT budgets of mega-ports like Rotterdam or Shanghai but face the same scheduling complexity. These are the ports where a 15% improvement in berth utilization means the difference between profitability and requesting government subsidies.",
+    "marketResearch": "The port management software market is projected to reach $6.8B by 2030, with berth scheduling and terminal optimization representing approximately $1.9B. The global shift toward port digitization — driven by congestion crises, emissions regulations, and vessel size increases — is accelerating adoption. Our SAM targets mid-size container and bulk terminals in North America, Europe, and Southeast Asia, roughly $520M. Our initial SOM focuses on US and Canadian ports with 200K-2M TEU annual throughput, approximately $65M.\n\nCompetitors include terminal operating system (TOS) vendors like Navis (Cargotec) and TBA Group that offer berth planning as modules within larger systems, standalone optimization tools from companies like INFORM and PortLink, and in-house Excel-based systems used by 60%+ of mid-size ports. Berth differentiates through standalone deployment (no TOS replacement required), real-time optimization that adapts to disruptions, and a modern UX that operations teams can actually use without weeks of training.\n\nOur GTM strategy targets port operations directors and terminal managers through industry conferences (TOC, AAPA), partnerships with maritime consultancies, and a free simulation tool that lets ports model their current operations and see optimization potential before committing. Sales cycles are 3-6 months with average contract values of $120K-$400K annually depending on terminal size.\n\nKey market tailwinds: the IMO's 2030 carbon intensity targets are pushing ports to reduce idle time (less fuel burned at anchor), chassis and container dwell time regulations in California, and the trend toward port automation that requires digital scheduling as a foundation layer.",
+    "landingPage": {
+      "companyName": "Berth",
+      "tagline": "Port scheduling that actually keeps ships moving",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#0EA5E9",
+          "primaryLight": "#7DD3FC",
+          "primaryDark": "#0369A1",
+          "accent": "#F97316",
+          "background": "#020617",
+          "surface": "#0F172A",
+          "text": "#F0F9FF",
+          "textMuted": "#94A3B8",
+          "border": "#1E293B"
+        },
+        "fontFamily": "'IBM Plex Sans', sans-serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Every hour a vessel waits at anchor costs more than your scheduling software will all year.",
+        "subheadline": "Berth optimizes dock assignments in real time — factoring in vessel dimensions, tide windows, crane availability, and cargo type — so ships berth faster and terminals earn more.",
+        "ctaText": "Simulate your terminal",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "The whiteboard isn't scaling. Your port shouldn't have to choose between speed and safety.",
+        "subheadline": "Free terminal simulation with your real data. See the improvement before you commit.",
+        "buttonText": "Request simulation"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Scheduling built for maritime reality",
+          "layout": "bento",
+          "items": [
+            { "icon": "🚢", "title": "Constraint-aware scheduling", "description": "Vessel LOA, beam, draft, cargo type, berth depth, crane reach, and labor availability — all factored into every berth assignment automatically." },
+            { "icon": "🌊", "title": "Tide and weather integration", "description": "Real-time tide table and weather forecast integration ensures vessels are scheduled for safe arrival windows without manual checking." },
+            { "icon": "🔄", "title": "Dynamic rescheduling", "description": "When a vessel is delayed or a crane goes down, Berth reoptimizes the entire schedule in seconds — not the hours it takes to coordinate by phone." },
+            { "icon": "📊", "title": "Utilization analytics", "description": "Berth occupancy rates, average wait times, turn times, and throughput trends. Identify bottlenecks and prove the case for infrastructure investment with real data." },
+            { "icon": "🔗", "title": "TOS integration", "description": "Works alongside your existing terminal operating system — Navis, TOPS, or Jade. No rip-and-replace. Berth adds intelligence to your current infrastructure." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Results from terminals using Berth",
+          "stats": [
+            { "value": "38", "label": "Reduction in vessel wait time", "suffix": "%" },
+            { "value": "15", "label": "Increase in berth utilization", "suffix": "%" },
+            { "value": "2.1", "label": "Saved per vessel in idle costs", "suffix": "K/day" },
+            { "value": "90", "label": "Seconds to reschedule", "suffix": " sec" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From port operators who retired the whiteboard",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We had two senior planners who held our entire berth schedule in their heads. When one retired, we nearly fell apart. Berth captured that knowledge and made it systematic.", "author": "Captain Anders Lindqvist", "role": "Terminal Director, Port of Savannah Bulk Terminal" },
+            { "quote": "The dynamic rescheduling changed everything. A vessel shows up 6 hours early and within minutes we've adjusted the whole day instead of scrambling with phone calls for an hour.", "author": "Marie-Claire Dubois", "role": "Operations Manager, Montreal Gateway Terminals" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions from port operators",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do we need to replace our terminal operating system?", "answer": "No. Berth integrates with Navis N4, TOPS Expert, Jade Master Terminal, and others via API. We add scheduling intelligence on top of your existing infrastructure." },
+            { "question": "How long does implementation take?", "answer": "Typical deployment is 4-8 weeks including integration, historical data analysis, and operator training. We run parallel operations alongside your current process until your team is confident." },
+            { "question": "What types of terminals do you support?", "answer": "Container, bulk, break-bulk, and multi-purpose terminals. Our constraint engine adapts to the specific operational rules of each cargo type and terminal configuration." }
+          ]
+        }
+      ],
+      "companyEmail": "berth-fleet@tryartha.com",
+      "domain": "berth-fleet.tryartha.com",
+      "projectSlug": "berth-fleet",
+      "animationPreset": "none",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Threshold",
+    "slug": "threshold-space",
+    "tagline": "Your building is wasting energy. We can see exactly where.",
+    "description": "Threshold is a smart building energy management platform that connects to existing BMS and IoT sensors to identify waste, automate savings, and help commercial buildings hit sustainability targets — without replacing any hardware.",
+    "mission": "Commercial buildings consume 35% of all electricity in the United States, and studies consistently show that 20-30% of that energy is wasted. HVAC systems heat empty floors. Lights burn in unoccupied conference rooms. Chillers run at full capacity when outdoor air could do the job. The waste isn't from bad equipment — it's from dumb controls and zero visibility.\n\nThreshold exists because we believe every commercial building already has the data it needs to cut energy costs dramatically. The BMS has temperature readings. The meters have consumption data. The access control system knows which floors are occupied. The problem is that these systems don't talk to each other, and nobody is watching the patterns at 2am when the real waste happens.\n\nWe connect to the systems your building already has — BACnet BMS, smart meters, occupancy sensors, weather feeds — and layer on intelligence that identifies waste patterns, automates setpoint adjustments, and surfaces the changes that will save the most money with the least disruption. No new hardware. No construction. Just software that makes your existing building perform like it was designed to.\n\nOur team comes from the intersection of building science and machine learning. We've operated buildings, designed HVAC systems, and built the models that predict when a chiller is about to fail. Threshold is the tool we wish we'd had: one that turns building data into action without requiring a PhD in mechanical engineering.",
+    "marketResearch": "The smart building energy management market is projected to hit $15.3B by 2030, growing at 14% CAGR. Key drivers include ESG reporting mandates (EU CSRD, SEC climate disclosure rules), rising energy costs, and local building performance standards (NYC LL97, Boston BERDO). The compliance pressure alone is creating $4.2B in demand for energy optimization software.\n\nOur SAM targets commercial office buildings, retail portfolios, and institutional campuses (100K-2M sqft) in North America — approximately $2.1B. Our SOM focuses on buildings in cities with active building performance standards, roughly $340M.\n\nCompetitors include large building analytics platforms (75F, acquired by Johnson Controls; Cohesion, BuildingIQ) that require significant hardware investment, point solutions for HVAC optimization (Brainbox AI, Parity) with narrower scope, and legacy BMS vendors (Honeywell, Siemens) adding analytics as premium modules. Threshold differentiates by being hardware-agnostic, software-only, and focused on delivering ROI through operational changes rather than capital projects.\n\nOur GTM targets building operations directors and sustainability managers through building industry associations (BOMA, IFMA), energy consultancy partnerships, and content marketing around building performance standards compliance. Free energy audits analyzing 90 days of meter data create a strong conversion funnel — average identified savings of $1.40/sqft/year against a platform cost of $0.25/sqft/year makes the ROI case straightforward.",
+    "landingPage": {
+      "companyName": "Threshold",
+      "tagline": "Your building is wasting energy. We can see exactly where.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#16A34A",
+          "primaryLight": "#86EFAC",
+          "primaryDark": "#15803D",
+          "accent": "#2563EB",
+          "background": "#F7FEF7",
+          "surface": "#FFFFFF",
+          "text": "#052E16",
+          "textMuted": "#6B7280",
+          "border": "#DCFCE7"
+        },
+        "fontFamily": "'General Sans', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Cut building energy costs 20-30%. No new hardware required.",
+        "subheadline": "Threshold connects to your existing BMS, meters, and sensors to find waste patterns, automate savings, and keep you compliant with building performance standards — all through software.",
+        "ctaText": "Get a free energy audit",
+        "ctaHref": "#audit"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your building is already collecting the data. Start using it.",
+        "subheadline": "Free energy audit with 90 days of meter data. See your savings potential in under a week.",
+        "buttonText": "Start your audit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From data streams to dollars saved",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your building systems", "description": "BACnet BMS, smart meters, occupancy sensors, weather feeds — Threshold ingests data from the systems you already have without installing new hardware." },
+            { "icon": "2", "title": "We find the waste patterns", "description": "Machine learning models analyze consumption against occupancy, weather, and schedules to identify specific waste events — HVAC running on empty floors, lighting overrides that never got reset." },
+            { "icon": "3", "title": "Automate or act on recommendations", "description": "Some savings are automated: dynamic setpoint adjustments, schedule corrections, demand response. Others surface as prioritized recommendations for your ops team." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Intelligence for every building system",
+          "layout": "alternating",
+          "items": [
+            { "icon": "❄️", "title": "HVAC optimization", "description": "Dynamic setpoint adjustments based on occupancy, weather forecasts, and thermal models. Avoid overcooling empty zones and reduce peak demand charges." },
+            { "icon": "💡", "title": "Lighting waste detection", "description": "Identify zones where lights stay on after hours, overrides that were never reverted, and daylight harvesting opportunities your current system misses." },
+            { "icon": "📋", "title": "Compliance reporting", "description": "Auto-generate reports for NYC LL97, Boston BERDO, DC BEPS, and other building performance standards. Know your penalty exposure in real time, not once a year." },
+            { "icon": "🔮", "title": "Predictive maintenance", "description": "Detect equipment degradation from energy signatures before it becomes a failure. A chiller losing efficiency shows up in consumption data weeks before it breaks." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Savings from real buildings",
+          "stats": [
+            { "value": "24", "label": "Average energy cost reduction", "suffix": "%" },
+            { "value": "1.40", "label": "Saved per sqft annually", "suffix": "$/sqft" },
+            { "value": "5.6", "label": "Average payback period", "suffix": " mo" },
+            { "value": "0", "label": "Hardware required", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Building teams who found the hidden savings",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Threshold found that our HVAC was running at full capacity on two floors every weekend because someone overrode the schedule two years ago and nobody noticed. That single fix saved $38K a year.", "author": "Derek Simmons", "role": "Director of Facilities, Beacon Office Partners" },
+            { "quote": "We were facing a $200K penalty under LL97. Threshold helped us cut enough consumption through operational changes alone to avoid it — no capital project required.", "author": "Yuki Tanaka", "role": "Sustainability Manager, Atlas REIT" },
+            { "quote": "The predictive maintenance alerts have prevented three equipment failures this year. Each one would have been a $15K emergency call plus angry tenants. Threshold pays for itself on that alone.", "author": "Patricia Reeves", "role": "Chief Engineer, MetroFirst Properties" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions from building teams",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do we need to install any hardware?", "answer": "No. Threshold connects to your existing BMS (via BACnet, Modbus, or Niagara), smart meters, and any IoT sensors already in place. If you have a modern BMS and interval metering, you're ready to go." },
+            { "question": "How does this work with our existing BMS vendor?", "answer": "We're vendor-agnostic and work alongside Honeywell, Siemens, Johnson Controls, Tridium, and others. Threshold adds intelligence on top — we don't replace your BMS or require proprietary hardware." },
+            { "question": "What building types do you support?", "answer": "Office buildings, retail portfolios, institutional campuses, and mixed-use properties from 100K to 2M square feet. We're optimized for buildings with central HVAC systems and BMS infrastructure." }
+          ]
+        }
+      ],
+      "companyEmail": "threshold-space@tryartha.com",
+      "domain": "threshold-space.tryartha.com",
+      "projectSlug": "threshold-space",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Cartage",
+    "slug": "cartage-route",
+    "tagline": "The freight marketplace where shippers and carriers actually find each other",
+    "description": "Cartage is a digital freight marketplace that connects shippers with vetted carriers for LTL, FTL, and drayage loads. Transparent pricing, real-time tracking, and none of the phone tag that makes freight brokerage feel stuck in 1995.",
+    "mission": "Shipping freight in America is a $900 billion industry that still runs on phone calls, faxes, and relationships. A shipper with a load to move calls their broker. The broker calls five carriers. Three don't answer. One quotes too high. One can do it but not until Thursday. An hour later, a truck is booked at whatever price emerged from this chaotic process. Repeat 50 times a day.\n\nCartage was founded because we believe freight matching should work like every other marketplace in 2026 — transparent, instant, and data-driven. Shippers post loads with origin, destination, commodity, and timing. Carriers see loads that match their lanes, equipment, and availability. Pricing is informed by real market data, not whatever the broker feels like quoting.\n\nBut we're not naive about why brokers exist. They provide trust, credit, and problem-solving that a simple load board can't replace. So we built Cartage to capture the best parts of brokerage — carrier vetting, payment guarantees, and exception management — while eliminating the worst parts: opacity, phone tag, and the 15-20% margin that ultimately comes out of both sides' pockets.\n\nOur long-term play is building the freight operating system for mid-market shippers. Marketplace access today, freight analytics tomorrow, and eventually, automated procurement that dynamically routes loads across carriers based on cost, reliability, and capacity — without a human broker in the middle.",
+    "marketResearch": "The US freight brokerage market generates $90B+ annually, with digital freight brokerages growing at 25% CAGR as shippers demand transparency and carriers seek to fill empty miles. The total addressable market for digital freight matching platforms is approximately $18B. Our SAM targets mid-market shippers ($1M-$50M annual freight spend) and carriers with 5-200 trucks in the US, representing roughly $5.2B. Our SOM focuses on the eastern US LTL and FTL market, approximately $800M.\n\nCompetitors include digital freight brokerages (Convoy — paused operations, Uber Freight — scaling back, Loadsmart) that have struggled with unit economics, traditional brokerages going digital (CH Robinson's Navisphere, Echo Global), and load boards (DAT, Truckstop) that offer matching without transaction services. Cartage differentiates by operating as a true two-sided marketplace with transparent pricing — not a digital brokerage that still takes a hidden spread. Our 8% take rate versus the industry's 15-20% margin creates a structural cost advantage.\n\nOur GTM strategy starts with lane density in the I-95 corridor where we can offer reliable carrier coverage. Shippers join through a free RFQ tool that benchmarks their current rates against market data. Carriers are acquired through an app that shows available loads with guaranteed payment terms. Network effects kick in as lane density increases: more carriers means better pricing, which attracts more shippers.\n\nKey market tailwinds: broker fee transparency regulations under consideration, carrier consolidation creating more digitally-savvy fleets, and rising shipper demand for real-time visibility that traditional brokers can't provide.",
+    "landingPage": {
+      "companyName": "Cartage",
+      "tagline": "The freight marketplace where shippers and carriers actually find each other",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#E11D48",
+          "primaryLight": "#FB7185",
+          "primaryDark": "#BE123C",
+          "accent": "#38BDF8",
+          "background": "#0C0A09",
+          "surface": "#1C1917",
+          "text": "#FFF1F2",
+          "textMuted": "#A8A29E",
+          "border": "#292524"
+        },
+        "fontFamily": "'Satoshi', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Freight brokerage takes a 15-20% cut for making phone calls. We thought there might be a better way.",
+        "subheadline": "Cartage is a transparent freight marketplace with an 8% take rate. Shippers get instant carrier quotes. Carriers get loads that match their lanes. Everyone sees the real price.",
+        "ctaText": "Get instant freight quotes",
+        "ctaHref": "#quote"
+      },
+      "cta": {
+        "layout": "banner",
+        "headline": "The freight industry doesn't need another broker. It needs a marketplace.",
+        "subheadline": "Post your first load free. Get quotes from vetted carriers in minutes, not hours.",
+        "buttonText": "Post a load"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Freight matching without the runaround",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Post your load", "description": "Origin, destination, commodity, weight, and timing. Takes 60 seconds. No phone calls, no emails, no waiting for a broker to get back to you." },
+            { "icon": "2", "title": "Carriers quote instantly", "description": "Vetted carriers in your lane see the load and submit quotes informed by real market pricing. You compare offers side by side with carrier ratings and on-time history." },
+            { "icon": "3", "title": "Book, track, pay — all in one place", "description": "Accept a quote with one click. Track the shipment in real-time. Carrier gets paid in 5 business days. You get an invoice with full documentation." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Marketplace performance",
+          "stats": [
+            { "value": "8", "label": "Take rate vs industry 15-20%", "suffix": "%" },
+            { "value": "14", "label": "Average time to first quote", "suffix": " min" },
+            { "value": "96", "label": "On-time delivery rate", "suffix": "%" },
+            { "value": "5", "label": "Day carrier payment terms", "suffix": " days" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for both sides of the transaction",
+          "layout": "grid",
+          "items": [
+            { "icon": "📦", "title": "Transparent pricing", "description": "Shippers see what carriers quote. Carriers see what shippers pay. The 8% marketplace fee is visible to both sides. No hidden spread." },
+            { "icon": "✅", "title": "Vetted carrier network", "description": "Every carrier passes authority verification, insurance validation, safety score checks, and performance monitoring. You're not booking off a random load board." },
+            { "icon": "📍", "title": "Real-time tracking", "description": "GPS tracking from pickup to delivery with automated status updates. Know where your freight is without calling anyone." },
+            { "icon": "💳", "title": "Guaranteed payment", "description": "Carriers get paid in 5 business days, guaranteed. Shippers get net-30 terms. Cartage handles the float so both sides get what they need." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From both sides of the marketplace",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I used to spend 3 hours a day on the phone with brokers getting quotes for our 15 daily shipments. Now I post loads on Cartage in the morning and have carriers booked before my second coffee.", "author": "Steve Palazzo", "role": "Logistics Manager, Atlas Building Products" },
+            { "quote": "As a carrier, the 5-day payment terms changed everything. Most brokers pay in 30-45 days. Cartage paying in 5 means I can keep my trucks fueled and my drivers paid without factoring invoices.", "author": "Lorraine Carter", "role": "Owner-Operator, Carter Freight (12 trucks)" },
+            { "quote": "We switched from a traditional broker to Cartage and our per-load costs dropped 11% on average. Same quality carriers, same reliability, just less money going to the middleman.", "author": "James Henning", "role": "Supply Chain Director, MountainWest Foods" },
+            { "quote": "The load matching is spot on. I set my preferred lanes and equipment type, and Cartage surfaces loads that actually make sense for my network. No more scrolling through 500 irrelevant posts.", "author": "Miguel Santos", "role": "Fleet Manager, SunCoast Carriers (45 trucks)" }
+          ]
+        }
+      ],
+      "companyEmail": "cartage-route@tryartha.com",
+      "domain": "cartage-route.tryartha.com",
+      "projectSlug": "cartage-route",
+      "animationPreset": "subtle",
+      "shadowStyle": "none"
+    }
+  }
+]

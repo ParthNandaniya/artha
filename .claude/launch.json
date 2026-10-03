@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "next-dev",
+      "runtimeExecutable": "/Users/parthnandaniya/.nvm/versions/node/v22.14.0/bin/node",
+      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev"],
+      "env": { "PATH": "/Users/parthnandaniya/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin" },
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "worker",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "worker"],
+      "port": 0
+    },
+    {
+      "name": "stripe-listen",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "stripe:listen"],
+      "port": 0
+    }
+  ]
+}

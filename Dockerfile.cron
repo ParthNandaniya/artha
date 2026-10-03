@@ -1,0 +1,5 @@
+FROM node:20-alpine
+RUN apk add --no-cache curl
+COPY cron-trigger.sh /cron-trigger.sh
+RUN chmod +x /cron-trigger.sh
+CMD ["/cron-trigger.sh"]

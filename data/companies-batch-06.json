@@ -1,0 +1,1026 @@
+[
+  {
+    "name": "Rootstock",
+    "slug": "rootstock-farm",
+    "tagline": "Precision agriculture that fits in your pocket, not your budget",
+    "description": "Rootstock builds affordable precision agriculture sensors designed for small and mid-size farms. Our solar-powered soil probes, weather stations, and crop health monitors cost a fraction of enterprise systems — delivering the same data-driven insights that industrial farms rely on to family operations and specialty growers.",
+    "mission": "The precision agriculture revolution has been happening for a decade, but it's been a revolution for the top 2%. Massive operations running $300K combine harvesters with GPS-guided autosteer and satellite imagery subscriptions. Meanwhile, the 2 million small farms in America — the ones growing your tomatoes at the farmers market, the ones experimenting with regenerative practices — are still guessing when to irrigate and hoping the frost holds off.\n\nRootstocks exists to democratize farm data. We build rugged, solar-powered sensor networks that any farmer can install in an afternoon. Soil moisture, temperature, pH, nitrogen levels, microclimate weather data — all streaming to a phone app that speaks plain English, not agronomy jargon. When your south field is trending dry, you get a text. When conditions are right for blight, you know before you see it.\n\nWe price our hardware at cost and charge a modest subscription for the intelligence layer. A full 40-acre deployment costs less than a single precision ag consultation from the big players. We believe this is the only way to actually reach the farmers who need this technology most — the ones operating on thin margins who can't afford to gamble on a bad season.\n\nOur founding team includes a third-generation Iowa farmer, a hardware engineer from John Deere, and a soil scientist from UC Davis. We've lived the problem from every angle. We know that the best sensor in the world is worthless if it breaks in a hailstorm, if the battery dies in January, or if the dashboard requires a PhD to interpret.\n\nThe future of farming is data-informed, not data-overwhelmed. Rootstock is building the infrastructure to make every acre smarter — starting with the farms that feed your community, not just the ones that feed the commodity markets.",
+    "marketResearch": "The global precision agriculture market reached $9.4B in 2025 and is projected to hit $18.6B by 2030 at 14.6% CAGR. However, adoption remains concentrated among large-scale commodity operations (1,000+ acres). Farms under 200 acres — which represent 91% of US farms — have less than 8% precision ag adoption, creating a massive underserved segment worth an estimated $3.2B in the US alone.\n\nRootstock's serviceable addressable market focuses on specialty crop growers, organic farms, and small diversified operations in North America and Western Europe. These 1.8 million farms spend approximately $2.1B annually on crop management tools and services. Our initial SOM targets direct-to-consumer farms, CSA operations, and specialty growers in the Midwest, Pacific Northwest, and Northeast — roughly $280M in near-term opportunity.\n\nThe competitive landscape includes enterprise players like Trimble, John Deere Operations Center, and Climate Corp (Bayer), all priced for large operations at $5-15/acre/year. Budget options like Davis Instruments offer basic weather stations without intelligence. Emerging competitors include Arable (crop monitoring) and CropX (soil sensing), but both target mid-market at premium pricing. Rootstock differentiates through radical affordability ($1.50/acre/year), zero-maintenance solar hardware, and an app designed for farmers who don't self-identify as tech-forward.\n\nEarly traction includes 340 farms across 12 states in a beta program, with 87% monthly active usage — unusually high for agricultural IoT. Our hardware-at-cost model drives subscription retention of 93% annually. Distribution partnerships with rural co-ops and farm supply stores provide a capital-efficient channel that enterprise ag-tech companies have ignored.",
+    "landingPage": {
+      "companyName": "Rootstock",
+      "tagline": "Precision agriculture that fits in your pocket, not your budget",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#6B8E23",
+          "primaryLight": "#8FBC3A",
+          "primaryDark": "#4A6B14",
+          "accent": "#D2691E",
+          "background": "#FBF9F4",
+          "surface": "#F2EDE3",
+          "text": "#2C1810",
+          "textMuted": "#6B5E52",
+          "border": "#DDD5C8"
+        },
+        "fontFamily": "'Merriweather', serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your soil is talking. Rootstock helps you listen.",
+        "subheadline": "Affordable precision sensors built for small farms. Solar-powered hardware, plain-English alerts, and actionable insights — all for less than a bag of seed per acre.",
+        "ctaText": "See pricing for your farm",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "centered",
+        "headline": "Your fields deserve the same tech as the big guys",
+        "subheadline": "Starting at $1.50/acre/year. Hardware ships free. Cancel anytime.",
+        "buttonText": "Start your free trial"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Install it Sunday. See results Monday.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Stake the sensors", "description": "Push our solar-powered probes into the ground at key points across your fields. No wiring, no electrician, no Wi-Fi required — they connect via cellular out of the box." },
+            { "icon": "2", "title": "Data starts flowing", "description": "Soil moisture, temperature, nitrogen levels, and microclimate weather data stream to your phone every 15 minutes. Our AI baselines your specific soil and crop conditions within 48 hours." },
+            { "icon": "3", "title": "Act on plain-English alerts", "description": "Get texts like 'South field moisture dropping fast — irrigate by Thursday to protect your tomato transplants.' No dashboards to check. No data science required." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Farm-tough hardware. Farmer-friendly software.",
+          "layout": "grid",
+          "items": [
+            { "icon": "🌱", "title": "Soil intelligence", "description": "Continuous moisture, temperature, pH, and nitrogen readings at multiple depths. Know what's happening below the surface before your crops show stress." },
+            { "icon": "☀️", "title": "Solar-powered, zero maintenance", "description": "Our probes run indefinitely on embedded solar cells. Rated IP68 for dust and submersion. Tested through Iowa winters and Arizona summers." },
+            { "icon": "📱", "title": "Alerts, not dashboards", "description": "We push actionable recommendations via text and app notifications. You farm — we watch the data and tell you when something needs attention." },
+            { "icon": "🌧️", "title": "Microclimate weather", "description": "On-field weather stations measure conditions at your exact location, not at the airport 30 miles away. Frost warnings that are actually accurate for your land." },
+            { "icon": "📊", "title": "Season-over-season tracking", "description": "Compare soil health, yields, and conditions across seasons. See which practices are actually improving your land over time." },
+            { "icon": "🤝", "title": "Co-op friendly", "description": "Share data across neighboring farms to build regional soil maps and coordinate irrigation. Designed for communities, not just individual operations." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What our farmers are seeing",
+          "stats": [
+            { "value": "23", "label": "Water savings on average", "suffix": "%" },
+            { "value": "340", "label": "Farms in our network", "suffix": "+" },
+            { "value": "1.50", "label": "Per acre per year", "suffix": "$/ac" },
+            { "value": "87", "label": "Monthly active usage", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From farmers who stopped guessing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was skeptical about putting sensors in my fields. But last July, Rootstock texted me that my strawberry rows were drying out two days before I would have noticed. Saved the whole late-season crop.", "author": "Maria Gonzalez", "role": "Owner, Gonzalez Family Farm, OR" },
+            { "quote": "We spent $400 on a full 60-acre deployment. My neighbor spent $12,000 on a competitor system that does the same thing. The data quality is honestly comparable.", "author": "Tom Hendricks", "role": "Diversified grower, Hendricks Homestead, IA" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions from real farmers",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do I need Wi-Fi in my fields?", "answer": "No. Our sensors connect via built-in cellular (LTE-M). They work anywhere with basic cell coverage — which covers 97% of US farmland." },
+            { "question": "How long do the sensors last?", "answer": "Our hardware is rated for 7+ years in the field. Solar cells keep them powered year-round, even through cloudy northern winters. If one ever fails, we replace it free." },
+            { "question": "What crops does Rootstock work with?", "answer": "Any crop grown in soil. Our AI models are tuned for 40+ common crops including vegetables, fruits, grains, and specialty crops. If yours isn't listed, we'll add it within a week." },
+            { "question": "Can I install these myself?", "answer": "Absolutely. Each probe takes about 90 seconds to install — push it in, confirm the green light on your phone, and move on. Most farmers deploy a full setup in a single afternoon." }
+          ]
+        }
+      ],
+      "companyEmail": "rootstock-farm@tryartha.com",
+      "domain": "rootstock-farm.tryartha.com",
+      "projectSlug": "rootstock-farm",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Mise",
+    "slug": "mise-kitchen",
+    "tagline": "Every ingredient, prepped and portioned. Just cook.",
+    "description": "Mise delivers pre-measured, pre-prepped ingredients for adventurous home cooks who want to make restaurant-quality meals without spending 45 minutes on knife work. Unlike traditional meal kits, Mise lets you choose your own recipes — we just handle the tedious prep so you can focus on the joy of cooking.",
+    "mission": "The meal kit industry got one thing right and everything else wrong. They proved people want help getting dinner on the table. But they also proved that most home cooks don't want to be told what to eat, don't want a subscription they forget to pause, and definitely don't want to pay $14 per serving for a recipe they could have found on YouTube.\n\nMise takes a different approach. We're not a meal kit company — we're a prep kitchen. You tell us what you're making this week (or browse our recipe library for inspiration), and we deliver every ingredient washed, chopped, measured, and organized. Onions diced. Garlic minced. Spices pre-measured into labeled packets. Proteins trimmed and portioned. Your mise en place, done.\n\nWe exist because the real barrier to cooking isn't skill or desire — it's the 30-45 minutes of thankless prep that happens before you even turn on the stove. The grocery shopping. The washing. The peeling. The dicing. That's the work that makes people order takeout on a Tuesday night, even when they'd rather be cooking.\n\nOur prep kitchens operate in a hub-and-spoke model, sourcing from local farms and suppliers within 100 miles of each facility. Ingredients are prepped to order — never sitting in a warehouse — and delivered in compostable packaging designed to go straight into your fridge's organization system.\n\nWe believe cooking should feel like the best part of your day, not a chore you're guilted into. Mise removes the drudgery so you can skip straight to the sizzle.",
+    "marketResearch": "The US meal kit market is worth $11.6B in 2025 but facing significant headwinds: churn rates exceed 70% annually, with the top complaint being lack of recipe flexibility and high per-serving costs. Meanwhile, the broader prepared food and grocery delivery market is $68B and growing at 12% CAGR, indicating strong demand for food convenience solutions that don't follow the rigid subscription model.\n\nMise targets the underserved segment of engaged home cooks — people who watch cooking content, own good knives, and cook 3-5 times per week but are frustrated by prep time. This demographic represents roughly 28 million US households with a combined spending potential of $8.4B on cooking convenience products. Our initial SOM focuses on metropolitan areas with dense populations of food-engaged millennials and Gen-X households, starting with the Northeast corridor — approximately $420M.\n\nDirect competitors are few: traditional meal kits (HelloFresh, Blue Apron) compete on recipe curation, not prep convenience. Grocery delivery (Instacart, Amazon Fresh) delivers whole ingredients. Local prep services exist in scattered markets but lack technology platforms and scale. Mise's moat is our proprietary ingredient parsing engine that breaks any recipe into a prep manifest, combined with a hub-spoke kitchen network optimized for day-of prep and delivery.\n\nBeta results from our Brooklyn pilot show 4.1 orders per month per active user (vs. 2.2 for meal kits), average order value of $38, and a 6-month retention rate of 61%. Customer acquisition cost is $22, driven primarily by organic social content from users sharing their cooking experiences — a viral loop that meal kits rarely achieve because the food looks the same for every subscriber.",
+    "landingPage": {
+      "companyName": "Mise",
+      "tagline": "Every ingredient, prepped and portioned. Just cook.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#1A1A1A",
+          "primaryLight": "#404040",
+          "primaryDark": "#000000",
+          "accent": "#E85D3A",
+          "background": "#FFFFFF",
+          "surface": "#F8F8F6",
+          "text": "#1A1A1A",
+          "textMuted": "#717171",
+          "border": "#E5E5E5"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Skip the prep. Keep the joy.",
+        "subheadline": "Choose any recipe. We deliver every ingredient washed, chopped, measured, and ready. Your mise en place — done before you walk in the door.",
+        "ctaText": "Try your first order free",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Dinner should feel like the best part of your day",
+        "subheadline": "No subscription required. Order when you want, skip when you don't. First order is on us.",
+        "buttonText": "Get started"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From recipe to ready in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Pick your recipes", "description": "Browse our library or paste a link from any cooking site. Making grandma's lasagna? We can prep that too — just type in the recipe." },
+            { "icon": "2", "title": "We prep everything", "description": "Our local prep kitchen washes, chops, measures, and portions every ingredient. Proteins trimmed, spices measured into labeled packets, herbs washed and bundled." },
+            { "icon": "3", "title": "Cook the fun part", "description": "Everything arrives in compostable containers organized by recipe. Open, cook, eat. Total prep time: opening the bag." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "features",
+          "headline": "Not a meal kit. A better way to cook.",
+          "layout": "bento",
+          "items": [
+            { "icon": "🔓", "title": "Your recipes, your rules", "description": "We don't pick your meals. Cook whatever you want — our parsing engine can break down any recipe into a prep manifest." },
+            { "icon": "⏱️", "title": "45 minutes back", "description": "The average home cook spends 42 minutes on prep for a single dinner. With Mise, that drops to under 3 minutes." },
+            { "icon": "🌽", "title": "Local, seasonal sourcing", "description": "Ingredients come from farms and suppliers within 100 miles of our prep kitchens. Fresher than the grocery store, with full provenance." },
+            { "icon": "🗑️", "title": "Zero food waste", "description": "Pre-portioned ingredients mean you use exactly what you need. No more half-bunches of cilantro dying in your crisper drawer." },
+            { "icon": "📦", "title": "Compostable packaging", "description": "Every container is commercially compostable. No plastic clamshells, no gel packs, no guilt." },
+            { "icon": "💰", "title": "Cheaper than meal kits", "description": "Average $7-9 per serving vs. $12-14 for traditional meal kits. We buy ingredients at volume and pass the savings through." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The numbers from our kitchen",
+          "stats": [
+            { "value": "4.1", "label": "Orders per month, avg user", "suffix": "x" },
+            { "value": "42", "label": "Minutes of prep eliminated", "suffix": "min" },
+            { "value": "61", "label": "Six-month retention rate", "suffix": "%" },
+            { "value": "100", "label": "Mile sourcing radius", "suffix": "mi" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What home cooks are saying",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I canceled HelloFresh months ago because I was bored. With Mise, I made Thai basil chicken on Monday, shakshuka on Wednesday, and my mom's chicken parm on Friday. All prepped and ready when I got home.", "author": "David Park", "role": "Home cook, Brooklyn, NY" },
+            { "quote": "I have two kids under five. Mise is the reason I still cook real food. Twenty minutes from fridge to table, and my kids eat better than most adults I know.", "author": "Rachel Simmons", "role": "Working parent, Hoboken, NJ" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Frequently asked",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Is this a subscription?", "answer": "No. Order whenever you want. There's a weekly plan that saves you 15%, but you can also order one-off anytime with no commitment." },
+            { "question": "Can I submit my own recipes?", "answer": "Yes. Paste a URL from any recipe site, or type it in manually. Our parsing engine handles everything from Bon Appetit to your grandmother's handwritten cards." },
+            { "question": "How fresh are the ingredients?", "answer": "Everything is prepped the morning of delivery. We source from local farms and suppliers, so most produce was harvested within 48 hours of arriving at your door." },
+            { "question": "What areas do you deliver to?", "answer": "Currently serving the NYC metro area (Manhattan, Brooklyn, Queens, Jersey City, Hoboken). Expanding to Boston and Philly this spring." }
+          ]
+        }
+      ],
+      "companyEmail": "mise-kitchen@tryartha.com",
+      "domain": "mise-kitchen.tryartha.com",
+      "projectSlug": "mise-kitchen",
+      "animationPreset": "none",
+      "shadowStyle": "flat"
+    }
+  },
+  {
+    "name": "Grazer",
+    "slug": "grazer-food",
+    "tagline": "Regenerative meat from ranchers who are healing the land",
+    "description": "Grazer is a direct-to-consumer marketplace connecting consumers with ranchers practicing verified regenerative agriculture. Every cut is traceable to a specific ranch, verified by third-party soil health data, and shipped frozen to your door. We prove that the meat you eat can be part of the climate solution.",
+    "mission": "The meat industry has a trust problem. Consumers are told to eat less meat to save the planet — and for commodity feedlot beef, that's fair. But the conversation ignores an inconvenient truth: well-managed grazing is one of the most powerful tools we have for rebuilding soil carbon, restoring grassland ecosystems, and reversing desertification. The problem isn't cows. It's how we manage them.\n\nGrazer exists to connect people who care about the land with ranchers who are actively healing it. Every ranch on our platform practices adaptive multi-paddock grazing, maintains year-round ground cover, and submits to annual third-party soil health testing. We don't just claim regenerative — we measure it, publish the data, and let the soil tell the story.\n\nWe're building the marketplace that regenerative ranching has always needed. These ranchers produce exceptional meat — animals that spend their lives on grass, moving across diverse pastures, building topsoil with every step. But most of them are stuck selling into commodity markets that pay the same price regardless of how the land is managed. Grazer gives them a direct channel to consumers willing to pay fair prices for food that's part of the solution.\n\nOur platform handles everything the rancher shouldn't have to: e-commerce, cold chain logistics, cut sheet management, customer acquisition, and the soil verification that gives buyers confidence. We take a 15% platform fee and pass the rest to the rancher — roughly 2-3x what they'd earn through conventional channels.\n\nWe believe that what you eat is the most powerful environmental vote you cast. Grazer makes it easy to vote for a food system that regenerates rather than extracts.",
+    "marketResearch": "The US grass-fed and regenerative meat market is valued at $4.8B in 2025, growing at 18% CAGR — roughly 3x the growth rate of conventional meat. Consumer willingness to pay a premium for verified sustainability claims has increased 42% since 2021, driven by Gen Z and millennial households. The broader DTC meat market (including all premium proteins) is $8.2B.\n\nGrazer's SAM is the regenerative-verified segment: consumers who specifically seek soil-health-verified, ranch-traceable meat. This segment is approximately $1.4B and growing rapidly. Our initial SOM targets environmentally conscious households in major metro areas with high organic food spending — roughly $180M across 15 metro regions.\n\nCompetitors include ButcherBox (DTC meat subscription, $600M revenue, but no regenerative verification), Crowd Cow (marketplace model with ranch stories but limited soil data), and White Oak Pastures (single-ranch DTC, gold standard but not a marketplace). Grazer's differentiation is the verification layer: third-party soil health data published per ranch, creating a trust moat that storytelling alone cannot replicate. No competitor currently offers quantified, transparent soil carbon data at the individual ranch level.\n\nPilot data from 12 partner ranches shows a $142 average order value, 38% repeat purchase rate within 90 days, and NPS of 74. Rancher earnings average 2.4x commodity prices, which drives supply-side retention of 96%. Our challenge is cold chain unit economics — we've partnered with regional processing facilities and use consolidated shipping windows to reduce per-order fulfillment cost to $11.40, approaching profitability at current volumes.",
+    "landingPage": {
+      "companyName": "Grazer",
+      "tagline": "Regenerative meat from ranchers who are healing the land",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#C4A35A",
+          "primaryLight": "#D4B96E",
+          "primaryDark": "#A68B3E",
+          "accent": "#8B4513",
+          "background": "#1A1510",
+          "surface": "#2A231A",
+          "text": "#F5EDE0",
+          "textMuted": "#A09680",
+          "border": "#3D3428"
+        },
+        "fontFamily": "'Libre Baskerville', serif",
+        "borderRadius": "0.25rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Meat that heals the land it comes from.",
+        "subheadline": "Every cut traceable to a specific ranch. Every ranch verified by third-party soil health data. Regenerative grazing, measured and proven — not just claimed.",
+        "ctaText": "Shop regenerative meat",
+        "ctaHref": "#shop"
+      },
+      "cta": {
+        "layout": "centered",
+        "headline": "What you eat is the most powerful environmental vote you cast",
+        "subheadline": "Join 4,200 households choosing meat that rebuilds rather than extracts. Free shipping on orders over $125.",
+        "buttonText": "Browse ranches"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From pasture to plate, verified every step",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Browse verified ranches", "description": "Every ranch on Grazer passes annual third-party soil health testing. Browse by region, animal, or management practice — and see the actual soil data for each property." },
+            { "icon": "2", "title": "Choose your cuts", "description": "Order individual cuts or whole-animal shares. Each package is traced to the specific ranch and processing date. Mix and match across ranches." },
+            { "icon": "3", "title": "Receive flash-frozen, carbon-neutral", "description": "Shipped in insulated packaging made from recycled denim. Arrives frozen solid with dry ice. Carbon offset included in every order." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Trust, verified — not just storied",
+          "layout": "grid",
+          "items": [
+            { "icon": "🔬", "title": "Published soil data", "description": "Every ranch's soil organic matter, water infiltration rate, and microbial diversity scores are published on their profile. Updated annually by independent labs." },
+            { "icon": "🐄", "title": "Adaptive grazing verified", "description": "We verify that animals are managed with adaptive multi-paddock grazing — the practice proven to build topsoil and sequester carbon at meaningful rates." },
+            { "icon": "📍", "title": "Full traceability", "description": "Scan the QR code on any package to see the ranch, the animal's grazing history, and the processor. Know exactly where your food comes from." },
+            { "icon": "💰", "title": "Fair rancher pricing", "description": "Ranchers on Grazer earn 2-3x commodity prices. We take 15% and pass the rest through. Better meat requires better economics for the people raising it." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The impact so far",
+          "stats": [
+            { "value": "12", "label": "Partner ranches across 8 states", "suffix": "" },
+            { "value": "2.4", "label": "Rancher earnings vs. commodity", "suffix": "x" },
+            { "value": "74", "label": "Net promoter score", "suffix": "" },
+            { "value": "38", "label": "Repeat purchase rate in 90 days", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From our community",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I stopped eating beef three years ago for environmental reasons. Grazer brought me back. Seeing the actual soil data from these ranches — the carbon being sequestered, the biodiversity returning — it changed my understanding completely.", "author": "Nadia Torres", "role": "Customer, Portland, OR" },
+            { "quote": "In 18 years of ranching, I've never been paid fairly for how I manage the land. Grazer customers understand the value. My income doubled and I finally have the cash flow to expand our regenerative practices.", "author": "Bill Kirkpatrick", "role": "Kirkpatrick Ranch, MT" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How is this different from 'grass-fed' labels?", "answer": "Grass-fed only means the animal ate grass. It says nothing about soil health, land management, or environmental impact. Grazer ranches are verified for regenerative outcomes — measured soil carbon, water infiltration, and biodiversity. We publish the data." },
+            { "question": "Is regenerative grazing actually good for the environment?", "answer": "When properly managed, adaptive grazing builds topsoil, sequesters carbon, restores water cycles, and increases biodiversity. Multiple peer-reviewed studies show well-managed grasslands can be net carbon sinks. Our ranch data confirms this." },
+            { "question": "How does shipping frozen meat work?", "answer": "Orders ship Monday-Wednesday in insulated boxes with dry ice. Everything arrives frozen solid. Most customers dedicate a freezer section and order monthly. Free shipping on orders over $125." }
+          ]
+        }
+      ],
+      "companyEmail": "grazer-food@tryartha.com",
+      "domain": "grazer-food.tryartha.com",
+      "projectSlug": "grazer-food",
+      "animationPreset": "subtle",
+      "shadowStyle": "glass"
+    }
+  },
+  {
+    "name": "Ferment",
+    "slug": "ferment-brew",
+    "tagline": "Craft fermentation, precisely monitored",
+    "description": "Ferment builds IoT monitoring systems for craft fermentation — from kombucha brewers and sauerkraut producers to craft breweries and artisan cheese makers. Our wireless sensors track pH, temperature, CO2, and microbial activity in real-time, turning the art of fermentation into a repeatable science without losing the craft.",
+    "mission": "Fermentation is the oldest biotechnology on earth, and it's experiencing a massive renaissance. Kombucha is a $4B industry. Craft beer keeps growing despite consolidation. Fermented foods line every grocery aisle. But the producers behind this boom — the small-batch brewers, the artisan pickle makers, the garage hot sauce brands — are still monitoring their ferments the same way humans have for centuries: by tasting, smelling, and hoping.\n\nFerment was founded by a former brewery quality manager and an embedded systems engineer who met at a fermentation festival. The brewery manager was tired of losing $3,000 batches to temperature swings overnight. The engineer was tired of building IoT sensors for applications that didn't matter. Together, they realized fermentation monitoring was a perfect collision of urgent need and available technology.\n\nOur wireless sensor pods attach to any fermentation vessel — from a 5-gallon carboy to a 200-barrel brite tank. They continuously monitor pH, temperature, dissolved CO2, and pressure, streaming data to a dashboard that tracks every ferment against your target profiles. When conditions drift, you get an alert before your batch is compromised.\n\nBut we're building more than monitoring hardware. Ferment's real value is the fermentation intelligence platform. Every batch you track builds a dataset that our models use to predict outcomes, suggest adjustments, and help you nail consistency across production runs. For craft producers, consistency is the difference between a farmers market hobby and a scalable business.\n\nWe believe the future of food is fermented, and the producers leading that future deserve tools as sophisticated as their craft.",
+    "marketResearch": "The global fermented food and beverage market reached $762B in 2025, growing at 8.5% CAGR. The craft segment — small-batch producers making premium fermented products — represents approximately $48B and is growing at 14% CAGR. These producers range from kombucha brands and craft breweries to artisan cheese makers and specialty vinegar producers, creating a diverse but underserved market for production technology.\n\nFerment's TAM is the fermentation monitoring and quality control segment, estimated at $2.1B globally. Our SAM focuses on craft-scale producers (annual revenue $100K-$20M) in North America and Europe — approximately $680M. The initial SOM targets US craft breweries, kombucha producers, and fermented food startups, representing $95M in near-term opportunity.\n\nThe competitive landscape is fragmented. Large-scale fermentation monitoring (Hach, Hamilton) serves industrial breweries and biotech at $50K+ per installation. Consumer-grade tools (Tilt hydrometer, Inkbird temperature controllers) are cheap but limited to single-metric monitoring. Precision Fermentation (a UK startup) and BrewMonitor (US) are the closest competitors, but both focus exclusively on beer. Ferment differentiates by supporting all fermentation types — beer, kombucha, sauerkraut, cheese, vinegar, hot sauce, miso — with cross-category fermentation models that improve predictions across the entire platform.\n\nPilot data from 68 producers shows 73% reduction in batch failures, average payback period of 2.3 months, and a sensor attachment rate of 3.4 vessels per customer within 6 months of first purchase. Monthly software subscription retention is 91%.",
+    "landingPage": {
+      "companyName": "Ferment",
+      "tagline": "Craft fermentation, precisely monitored",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#B8860B",
+          "primaryLight": "#DAA520",
+          "primaryDark": "#8B6914",
+          "accent": "#C05621",
+          "background": "#FFFBF0",
+          "surface": "#FFF3DC",
+          "text": "#3D2B1F",
+          "textMuted": "#8B7355",
+          "border": "#E8D5B0"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Every batch. Precisely tracked. Perfectly repeated.",
+        "subheadline": "Wireless sensors for craft fermentation. Monitor pH, temperature, CO2, and microbial activity in real-time — from kombucha to craft beer to artisan cheese.",
+        "ctaText": "See it in action",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "centered",
+        "headline": "Stop losing batches to guesswork",
+        "subheadline": "Sensor starter kit: $249. Software: $39/mo. Average payback: 2.3 months.",
+        "buttonText": "Order your sensor kit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Attach. Monitor. Repeat perfectly.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Attach a sensor pod", "description": "Our wireless pods clamp onto any vessel — glass carboys, stainless steel fermenters, open crocks, brite tanks. No drilling, no modifications, no wiring." },
+            { "icon": "2", "title": "Set your target profile", "description": "Define the fermentation curve you want — or use one of our templates for common ferments. The system monitors pH, temp, CO2, and pressure against your targets continuously." },
+            { "icon": "3", "title": "Get alerts, build knowledge", "description": "Real-time notifications when conditions drift. Every batch becomes training data for our prediction engine — telling you when a ferment will finish and flagging anomalies before they ruin a batch." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for every fermentation discipline",
+          "layout": "bento",
+          "items": [
+            { "icon": "🍺", "title": "Craft beer", "description": "Track gravity, pH, and temperature through primary and secondary. Predict final gravity and flag stuck fermentations 12+ hours before traditional methods." },
+            { "icon": "🫖", "title": "Kombucha & jun", "description": "Monitor SCOBY health through pH curves and CO2 production. Nail carbonation levels in F2 with pressure tracking that eliminates bottle bombs." },
+            { "icon": "🥬", "title": "Lacto-fermentation", "description": "Track brine salinity and pH through the critical first 72 hours of sauerkraut, kimchi, and pickle ferments. Know exactly when to move to cold storage." },
+            { "icon": "🧀", "title": "Cheese & dairy", "description": "Continuous pH and temperature monitoring through acidification, coagulation, and aging. Alert on ambient condition changes in aging caves." },
+            { "icon": "🌶️", "title": "Hot sauce & vinegar", "description": "Long-duration fermentation tracking for months-long mash ferments and vinegar mothers. Battery life measured in months, not days." },
+            { "icon": "📊", "title": "Cross-batch analytics", "description": "Compare every batch against your best. Our ML models identify the variables that separate great batches from good ones — and help you repeat greatness." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Results from our producers",
+          "stats": [
+            { "value": "73", "label": "Reduction in batch failures", "suffix": "%" },
+            { "value": "68", "label": "Active producers", "suffix": "+" },
+            { "value": "2.3", "label": "Month average payback", "suffix": "mo" },
+            { "value": "91", "label": "Software subscription retention", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we hear often",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Will the sensors fit my vessels?", "answer": "Our universal clamp system fits vessels from 1 gallon to 500 barrels. Glass carboys, stainless fermenters, food-grade plastic buckets, wooden barrels, and ceramic crocks are all supported." },
+            { "question": "How long does the battery last?", "answer": "6-12 months depending on sampling frequency. Sensors in long-duration ferments (vinegar, miso) can be set to sample every 30 minutes and last a full year. Standard 15-minute sampling gives 6 months." },
+            { "question": "I make multiple fermented products. Can I use one system?", "answer": "Absolutely. That's our specialty. One Ferment account, one dashboard, multiple fermentation profiles. Our models actually improve when you track diverse ferment types because the underlying biology has common patterns." },
+            { "question": "Do I need Wi-Fi in my production space?", "answer": "The sensor pods communicate via Bluetooth to a base station (included with every starter kit) which connects via Wi-Fi or cellular. One base station covers roughly 10,000 sq ft." }
+          ]
+        }
+      ],
+      "companyEmail": "ferment-brew@tryartha.com",
+      "domain": "ferment-brew.tryartha.com",
+      "projectSlug": "ferment-brew",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Canteen",
+    "slug": "canteen-food",
+    "tagline": "Corporate dining that employees actually want — with zero waste",
+    "description": "Canteen is a corporate cafeteria management platform that uses predictive ordering, dynamic menus, and real-time waste tracking to transform workplace dining. We help companies serve better food, reduce waste by 60%+, and turn the cafeteria from a cost center into an employee retention tool.",
+    "mission": "Corporate cafeterias are broken in a way that everyone sees but nobody fixes. Employees complain the food is boring. Finance complains it's expensive. Sustainability teams are horrified by the waste. And the food service operators caught in the middle are running on spreadsheets and intuition, overproducing by 30-40% because running out is worse than throwing away.\n\nCanteen exists to solve all of these problems simultaneously — because they're actually the same problem. Bad cafeterias waste food because they don't know what employees want. They serve boring menus because they have no feedback loop. They're expensive because waste and dissatisfaction compound into a cycle that nobody has the data to break.\n\nOur platform integrates with a company's existing food service operation — whether that's an in-house kitchen, a contract caterer, or a mix. We provide demand prediction (what will employees actually eat today?), dynamic menu optimization (what should we serve based on historical preferences, dietary needs, and seasonal ingredients?), and real-time waste tracking (how much went uneaten and why?).\n\nThe result is cafeterias that serve food employees choose over DoorDash, waste 60% less food, and cost 25% less to operate. For companies competing for talent in return-to-office mandates, a great cafeteria is no longer a perk — it's a retention strategy. Nobody admits that lunch is a reason they come to the office, but the data says otherwise.\n\nWe're building the operating system for workplace dining — starting with the 50,000 corporate cafeterias in North America that collectively serve 30 million meals a day and waste a quarter of them.",
+    "marketResearch": "The US corporate food service market is valued at $28B in 2025, with contract catering (Aramark, Sodexo, Compass Group) controlling 70% of the market. Food waste in corporate cafeterias averages 30-40% of total production, representing $8-11B in annual waste. Meanwhile, 78% of companies cite food and dining as a top-5 factor in return-to-office employee satisfaction surveys.\n\nCanteen's TAM is the corporate food service technology market — approximately $3.2B globally. Our SAM focuses on US companies with 500+ employees operating on-site dining facilities, representing approximately $1.1B. Our initial SOM targets technology companies and financial services firms in major metro areas — the sectors most aggressively investing in workplace experience — at roughly $160M.\n\nThe competitive landscape is dominated by legacy food service management software (FoodPro, Caterease) built for operations, not optimization. Leanpath leads in waste tracking hardware but lacks demand prediction or menu optimization. Winnow offers AI-powered waste monitoring for commercial kitchens but doesn't address the demand side. Canteen is the only platform that closes the loop: predict demand, optimize the menu, track waste, and feed the data back into tomorrow's predictions.\n\nPilot results from 4 corporate campuses (combined 8,200 daily diners) show 63% waste reduction, 28% increase in employee dining participation (vs. ordering delivery), and 22% decrease in per-meal food cost. Contract is $2-4 per employee per month, with ROI typically positive within 45 days through waste reduction alone.",
+    "landingPage": {
+      "companyName": "Canteen",
+      "tagline": "Corporate dining that employees actually want — with zero waste",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#2563EB",
+          "primaryLight": "#60A5FA",
+          "primaryDark": "#1D4ED8",
+          "accent": "#16A34A",
+          "background": "#FFFFFF",
+          "surface": "#F1F5F9",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "The cafeteria employees choose over DoorDash.",
+        "subheadline": "Predictive ordering, dynamic menus, and real-time waste tracking. Canteen transforms corporate dining from a cost center into a retention strategy — while cutting waste by 60%.",
+        "ctaText": "Book a demo",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Great lunch shouldn't be a reason to work from home",
+        "subheadline": "ROI-positive within 45 days through waste reduction alone. $2-4 per employee per month.",
+        "buttonText": "See the ROI calculator"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Predict. Serve. Measure. Improve.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "We predict what employees will eat", "description": "Our model uses badge data, calendar density, weather, day of week, and historical patterns to forecast cafeteria demand within 8% accuracy — vs. the industry standard of 30-40% overproduction." },
+            { "icon": "2", "title": "Dynamic menus adapt daily", "description": "Menus are optimized based on predicted demand, employee dietary preferences, seasonal ingredients, and cost targets. Your kitchen gets a production plan that matches what people actually want." },
+            { "icon": "3", "title": "Waste tracking closes the loop", "description": "Smart scales and camera systems track what goes uneaten and why. The data feeds back into tomorrow's predictions and next week's menu. Every day, the system gets smarter." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "The complete workplace dining platform",
+          "layout": "grid",
+          "items": [
+            { "icon": "📊", "title": "Demand prediction", "description": "ML models that forecast headcount and menu item demand with 92% accuracy. Integrates with badge systems, calendar data, and weather APIs." },
+            { "icon": "🍽️", "title": "Menu optimization", "description": "Dynamic menu engine that balances employee preferences, nutritional targets, ingredient costs, and seasonal availability. Reduces menu fatigue and food waste simultaneously." },
+            { "icon": "⚖️", "title": "Waste intelligence", "description": "Smart scale integration and optional camera monitoring track waste by item, station, and time of day. Drill down to see which dishes drive waste and which get cleaned out." },
+            { "icon": "📱", "title": "Employee app", "description": "Employees see today's menu, pre-order to skip the line, rate dishes, and log dietary preferences. The data makes the cafeteria better every week." },
+            { "icon": "🌱", "title": "Sustainability reporting", "description": "Automated ESG-ready reports on food waste reduction, carbon impact, and water savings. Exportable for sustainability disclosures and B-Corp certification." },
+            { "icon": "🤝", "title": "Caterer-agnostic", "description": "Works with in-house kitchens, Aramark, Sodexo, Compass, or independent caterers. We're a platform, not a food service company — we make your existing team better." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Results from pilot campuses",
+          "stats": [
+            { "value": "63", "label": "Waste reduction", "suffix": "%" },
+            { "value": "28", "label": "More employees dining on-site", "suffix": "%" },
+            { "value": "22", "label": "Lower per-meal food cost", "suffix": "%" },
+            { "value": "45", "label": "Days to positive ROI", "suffix": "days" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions from facilities teams",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Do we need to switch food service providers?", "answer": "No. Canteen works with your existing kitchen team or contract caterer. We provide the intelligence layer — demand forecasts, menu recommendations, waste data — and your team executes. We've integrated with Aramark, Sodexo, Compass, and dozens of independent caterers." },
+            { "question": "How does demand prediction work with hybrid schedules?", "answer": "Our model ingests badge data, meeting room bookings, and calendar density to predict on-site headcount daily. For hybrid companies, accuracy is actually higher than for fully in-office because the signals are stronger." },
+            { "question": "What hardware is required?", "answer": "Minimal. Smart scales at serving stations and dish return ($1,200 per cafeteria for hardware). Optional camera monitoring for automatic waste categorization. Everything else is software that integrates with your existing systems." },
+            { "question": "Can employees with dietary restrictions use this?", "answer": "Yes, dietary preference tracking is core to the platform. Employees tag allergies, dietary choices (vegan, halal, gluten-free, etc.), and the menu engine ensures adequate options every day. Allergen data is surfaced in the employee app." }
+          ]
+        }
+      ],
+      "companyEmail": "canteen-food@tryartha.com",
+      "domain": "canteen-food.tryartha.com",
+      "projectSlug": "canteen-food",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Honeycomb",
+    "slug": "honeycomb-farm",
+    "tagline": "Healthy bees, healthy harvests. Monitored hive by hive.",
+    "description": "Honeycomb builds in-hive monitoring systems that track colony health in real-time. Our non-invasive sensors measure temperature, humidity, acoustic patterns, weight, and bee traffic — detecting disease, queen loss, swarming risk, and nutritional stress before visible symptoms appear. Built for commercial beekeepers and pollination services managing hundreds of hives.",
+    "mission": "One in three bites of food depends on pollination, and honeybees do the heavy lifting. But bee colony losses have averaged 40% annually for the past decade, and commercial beekeepers are burning out trying to keep pace. A single beekeeper might manage 2,000 hives spread across hundreds of miles. The only way they know a colony is in trouble is by opening the hive and looking — a process that's slow, stressful for the bees, and impossible to do at the frequency needed across large operations.\n\nHoneycomb changes this equation entirely. Our sensor package slides into the hive body without disturbing the colony. It continuously monitors five critical dimensions of hive health: internal temperature patterns (which reveal brood health and thermoregulation), humidity (linked to disease risk), acoustic signatures (which can detect queen loss, swarming intent, and colony stress), hive weight (tracking food stores and foraging success), and entrance traffic (measuring the daily rhythm of a healthy colony).\n\nWe built Honeycomb because we saw an industry desperate for better tools. Commercial beekeepers are losing 30-50% of their colonies annually, each colony replacement costing $150-200. Pollination contracts — worth $20B globally — depend on delivering healthy colonies to farms at precisely the right time. The beekeeper who knows a colony is struggling three weeks before it collapses can intervene. The one who finds out at the next inspection often can't.\n\nOur platform aggregates data across entire operations, flagging the hives that need attention and letting beekeepers prioritize their limited field time. Instead of opening every hive on a two-week rotation, they can focus on the 15% that actually need intervention — and often catch problems that a visual inspection would miss entirely.\n\nWe're not replacing the beekeeper's skill and intuition. We're extending it across thousands of hives simultaneously.",
+    "marketResearch": "The global beekeeping industry is valued at $11.3B in 2025, with the commercial segment (500+ hives) representing $6.8B. Annual colony losses cost the US beekeeping industry approximately $2.4B in replacement and lost productivity. The pollination services market alone is $8.2B globally and growing at 9% CAGR, driven by increasing agricultural demand for managed pollination.\n\nHoneycomb's TAM is the precision beekeeping technology market, estimated at $1.8B globally. Our SAM focuses on commercial beekeepers (500+ hives) and pollination service providers in North America, Europe, and Australia — approximately $540M. Our initial SOM targets US commercial operations managing 1,000+ hives, representing $72M in immediate opportunity.\n\nCompetitors include Arnia (UK, academic-origin hive monitoring), BeeHero (Israel, $40M raised, focused on pollination analytics), and Broodminder (US, hobbyist-scale weight monitoring). BeeHero is the primary competitive threat but focuses on the pollination analytics layer rather than colony health intervention. Honeycomb's differentiation is the multi-sensor fusion approach — combining acoustic, thermal, weight, humidity, and traffic data to detect problems 2-3 weeks earlier than any single-metric system. Our acoustic models for queen loss detection have 94% accuracy, vs. 60-70% for competitors relying on temperature alone.\n\nBeta deployment across 4 commercial operations (6,200 hives total) shows 31% reduction in colony losses, 22% fewer field inspection trips, and estimated annual savings of $84 per monitored hive. At $12/hive/month ($144/year), the ROI is immediately clear. Beekeepers report that the queen loss alerts alone justify the subscription.",
+    "landingPage": {
+      "companyName": "Honeycomb",
+      "tagline": "Healthy bees, healthy harvests. Monitored hive by hive.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#D4A017",
+          "primaryLight": "#F0C040",
+          "primaryDark": "#B8860B",
+          "accent": "#8B5E3C",
+          "background": "#FFFDF5",
+          "surface": "#FFF8E1",
+          "text": "#3E2723",
+          "textMuted": "#795548",
+          "border": "#F0E0B0"
+        },
+        "fontFamily": "'Nunito', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Know every colony. Save the ones that matter.",
+        "subheadline": "Non-invasive sensors detect disease, queen loss, and swarming risk weeks before visual inspection. Built for commercial beekeepers managing hundreds to thousands of hives.",
+        "ctaText": "Start monitoring",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "centered",
+        "headline": "Every colony you save is $200 you don't spend replacing it",
+        "subheadline": "$12/hive/month. Hardware included with annual plans. 30-day free trial on up to 50 hives.",
+        "buttonText": "Get your trial started"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Install once. Monitor everywhere.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Slide in the sensor package", "description": "Our thin-profile sensor board slides between frames without disturbing the colony. No special tools, no hive modifications. Install takes 30 seconds per hive." },
+            { "icon": "2", "title": "Every hive reports in", "description": "Temperature, humidity, acoustics, weight, and traffic data stream to our platform via cellular mesh network. Monitor your entire operation from one dashboard — whether your hives are in one yard or scattered across three states." },
+            { "icon": "3", "title": "Focus where it matters", "description": "Honeycomb flags the hives that need attention and tells you why. Queen loss detected. Varroa levels rising. Food stores critically low. Stop opening every hive — start opening the right ones." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Five senses for every hive",
+          "layout": "grid",
+          "items": [
+            { "icon": "🔊", "title": "Acoustic health detection", "description": "Our microphones capture colony sounds 24/7. ML models trained on 2M+ hours of hive audio detect queen loss, swarming preparation, and colony stress with 94% accuracy." },
+            { "icon": "🌡️", "title": "Brood temperature mapping", "description": "Continuous thermal monitoring reveals brood health, thermoregulation patterns, and the cluster position in winter. Catch chilled brood before it becomes colony loss." },
+            { "icon": "⚖️", "title": "Weight tracking", "description": "Hive weight tracked to 10-gram precision. See nectar flows in real-time, know exactly when food stores are declining, and time supplemental feeding perfectly." },
+            { "icon": "💧", "title": "Humidity monitoring", "description": "Internal humidity correlates with disease risk and honey ripeness. Our alerts flag conditions favorable for chalk brood, nosema, and other moisture-related diseases." },
+            { "icon": "🐝", "title": "Traffic counting", "description": "Optical sensors at the hive entrance count bees in and out. Foraging activity, orientation flights, and sudden traffic drops all tell a story about colony health." },
+            { "icon": "📍", "title": "Fleet management", "description": "GPS-tracked hives across multiple yards and states. Route optimization for inspections. Pollination contract management with colony health verification for growers." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Beta operation results",
+          "stats": [
+            { "value": "31", "label": "Reduction in colony losses", "suffix": "%" },
+            { "value": "6200", "label": "Hives monitored in beta", "suffix": "+" },
+            { "value": "94", "label": "Queen loss detection accuracy", "suffix": "%" },
+            { "value": "84", "label": "Annual savings per hive", "suffix": "$" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From beekeepers in the field",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I run 1,400 hives across California and Oregon. Before Honeycomb, I was opening every hive on a 14-day rotation. Now I check the dashboard each morning and only visit the yards with flagged hives. I've cut my driving in half and my losses by a third.", "author": "Rick Alvarez", "role": "Alvarez Apiaries, CA" },
+            { "quote": "Honeycomb caught a queen failure in one of my strongest colonies 18 days before my scheduled inspection. That colony was headed for a $2,000 pollination contract. Without the alert, I'd have shown up with a failing hive.", "author": "Sarah Ostrander", "role": "Great Lakes Pollination Services, MI" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Beekeeper questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Will the sensors bother the bees?", "answer": "No. Our sensor boards are thin-profile (4mm) and slide between frames without propolizing shut. Bees typically build comb around them within days. We've tested across 6,200+ hives with zero colony rejection." },
+            { "question": "How does the mesh network work in remote yards?", "answer": "Each sensor communicates via Bluetooth to a solar-powered cellular gateway (one per 50 hives). The gateway transmits via LTE-M/NB-IoT. Works in remote areas with basic cell coverage." },
+            { "question": "What's the battery life?", "answer": "Sensor boards run for 18 months on a single charge with standard sampling (every 5 minutes). For high-frequency monitoring during pollination contracts, battery life is 10 months." },
+            { "question": "Can I use this for almond pollination contracts?", "answer": "Yes. Several of our beta customers use Honeycomb data to verify colony strength for pollination contracts. We're working with grower associations to establish Honeycomb-verified colony health as a standard for premium contract rates." }
+          ]
+        }
+      ],
+      "companyEmail": "honeycomb-farm@tryartha.com",
+      "domain": "honeycomb-farm.tryartha.com",
+      "projectSlug": "honeycomb-farm",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Steep",
+    "slug": "steep-brew",
+    "tagline": "Single-origin tea, curated and delivered to your cup",
+    "description": "Steep is a single-origin tea subscription that connects tea drinkers directly with small-estate growers in China, Japan, India, and Taiwan. Each monthly shipment features two teas with detailed origin stories, brewing guides, and tasting notes — plus a community of tea enthusiasts exploring the world's most nuanced beverage together.",
+    "mission": "The specialty coffee revolution proved that people will pay more for quality, traceability, and story. Tea — a beverage with deeper history, wider variety, and more nuanced flavor — deserves the same revolution. But while coffee has its third wave, tea in the West is still largely stuck in the dark ages: commodity tea bags from anonymous blends, priced by the pound with no regard for origin, cultivar, or craft.\n\nSteep exists to be tea's third wave. We work directly with small-estate growers — families who have tended the same gardens for generations in Yunnan, Shizuoka, Darjeeling, and Alishan. We buy at prices that reflect the quality of their work (2-4x commodity rates), and we tell their stories with the respect they deserve.\n\nEvery tea we source is single-origin, single-harvest, and selected by our tasting team in blind evaluations. We don't carry a permanent catalog — our selections change with the seasons because the best teas are seasonal by nature. A first-flush Darjeeling in April. A new-harvest sencha in May. An aged pu-erh that only appears when a family decides to release a limited pressing.\n\nOur subscription is designed for discovery. Each month, members receive two teas they've never tried — enough to brew 30+ cups — with detailed tasting notes, brewing parameters, and the story behind each garden. Our community platform lets members share their experiences, compare notes, and go deeper into the world of tea.\n\nWe believe tea is the most underappreciated luxury in the world. Steep is making it accessible to people who care about quality, origin, and the craft behind their cup.",
+    "marketResearch": "The global specialty tea market reached $8.2B in 2025, growing at 11% CAGR — significantly outpacing the broader $72B tea market. In the US, premium and specialty tea sales grew 18% year-over-year, driven by health-conscious millennials and Gen Z consumers seeking alternatives to coffee. The subscription box market for food and beverage is $12.4B, with tea subscriptions representing a fast-growing niche.\n\nSteep's TAM is the US specialty tea market at $3.1B. Our SAM — consumers willing to pay $30+/month for curated, single-origin tea subscriptions — is approximately $480M. Our initial SOM targets the specialty coffee crossover demographic (people who already pay for quality beans and are curious about tea) in urban markets, representing $62M.\n\nCompetitors include Ippodo (traditional Japanese tea, DTC but limited curation), Harney & Sons (broad catalog, not single-origin focused), Yunnan Sourcing (enthusiast marketplace, no curation), and Tea Runners (subscription box, but blends rather than single-origin). Steep differentiates through the curation layer: our blind-tasting process, seasonal rotation, and deep origin stories create an experience closer to a wine club than a tea shop. No competitor currently combines direct-sourcing transparency, seasonal single-origin curation, and community in a single platform.\n\nBeta results from 2,800 subscribers show 14-month average subscriber lifetime, 71% gift conversion rate (members gifting subscriptions), and a monthly churn rate of 4.2%. Average revenue per subscriber is $38/month with 62% gross margins after sourcing, fulfillment, and shipping. Our strongest acquisition channel is member referrals (34% of new signups), indicating strong product-market fit.",
+    "landingPage": {
+      "companyName": "Steep",
+      "tagline": "Single-origin tea, curated and delivered to your cup",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#4A6741",
+          "primaryLight": "#6B8F60",
+          "primaryDark": "#2E4A28",
+          "accent": "#9C6644",
+          "background": "#FAFBF8",
+          "surface": "#F0F2EC",
+          "text": "#1F2E1C",
+          "textMuted": "#6B7B66",
+          "border": "#D8DDD2"
+        },
+        "fontFamily": "'Cormorant Garamond', serif",
+        "borderRadius": "0.125rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Tea worth paying attention to.",
+        "subheadline": "Single-origin, single-harvest teas from small-estate growers. Two new discoveries each month, with the stories and guidance to appreciate them fully.",
+        "ctaText": "Begin your subscription",
+        "ctaHref": "#subscribe"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "The world's most nuanced beverage, properly introduced",
+        "subheadline": "First month $24 (then $38/mo). Free shipping. Skip or cancel anytime.",
+        "buttonText": "Subscribe now"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How the subscription works",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "We source seasonally", "description": "Our tasting team evaluates hundreds of teas each season through blind tastings. Only the top selections make it into monthly shipments — and the lineup changes with the harvest calendar." },
+            { "icon": "2", "title": "You receive two discoveries", "description": "Each month: two single-origin teas (enough for 30+ cups), detailed tasting notes, precise brewing parameters, and the origin story of each garden and grower." },
+            { "icon": "3", "title": "Go deeper if you want", "description": "Our community platform connects you with other members exploring the same teas. Share tasting notes, learn brewing techniques, and develop a palate for the subtleties that make great tea extraordinary." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What makes Steep different",
+          "layout": "bento",
+          "items": [
+            { "icon": "🌿", "title": "Single-origin, always", "description": "Every tea is traceable to a specific garden, harvest date, and processing method. No blends, no anonymous sourcing. You know exactly what you're drinking." },
+            { "icon": "🗓️", "title": "Seasonal rotation", "description": "Our catalog changes with the harvest. First-flush Darjeelings in spring. New-harvest senchas in early summer. Aged pu-erhs in winter. Tea is seasonal — we honor that." },
+            { "icon": "💰", "title": "Grower-direct pricing", "description": "We pay 2-4x commodity rates to our grower partners. Fair compensation produces better tea and sustains the small estates that grow it." },
+            { "icon": "📖", "title": "Education built in", "description": "Every shipment includes brewing guides, tasting context, and origin stories. You're not just drinking tea — you're building a vocabulary for understanding it." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From our members",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was a specialty coffee person for 15 years. Steep showed me that tea has just as much depth and complexity — maybe more. The aged pu-erh in my November box completely changed my understanding of what tea can be.", "author": "Michael Chen", "role": "Member since 2024, San Francisco" },
+            { "quote": "I gifted a subscription to my mother and she called me after the first box to say it was the most thoughtful gift she'd ever received. The origin stories and brewing guides made her feel like she was traveling to each garden.", "author": "Emily Raines", "role": "Member since 2025, Chicago" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Frequently asked",
+          "layout": "faq",
+          "faqs": [
+            { "question": "I'm new to specialty tea. Is this for me?", "answer": "Absolutely. Steep is designed for curious people, not tea experts. Our brewing guides are precise enough for beginners (water temperature, steep time, leaf-to-water ratio) and our tasting notes help you develop your palate gradually." },
+            { "question": "Can I choose which teas I receive?", "answer": "The core subscription is curated — that's the discovery element. But members can purchase additional teas from our seasonal shop if a particular tea resonates. Many members build a personal collection alongside their subscription." },
+            { "question": "How much tea is in each shipment?", "answer": "Each month includes two teas, 30-40 grams each. That's enough for 30+ cups total using proper leaf-to-water ratios. Steep recommends gongfu-style brewing for most teas, which uses less leaf per session." },
+            { "question": "Do you include caffeine-free options?", "answer": "All true tea contains caffeine, but we include lower-caffeine options (like aged pu-erh and certain oolongs) regularly. We note caffeine levels on every tea's card. We occasionally feature herbal tisanes as bonus additions." }
+          ]
+        }
+      ],
+      "companyEmail": "steep-brew@tryartha.com",
+      "domain": "steep-brew.tryartha.com",
+      "projectSlug": "steep-brew",
+      "animationPreset": "none",
+      "shadowStyle": "flat"
+    }
+  },
+  {
+    "name": "Provision",
+    "slug": "provision-kitchen",
+    "tagline": "AI meal planning for families who can't eat everything",
+    "description": "Provision is an AI meal planning platform built specifically for families managing dietary restrictions. Whether it's celiac, nut allergies, dairy-free kids, diabetic grandparents, or a mix of all four — Provision creates weekly meal plans that work for everyone at the table, generates unified grocery lists, and integrates with delivery services.",
+    "mission": "Meal planning is hard enough for a family with no dietary restrictions. Now imagine planning for a household where one child has celiac disease, another is allergic to tree nuts, dad is managing type 2 diabetes, and mom is dairy-free by choice. Every single meal becomes a puzzle: What can everyone eat? What substitutions work? How do I make one dinner, not four?\n\nProvision was born in a kitchen like this. Our founder is a parent of two kids with food allergies who spent years planning meals on spreadsheets, cross-referencing ingredient lists, and crying in the grocery store aisle trying to remember which bread brand is safe for both children. She realized that this problem — feeding a family with mixed dietary needs — was universal, exhausting, and completely unsolved by existing meal planning apps.\n\nEvery existing meal planning tool assumes everyone at the table eats the same thing. Provision doesn't. Our AI understands the constraints of each family member, finds meals that satisfy all of them, and when that's not possible, suggests smart modifications — like making the pasta dish with a side of regular bread for the non-celiac members and a safe alternative for everyone else.\n\nWe generate complete weekly meal plans (breakfast, lunch, dinner, snacks), produce unified grocery lists that can be sent directly to Instacart, Walmart Grocery, or Amazon Fresh, and track nutritional intake to ensure restricted diets remain nutritionally complete. For families managing medical conditions, we integrate with dietitians who can review and approve plans.\n\nFeeding your family shouldn't feel like solving an optimization problem. Provision solves it for you so dinner can just be dinner again.",
+    "marketResearch": "Approximately 32 million Americans have food allergies, and 3.1 million follow a gluten-free diet for celiac disease. When expanded to include dietary preferences (vegetarian, vegan, keto), religious restrictions, and medical diets (diabetic, low-FODMAP), an estimated 45% of US households manage at least one dietary restriction. The meal planning app market is $1.2B in 2025, growing at 16% CAGR, but no market leader specifically addresses multi-restriction families.\n\nProvision's TAM is the intersection of meal planning and dietary management — approximately $2.8B when including associated grocery delivery integration revenue. Our SAM focuses on US families managing two or more dietary restrictions within a single household — roughly 18 million households representing $860M in annual spending on meal planning tools and related services. Our initial SOM targets digitally active families with children who have diagnosed food allergies, approximately $110M.\n\nCompetitors include Mealime (general meal planning, basic filter options), Eat This Much (calorie-focused, individual-oriented), and Yummly (recipe discovery, owned by Whirlpool). None handle multi-person, multi-restriction household planning. The closest analogs are registered dietitian services ($150-300/month) which are prohibitively expensive for most families. Provision fills this gap at $14.99/month for a family plan — less than a single dietitian consultation.\n\nBeta results from 4,200 families show 89% weekly active usage (planning meals for the upcoming week), average time savings of 3.2 hours per week on meal planning and grocery shopping, and a 4.8/5 satisfaction rating from families with 3+ dietary restrictions. Monthly churn is 3.1%, significantly below the 8% industry average for meal planning apps, indicating strong product-market fit in the multi-restriction niche.",
+    "landingPage": {
+      "companyName": "Provision",
+      "tagline": "AI meal planning for families who can't eat everything",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#10B981",
+          "primaryLight": "#34D399",
+          "primaryDark": "#059669",
+          "accent": "#F59E0B",
+          "background": "#0B1120",
+          "surface": "#131D33",
+          "text": "#F0FDF4",
+          "textMuted": "#86EFAC",
+          "border": "#1E3048"
+        },
+        "fontFamily": "'Plus Jakarta Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "One family. Multiple diets. One meal plan that works.",
+        "subheadline": "Provision's AI builds weekly meal plans that satisfy every dietary restriction in your household — celiac, nut-free, diabetic, dairy-free, or any combination. Because dinner shouldn't be a puzzle.",
+        "ctaText": "Build your family's plan free",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "centered",
+        "headline": "Dinner should just be dinner again",
+        "subheadline": "Free for 30 days. Family plan: $14.99/month. Cancel anytime.",
+        "buttonText": "Start your free trial"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Tell us who's at the table",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Add your family members", "description": "Create a profile for each person at the table. Add allergies, intolerances, medical diets, and preferences. Provision understands how restrictions interact — because nut-free plus dairy-free isn't just the sum of two filters." },
+            { "icon": "2", "title": "Get a plan everyone can eat", "description": "Our AI generates weekly meal plans where every dish works for every family member — or clearly marks which modifications are needed. Breakfast, lunch, dinner, and snacks, all cross-checked against every restriction." },
+            { "icon": "3", "title": "Shop in one click", "description": "Your weekly grocery list is auto-generated, organized by store section, and can be sent directly to Instacart, Walmart Grocery, or Amazon Fresh. One list, all restrictions accounted for." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for the hardest meal planning problem",
+          "layout": "grid",
+          "items": [
+            { "icon": "🛡️", "title": "Multi-restriction solving", "description": "Our constraint engine handles the combinatorics that your brain can't. Celiac + nut allergy + dairy-free + diabetic? Provision finds meals that satisfy all four — and they actually taste good." },
+            { "icon": "🥗", "title": "Nutritional completeness", "description": "Restricted diets can create nutritional gaps. Provision tracks key nutrients across the week and flags deficiencies — calcium for dairy-free, iron for vegetarian, fiber for gluten-free." },
+            { "icon": "🔄", "title": "Smart substitutions", "description": "When a perfect all-family meal isn't possible, Provision suggests minimal modifications. One version of the stir-fry with soy sauce, one with coconut aminos. Same dinner, safe for everyone." },
+            { "icon": "🛒", "title": "Grocery integration", "description": "One-tap grocery ordering through Instacart, Walmart, or Amazon Fresh. Lists are organized by store section and include safe brand recommendations for specialty items." },
+            { "icon": "👩‍⚕️", "title": "Dietitian review", "description": "For families managing medical conditions, our premium plan includes monthly review by a registered dietitian who verifies nutritional adequacy and approves the meal plan." },
+            { "icon": "👨‍👩‍👧‍👦", "title": "Kid-approved recipes", "description": "Our recipe database is tagged for kid-friendliness. Because a meal plan only works if your children will actually eat it. Real ratings from real families with picky eaters." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What families are reporting",
+          "stats": [
+            { "value": "3.2", "label": "Hours saved per week", "suffix": "hrs" },
+            { "value": "89", "label": "Weekly active usage", "suffix": "%" },
+            { "value": "4.8", "label": "Average satisfaction rating", "suffix": "/5" },
+            { "value": "4200", "label": "Families in beta", "suffix": "+" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From families like yours",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "My son has celiac, my daughter is allergic to tree nuts, and my husband is lactose intolerant. I used to spend Sunday afternoons planning meals in a spreadsheet. Provision does it in 30 seconds and hasn't missed a restriction once.", "author": "Jennifer Marsh", "role": "Mom of 2, Denver, CO" },
+            { "quote": "We adopted a child with multiple food allergies last year. Provision was the thing that kept me from having a breakdown in the kitchen every night. It's not an exaggeration to say this app changed our family's daily life.", "author": "Carlos Medina", "role": "Dad of 3, Austin, TX" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How does Provision handle cross-contamination risks?", "answer": "We flag recipes where cross-contamination is a concern during preparation (like using shared cutting boards for allergens). Our premium plan includes preparation guides that minimize cross-contact risk for severe allergies." },
+            { "question": "Can I add my own recipes?", "answer": "Yes. Import recipes from any URL or add them manually. Provision will automatically analyze ingredients against your family's restrictions and flag any conflicts." },
+            { "question": "What if my family's restrictions change?", "answer": "Update profiles anytime. Adding or removing a restriction regenerates future meal plans instantly. This is common for families managing evolving allergies or temporary medical diets." },
+            { "question": "Is the nutritional tracking medically accurate?", "answer": "Our nutritional data comes from USDA FoodData Central and is cross-checked against manufacturer data for packaged items. For medical diet management, we recommend our premium plan with dietitian review for clinical-grade oversight." }
+          ]
+        }
+      ],
+      "companyEmail": "provision-kitchen@tryartha.com",
+      "domain": "provision-kitchen.tryartha.com",
+      "projectSlug": "provision-kitchen",
+      "animationPreset": "dramatic",
+      "shadowStyle": "glass"
+    }
+  },
+  {
+    "name": "Sprout",
+    "slug": "sprout-harvest",
+    "tagline": "Vertical farming kits that grow your menu year-round",
+    "description": "Sprout builds modular indoor vertical farming systems designed for restaurants, hotels, and food service operations. Our climate-controlled growing towers produce fresh herbs, microgreens, and leafy greens on-site — cutting supply chain costs, eliminating food miles, and giving chefs a living pantry steps from their kitchen.",
+    "mission": "Every restaurant in America receives a produce delivery that traveled an average of 1,500 miles. By the time those herbs reach the kitchen, they've lost half their flavor and most of their shelf life. Chefs know this. They compensate by over-ordering, accepting waste, and making do with whatever survived the supply chain.\n\nSprout changes that equation by putting the farm inside the restaurant. Our vertical growing towers fit in a closet, a hallway, a corner of the prep kitchen, or a dedicated grow room. They produce a continuous harvest of herbs, microgreens, and leafy greens — basil, cilantro, mint, arugula, specialty microgreens, edible flowers — with zero pesticides, zero food miles, and flavor that makes the delivered stuff taste like cardboard.\n\nWe designed Sprout specifically for food service operations, not home hobbyists. Our systems are built for reliability (sealed climate control, automated nutrient dosing, LED grow lights tuned for flavor compounds), volume (enough production to meaningfully offset a restaurant's herb and greens purchasing), and ease of use (a line cook can manage the system — no horticulture degree required).\n\nThe economics work because the alternative is terrible. Restaurants spend $8-15 per pound on fresh herbs that are already wilting. Sprout produces the same herbs for under $2 per pound, harvested minutes before service. Our customers typically see full payback on hardware within 8-12 months, after which the ongoing cost is just nutrients, water, and electricity.\n\nWe believe the future of restaurant produce is hyper-local — not farm-to-table, but wall-to-table. Sprout is building the infrastructure to make that possible for every kitchen, not just the ones with rooftop gardens and six-figure budgets.",
+    "marketResearch": "The indoor farming market is projected to reach $24.8B by 2030, growing at 25% CAGR. The restaurant-specific segment — on-site growing systems for food service — is nascent but accelerating, driven by supply chain volatility, rising produce costs (up 22% since 2022), and consumer demand for transparency. The US restaurant industry spends approximately $32B annually on fresh produce, with herbs and specialty greens representing $4.6B.\n\nSprout's TAM is the on-site food service growing market, estimated at $2.8B in North America. Our SAM focuses on independent fine dining, fast-casual chains, and boutique hotels — operations where ingredient quality directly impacts the dining experience and margins support premium sourcing. This represents approximately $780M. Our initial SOM targets white-tablecloth restaurants and chef-driven concepts in top 20 metro areas, approximately $95M.\n\nCompetitors include Freight Farms (shipping container farms, $100K+ for restaurant-scale), Infarm (in-store growing for grocery, pivoted away from restaurants), and Gardyn (consumer-focused, not restaurant-grade). Smallhold operates a restaurant-focused mushroom growing program in NYC. Sprout differentiates through modular sizing (systems from $3,500 to $35,000), food-service-grade reliability, and a crop library optimized for culinary applications rather than yield metrics.\n\nPilot deployments in 28 restaurants show an average herb cost reduction of 74%, shelf-life improvement from 3 days (delivered) to 14 days (harvested-to-order), and 89% of chefs reporting measurable improvement in dish quality. Average hardware payback is 9.2 months. Recurring revenue comes from nutrient subscriptions ($45-120/month), seed pod refills, and premium support.",
+    "landingPage": {
+      "companyName": "Sprout",
+      "tagline": "Vertical farming kits that grow your menu year-round",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#4ADE80",
+          "primaryLight": "#86EFAC",
+          "primaryDark": "#22C55E",
+          "accent": "#A78BFA",
+          "background": "#0A0F0D",
+          "surface": "#141F1A",
+          "text": "#ECFDF5",
+          "textMuted": "#6EE7A0",
+          "border": "#1E3329"
+        },
+        "fontFamily": "'Sora', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Grow your menu. Literally.",
+        "subheadline": "Indoor vertical farming systems built for restaurants. Fresh herbs, microgreens, and leafy greens harvested steps from your kitchen — year-round, pesticide-free, and at a fraction of distributor prices.",
+        "ctaText": "Design your system",
+        "ctaHref": "#configure"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Wall-to-table is the new farm-to-table",
+        "subheadline": "Systems from $3,500. Full payback in 8-12 months. Schedule a kitchen assessment.",
+        "buttonText": "Book a free assessment"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From install to harvest in 14 days",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "We assess your kitchen", "description": "Our team evaluates your space, menu, and herb/greens usage. We recommend a system size and crop plan that offsets the most expensive and perishable items on your distributor order." },
+            { "icon": "2", "title": "Install and plant", "description": "Our modular towers install in hours, not days. No plumbing. Standard electrical outlet. We plant your first crop rotation and train your team on the 10-minute daily routine." },
+            { "icon": "3", "title": "Harvest daily, order less", "description": "Within 14 days, your first crops are ready. Harvest what you need before each service. Watch your produce invoices drop and your dish quality climb." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Engineered for restaurant reality",
+          "layout": "bento",
+          "items": [
+            { "icon": "🌿", "title": "Culinary crop library", "description": "40+ varieties optimized for flavor, not just yield. Genovese basil, Thai basil, purple basil. Micro cilantro, pea shoots, nasturtium. The crops chefs actually want." },
+            { "icon": "🔧", "title": "Food-service reliability", "description": "Sealed climate control, automated nutrient dosing, and LED arrays tuned for flavor compound production. Designed to run 24/7 in a busy kitchen environment with zero babysitting." },
+            { "icon": "📐", "title": "Modular sizing", "description": "From a single tower in a hallway (producing 4 lbs/week) to a dedicated grow room filling a walk-in (50+ lbs/week). Scale to match your menu and space." },
+            { "icon": "💧", "title": "95% less water", "description": "Closed-loop hydroponic system uses 95% less water than field agriculture. Nutrient solution recirculates, with sensors monitoring pH and EC automatically." },
+            { "icon": "📱", "title": "Remote monitoring", "description": "Check crop status, environmental conditions, and harvest readiness from your phone. Get alerts if temperature, humidity, or nutrient levels drift outside optimal ranges." },
+            { "icon": "💰", "title": "Under $2/lb for herbs", "description": "vs. $8-15/lb from distributors. Full system payback in 8-12 months. After that, your herb costs are essentially electricity and nutrients — pennies per plate." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Numbers from our restaurant partners",
+          "stats": [
+            { "value": "74", "label": "Herb cost reduction", "suffix": "%" },
+            { "value": "28", "label": "Restaurants growing with Sprout", "suffix": "" },
+            { "value": "9.2", "label": "Month average payback", "suffix": "mo" },
+            { "value": "14", "label": "Day shelf life vs. 3 from distributor", "suffix": "days" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From our kitchen partners",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We installed a Sprout system in our prep kitchen hallway six months ago. Our basil costs dropped 80% and the flavor difference is absurd. Guests comment on the herbs constantly. It's become part of our story.", "author": "Chef Maria Vasquez", "role": "Executive Chef, Alma Restaurant, Chicago" },
+            { "quote": "I was buying $600/week in fresh herbs and throwing away a third of them. The Sprout system paid for itself in five months. Now I harvest what I need 30 minutes before service. Zero waste.", "author": "Chef David Nguyen", "role": "Owner, Lemongrass Kitchen, Portland" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Restaurant questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How much space do I need?", "answer": "Our smallest system is a single tower that occupies 2x2 feet of floor space and produces about 4 lbs of herbs per week. Most restaurants start with 2-4 towers, which fit in a hallway, storage closet, or corner of the prep kitchen." },
+            { "question": "Who maintains the system?", "answer": "Your team does — and it takes about 10 minutes a day. Plant seed pods, harvest ready crops, and top off the water reservoir. The climate control, lighting, and nutrients are all automated." },
+            { "question": "Can I grow lettuce and greens, or just herbs?", "answer": "Both. Our crop library includes lettuces (butter, romaine, red leaf), arugula, spinach, kale, chard, and 20+ microgreen varieties in addition to herbs. Larger systems can produce enough salad greens to significantly offset distributor orders." },
+            { "question": "What about health department compliance?", "answer": "Our systems are designed for food service environments and comply with FDA Food Safety Modernization Act requirements. We provide documentation for health department inspections and have never had a system fail an inspection." }
+          ]
+        }
+      ],
+      "companyEmail": "sprout-harvest@tryartha.com",
+      "domain": "sprout-harvest.tryartha.com",
+      "projectSlug": "sprout-harvest",
+      "animationPreset": "playful",
+      "shadowStyle": "glass"
+    }
+  },
+  {
+    "name": "Forage",
+    "slug": "forage-food",
+    "tagline": "Wild ingredients and rare finds for ambitious kitchens",
+    "description": "Forage is a B2B marketplace connecting professional chefs with wild food foragers, specialty growers, and artisan producers. From ramps and morels to high-altitude honey and heritage grain flours — Forage makes the rare and seasonal ingredients that define exceptional cuisine available on demand, with full traceability and sustainable sourcing verification.",
+    "mission": "The best restaurants in the world are defined by their ingredients. Not just quality — specificity. The morels from a particular forest in Oregon. The sea beans harvested on a specific stretch of Maine coastline. The heritage wheat milled by a family in Kansas. These ingredients create dishes that can't be replicated, menus that tell stories, and dining experiences that justify the trip.\n\nBut sourcing these ingredients is a nightmare. Chefs spend hours texting foragers, calling small farms, and chasing down artisan producers who don't have websites. Supply is unpredictable. Quality varies. Logistics are improvised. The chef who finds an incredible ingredient this week might not be able to get it again for months — or ever.\n\nForage solves this by building the marketplace that wild and specialty ingredients have never had. We connect a vetted network of foragers, specialty growers, and artisan producers with professional kitchens — providing real-time inventory, sustainable sourcing verification, cold chain logistics, and the reliability that chefs need to put an ingredient on a menu with confidence.\n\nOur sourcing standards are non-negotiable. Every forager on our platform follows sustainable harvest guidelines verified by our field team. Every specialty grower meets our quality benchmarks. Every artisan producer is vetted for food safety compliance. We're not just a marketplace — we're a trust layer for an industry that has always run on relationships and handshakes.\n\nWe believe that the best food comes from the most dedicated producers. Forage makes their ingredients accessible to every ambitious kitchen — not just the ones with a Rolodex full of forager phone numbers.",
+    "marketResearch": "The US specialty and artisan food ingredient market is estimated at $18.4B in 2025, growing at 13% CAGR. The wild-harvested and foraged food segment specifically is approximately $1.8B, driven by the fine dining and new American cuisine movements that prioritize hyper-local and seasonal sourcing. The broader restaurant specialty purchasing market — ingredients not available through mainstream distributors — represents $6.2B.\n\nForage's TAM is the specialty ingredient sourcing market for professional kitchens, approximately $6.2B in the US. Our SAM focuses on fine dining, chef-driven restaurants, and boutique hotels that actively source wild and specialty ingredients — approximately $1.4B. Our initial SOM targets Michelin-starred and James Beard-recognized restaurants, destination dining concepts, and high-end hotel restaurants in 15 metro markets, representing $120M.\n\nThe competitive landscape is highly fragmented. Specialty distributors (Baldor, Sid Wainer) carry some specialty items but lack wild-foraged depth and real-time seasonal inventory. Direct forager relationships (the current standard) are unreliable and unscalable. Regalis Foods (NYC) is the closest analog — a specialty distributor focused on truffles and luxury ingredients — but operates as a traditional distributor rather than a marketplace. Forage's differentiation is the marketplace model: real-time seasonal availability from a distributed network of 200+ foragers and producers, with sustainability verification and cold chain logistics as platform services.\n\nBeta results from 85 restaurant partners show an average order value of $380, 3.2 orders per month per active account, and a 92% ingredient quality satisfaction rating. Supply-side retention is 94% — foragers and producers earn 75% of the sale price (vs. 40-50% through traditional distribution). The seasonal nature of our inventory drives urgency-based purchasing patterns with strong email open rates (48%) for new availability alerts.",
+    "landingPage": {
+      "companyName": "Forage",
+      "tagline": "Wild ingredients and rare finds for ambitious kitchens",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#C8A96E",
+          "primaryLight": "#DBBF8A",
+          "primaryDark": "#A88E50",
+          "accent": "#6B9080",
+          "background": "#12110E",
+          "surface": "#1E1C17",
+          "text": "#F5F0E6",
+          "textMuted": "#A89F8E",
+          "border": "#332F26"
+        },
+        "fontFamily": "'Playfair Display', serif",
+        "borderRadius": "0.25rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "The ingredients that define your menu. Finally sourceable.",
+        "subheadline": "A curated marketplace of wild-foraged, heritage, and artisan ingredients for professional kitchens. Ramps, morels, sea beans, heritage grains, rare honeys — with real-time availability and verified sustainable sourcing.",
+        "ctaText": "Browse what's available now",
+        "ctaHref": "#marketplace"
+      },
+      "cta": {
+        "layout": "centered",
+        "headline": "Stop chasing ingredients. Start cooking with them.",
+        "subheadline": "Free to join for verified professional kitchens. No minimums, no commitments. Just extraordinary ingredients, available when nature provides.",
+        "buttonText": "Apply for kitchen access"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Source the extraordinary",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Browse real-time availability", "description": "Our marketplace updates daily with what's available now. Morel season in the Pacific Northwest. Ramp harvest in Appalachia. Heritage grain milled this week in Kansas. If it's on the platform, it's ready to ship." },
+            { "icon": "2", "title": "Order with confidence", "description": "Every ingredient has full provenance: who harvested it, where, and when. Sustainable sourcing verification, food safety compliance, and quality grading — so you can put it on a menu, not just a specials board." },
+            { "icon": "3", "title": "Receive next-day", "description": "Cold chain logistics from forest to kitchen. Most orders arrive within 24 hours of harvest. Packaging designed for delicate wild ingredients that bruise if you look at them wrong." }
+          ]
+        },
+        {
+          "id": "categories",
+          "type": "features",
+          "headline": "What you'll find on Forage",
+          "layout": "grid",
+          "items": [
+            { "icon": "🍄", "title": "Wild mushrooms", "description": "Morels, chanterelles, porcini, maitake, lion's mane, black trumpets — sourced from verified foragers across the Pacific Northwest, Appalachia, and the Upper Midwest." },
+            { "icon": "🌿", "title": "Foraged greens & botanicals", "description": "Ramps, fiddleheads, sea beans, wood sorrel, wild watercress, juniper berries, elderflowers. Seasonal and fleeting — our alerts tell you the moment they're available." },
+            { "icon": "🌾", "title": "Heritage grains & flours", "description": "Stone-milled heirloom wheat, rye, corn, and ancient grains from small-scale mills. Varieties with actual flavor that commodity flour forgot." },
+            { "icon": "🍯", "title": "Artisan pantry", "description": "Single-origin honeys, wild fruit preserves, hand-harvested sea salt, small-batch vinegars, and fermented condiments from producers who make 200 jars a year, not 200,000." },
+            { "icon": "🐟", "title": "Wild-caught specialties", "description": "Diver scallops, spot prawns, uni, soft-shell crab — direct from fishermen with full catch documentation. Available when the boats come in." },
+            { "icon": "🧀", "title": "Farmstead dairy & charcuterie", "description": "Small-production cheeses, cultured butters, and artisan charcuterie from producers too small for mainstream distribution but too talented to ignore." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The Forage network",
+          "stats": [
+            { "value": "200", "label": "Vetted foragers and producers", "suffix": "+" },
+            { "value": "85", "label": "Restaurant partners in beta", "suffix": "" },
+            { "value": "92", "label": "Ingredient quality satisfaction", "suffix": "%" },
+            { "value": "75", "label": "Of sale price goes to producer", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From kitchens and foragers",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Before Forage, sourcing ramps meant texting three foragers and hoping one of them was harvesting this week. Now I get an alert when Appalachian ramps hit the platform, I order 10 pounds, and they're in my kitchen the next morning. It's transformed our spring menu.", "author": "Chef Amara Williams", "role": "Chef de Cuisine, The Hearth, NYC" },
+            { "quote": "I've been foraging morels in Oregon for 22 years. Selling through distributors, I'd get maybe $12 a pound. Through Forage, I get $28. And the chefs who buy my mushrooms actually care about where they came from.", "author": "Jake Moreau", "role": "Wild mushroom forager, Bend, OR" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions from kitchens",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Is Forage only for fine dining?", "answer": "No. While many of our early partners are fine dining, we serve any professional kitchen that values ingredient quality — including fast-casual concepts, bakeries, cocktail bars, and hotel restaurants. We verify all accounts to ensure food safety compliance." },
+            { "question": "How do you verify sustainable sourcing?", "answer": "Every forager on our platform follows published sustainable harvest guidelines specific to their region and species. Our field team conducts annual on-site verification. We limit harvest volumes per forager per species to prevent overharvesting. Full traceability documentation accompanies every order." },
+            { "question": "What if an ingredient I want isn't available?", "answer": "Set up alerts for any ingredient. When it becomes available — whether that's morel season starting or a producer releasing a limited batch — you'll get an email or text notification. You can also post sourcing requests visible to our forager and producer network." },
+            { "question": "What are your minimums?", "answer": "No order minimums. We understand that wild and specialty ingredients are used in small quantities. Average order is $380 but we regularly fulfill orders as small as $45. Free shipping on orders over $200." }
+          ]
+        }
+      ],
+      "companyEmail": "forage-food@tryartha.com",
+      "domain": "forage-food.tryartha.com",
+      "projectSlug": "forage-food",
+      "animationPreset": "dramatic",
+      "shadowStyle": "elevated"
+    }
+  }
+]

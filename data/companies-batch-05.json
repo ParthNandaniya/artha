@@ -1,0 +1,1025 @@
+[
+  {
+    "name": "Sequoia",
+    "slug": "sequoia-earth",
+    "tagline": "The marketplace where every carbon credit tells a verifiable story.",
+    "description": "Sequoia is a carbon credit marketplace connecting buyers with rigorously verified removal projects. We apply satellite monitoring, on-site audits, and AI-driven permanence modeling to ensure every credit represents real carbon removed from the atmosphere — not accounting tricks.",
+    "mission": "The voluntary carbon market is broken. Buyers spend millions on credits from projects that may never deliver real atmospheric impact. Registries self-certify. Brokers take 40% margins. And the projects doing genuinely transformative removal work — direct air capture, enhanced weathering, biochar — struggle to find buyers willing to pay their true cost.\n\nSequoia was founded to rebuild the carbon credit market on a foundation of radical verification. Every project listed on our marketplace undergoes satellite-based monitoring, independent field audits, and AI-driven permanence scoring before a single credit is issued. We don't just verify that carbon was captured — we model the probability it stays captured for 100, 500, and 1,000 years.\n\nOur marketplace serves two constituencies that the current market fails. For buyers — corporations with net-zero commitments, compliance teams facing regulatory scrutiny, and individuals who want their offsets to matter — we provide the confidence that every dollar funds real removal. For project developers — the scientists, engineers, and land stewards doing the hard work of pulling carbon from the sky — we provide access to premium buyers and fair pricing.\n\nWe take a fundamentally different approach to credit quality. Rather than relying on registry standards alone, we layer our own verification stack: multispectral satellite imagery to monitor project sites continuously, IoT sensor networks for real-time measurement, and machine learning models trained on thousands of project outcomes to predict permanence risk.\n\nThe climate needs a carbon market that works. Not one built on hope and good intentions, but one built on measurement, transparency, and accountability. Sequoia is building that market.",
+    "marketResearch": "The voluntary carbon market reached $2.3 billion in 2025 and is projected to grow to $50 billion by 2030 as corporate net-zero commitments accelerate and regulatory pressure intensifies. Within this, the high-quality removal credit segment — credits from CDR projects rather than avoidance — is the fastest-growing subsegment at 45% CAGR, currently valued at $890 million.\n\nSequoia's serviceable addressable market focuses on corporate buyers in North America and Europe with active net-zero targets and procurement budgets exceeding $100K annually, representing approximately $8.2 billion by 2028. Our initial SOM targets Fortune 2000 sustainability teams and climate-focused funds, approximately $340 million in near-term opportunity.\n\nKey competitors include Patch (API-first carbon credit purchasing, raised $55M), Cloverly (real-time offset API), Puro.earth (focused on engineered removal), and legacy brokers like South Pole. Marketplace incumbents like Xpansiv's CBL aggregate credits but offer limited transparency into project quality. Sequoia differentiates through three pillars: continuous satellite monitoring of project sites (not just point-in-time audits), AI permanence scoring that buyers can independently verify, and a transparent fee structure that passes 85%+ of credit revenue to project developers.\n\nOur go-to-market strategy combines enterprise sales to corporate sustainability teams with an API for fintech and e-commerce platforms embedding carbon offsets into transactions. Early partnerships with three direct air capture facilities and two enhanced weathering projects give us exclusive access to premium removal credits that are consistently oversold on other platforms.\n\nRegulatory tailwinds are significant: the EU Carbon Border Adjustment Mechanism, evolving Article 6 rules under the Paris Agreement, and growing scrutiny of greenwashing claims by the SEC and FTC all drive demand for credits with bulletproof verification — exactly what Sequoia provides.",
+    "landingPage": {
+      "companyName": "Sequoia",
+      "tagline": "The marketplace where every carbon credit tells a verifiable story.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#4ADE80",
+          "primaryLight": "#86EFAC",
+          "primaryDark": "#22C55E",
+          "accent": "#FACC15",
+          "background": "#0A1410",
+          "surface": "#12231B",
+          "text": "#F0FDF4",
+          "textMuted": "#86A896",
+          "border": "#1E3A2C"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Carbon credits you can see from space",
+        "subheadline": "Sequoia monitors every removal project with satellite imagery and AI permanence modeling. Buy credits that are verified continuously — not just once at issuance.",
+        "ctaText": "Explore verified projects",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Stop buying carbon promises. Start buying carbon proof.",
+        "subheadline": "Join 180+ organizations purchasing removal credits with continuous satellite verification.",
+        "buttonText": "Get started"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From atmosphere to audit trail in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Browse verified projects", "description": "Filter by removal method, permanence score, geography, and co-benefits. Every project includes satellite imagery, sensor data, and third-party audit reports." },
+            { "icon": "2", "title": "Purchase with confidence", "description": "Credits are priced transparently — you see the project developer share, verification cost, and platform fee. No hidden broker margins." },
+            { "icon": "3", "title": "Monitor continuously", "description": "After purchase, track your projects in real-time via satellite updates, sensor readings, and quarterly permanence reassessments." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Verification infrastructure the market has been missing",
+          "layout": "bento",
+          "items": [
+            { "icon": "🛰️", "title": "Satellite Monitoring", "description": "Multispectral imagery validates project boundaries, biomass changes, and land use every 14 days. Not annually — biweekly." },
+            { "icon": "🧠", "title": "AI Permanence Scoring", "description": "Machine learning models trained on 12,000+ project outcomes predict the probability of carbon staying sequestered over 100 to 1,000 years." },
+            { "icon": "📡", "title": "IoT Sensor Networks", "description": "Ground-truth measurements from soil carbon probes, DAC facility meters, and ocean alkalinity sensors feed directly into credit verification." },
+            { "icon": "🔐", "title": "Immutable Audit Trails", "description": "Every measurement, model output, and audit finding is timestamped and tamper-proof. Your auditors will thank you." },
+            { "icon": "📊", "title": "Portfolio Analytics", "description": "Track your credit portfolio's weighted permanence score, geographic diversification, and alignment with SBTi and VCMI frameworks." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The numbers behind verified removal",
+          "stats": [
+            { "value": "2.4", "label": "Tons CO2 verified on platform", "suffix": "M" },
+            { "value": "180", "label": "Corporate buyers", "suffix": "+" },
+            { "value": "99.2", "label": "Verification accuracy rate", "suffix": "%" },
+            { "value": "85", "label": "Revenue passed to project developers", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Trusted by teams who can't afford greenwashing risk",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Sequoia's satellite verification gave our board the confidence to commit $4M in annual credit purchases. We can literally show them the project sites updating every two weeks.", "author": "Rachel Svensson", "role": "Chief Sustainability Officer, Volvo Group" },
+            { "quote": "As a DAC developer, Sequoia's marketplace gets us 30% higher prices than broker channels because buyers trust the verification. That premium funds our next facility.", "author": "Dr. Kenji Watanabe", "role": "CEO, Carbex Technologies" },
+            { "quote": "We evaluated five credit marketplaces. Sequoia was the only one where we could independently verify the permanence claims. That's not a feature — it's a requirement.", "author": "Elena Marchetti", "role": "VP Climate Strategy, Unilever" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we hear from buyers and developers",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How is Sequoia different from Verra or Gold Standard?", "answer": "Registries verify at issuance. Sequoia verifies continuously. Our satellite monitoring, IoT sensors, and AI permanence models provide ongoing assurance that credits represent real, lasting removal — not a snapshot from a single audit." },
+            { "question": "What types of removal projects are listed?", "answer": "We list direct air capture, enhanced rock weathering, biochar, afforestation with permanence guarantees, ocean alkalinity enhancement, and soil carbon sequestration. We do not list avoidance credits." },
+            { "question": "Can I use Sequoia credits for regulatory compliance?", "answer": "Our credits are accepted under most voluntary frameworks including SBTi, VCMI, and CORSIA. For specific compliance regimes, contact our team for guidance on jurisdictional requirements." },
+            { "question": "What's the minimum purchase?", "answer": "Individual and small business buyers can purchase from 1 ton. Corporate procurement typically starts at 500 tons with volume pricing available above 10,000 tons annually." }
+          ]
+        }
+      ],
+      "companyEmail": "sequoia-earth@tryartha.com",
+      "domain": "sequoia-earth.tryartha.com",
+      "projectSlug": "sequoia-earth",
+      "animationPreset": "dramatic",
+      "shadowStyle": "glow"
+    }
+  },
+  {
+    "name": "Ampère",
+    "slug": "ampere-green",
+    "tagline": "Find the energy your building wastes before your utility bill does.",
+    "description": "Ampère is an energy audit platform for commercial buildings that uses IoT sensor data, utility feeds, and machine learning to identify inefficiencies, model retrofit ROI, and generate audit-ready reports — turning months of manual assessment into days of automated intelligence.",
+    "mission": "Commercial buildings consume 35% of all electricity in the United States and waste roughly a third of it. Aging HVAC systems, poorly calibrated controls, lighting schedules nobody has updated since 2014, and envelope leaks that compound year after year. The waste is staggering — and almost entirely invisible to the people paying the bills.\n\nTraditional energy audits are supposed to catch this waste. In practice, they are expensive ($15K-$80K), slow (8-12 weeks), and performed so infrequently that the recommendations are often outdated before the report is delivered. Most building owners get an audit when required by code, file the PDF, and change nothing.\n\nAmpère exists to make energy intelligence continuous, automated, and actionable. We deploy lightweight IoT sensors across a building's mechanical and electrical systems, connect to existing BMS and utility data feeds, and apply machine learning models trained on 40,000+ commercial buildings to identify every source of waste — from the chiller that's short-cycling to the VAV box that's been stuck open for six months.\n\nBut finding waste is only half the problem. Building owners need to know what to fix first and what it will cost. Our platform models retrofit scenarios with payback periods, utility incentive eligibility, and financing options — turning an audit from a compliance exercise into a capital planning tool.\n\nWe believe the fastest path to decarbonizing the built environment isn't new construction — it's making the 6 million existing commercial buildings in the US dramatically more efficient. Ampère is the intelligence layer that makes that possible.",
+    "marketResearch": "The global building energy management systems market is valued at $7.8 billion in 2025, projected to reach $16.2 billion by 2030 at 15.7% CAGR. The energy audit services subsegment represents $4.1 billion, with increasing demand driven by building performance standards being adopted in major cities (NYC Local Law 97, Boston BERDO, DC BEPS) and federal incentives under the Inflation Reduction Act.\n\nAmpère's SAM targets commercial building owners and property managers in the US with portfolios exceeding 50,000 square feet, representing approximately $2.8 billion in annual energy management spend. Our initial SOM focuses on Class A office buildings and multi-tenant retail properties in cities with active building performance standards — roughly $220 million.\n\nCompetitors include ENGIE Impact (enterprise energy consulting), Measurabl (ESG reporting for real estate), Audette (AI-driven building decarbonization, raised $8M), and incumbent engineering firms (AECOM, WSP) offering manual audit services. Legacy BMS vendors like Johnson Controls and Honeywell offer energy analytics but require proprietary hardware ecosystems. Ampère differentiates through hardware-agnostic IoT integration, ML models purpose-built for retrofit prioritization, and a pricing model tied to energy savings rather than upfront fees.\n\nOur go-to-market strategy targets property management companies and REITs through compliance-driven sales. Building performance standards create hard deadlines — building owners face fines of $268 per ton of excess CO2 in New York starting in 2025. We partner with mechanical contractors and ESCOs who implement the retrofits our platform recommends, creating a referral flywheel. Our free benchmarking tool attracts building owners who discover their properties underperform peers.",
+    "landingPage": {
+      "companyName": "Ampère",
+      "tagline": "Find the energy your building wastes before your utility bill does.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0D9488",
+          "primaryLight": "#5EEAD4",
+          "primaryDark": "#0F766E",
+          "accent": "#F97316",
+          "background": "#F7FAFA",
+          "surface": "#FFFFFF",
+          "text": "#134E4A",
+          "textMuted": "#5F8A85",
+          "border": "#CCFBF1"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your building is wasting energy right now. We can show you where.",
+        "subheadline": "Ampère combines IoT sensors, utility data, and ML models trained on 40,000 buildings to deliver continuous energy audits — with retrofit ROI projections your CFO will actually read.",
+        "ctaText": "Get a free benchmark",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "simple",
+        "headline": "Local Law 97 fines start this year. Is your building ready?",
+        "subheadline": "Free energy benchmark for any US commercial building. Results in 48 hours.",
+        "buttonText": "Benchmark my building"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Continuous intelligence, not annual guesswork",
+          "layout": "alternating",
+          "items": [
+            { "icon": "📡", "title": "IoT + BMS Integration", "description": "Deploy our wireless sensors in hours, not weeks. Connect to any existing BMS, utility meter, or sub-meter. Hardware-agnostic by design." },
+            { "icon": "🔍", "title": "Automated Fault Detection", "description": "Our ML models identify HVAC short-cycling, stuck dampers, simultaneous heating and cooling, lighting waste, and 40+ other fault patterns in real-time." },
+            { "icon": "💰", "title": "Retrofit ROI Modeling", "description": "Every identified inefficiency comes with a retrofit recommendation, payback period, utility incentive eligibility, and financing options." },
+            { "icon": "📋", "title": "Compliance Reporting", "description": "Generate audit-ready reports for ASHRAE Level 1-3, NYC LL97, Boston BERDO, and ENERGY STAR benchmarking — automatically." },
+            { "icon": "🏢", "title": "Portfolio Dashboard", "description": "Manage hundreds of buildings in one view. Rank properties by waste severity, compliance risk, and retrofit opportunity." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Results across our portfolio",
+          "stats": [
+            { "value": "23", "label": "Average energy savings identified", "suffix": "%" },
+            { "value": "840", "label": "Buildings monitored", "suffix": "+" },
+            { "value": "2.1", "label": "Average payback on recommended retrofits", "suffix": " years" },
+            { "value": "18", "label": "Months of manual audit work saved", "suffix": "K hrs" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing that scales with your portfolio",
+          "layout": "pricing",
+          "plans": [
+            {
+              "name": "Single Building",
+              "price": "$450",
+              "period": "/month",
+              "features": ["Up to 100K sq ft", "IoT sensor kit included", "Automated fault detection", "ASHRAE Level 2 reports", "Quarterly retrofit recommendations"],
+              "ctaText": "Start monitoring"
+            },
+            {
+              "name": "Portfolio",
+              "price": "$280",
+              "period": "/building/month",
+              "features": ["Unlimited buildings", "Portfolio-wide analytics", "Compliance reporting suite", "Priority sensor deployment", "Dedicated energy advisor"],
+              "ctaText": "Contact sales"
+            },
+            {
+              "name": "Enterprise",
+              "price": "Custom",
+              "period": "",
+              "features": ["REIT-grade analytics", "Custom BMS integrations", "API access", "White-label reporting", "Savings guarantee program"],
+              "ctaText": "Book a demo"
+            }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Frequently asked questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How long does sensor deployment take?", "answer": "Our wireless sensors install in 2-4 hours per building with no downtime or BMS modifications required. First insights appear within 48 hours of deployment." },
+            { "question": "Do I need to replace my existing BMS?", "answer": "No. Ampère integrates with any BMS (Siemens, Johnson Controls, Honeywell, Tridium) and supplements BMS data with our own sensors for comprehensive coverage." },
+            { "question": "How accurate are the savings projections?", "answer": "Our retrofit ROI models are calibrated against 2,400+ completed projects and predict actual savings within +/- 8% on average. We offer a savings guarantee on our Enterprise tier." },
+            { "question": "Will this help with Local Law 97 compliance?", "answer": "Yes. Ampère generates LL97 emissions reports, identifies the lowest-cost path to compliance, and models penalty avoidance scenarios. We support all major US building performance standards." }
+          ]
+        }
+      ],
+      "companyEmail": "ampere-green@tryartha.com",
+      "domain": "ampere-green.tryartha.com",
+      "projectSlug": "ampere-green",
+      "animationPreset": "subtle",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Watershed Pro",
+    "slug": "watershed-climate",
+    "tagline": "See the emissions hiding in every link of your supply chain.",
+    "description": "Watershed Pro is a Scope 3 emissions tracking platform that maps, measures, and manages supply chain carbon footprints. By combining supplier-specific data collection, spend-based estimation models, and industry benchmarks, we give procurement and sustainability teams the granular visibility they need to reduce emissions where they matter most.",
+    "mission": "For most companies, Scope 3 emissions — the indirect emissions from their supply chain, product use, and end-of-life — represent 70-90% of their total carbon footprint. Yet these emissions are the hardest to measure, the least understood, and the most frequently estimated with generic industry averages that bear little resemblance to reality.\n\nThe result is a bizarre situation: companies announce ambitious net-zero targets while having almost no idea what their actual emissions are. They report numbers based on spend-category averages, congratulate themselves when revenue grows faster than estimated emissions, and call it progress.\n\nWatershed Pro was built to replace estimation with evidence. Our platform ingests real data from across your supply chain — procurement records, logistics manifests, supplier disclosures, product lifecycle assessments — and builds a granular emissions model that shows exactly where your carbon footprint concentrates. Not by spend category. By specific supplier, specific material, specific shipping lane.\n\nWe believe that measurement precision drives reduction action. When a CPG company can see that 40% of their Scope 3 comes from three packaging suppliers in Southeast Asia, they can have a real conversation with those suppliers about alternatives. When a tech company can trace emissions to specific components in specific SKUs, they can redesign products that actually move the needle.\n\nOur vision is a world where every purchase order carries a carbon cost as visible and non-negotiable as the financial cost. Where procurement teams optimize for emissions the way they optimize for price. And where the supply chain — humanity's largest engine of economic activity — becomes the supply chain's largest lever for decarbonization.",
+    "marketResearch": "Scope 3 emissions management is the fastest-growing segment of the climate tech software market, projected to reach $4.8 billion by 2028 from $1.2 billion in 2025. This growth is driven by regulatory mandates (CSRD requires Scope 3 disclosure for 50,000+ EU companies), customer pressure (Apple, Microsoft, and Walmart now require supplier emissions data), and investor demand (Climate Action 100+ investors managing $68T in assets expect portfolio companies to report Scope 3).\n\nWatershed Pro's SAM targets mid-to-large enterprises with complex supply chains in manufacturing, retail, CPG, and technology — approximately $2.6 billion in addressable spend. Our SOM focuses on companies with 100+ direct suppliers and annual procurement spend above $500M, representing $420 million.\n\nThe competitive landscape includes the original Watershed (raised $100M+, broad carbon accounting), Persefoni (financial-grade carbon data), Carbmee (supply chain focused, EU-based), and Altruistiq (UK-based, lifecycle assessment focus). ERP-adjacent players like SAP and Siemens are adding Scope 3 modules. Watershed Pro differentiates through supplier-level granularity — rather than allocating emissions by spend category, we build supplier-specific emission profiles using a combination of direct data collection, public disclosure mining, and ML-based estimation that improves as real data replaces proxies.\n\nGo-to-market strategy centers on procurement teams as the primary buyer. Sustainability teams set the targets, but procurement teams have the supplier relationships and purchasing leverage to drive reductions. We integrate directly with procurement platforms (SAP Ariba, Coupa, JAGGAER) to embed emissions data into sourcing workflows. Our free supplier portal — where suppliers can report emissions and get benchmarked against peers — serves as a viral adoption mechanism through the supply chain.",
+    "landingPage": {
+      "companyName": "Watershed Pro",
+      "tagline": "See the emissions hiding in every link of your supply chain.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#2563EB",
+          "primaryLight": "#93C5FD",
+          "primaryDark": "#1D4ED8",
+          "accent": "#10B981",
+          "background": "#F8FAFC",
+          "surface": "#FFFFFF",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'Source Sans 3', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Scope 3 is 80% of your footprint. Do you know where it comes from?",
+        "subheadline": "Watershed Pro maps emissions to specific suppliers, materials, and shipping lanes — replacing spend-based guesses with supplier-specific evidence your auditors can verify.",
+        "ctaText": "Map your supply chain",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "CSRD Scope 3 disclosure isn't optional anymore",
+        "subheadline": "Start with a free supply chain emissions estimate based on your procurement data. Upgrade to supplier-level precision when you're ready.",
+        "buttonText": "Start free assessment"
+      },
+      "sections": [
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "Why procurement teams choose Watershed Pro",
+          "layout": "icon-grid",
+          "items": [
+            { "icon": "🔬", "title": "Supplier-level precision", "description": "Move beyond industry averages. See emissions per supplier, per material, per shipment — so you know exactly where reductions are possible." },
+            { "icon": "🔗", "title": "Procurement integration", "description": "Emissions data flows directly into SAP Ariba, Coupa, and JAGGAER. Your buyers see carbon cost alongside financial cost in every sourcing decision." },
+            { "icon": "📨", "title": "Automated supplier engagement", "description": "Our portal invites suppliers to report actual emissions. As real data replaces estimates, your footprint accuracy improves automatically." },
+            { "icon": "📉", "title": "Reduction pathfinding", "description": "Identify the 20% of suppliers responsible for 80% of emissions. Model switching scenarios with alternative suppliers and materials." }
+          ]
+        },
+        {
+          "id": "timeline",
+          "type": "timeline",
+          "headline": "From procurement data to supplier-level clarity",
+          "items": [
+            { "title": "Week 1-2", "description": "Connect procurement systems and import spend data. Our engine generates an initial Scope 3 estimate by category and supplier." },
+            { "title": "Week 3-4", "description": "We enrich estimates with public supplier disclosures, lifecycle databases, and sector-specific models. Hotspots emerge." },
+            { "title": "Month 2-3", "description": "Supplier portal goes live. Direct data collection begins, progressively replacing estimates with actual emissions data." },
+            { "title": "Ongoing", "description": "Continuous improvement. Every supplier response, every shipment tracked, every procurement decision feeds a more accurate emissions model." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Spend-based estimates vs. Watershed Pro",
+          "comparisonOurName": "Watershed Pro",
+          "comparisonCompetitorName": "Traditional Approach",
+          "comparisonRows": [
+            { "feature": "Emission granularity", "us": "Per supplier & material", "competitor": "Per spend category" },
+            { "feature": "Data sources", "us": "Supplier-specific + LCA + public disclosures", "competitor": "Industry average EFs" },
+            { "feature": "Accuracy improvement", "us": "Continuous as supplier data flows in", "competitor": "Static until next annual audit" },
+            { "feature": "Procurement integration", "us": "Native (Ariba, Coupa, JAGGAER)", "competitor": "Manual export/import" },
+            { "feature": "Supplier engagement", "us": "Automated portal with benchmarking", "competitor": "Email-based surveys" },
+            { "feature": "Reduction modeling", "us": "Scenario-based with alternative suppliers", "competitor": "Top-down targets only" }
+          ]
+        },
+        {
+          "id": "early-access",
+          "type": "early-access",
+          "headline": "Get early access to supplier-level Scope 3 intelligence",
+          "subtitle": "We're onboarding 50 companies for our launch cohort. Priority given to teams with 100+ direct suppliers.",
+          "buttonText": "Request early access"
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions from sustainability and procurement leads",
+          "layout": "faq",
+          "faqs": [
+            { "question": "What procurement data do you need to get started?", "answer": "At minimum, supplier names and spend amounts by category. Ideally, also purchase order details with material descriptions and quantities. We integrate directly with SAP Ariba, Coupa, and JAGGAER for automated data ingestion." },
+            { "question": "How do you handle suppliers who won't share emissions data?", "answer": "Our estimation engine uses public disclosures (CDP, sustainability reports), lifecycle databases, sector benchmarks, and geographic energy mix data to build supplier-specific profiles even without direct engagement. As suppliers do respond, estimates are replaced with actuals." },
+            { "question": "Is this CSRD-ready?", "answer": "Yes. Our Scope 3 calculations follow the GHG Protocol Corporate Value Chain standard and produce outputs mapped to ESRS E1 disclosure requirements. We support all 15 Scope 3 categories." },
+            { "question": "Can suppliers use the portal for free?", "answer": "Yes. The supplier portal is always free for suppliers. They report their emissions, get benchmarked against industry peers, and receive a shareable emissions profile they can reuse with other customers." }
+          ]
+        }
+      ],
+      "companyEmail": "watershed-climate@tryartha.com",
+      "domain": "watershed-climate.tryartha.com",
+      "projectSlug": "watershed-climate",
+      "animationPreset": "smooth",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Terracycle",
+    "slug": "terracycle-eco",
+    "tagline": "One factory's waste is another factory's feedstock.",
+    "description": "Terracycle is an industrial waste-to-material marketplace that connects waste generators with manufacturers who can use their byproducts as raw inputs. Our logistics and quality verification platform turns linear waste streams into circular supply chains — diverting materials from landfill while reducing virgin resource consumption.",
+    "mission": "Every year, the industrial sector sends 7.6 billion tons of material to landfills and incinerators. At the same time, manufacturers spend trillions extracting virgin resources to make products that will eventually become waste themselves. This linear model — extract, make, discard — is not just environmentally catastrophic. It's economically absurd.\n\nTerracycle was founded on a conviction that waste is a design failure, not an inevitability. Across industries, one company's waste stream is often a perfect feedstock for another company's manufacturing process. Steel slag becomes cement aggregate. Textile scraps become insulation. Food processing byproducts become animal feed or biogas. The chemistry works. The economics work. What doesn't work is the marketplace — the infrastructure for matching, logistics, and quality verification that would let these exchanges happen at scale.\n\nThat's what we build. Our platform catalogs industrial waste streams with standardized quality profiles, matches them with manufacturers seeking specific material inputs, and manages the logistics, testing, and compliance paperwork that make the exchange possible. We're the operating system for industrial symbiosis.\n\nWe start with the highest-volume, highest-value waste streams: construction and demolition debris, manufacturing scrap metals, chemical process byproducts, and food and agricultural waste. Each category has established secondary use cases but lacks the marketplace infrastructure to connect supply with demand efficiently.\n\nOur long-term vision is an industrial economy where the concept of waste is obsolete — where every material output from every process has a known, valued next use. Terracycle is building the marketplace that makes that future possible.",
+    "marketResearch": "The global waste management market is valued at $530 billion in 2025, with the industrial waste segment representing $210 billion. The emerging circular economy marketplace segment — platforms that facilitate waste-to-resource exchanges — is projected to grow from $3.2 billion to $12.8 billion by 2030 at 32% CAGR, driven by EPR regulations, corporate circularity targets, and raw material price volatility.\n\nTerracycle's SAM focuses on industrial waste generators and secondary material buyers in North America and Europe, representing approximately $18 billion in annual transaction value. Our SOM targets manufacturing, construction, and food processing companies with annual waste disposal costs exceeding $500K — approximately $1.8 billion in marketplace GMV opportunity.\n\nCompetitors include Rubicon (waste hauling marketplace, publicly traded), Rheaply (asset reuse platform, raised $20M), and Circular.co (plastic waste trading). In Europe, Cyrkl and Excess Materials Exchange operate similar marketplaces. Traditional waste brokers handle most B2B waste transactions but charge high margins and lack quality verification infrastructure. Terracycle differentiates through standardized material quality profiles (reducing buyer risk), integrated logistics management, and AI-powered matching that discovers non-obvious waste-to-feedstock opportunities across industries.\n\nOur GTM strategy is supply-side first: we onboard waste generators who face rising disposal costs and tightening landfill regulations. Free waste stream audits identify marketable materials. Once supply is cataloged, we approach manufacturers with verified material offers at 20-40% below virgin material prices. Our revenue model is a 6-12% transaction fee on successful exchanges, with premium services for logistics management and quality certification.",
+    "landingPage": {
+      "companyName": "Terracycle",
+      "tagline": "One factory's waste is another factory's feedstock.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#854D0E",
+          "primaryLight": "#CA8A04",
+          "primaryDark": "#713F12",
+          "accent": "#16A34A",
+          "background": "#FEFCE8",
+          "surface": "#FFFFFF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#E7E5E4"
+        },
+        "fontFamily": "'Fraunces', serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your waste has value. We help you sell it.",
+        "subheadline": "Terracycle is the industrial marketplace where waste generators find manufacturers who need their byproducts. Divert from landfill. Reduce virgin materials. Turn disposal costs into revenue.",
+        "ctaText": "List your waste stream",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Disposal costs rising? Your waste might be someone else's raw material.",
+        "subheadline": "Free waste stream audit. We'll identify the materials in your waste that have secondary market value.",
+        "buttonText": "Get a free audit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From waste stream to revenue stream",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Catalog your waste", "description": "We profile your waste streams — composition, volume, consistency, contamination levels — and create standardized quality listings." },
+            { "icon": "2", "title": "Match with buyers", "description": "Our AI matching engine connects your waste with manufacturers who can use it as feedstock, prioritizing proximity, volume fit, and quality match." },
+            { "icon": "3", "title": "We handle logistics", "description": "Terracycle manages pickup scheduling, transportation, quality testing on receipt, and all regulatory compliance documentation." },
+            { "icon": "4", "title": "Get paid", "description": "You receive payment for materials that used to cost you money to dispose of. Buyers get verified feedstock at below-virgin prices." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Closing the loop at industrial scale",
+          "stats": [
+            { "value": "340", "label": "Thousand tons diverted from landfill", "suffix": "K" },
+            { "value": "1,200", "label": "Active waste-to-material matches", "suffix": "+" },
+            { "value": "28", "label": "Average cost savings for buyers vs virgin", "suffix": "%" },
+            { "value": "94", "label": "Material quality verification rate", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From waste cost to revenue line",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were paying $380K annually to landfill our steel slag. Terracycle found a cement manufacturer 40 miles away who now pays us for it. Our waste line item flipped from cost to revenue.", "author": "Marcus Johansson", "role": "Operations Director, ArcelorMittal" },
+            { "quote": "Sourcing recycled HDPE used to mean inconsistent quality and unreliable supply. Terracycle's quality profiles and verified sellers solved both problems overnight.", "author": "Priya Nair", "role": "Procurement Manager, Berry Global" }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact-form",
+          "headline": "Tell us about your waste streams",
+          "subtitle": "Our team will conduct a free audit and identify which materials have secondary market value.",
+          "fields": ["name", "email", "company", "message"]
+        }
+      ],
+      "companyEmail": "terracycle-eco@tryartha.com",
+      "domain": "terracycle-eco.tryartha.com",
+      "projectSlug": "terracycle-eco",
+      "animationPreset": "playful",
+      "shadowStyle": "layered"
+    }
+  },
+  {
+    "name": "Solstice",
+    "slug": "solstice-zero",
+    "tagline": "Solar power for renters, homeowners, and everyone in between.",
+    "description": "Solstice is a community solar subscription platform that lets anyone access clean energy savings without installing panels. We partner with local solar farms, handle all enrollment and billing, and deliver guaranteed electricity savings to subscribers — making solar accessible to the 80% of Americans who can't put panels on their roof.",
+    "mission": "Rooftop solar has been a revolution — for the 20% of households that can install it. You need to own your home, have a suitable roof, qualify for financing, and navigate a months-long installation process. For renters, apartment dwellers, low-income families, and anyone with a shaded or aging roof, the solar economy has been off limits.\n\nCommunity solar changes that equation entirely. Instead of panels on your roof, a local solar farm generates clean electricity that's credited to your utility bill. You subscribe, you save, and the grid gets cleaner. No installation, no upfront cost, no long-term commitment.\n\nSolstice exists to make community solar as simple as signing up for Netflix. We partner with solar developers who build local projects, then handle everything the subscriber touches: enrollment, billing, savings calculations, and ongoing account management. Our platform eliminates the complexity that has kept community solar from reaching its potential.\n\nBut simplicity is only half of our mission. The other half is equity. Community solar should serve the communities that need it most — low-to-moderate income households who spend a disproportionate share of their income on electricity. Our platform includes income-qualified enrollment pathways, partnerships with housing authorities and community organizations, and savings guarantees that ensure every subscriber benefits regardless of credit score.\n\nWe envision a future where your electricity source is a choice as easy as choosing an internet provider — and where clean energy savings are available to every household, not just those with the right roof and the right credit score.",
+    "marketResearch": "The US community solar market reached 7.5 GW of installed capacity in 2025, with projections exceeding 30 GW by 2030. The subscriber management and enrollment segment is valued at $1.8 billion, growing at 28% CAGR as 22 states plus DC now have community solar programs and several more are pending legislation.\n\nSolstice's SAM encompasses residential and small commercial subscribers in active community solar markets, representing approximately $4.2 billion in annual subscription value. Our SOM focuses on the five largest markets — New York, Massachusetts, Illinois, New Jersey, and Minnesota — with roughly $680 million in near-term subscriber acquisition and management revenue.\n\nCompetitors include Arcadia (community solar marketplace, raised $200M+), Nexamp (developer + subscriber management), and Common Energy (subscriber platform). Utility-owned community solar programs serve some markets but typically lack customer experience focus. Solstice differentiates through three vectors: an income-qualified enrollment engine that enables LMI subscriber acquisition at scale (many state programs require 40-50% LMI participation), a savings guarantee that eliminates subscriber risk, and a developer partnership model where we manage the full subscriber lifecycle so developers can focus on building projects.\n\nGo-to-market strategy combines B2B developer partnerships (subscriber management as a service) with direct-to-consumer acquisition through utility billing data partnerships, community organization referrals, and digital marketing targeting renters in active solar markets. Our LMI enrollment capability is a significant competitive advantage as state programs increasingly mandate low-income participation thresholds.",
+    "landingPage": {
+      "companyName": "Solstice",
+      "tagline": "Solar power for renters, homeowners, and everyone in between.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#EA580C",
+          "primaryLight": "#FB923C",
+          "primaryDark": "#C2410C",
+          "accent": "#0EA5E9",
+          "background": "#FFFBEB",
+          "surface": "#FFFFFF",
+          "text": "#1E1B18",
+          "textMuted": "#78716C",
+          "border": "#FDE68A"
+        },
+        "fontFamily": "'Nunito Sans', sans-serif",
+        "borderRadius": "1.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Go solar without touching your roof",
+        "subheadline": "Subscribe to a local solar farm and save 10-20% on your electricity bill. No panels, no installation, no upfront cost. Cancel anytime.",
+        "ctaText": "Check my savings",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Clean energy savings in under 5 minutes",
+        "subheadline": "Enter your zip code to see available solar farms near you and your estimated monthly savings.",
+        "buttonText": "Find my solar farm"
+      },
+      "sections": [
+        {
+          "id": "benefits",
+          "type": "benefits",
+          "headline": "Solar that works for how you actually live",
+          "layout": "icon-grid",
+          "items": [
+            { "icon": "🏠", "title": "No roof required", "description": "Rent an apartment? Live in a condo? Have a shaded roof? Community solar works regardless of your housing situation." },
+            { "icon": "💵", "title": "Guaranteed savings", "description": "We guarantee you'll save on every bill. If your credits ever fall short, we cover the difference. Zero risk." },
+            { "icon": "📱", "title": "Enroll in minutes", "description": "Enter your zip code, see available projects, and subscribe online. No salespeople, no site visits, no waiting." },
+            { "icon": "🔓", "title": "Cancel anytime", "description": "No long-term contracts. No cancellation fees. Your solar subscription is as flexible as your life." },
+            { "icon": "🌱", "title": "Real local impact", "description": "Your subscription supports a solar farm in your region, creating local jobs and clean energy for your community." },
+            { "icon": "💳", "title": "No credit check", "description": "Income-qualified pathways available. Your credit score should never determine your access to clean energy." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How community solar works",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "A solar farm generates power nearby", "description": "Local solar projects feed clean electricity into the grid. Your share of the energy is tracked by your utility." },
+            { "icon": "2", "title": "You receive credits on your utility bill", "description": "The energy your share produces appears as credits, reducing what you owe. You save 10-20% on average." },
+            { "icon": "3", "title": "Solstice handles everything else", "description": "We manage enrollment, utility coordination, billing, and ongoing account management. You just enjoy the savings." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Simple, transparent savings",
+          "layout": "pricing",
+          "plans": [
+            {
+              "name": "Standard",
+              "price": "10-15%",
+              "period": "savings on every bill",
+              "features": ["No upfront cost", "No installation", "Savings guarantee", "Cancel anytime", "Online dashboard"],
+              "ctaText": "Check availability"
+            },
+            {
+              "name": "Income-Qualified",
+              "price": "15-20%",
+              "period": "savings on every bill",
+              "features": ["Enhanced savings rate", "No credit check required", "Priority enrollment", "Bilingual support", "Community organization partnerships"],
+              "ctaText": "See if you qualify"
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What our subscribers say",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've been renting for 12 years and always assumed solar wasn't for me. Solstice proved me wrong — I'm saving $35 a month and I didn't have to do anything except sign up.", "author": "David Chen", "role": "Subscriber, Brooklyn, NY" },
+            { "quote": "As a housing authority, enrolling our residents in community solar was a win-win. Lower energy bills for families who need it most, and Solstice handled all the complexity.", "author": "Tamara Williams", "role": "Director, Springfield Housing Authority" },
+            { "quote": "I signed up on my phone during lunch. Three weeks later, the credits started showing up on my electric bill. That's it. That's the whole story.", "author": "Jessica Morales", "role": "Subscriber, Worcester, MA" },
+            { "quote": "We've enrolled 4,000 subscribers through Solstice's platform. Their LMI enrollment engine lets us hit state participation requirements that other platforms couldn't deliver.", "author": "Robert Kim", "role": "VP Development, Solar Farm Partners" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Your questions, answered",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Is community solar available in my area?", "answer": "Community solar is currently available in 22 states plus DC. Enter your zip code on our site and we'll show you available projects in your area — or let you know when your state comes online." },
+            { "question": "How much will I actually save?", "answer": "Most subscribers save 10-20% on their electricity bill. Your exact savings depend on your utility rate and the solar project's production. We guarantee you'll never pay more than you would without community solar." },
+            { "question": "What happens if I move?", "answer": "If you move within the same utility territory, we transfer your subscription automatically. If you move outside the territory, you can cancel with no fees and re-enroll at your new location if community solar is available." },
+            { "question": "Is this a scam? How do you make money?", "answer": "Definitely not a scam. We work with regulated utilities and licensed solar developers. We make money through partnerships with solar project developers who pay us to manage subscriber enrollment and billing on their behalf." }
+          ]
+        }
+      ],
+      "companyEmail": "solstice-zero@tryartha.com",
+      "domain": "solstice-zero.tryartha.com",
+      "projectSlug": "solstice-zero",
+      "animationPreset": "energetic",
+      "shadowStyle": "crisp"
+    }
+  },
+  {
+    "name": "Verdant",
+    "slug": "verdant-earth",
+    "tagline": "Know the biodiversity cost of building before you break ground.",
+    "description": "Verdant is a biodiversity impact assessment platform for land development projects. Using ecological databases, satellite imagery, and species distribution models, we quantify how proposed developments affect local ecosystems — and design mitigation strategies that satisfy regulators, investors, and the natural world.",
+    "mission": "Every land development project transforms an ecosystem. A warehouse on wetlands. A highway through forest. A solar farm on grassland. These transformations are often necessary — but they are almost never well understood. Environmental impact assessments rely on seasonal field surveys that capture a snapshot of biodiversity, miss mobile or cryptic species, and cost developers $200K-$2M in consultant fees and 6-18 months of delay.\n\nVerdant exists to bring the biodiversity assessment process into the 21st century. Our platform combines ecological databases covering 2.3 million species, remote sensing data from multiple satellite constellations, AI-powered species distribution models, and on-the-ground eDNA sampling to build a comprehensive picture of biodiversity at any proposed development site — in weeks rather than months, at a fraction of traditional cost.\n\nBut assessment alone isn't enough. Developers need to know what to do about what they find. Our platform doesn't just quantify impact — it designs the mitigation hierarchy: avoid, minimize, restore, and offset. We model alternative site configurations that reduce biodiversity loss, identify nearby offset opportunities, and calculate the biodiversity net gain required by emerging regulations.\n\nThe regulatory landscape is shifting dramatically. The EU's Corporate Sustainability Due Diligence Directive, the Kunming-Montreal Global Biodiversity Framework's 30x30 target, and the UK's mandatory Biodiversity Net Gain requirement are creating a world where development without biodiversity assessment is no longer an option.\n\nOur mission is to make biodiversity impact as measurable, manageable, and actionable as carbon impact. The climate crisis gets the headlines, but the biodiversity crisis is its twin — and solving one without addressing the other solves neither.",
+    "marketResearch": "The environmental impact assessment market is valued at $6.2 billion globally in 2025, with biodiversity-specific assessment growing at 22% CAGR driven by new regulations. The Taskforce on Nature-related Financial Disclosures (TNFD) framework is being adopted by 320+ organizations globally, creating demand for biodiversity data infrastructure. The biodiversity assessment technology segment is projected to reach $2.8 billion by 2029.\n\nVerdant's SAM targets real estate developers, infrastructure firms, renewable energy developers, and extractive industries in regulated markets (EU, UK, US, Australia), representing approximately $3.4 billion. Our SOM focuses on UK developers subject to BNG requirements and EU firms facing CSDD obligations — roughly $380 million in near-term opportunity.\n\nCompetitors include NatureMetrics (eDNA biodiversity monitoring, raised $30M), TNFD-aligned consultancies (ERM, Ramboll), and traditional environmental consulting firms. GIS-based tools like NatureServe and IBAT provide species data but lack development-specific impact modeling. Verdant differentiates by combining multiple data sources (satellite, ecological databases, eDNA, acoustic monitoring) into a unified impact model with built-in mitigation design — replacing months of consultant-led fieldwork with a platform that delivers faster, more comprehensive assessments.\n\nGo-to-market strategy targets renewable energy developers first — they face biodiversity requirements but are generally more tech-forward than traditional real estate. We partner with environmental consultancies as a platform rather than competing with them directly, enabling consultants to deliver assessments faster while maintaining their client relationships. Our free biodiversity screening tool for any global coordinate serves as lead generation.",
+    "landingPage": {
+      "companyName": "Verdant",
+      "tagline": "Know the biodiversity cost of building before you break ground.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#84CC16",
+          "primaryLight": "#BEF264",
+          "primaryDark": "#65A30D",
+          "accent": "#E879F9",
+          "background": "#0C1207",
+          "surface": "#161E0F",
+          "text": "#F7FEE7",
+          "textMuted": "#A3B68E",
+          "border": "#2D3A1E"
+        },
+        "fontFamily": "'IBM Plex Sans', sans-serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Biodiversity impact assessments in weeks, not years",
+        "subheadline": "Verdant combines satellite data, ecological databases, and AI species models to quantify how your project affects local ecosystems — and design mitigation that keeps you compliant and building.",
+        "ctaText": "Screen a site for free",
+        "ctaHref": "#contact"
+      },
+      "cta": {
+        "layout": "simple",
+        "headline": "UK Biodiversity Net Gain is mandatory. Are your projects ready?",
+        "subheadline": "Free biodiversity screening for any global coordinate. Full assessment reports from $8,500.",
+        "buttonText": "Request a screening"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Multi-source intelligence for every development site",
+          "layout": "bento",
+          "items": [
+            { "icon": "🛰️", "title": "Satellite Habitat Mapping", "description": "Classify habitat types, condition, and connectivity from multispectral imagery. Updated seasonally to capture temporal biodiversity patterns." },
+            { "icon": "🧬", "title": "eDNA Integration", "description": "Environmental DNA sampling reveals species presence that field surveys miss — from soil fungi to elusive amphibians." },
+            { "icon": "🦅", "title": "Species Distribution Models", "description": "AI models predict species occurrence based on habitat, elevation, climate, and connectivity data for 2.3 million species globally." },
+            { "icon": "📐", "title": "Mitigation Design Engine", "description": "Model alternative site layouts that minimize impact. Calculate BNG units required. Identify nearby offset and habitat banking opportunities." },
+            { "icon": "📄", "title": "Regulatory Compliance Reports", "description": "Auto-generate reports for UK BNG, EU CSDD, TNFD, and IFC Performance Standard 6 — formatted for regulator and investor review." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Trusted by developers building responsibly",
+          "stats": [
+            { "value": "620", "label": "Sites assessed", "suffix": "+" },
+            { "value": "78", "label": "Faster than traditional field surveys", "suffix": "%" },
+            { "value": "2.3", "label": "Species in our distribution database", "suffix": "M" },
+            { "value": "34", "label": "Countries covered", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From developers and conservation professionals",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Verdant's preliminary screening caught a great crested newt population that our initial desk study missed entirely. It saved us from a six-month project delay and potential prosecution.", "author": "Sarah Whitfield", "role": "Planning Director, Barratt Developments" },
+            { "quote": "As a wind farm developer, we need biodiversity assessments for every turbine layout iteration. Verdant lets us test ten configurations in the time a traditional survey takes for one.", "author": "Anders Lindqvist", "role": "Environmental Lead, Vattenfall" }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact-form",
+          "headline": "Screen your development site",
+          "subtitle": "Enter your project coordinates and we'll deliver a free biodiversity pre-screening within 72 hours.",
+          "fields": ["name", "email", "company", "message"]
+        }
+      ],
+      "companyEmail": "verdant-earth@tryartha.com",
+      "domain": "verdant-earth.tryartha.com",
+      "projectSlug": "verdant-earth",
+      "animationPreset": "subtle",
+      "shadowStyle": "none"
+    }
+  },
+  {
+    "name": "Lumen Grid",
+    "slug": "lumen-grid-eco",
+    "tagline": "Microgrids that think faster than the weather changes.",
+    "description": "Lumen Grid is a smart optimization platform for renewable microgrids. Our AI controller balances solar, wind, battery storage, and grid interconnection in real-time — maximizing clean energy utilization, minimizing costs, and keeping the lights on when the main grid can't.",
+    "mission": "The energy transition is generating a paradox. We are building enormous amounts of renewable generation capacity, yet the grid infrastructure designed for centralized fossil fuel plants cannot efficiently distribute this decentralized, intermittent power. The result: curtailed solar, wasted wind, and a grid that becomes less reliable as it becomes cleaner.\n\nMicrogrids are the answer — localized energy systems that combine generation, storage, and intelligent control to serve communities, campuses, and industrial facilities with clean, reliable power. But today's microgrid controllers are primitive. They follow static dispatch schedules, react slowly to weather changes, and leave significant value on the table by failing to optimize across generation sources, storage assets, and grid market signals simultaneously.\n\nLumen Grid builds the brain that microgrids have been missing. Our AI controller ingests weather forecasts, load predictions, wholesale energy prices, demand response signals, and battery state-of-health data to make dispatch decisions every 15 seconds. It knows when to store solar for the evening peak, when to sell excess to the grid at premium rates, and when to island from a grid that's about to fail.\n\nWe serve three markets that are converging: commercial and industrial facilities seeking energy resilience and cost savings, remote and island communities that depend on expensive diesel generation, and utility-scale microgrid developers who need software that maximizes the financial performance of their projects.\n\nOur north star is a world of millions of interconnected microgrids — each one optimized by AI, each one trading energy with its neighbors, forming a resilient, decentralized energy network that is cleaner, cheaper, and more reliable than the centralized grid it supplements.",
+    "marketResearch": "The global microgrid market is projected to reach $47.4 billion by 2029, growing at 12.6% CAGR. Within this, the microgrid software and controls segment — Lumen Grid's primary market — is valued at $4.1 billion and growing at 19% CAGR as hardware costs fall and the value of intelligent optimization increases.\n\nOur SAM targets microgrid operators in North America, Australia, and the Pacific Islands with systems exceeding 100kW, representing approximately $1.8 billion in software and optimization revenue. Our initial SOM focuses on C&I microgrids in California, Texas, and Hawaii (states with high electricity costs and strong resilience incentives), approximately $210 million.\n\nCompetitors include Schneider Electric's EcoStruxure Microgrid Advisor (hardware-bundled, limited to Schneider ecosystems), Heila Technologies (acquired by Kohler, edge-based control), and Enchanted Rock (gas-focused resilience). Software-only competitors include Geli (acquired by Hanwha) and Stem (focused on standalone storage optimization). Lumen Grid differentiates through hardware-agnostic compatibility (works with any inverter, BMS, or SCADA system), AI that optimizes across generation, storage, load, and grid market participation simultaneously, and a predictive islanding capability that disconnects from the grid before — not during — outages.\n\nOur GTM strategy targets microgrid EPC contractors and developers who need a controls platform for their projects. We integrate with their preferred hardware and provide ongoing optimization as a SaaS subscription. Direct enterprise sales target large C&I campuses (data centers, manufacturing facilities, military bases) where energy costs and resilience are board-level priorities. Partnerships with battery manufacturers (Tesla, BYD, Sungrow) provide co-selling opportunities.",
+    "landingPage": {
+      "companyName": "Lumen Grid",
+      "tagline": "Microgrids that think faster than the weather changes.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#38BDF8",
+          "primaryLight": "#7DD3FC",
+          "primaryDark": "#0284C7",
+          "accent": "#FBBF24",
+          "background": "#020617",
+          "surface": "#0F172A",
+          "text": "#F1F5F9",
+          "textMuted": "#94A3B8",
+          "border": "#1E293B"
+        },
+        "fontFamily": "'Instrument Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "AI-optimized microgrids that outperform the grid",
+        "subheadline": "Lumen Grid's controller makes 5,760 dispatch decisions per day — balancing solar, wind, storage, and grid signals to maximize clean energy use, minimize cost, and keep power flowing when it matters most.",
+        "ctaText": "See a live demo",
+        "ctaHref": "#features"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your microgrid is leaving money and resilience on the table",
+        "subheadline": "Average Lumen Grid customer sees 23% cost reduction and 99.97% uptime. Let us show you what your system could do.",
+        "buttonText": "Schedule optimization review"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Intelligence at every layer of your microgrid",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🧠", "title": "Predictive dispatch", "description": "ML models ingest weather forecasts, load patterns, and market prices to optimize dispatch 24 hours ahead — then adjust every 15 seconds as conditions change." },
+            { "icon": "🔌", "title": "Hardware agnostic", "description": "Works with any inverter (SMA, Enphase, SolarEdge), any BMS (Tesla, BYD, Sungrow), and any SCADA system. No vendor lock-in." },
+            { "icon": "🏝️", "title": "Predictive islanding", "description": "Our grid-health AI detects instability patterns and disconnects your microgrid before the outage hits — not during. Seamless transition, zero downtime." },
+            { "icon": "💹", "title": "Market participation", "description": "Automatically bid into demand response, frequency regulation, and capacity markets. Your microgrid earns revenue when it's not serving your load." },
+            { "icon": "🔋", "title": "Battery health optimization", "description": "Dispatch decisions account for battery degradation, temperature, and cycle life. Extend your storage assets' useful life by 15-25%." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Lumen Grid vs. traditional microgrid controllers",
+          "comparisonOurName": "Lumen Grid",
+          "comparisonCompetitorName": "Traditional Controllers",
+          "comparisonRows": [
+            { "feature": "Optimization frequency", "us": "Every 15 seconds", "competitor": "15-minute intervals" },
+            { "feature": "Weather-aware dispatch", "us": "48-hour predictive", "competitor": "Reactive only" },
+            { "feature": "Grid market participation", "us": "Automated bidding", "competitor": "Manual or none" },
+            { "feature": "Hardware compatibility", "us": "Any vendor", "competitor": "Proprietary ecosystem" },
+            { "feature": "Islanding trigger", "us": "Predictive (before outage)", "competitor": "Reactive (during outage)" },
+            { "feature": "Battery health management", "us": "Degradation-aware dispatch", "competitor": "Simple SoC limits" }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Performance across our fleet",
+          "stats": [
+            { "value": "23", "label": "Average energy cost reduction", "suffix": "%" },
+            { "value": "99.97", "label": "Average uptime", "suffix": "%" },
+            { "value": "180", "label": "MW under management", "suffix": "+" },
+            { "value": "4.2", "label": "Grid market revenue generated for customers", "suffix": "M" }
+          ]
+        },
+        {
+          "id": "newsletter",
+          "type": "newsletter-signup",
+          "headline": "The Microgrid Dispatch",
+          "subtitle": "Weekly insights on microgrid optimization, market trends, and case studies from our fleet. No fluff.",
+          "buttonText": "Subscribe"
+        }
+      ],
+      "companyEmail": "lumen-grid-eco@tryartha.com",
+      "domain": "lumen-grid-eco.tryartha.com",
+      "projectSlug": "lumen-grid-eco",
+      "animationPreset": "smooth",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Rewild",
+    "slug": "rewild-green",
+    "tagline": "Fund the return of wild places.",
+    "description": "Rewild is a habitat restoration project funding platform connecting conservation organizations with impact investors, corporate sponsors, and individual donors. We provide transparent project tracking, ecological outcome measurement, and financial reporting — making it possible to invest in nature with the same rigor as any other asset class.",
+    "mission": "The world has lost 69% of its wildlife populations since 1970. Deforestation claims 10 million hectares annually. Wetlands, grasslands, and coral reefs are disappearing faster than we can study them. The science is clear: protecting what remains is not enough. We must actively restore degraded ecosystems at a scale never before attempted.\n\nThe funding exists. The Kunming-Montreal framework commits $200 billion annually for biodiversity by 2030. Corporate nature-positive pledges are multiplying. Impact investors are searching for credible nature-based assets. But the money can't find the projects, and the projects can't find the money. Conservation organizations lack the fundraising infrastructure to reach capital markets. Investors lack the outcome data to underwrite ecological restoration with confidence.\n\nRewild bridges this gap. We are the platform where habitat restoration projects meet their funders. Every project on Rewild — from mangrove replanting in Indonesia to prairie restoration in the American Midwest to coral reef rehabilitation in the Caribbean — undergoes ecological baseline assessment, milestone planning, and outcome measurement before it's listed for funding.\n\nFor funders, we provide portfolio-grade transparency: satellite monitoring of restoration progress, biodiversity surveys at defined intervals, financial reporting on fund deployment, and impact metrics aligned with TNFD and GBF targets. For project developers, we provide access to capital, technical assistance on monitoring and reporting, and a community of practice with peer organizations.\n\nRewild is not a donation platform. It's infrastructure for a new asset class: verified ecological restoration. We believe that when nature's recovery can be measured and invested in with the same rigor as real estate or infrastructure, the capital will flow — and the wild places will return.",
+    "marketResearch": "The biodiversity and ecosystem restoration funding market is estimated at $154 billion annually in 2025, with a projected gap of $700 billion between current flows and what the Kunming-Montreal framework requires. Biodiversity credit markets, while nascent, are projected to reach $2-4 billion by 2030. The broader conservation finance market — including debt-for-nature swaps, green bonds, and impact investments — is $18 billion and growing at 15% CAGR.\n\nRewild's SAM focuses on institutional and corporate funders of habitat restoration projects globally, representing approximately $4.5 billion in annual funding flows. Our initial SOM targets corporate sponsors with nature-positive commitments and impact funds with conservation mandates in North America and Europe — roughly $280 million.\n\nCompetitors include Restor (ecological data platform backed by Google, focused on mapping not funding), TerraMatch (World Resources Institute's restoration project marketplace), and various carbon-credit-adjacent platforms (Pachama, NCX) that include some habitat components. Traditional conservation fundraising through organizations like The Nature Conservancy and WWF dwarfs platform funding but lacks the transparency and outcome measurement that institutional investors require. Rewild differentiates through investment-grade project due diligence, continuous ecological outcome monitoring (satellite + in-situ), and financial structures that allow investors to fund restoration with measurable return expectations.\n\nGo-to-market strategy starts with curating a portfolio of 50 high-quality restoration projects across five ecosystem types, funded through a blended finance model combining philanthropic grants (catalytic capital) with impact investment tranches. We market to corporate sustainability teams seeking TNFD-aligned nature investments and to family offices with conservation mandates. Our platform fee is 5-8% of funds deployed, with premium analytics and reporting packages for institutional investors.",
+    "landingPage": {
+      "companyName": "Rewild",
+      "tagline": "Fund the return of wild places.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#15803D",
+          "primaryLight": "#4ADE80",
+          "primaryDark": "#166534",
+          "accent": "#7C3AED",
+          "background": "#F0FFF4",
+          "surface": "#FFFFFF",
+          "text": "#14532D",
+          "textMuted": "#4D7C5E",
+          "border": "#BBF7D0"
+        },
+        "fontFamily": "'Merriweather', serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Invest in nature's comeback",
+        "subheadline": "Rewild connects habitat restoration projects with funders who demand transparency, measurement, and ecological accountability. Browse verified projects. Fund restoration. Track recovery.",
+        "ctaText": "Explore projects",
+        "ctaHref": "#features"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Nature needs capital. Capital needs accountability.",
+        "subheadline": "Browse restoration projects with satellite-verified progress and ecological outcome data.",
+        "buttonText": "View active projects"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Restoration funding with investment-grade rigor",
+          "layout": "bento",
+          "items": [
+            { "icon": "🌿", "title": "Curated Projects", "description": "Every project undergoes ecological baseline assessment, organizational due diligence, and milestone planning before listing. We reject 70% of applications." },
+            { "icon": "🛰️", "title": "Satellite Monitoring", "description": "Track vegetation recovery, land use change, and habitat connectivity through quarterly satellite updates for every funded project." },
+            { "icon": "📊", "title": "Biodiversity Metrics", "description": "Species counts, habitat quality scores, and ecosystem function indicators — measured at defined intervals and reported against project baselines." },
+            { "icon": "💼", "title": "Portfolio Management", "description": "Diversify across ecosystem types, geographies, and risk profiles. Dashboard shows ecological return on investment across your portfolio." },
+            { "icon": "📋", "title": "TNFD Reporting", "description": "Auto-generated reports aligned with the Taskforce on Nature-related Financial Disclosures framework for institutional reporting requirements." },
+            { "icon": "🤝", "title": "Community Impact", "description": "Every project includes social co-benefits — local employment, indigenous land rights, community resource access — tracked alongside ecological outcomes." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Restoration by the numbers",
+          "stats": [
+            { "value": "42", "label": "Active restoration projects", "suffix": "" },
+            { "value": "185", "label": "Thousand hectares under restoration", "suffix": "K" },
+            { "value": "24", "label": "Million in funds deployed", "suffix": "M" },
+            { "value": "47", "label": "Average biodiversity score increase", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "timeline",
+          "type": "timeline",
+          "headline": "How a restoration project moves from listing to recovery",
+          "items": [
+            { "title": "Due Diligence", "description": "Ecological baseline assessment, organizational audit, and milestone planning. Only projects that meet our quality bar are listed." },
+            { "title": "Funding", "description": "Projects go live on the platform. Corporate sponsors, impact investors, and individual funders commit capital against defined milestones." },
+            { "title": "Implementation", "description": "Restoration activities begin. Funds are released in tranches as milestones are verified. Satellite monitoring provides continuous oversight." },
+            { "title": "Measurement", "description": "Quarterly ecological surveys measure biodiversity recovery, habitat quality, and ecosystem function. Results reported to all funders." },
+            { "title": "Long-term Stewardship", "description": "Projects transition to community-led management with ongoing monitoring. Rewild maintains oversight and reporting for the life of the investment." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From funders and project leaders",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Rewild gave us the confidence to commit $2.5M to mangrove restoration. The satellite monitoring and quarterly biodiversity surveys mean we can show our board exactly what our investment produced.", "author": "Isabelle Fontaine", "role": "Head of ESG, Amundi Asset Management" },
+            { "quote": "As a small conservation NGO, we never had access to institutional capital. Rewild's platform and due diligence process gave us the credibility to attract funding we couldn't have reached alone.", "author": "Carlos Mendes", "role": "Executive Director, Cerrado Conservation Alliance" },
+            { "quote": "We funded five projects across three continents through Rewild. The portfolio dashboard makes nature investment feel as professional as any other asset class.", "author": "Henrik Andersen", "role": "Family Office Director, Nordea Wealth" }
+          ]
+        }
+      ],
+      "companyEmail": "rewild-green@tryartha.com",
+      "domain": "rewild-green.tryartha.com",
+      "projectSlug": "rewild-green",
+      "animationPreset": "dramatic",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Ember",
+    "slug": "ember-climate",
+    "tagline": "A clear path from carbon-heavy building to net-zero asset.",
+    "description": "Ember is a building decarbonization planning platform for property owners. We model electrification pathways, heat pump retrofits, envelope upgrades, and renewable energy integration to create phased decarbonization plans with accurate cost projections, incentive eligibility, and contractor matching.",
+    "mission": "Buildings are responsible for 39% of global carbon emissions — 28% from operations and 11% from construction materials. Decarbonizing the built environment is not optional for meeting climate targets. But for most property owners, the path from a gas-heated, poorly insulated building to a net-zero asset is opaque, expensive, and overwhelming.\n\nThe typical building owner faces a maze of decisions: Which heating system to replace first? Is a heat pump viable for this climate? What envelope improvements are needed to make electrification work? Which incentives apply? What's the payback? Who can install it? These questions interact in complex ways — a heat pump without envelope upgrades may fail in a cold climate, but doing both at once may exceed the capital budget.\n\nEmber was built to navigate this complexity. Our platform creates a digital energy model of any building using utility data, building characteristics, and local climate data. It then simulates hundreds of decarbonization pathways — combinations of HVAC electrification, envelope improvements, renewable generation, and operational changes — and ranks them by carbon reduction, cost, payback period, and incentive eligibility.\n\nThe output is not a generic recommendation. It's a phased plan: what to do in Year 1, Year 3, Year 5. Which equipment to replace at end-of-life versus proactively. Which incentives to stack (IRA tax credits, state rebates, utility programs). And when we connect you with vetted contractors who've completed similar projects in your area.\n\nWe believe that every building owner who wants to decarbonize should have access to the same quality of analysis that a Fortune 500 company gets from a Big Four sustainability practice — at a price point that makes action possible rather than paralyzing.",
+    "marketResearch": "The building decarbonization market is projected to reach $280 billion globally by 2030, encompassing heat pump installations, building envelope retrofits, and energy management systems. The software and advisory segment for building decarb planning is valued at $2.4 billion and growing at 26% CAGR, driven by building performance standards, IRA incentives, and corporate ESG commitments.\n\nEmber's SAM targets commercial and multifamily property owners in the US and UK with buildings over 10,000 square feet, representing approximately $1.6 billion in annual planning and advisory spend. Our SOM focuses on multifamily buildings in cities with active building performance standards (NYC, Boston, DC, Denver, St. Louis) — roughly $190 million.\n\nCompetitors include BlocPower (electrification-as-a-service, raised $180M, focused on underserved communities), Audette (AI decarb planning, raised $8M), and Arcadia (utility data platform with some decarb features). Traditional engineering firms (AECOM, WSP) offer custom decarb studies at $50K-$200K per building. Ember differentiates through automation (plans generated in days, not months), affordability (starting at $2,500 per building vs. $50K+ for consultant studies), and contractor matching that closes the gap between plan and execution.\n\nGo-to-market strategy targets property management companies with 20-500 unit portfolios facing compliance deadlines. Our free building energy score — generated from address and utility data alone — serves as top-of-funnel. Partnerships with heat pump manufacturers (Mitsubishi, Daikin) and insulation companies provide referral channels and co-marketing opportunities. We take a 3-5% referral fee from contractors matched through our platform, creating a revenue stream aligned with plan execution.",
+    "landingPage": {
+      "companyName": "Ember",
+      "tagline": "A clear path from carbon-heavy building to net-zero asset.",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#DC2626",
+          "primaryLight": "#FCA5A5",
+          "primaryDark": "#B91C1C",
+          "accent": "#0891B2",
+          "background": "#FEF2F2",
+          "surface": "#FFFFFF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#FECACA"
+        },
+        "fontFamily": "'Figtree', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Stop guessing. Start decarbonizing.",
+        "subheadline": "Ember models every pathway to net-zero for your building — electrification, envelope, renewables — with phased timelines, real costs, and the incentives you're missing.",
+        "ctaText": "Get your building's free energy score",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "simple",
+        "headline": "Your building has a decarbonization plan waiting to be discovered",
+        "subheadline": "Enter your address for a free energy score. Upgrade to a full plan when you're ready to act.",
+        "buttonText": "Score my building"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From energy hog to net-zero asset in four steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "We model your building", "description": "Using utility data, building age, system types, and local climate, we create a digital energy twin that mirrors your building's actual performance." },
+            { "icon": "2", "title": "We simulate every pathway", "description": "Hundreds of combinations of heat pumps, insulation, windows, solar, and operational changes — ranked by carbon impact, cost, and payback." },
+            { "icon": "3", "title": "You get a phased plan", "description": "Not a single recommendation — a multi-year roadmap. What to do now, what to do at equipment end-of-life, and what incentives to capture along the way." },
+            { "icon": "4", "title": "We connect you with contractors", "description": "Vetted installers in your area who've completed similar projects. We match on scope, schedule, and budget. You choose." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Decarbonization planning at every scale",
+          "layout": "pricing",
+          "plans": [
+            {
+              "name": "Energy Score",
+              "price": "Free",
+              "period": "",
+              "features": ["Building energy rating", "Peer benchmarking", "Top 3 quick wins", "Incentive eligibility scan"],
+              "ctaText": "Get free score"
+            },
+            {
+              "name": "Full Plan",
+              "price": "$2,500",
+              "period": "/building",
+              "features": ["Complete pathway analysis", "Phased implementation plan", "Cost and payback modeling", "Incentive stacking guide", "Contractor matching"],
+              "ctaText": "Generate my plan"
+            },
+            {
+              "name": "Portfolio",
+              "price": "$1,800",
+              "period": "/building",
+              "features": ["All Full Plan features", "Portfolio-wide prioritization", "Capital planning dashboard", "Compliance deadline tracking", "Quarterly plan updates"],
+              "ctaText": "Contact us"
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Property owners who found their path",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our consultant quoted $75K and four months for a decarbonization study of our 12-building portfolio. Ember delivered more detailed plans for a tenth of the cost in three weeks.", "author": "Michelle Torres", "role": "Director of Sustainability, Equity Residential" },
+            { "quote": "Ember found $340K in IRA tax credits and state rebates I didn't know my building qualified for. The heat pump conversion will pay for itself in 4 years instead of 8.", "author": "Jonathan Park", "role": "Owner, Park Property Management" },
+            { "quote": "The phased approach was key for us. We can't do everything at once, but now we know exactly what to do when each boiler reaches end-of-life.", "author": "Diana Osei", "role": "CFO, Brookfield Property" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Frequently asked questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How accurate are the cost estimates?", "answer": "Our cost models are calibrated against 8,000+ completed retrofit projects and local contractor pricing data. Estimates are typically within +/- 12% of final project costs, and improve further after contractor matching." },
+            { "question": "Do you cover residential single-family homes?", "answer": "Currently, Ember focuses on commercial and multifamily buildings over 10,000 sq ft. We plan to launch a residential product in 2027. Sign up for our waitlist to be notified." },
+            { "question": "What incentives do you track?", "answer": "We track federal IRA tax credits (25C, 179D), state and local rebates, utility incentive programs, and green building certification benefits across all 50 states. Our database is updated monthly." }
+          ]
+        }
+      ],
+      "companyEmail": "ember-climate@tryartha.com",
+      "domain": "ember-climate.tryartha.com",
+      "projectSlug": "ember-climate",
+      "animationPreset": "energetic",
+      "shadowStyle": "crisp"
+    }
+  },
+  {
+    "name": "Drift",
+    "slug": "drift-zero",
+    "tagline": "Track, fund, and verify ocean plastic cleanup — ton by ton.",
+    "description": "Drift is a platform for tracking and investing in ocean plastic cleanup operations worldwide. We provide GPS-verified collection data, transparent financial reporting, and impact certification — making it possible for brands, investors, and individuals to fund ocean cleanup with the same accountability they expect from any other investment.",
+    "mission": "There are an estimated 170 trillion pieces of plastic in the world's oceans, with 11 million metric tons added every year. The scale of the problem is staggering, and the cleanup efforts — while growing — remain critically underfunded and poorly tracked. Most ocean plastic collection happens through small, decentralized operations: coastal community cleanups, river interception systems, and fishing-for-litter programs. These operations do vital work, but they struggle to attract institutional funding because they can't provide the verification and reporting that funders require.\n\nDrift was founded to solve the accountability gap in ocean plastic cleanup. We equip cleanup operations with GPS tracking, weight verification hardware, and material documentation tools that create an auditable record of every ton collected. This data feeds into our platform, where funders can browse verified operations, commit capital, and track the impact of their funding in real-time.\n\nWe serve both sides of the equation. For cleanup operators — from a 10-person crew in Bali to a river barrier system in the Philippines — we provide the technology and reporting infrastructure that makes their work fundable. For brands seeking plastic credits, investors looking for impact, and individuals who want their money to provably remove plastic from the ocean, we provide verification they can trust.\n\nOur approach is deliberately bottoms-up. We don't build our own cleanup technology. We empower the thousands of existing operations worldwide with the tools to prove their impact and access the capital they deserve.\n\nWe believe the ocean plastic crisis is solvable — not by one giant machine, but by thousands of funded, verified, and accountable cleanup operations working in every affected waterway on the planet. Drift is the infrastructure that makes that network possible.",
+    "marketResearch": "The ocean plastic cleanup and prevention market is estimated at $12 billion annually, encompassing collection, recycling, and prevention technologies. The plastic credit market — where companies purchase verified plastic removal to offset their plastic footprint — reached $120 million in 2025 and is projected to grow to $1 billion by 2030 as corporate plastic neutrality commitments accelerate. Over 100 major brands have committed to plastic neutrality or net-zero plastic waste.\n\nDrift's SAM targets the plastic credit and ocean cleanup investment market globally, representing approximately $2.2 billion by 2028. Our SOM focuses on consumer brands with plastic neutrality commitments and impact investors with ocean conservation mandates in North America and Europe — roughly $160 million in near-term platform revenue.\n\nCompetitors include Plastic Bank (social plastic collection in developing countries, raised $20M), CleanHub (brand-facing plastic credit platform, raised $10M), and rePurpose Global (plastic offset marketplace). The Ocean Cleanup builds proprietary hardware but doesn't aggregate third-party operations. Drift differentiates through GPS-verified collection tracking (competitors rely on manual weight certificates), a marketplace model that aggregates thousands of small operators (competitors work with their own networks only), and impact analytics that allow funders to compare operations by cost-per-ton, material type, and geographic impact zone.\n\nGo-to-market strategy combines B2B enterprise sales to CPG brands (plastic credit procurement), a consumer platform for individual impact subscriptions, and partnerships with plastic credit standards bodies (Verra Plastic Standard, Zero Plastic Oceans) to ensure our verification meets evolving certification requirements. Revenue model: 8-12% platform fee on credit transactions plus SaaS subscriptions for cleanup operators using our tracking tools.",
+    "landingPage": {
+      "companyName": "Drift",
+      "tagline": "Track, fund, and verify ocean plastic cleanup — ton by ton.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#06B6D4",
+          "primaryLight": "#67E8F9",
+          "primaryDark": "#0891B2",
+          "accent": "#F472B6",
+          "background": "#0A0E14",
+          "surface": "#111827",
+          "text": "#ECFEFF",
+          "textMuted": "#7AACB8",
+          "border": "#1E3A4A"
+        },
+        "fontFamily": "'General Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Every ton removed. GPS-verified. Fully transparent.",
+        "subheadline": "Drift connects ocean plastic cleanup operations with the brands, investors, and people who fund them. Real-time tracking. Verified impact. No greenwashing.",
+        "ctaText": "Fund a cleanup",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "The ocean can't wait for perfect solutions",
+        "subheadline": "Fund GPS-verified plastic removal starting at $5 per kilogram. Every gram tracked from ocean to processing facility.",
+        "buttonText": "Start removing plastic"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From ocean to verified impact in four steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Operators collect and log", "description": "Cleanup crews use Drift's mobile app to GPS-tag collection points, photograph materials, and record verified weights at certified weigh stations." },
+            { "icon": "2", "title": "We verify everything", "description": "GPS tracks, weight certificates, photographs, and material type documentation are cross-referenced and validated before credits are issued." },
+            { "icon": "3", "title": "Funders browse and commit", "description": "Brands purchase plastic credits by volume and geography. Individual subscribers fund monthly removal targets. Impact investors fund operator capacity." },
+            { "icon": "4", "title": "Track recovery in real-time", "description": "Your dashboard shows exactly where plastic was removed, by whom, when, and what happened to it after collection — recycled, processed, or safely disposed." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Verification infrastructure for ocean cleanup",
+          "layout": "bento",
+          "items": [
+            { "icon": "📍", "title": "GPS Collection Tracking", "description": "Every cleanup event is geotagged with collection coordinates, timestamps, and photographic evidence. No self-reported estimates." },
+            { "icon": "⚖️", "title": "Certified Weight Verification", "description": "Materials are weighed at certified facilities with tamper-evident documentation. Weight data feeds directly into credit issuance." },
+            { "icon": "🗺️", "title": "Impact Heat Maps", "description": "See where plastic is being removed globally. Filter by waterway, material type, and operator. Identify the highest-impact funding opportunities." },
+            { "icon": "♻️", "title": "Material Fate Tracking", "description": "Follow plastic from collection point to final destination — recycling facility, waste-to-energy plant, or engineered landfill. Full chain of custody." },
+            { "icon": "📊", "title": "Brand Impact Dashboard", "description": "Calculate your plastic footprint, track removal progress against targets, and generate plastic neutrality reports for ESG disclosure." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Impact so far",
+          "stats": [
+            { "value": "8,400", "label": "Metric tons removed from oceans and waterways", "suffix": "" },
+            { "value": "340", "label": "Verified cleanup operations on platform", "suffix": "+" },
+            { "value": "28", "label": "Countries with active cleanup operators", "suffix": "" },
+            { "value": "100", "label": "GPS-verified collection rate", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From brands and operators making it real",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We needed to back our plastic neutrality claim with airtight verification. Drift's GPS tracking and chain-of-custody documentation is the only platform that gave our legal team confidence.", "author": "Sarah Lindgren", "role": "VP Sustainability, Patagonia" },
+            { "quote": "Before Drift, our river cleanup operation collected 200 tons a year but couldn't prove it to potential funders. Now we have institutional backing and we've scaled to 1,400 tons.", "author": "Rina Agustina", "role": "Director, Sungai Watch Indonesia" },
+            { "quote": "I subscribe for $20 a month and can see exactly where my plastic was removed — GPS coordinates, photos, weight receipts. It's the first environmental subscription where I actually believe the impact.", "author": "Tom Reeves", "role": "Individual Subscriber, Portland, OR" }
+          ]
+        },
+        {
+          "id": "newsletter",
+          "type": "newsletter-signup",
+          "headline": "The Current",
+          "subtitle": "Monthly dispatches from ocean cleanup frontlines. New operators, impact data, and the stories behind the tons removed.",
+          "buttonText": "Subscribe free"
+        }
+      ],
+      "companyEmail": "drift-zero@tryartha.com",
+      "domain": "drift-zero.tryartha.com",
+      "projectSlug": "drift-zero",
+      "animationPreset": "smooth",
+      "shadowStyle": "glow"
+    }
+  }
+]

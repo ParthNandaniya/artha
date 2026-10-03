@@ -1,0 +1,971 @@
+[
+  {
+    "name": "Storefront",
+    "slug": "storefront-shop",
+    "tagline": "Turn your Instagram into a store in sixty seconds",
+    "description": "Storefront transforms Instagram profiles into fully functional online stores with a single tap. It scans your feed, identifies products, generates descriptions, and builds a shoppable storefront with checkout — no design or coding required. Built for creators and small brands who sell through social but need a real store.",
+    "mission": "There are 200 million businesses on Instagram, and the vast majority of them are selling through DMs. They post a photo, caption it with a price, and wait for someone to comment \"interested.\" Then they negotiate in messages, send a payment link, and pray the buyer follows through. It works, barely, until it doesn't scale.\n\nStorefront exists because we believe every creator who sells on Instagram deserves an actual storefront — not a Linktree page with seven links, not a half-finished Shopify site they started three months ago. A real, beautiful, functional store that looks like it was designed by a professional, built in the time it takes to post a story.\n\nOur approach is radical in its simplicity. Point Storefront at your Instagram, and our AI does the rest. It identifies your products from your posts, extracts pricing from captions, generates SEO-friendly descriptions, groups items into collections, and builds a complete storefront with your brand aesthetic. Checkout, inventory tracking, and order management are included from day one.\n\nWe're not competing with Shopify or BigCommerce. Those platforms serve businesses that have already graduated from social selling. We serve the millions of creators and micro-brands in the gap between Instagram DMs and a real e-commerce platform — people who have products and an audience but not the time or technical skills to build an online store.\n\nOur vision is to make launching a store as easy as posting on Instagram. When the barrier to e-commerce drops to zero, millions of creators who never thought of themselves as business owners will discover they already are.",
+    "marketResearch": "The social commerce market reached $728B globally in 2025 and is projected to hit $1.2T by 2028 at a 25% CAGR. Within this, the tools-for-creators segment — platforms helping individual sellers professionalize their social selling — represents a $12B addressable market growing at 38% annually. Instagram alone hosts 200M+ business accounts, with 44% of users shopping weekly on the platform.\n\nStorefront's SAM focuses on Instagram-native sellers doing $1K-$100K in annual revenue who currently lack a dedicated storefront. This represents approximately 8M sellers globally, or a $3.2B annual opportunity at our average price point. Our initial SOM targets English-speaking creators in fashion, beauty, home goods, and handmade categories across North America and the UK — roughly 1.2M sellers and $480M in near-term revenue.\n\nThe competitive landscape includes Shopify Starter (too complex for casual sellers), Stan Store (focused on digital products), and Koji (link-in-bio with basic commerce). None offer automated store generation from existing Instagram content. Our key differentiator is the zero-effort onboarding: sellers don't build a store, Storefront builds it from their existing content. Our moat deepens as we accumulate product-image-to-listing training data across categories.\n\nOur GTM leverages viral mechanics inherent to our product — every Storefront-generated store includes a subtle \"Built with Storefront\" badge that drives organic discovery. Early data shows a 6.2% visitor-to-signup conversion rate from these badges. We supplement with Instagram ad campaigns targeting sellers who use commerce-related hashtags, achieving a $4.80 CAC against a $14/month average plan value.",
+    "landingPage": {
+      "companyName": "Storefront",
+      "tagline": "Turn your Instagram into a store in sixty seconds",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#E11D48",
+          "primaryLight": "#FB7185",
+          "primaryDark": "#BE123C",
+          "accent": "#FBBF24",
+          "background": "#FFFBF5",
+          "surface": "#FFFFFF",
+          "text": "#1A1A2E",
+          "textMuted": "#6B7280",
+          "border": "#F3E8E0"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "1.25rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your Instagram feed is already a store. We just make it official.",
+        "subheadline": "Storefront scans your posts, identifies your products, and builds a beautiful shoppable site with checkout in under a minute. No design skills. No code. No excuses.",
+        "ctaText": "Connect your Instagram",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "You already have the audience. Now give them a place to buy.",
+        "subheadline": "Free to launch. Upgrade when you start making real money.",
+        "buttonText": "Build my store now"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From feed to storefront in three taps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your Instagram", "description": "Link your business or creator account. Storefront reads your posts, stories highlights, and reels to identify every product you've ever shared." },
+            { "icon": "2", "title": "Review your store", "description": "AI generates product listings with titles, descriptions, pricing, and collections. Edit anything or approve it all — most sellers change fewer than three things." },
+            { "icon": "3", "title": "Go live and start selling", "description": "Your storefront launches with built-in checkout, order tracking, and inventory management. Share the link in your bio and watch DM chaos become real orders." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything you need, nothing you don't",
+          "layout": "bento",
+          "items": [
+            { "icon": "camera", "title": "AI product detection", "description": "Our vision model identifies products in your photos, extracts details from captions, and generates polished listings automatically." },
+            { "icon": "palette", "title": "Brand-matched design", "description": "Storefront analyzes your feed's visual aesthetic and generates a store that feels like an extension of your Instagram presence." },
+            { "icon": "creditCard", "title": "Instant checkout", "description": "Accept credit cards, Apple Pay, and Google Pay from day one. No separate payment setup — just connect and sell." },
+            { "icon": "package", "title": "Order management", "description": "Track orders, manage inventory, send shipping notifications. Everything in one dashboard, synced with your Instagram." },
+            { "icon": "barChart", "title": "Sales analytics", "description": "See which posts drive the most sales, which products convert best, and where your buyers come from." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Creators are already selling smarter",
+          "stats": [
+            { "value": "60", "label": "Seconds avg store setup", "suffix": "s" },
+            { "value": "47", "label": "More sales vs DM selling", "suffix": "%" },
+            { "value": "12K", "label": "Stores launched", "suffix": "+" },
+            { "value": "3.8", "label": "Avg revenue per store/mo", "suffix": "x lift" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From DM chaos to real business",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was spending four hours a day answering DMs about sizes and prices. Storefront built my store in a minute and I made my first sale through it the same day.", "author": "Mia Chen", "role": "Founder, Moonbeam Jewelry" },
+            { "quote": "I tried Shopify three times and gave up every time. Storefront connected to my Instagram and I had a store before my coffee got cold.", "author": "Dayo Ogunleye", "role": "Creator, @DayoStyled" },
+            { "quote": "My conversion rate went from maybe 10% of DMs to 52% of site visitors actually checking out. The difference is insane.", "author": "Sarah Lindqvist", "role": "Owner, Scandi Thrift" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Start free. Grow when you're ready.",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "Free", "period": "", "features": ["Up to 25 products", "Storefront subdomain", "Basic analytics", "Standard checkout"], "ctaText": "Launch free" },
+            { "name": "Creator", "price": "$14", "period": "/month", "features": ["Unlimited products", "Custom domain", "Advanced analytics", "Abandoned cart recovery", "Priority support"], "ctaText": "Start selling", "highlight": true },
+            { "name": "Brand", "price": "$39", "period": "/month", "features": ["Everything in Creator", "Team accounts", "API access", "Wholesale pricing tools", "Custom checkout branding"], "ctaText": "Scale up" }
+          ]
+        }
+      ],
+      "companyEmail": "storefront-shop@tryartha.com",
+      "domain": "storefront-shop.tryartha.com",
+      "projectSlug": "storefront-shop",
+      "animationPreset": "playful",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Refund",
+    "slug": "refund-retail",
+    "tagline": "Returns don't have to be lost revenue",
+    "description": "Refund is a returns management platform that turns the most dreaded part of e-commerce into a revenue recovery engine. By offering instant exchanges, store credit incentives, and intelligent routing, Refund helps DTC brands retain up to 40% of revenue that would otherwise walk out the door as refunds.",
+    "mission": "Returns are the silent killer of e-commerce profitability. The average online retailer sees 20-30% of orders come back, and for fashion brands, that number can hit 40%. Most brands treat returns as an unavoidable cost — a logistics problem to be managed, not a revenue opportunity to be captured.\n\nWe founded Refund because we saw the data: 67% of customers who initiate a return would accept an exchange or store credit if the process were instant and frictionless. But most return flows are designed around the refund — a clunky portal, a shipping label, a two-week wait. By the time the customer gets their money back, they've already bought from a competitor.\n\nRefund flips the returns experience from a refund-first flow to a retention-first flow. When a customer initiates a return, our AI instantly presents personalized exchange recommendations, bonus store credit offers, and flexible options like size swaps or color changes. The result: brands keep the revenue, and customers get what they actually wanted faster.\n\nBehind the scenes, Refund provides intelligent return routing, fraud detection, and disposition optimization — deciding whether returned items should be restocked, sent to outlet, or donated based on condition, demand, and margin data. We turn the entire returns operation from a cost center into a strategic advantage.\n\nOur long-term vision is that returns become a positive touchpoint in the customer journey. Not a failure of the purchase, but an opportunity to deepen the relationship and increase lifetime value.",
+    "marketResearch": "E-commerce returns cost US retailers $247B annually, with reverse logistics and processing consuming 59% of the original item's price on average. The returns management software market is valued at $640M in 2025, growing at 22% CAGR as brands shift from treating returns as a cost center to a strategic lever. The total addressable market, including returns logistics optimization, reaches $2.1B.\n\nRefund's SAM targets DTC and Shopify-based brands doing $5M-$200M in annual revenue with return rates above 15%. This represents approximately 18,000 brands in North America and Europe, yielding a $720M annual opportunity. Our initial SOM focuses on fashion, footwear, and home goods verticals in North America — roughly 5,400 brands and $216M in near-term addressable revenue.\n\nKey competitors include Loop Returns (market leader with $50M+ ARR but focused on enterprise), Returnly (acquired by Affirm, stalled product), and Happy Returns (acquired by PayPal, focused on physical drop-off). Refund differentiates through AI-driven exchange recommendations that personalize based on the specific return reason and customer history, dynamic store credit bonuses calibrated to maximize retention without over-discounting, and a self-service implementation that takes hours instead of the weeks competitors require.\n\nEarly traction validates the thesis: pilot brands see an average 38% return-to-exchange conversion rate (vs. 12% industry average), $8.40 incremental revenue per return, and a 15% increase in repeat purchase rates among customers who used the exchange flow. Our pricing model charges a per-return fee ($0.50-$2.00 based on volume), aligning our revenue with the value we create.",
+    "landingPage": {
+      "companyName": "Refund",
+      "tagline": "Returns don't have to be lost revenue",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#10B981",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#059669",
+          "accent": "#F59E0B",
+          "background": "#0A0F0D",
+          "surface": "#131C17",
+          "text": "#F0FDF4",
+          "textMuted": "#86EFAC",
+          "border": "#1E3A2F"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Stop losing money on returns. Start recovering it.",
+        "subheadline": "Refund transforms your returns portal into a revenue recovery engine. AI-powered exchanges, smart store credit, and intelligent routing help DTC brands retain 40% of revenue that competitors refund.",
+        "ctaText": "See your recovery potential",
+        "ctaHref": "#calculator"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Every return is a second chance at a sale",
+        "subheadline": "Free revenue recovery audit for qualified brands. See what you're losing.",
+        "buttonText": "Get my free audit"
+      },
+      "sections": [
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The returns problem in numbers",
+          "stats": [
+            { "value": "247", "label": "Lost to returns annually (US)", "suffix": "B" },
+            { "value": "38", "label": "Returns converted to exchanges", "suffix": "%" },
+            { "value": "8.40", "label": "Incremental revenue per return", "suffix": "$" },
+            { "value": "15", "label": "Increase in repeat purchases", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From refund request to retained revenue",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Customer initiates a return", "description": "Your branded returns portal captures the reason, item condition, and customer sentiment — feeding our retention AI before the refund ever processes." },
+            { "icon": "2", "title": "AI presents smarter options", "description": "Based on the return reason, purchase history, and inventory data, Refund offers personalized exchanges, bonus store credit, or instant size swaps." },
+            { "icon": "3", "title": "Revenue stays with you", "description": "38% of customers choose an exchange or credit over a refund. Returned items are intelligently routed for restock, outlet, or donation." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for brands that refuse to bleed margin",
+          "layout": "grid",
+          "items": [
+            { "icon": "refresh", "title": "Instant exchanges", "description": "Customers swap sizes, colors, or products without waiting for the return to process. New item ships before the old one arrives." },
+            { "icon": "dollarSign", "title": "Smart store credit", "description": "Dynamic bonus credit offers calibrated by customer LTV, return reason, and inventory levels. Retain revenue without over-discounting." },
+            { "icon": "shield", "title": "Fraud detection", "description": "Machine learning flags serial returners, wardrobing patterns, and suspicious return claims before they cost you." },
+            { "icon": "truck", "title": "Disposition routing", "description": "Returned items are automatically routed to restock, outlet, or donation based on condition, demand signals, and margin thresholds." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Brands that turned returns into revenue",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We were refunding $180K a month. Refund recovered $72K of that in the first month through exchanges and store credit. The ROI was immediate.", "author": "Alex Rivera", "role": "VP E-commerce, Vuori" },
+            { "quote": "Our customers actually thank us for the return experience now. Instant exchanges and bonus credit make them feel taken care of instead of punished.", "author": "Hannah Goldstein", "role": "Head of CX, Girlfriend Collective" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we get a lot",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How long does integration take?", "answer": "Most Shopify brands are live within two hours. We provide a one-click Shopify app install, and our team handles custom platform integrations within 48 hours." },
+            { "question": "What if customers still want a refund?", "answer": "They always can. Refund never blocks or hides the refund option. We simply present better alternatives first. Customers who choose exchanges do so because the option genuinely appeals to them." },
+            { "question": "How does pricing work?", "answer": "We charge $0.50-$2.00 per return processed, depending on volume. There's no monthly minimum and no long-term contract. We only make money when we help you manage returns." },
+            { "question": "Do you handle international returns?", "answer": "Yes. Refund supports returns across 30+ countries with localized return portals, local language support, and integration with international shipping carriers." }
+          ]
+        }
+      ],
+      "companyEmail": "refund-retail@tryartha.com",
+      "domain": "refund-retail.tryartha.com",
+      "projectSlug": "refund-retail",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Sizing",
+    "slug": "sizing-store",
+    "tagline": "The fitting room your website is missing",
+    "description": "Sizing brings virtual try-on to any fashion e-commerce store. Using phone camera scans and AI body modeling, shoppers see exactly how clothes will fit their unique body before buying — reducing returns by 52% and increasing conversion by 28%. No hardware required.",
+    "mission": "Online fashion has a $100 billion fitting problem. Shoppers can't try clothes on, so they guess. They order three sizes, keep one, and return two. Brands absorb the shipping costs both ways, and the returned items often can't be resold at full price. It's a losing game for everyone.\n\nSizing was founded on a conviction that the technology to solve this finally exists. Computer vision has reached the point where a 10-second phone camera scan can capture body measurements more accurately than a tape measure. Generative AI can now render photorealistic visualizations of how a specific garment will drape, stretch, and fit on a specific body. The pieces are here — they just haven't been assembled into a product that works for real shoppers.\n\nOur approach puts zero burden on the shopper. No body measurements to input, no size charts to decode. Open the camera, do a quick scan, and see yourself wearing the clothes. The visualization isn't a cartoon avatar — it's a realistic rendering that shows fabric behavior, fit around problem areas, and how the garment moves. If it looks good on your screen, it'll look good in your mirror.\n\nFor brands, Sizing is a revenue tool disguised as a fitting tool. Our data shows that shoppers who use virtual try-on convert at 2.8x the rate of those who don't, return 52% fewer items, and buy 1.4 more items per order. The fitting room isn't a cost center — it's the highest-converting feature on the product page.",
+    "marketResearch": "The virtual try-on and fit technology market is valued at $5.2B in 2025, projected to reach $14.8B by 2029 at a 30% CAGR, driven by the fashion industry's urgent need to reduce returns (which cost $100B+ annually) and improve online conversion rates that still lag physical retail by 3-5x. The broader fashion e-commerce tools market exceeds $22B.\n\nSizing's SAM targets fashion and apparel brands doing $2M-$500M in online revenue with return rates above 20%. This covers approximately 25,000 brands across North America and Europe, representing a $2B annual opportunity at our average price point. Our SOM focuses on mid-market DTC fashion brands on Shopify Plus and custom platforms — roughly 6,000 brands and $480M in addressable revenue.\n\nCompetitors include Zeekit (acquired by Walmart, closed ecosystem), True Fit (size recommendation only, no visualization), and Vue.ai (broad AI suite, virtual try-on is secondary). Sizing differentiates through three key advantages: no-app-required browser-based body scanning, photorealistic garment visualization (not avatar-based), and a Shopify app that installs in under an hour with automatic garment digitization from existing product photos.\n\nEarly results from 40+ brand pilots show 52% return reduction, 28% conversion lift, and 23% increase in average order value. Our pricing model — a per-scan fee of $0.02-$0.08 based on volume — makes Sizing accessible to brands of all sizes while scaling revenue with usage. The unit economics are compelling: brands save $8-15 per avoided return while paying $0.04 per scan on average.",
+    "landingPage": {
+      "companyName": "Sizing",
+      "tagline": "The fitting room your website is missing",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#8B5CF6",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#6D28D9",
+          "accent": "#EC4899",
+          "background": "#FAF5FF",
+          "surface": "#FFFFFF",
+          "text": "#1E1035",
+          "textMuted": "#7C6C94",
+          "border": "#EDE9FE"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "See it on you before you buy it",
+        "subheadline": "Sizing adds virtual try-on to your online store. Shoppers scan with their phone camera, see realistic fit visualization, and buy with confidence. Returns drop 52%. Conversions jump 28%.",
+        "ctaText": "Try the demo",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "card",
+        "headline": "Your customers are guessing. Give them certainty.",
+        "subheadline": "See how virtual try-on would look on your store. Free 30-day pilot for qualifying brands.",
+        "buttonText": "Request a pilot"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From phone camera to perfect fit",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Shopper opens the camera", "description": "A quick 10-second phone scan captures precise body measurements. No app download, no manual inputs, no awkward poses. Works in any mobile browser." },
+            { "icon": "2", "title": "AI renders the fit", "description": "Our generative model visualizes exactly how the garment will look on their body — showing drape, stretch, and fit around key areas. Not an avatar — a photorealistic rendering." },
+            { "icon": "3", "title": "They buy with confidence", "description": "Shoppers who see the fit convert at 2.8x the rate. They order the right size the first time, keep more, and come back sooner." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What happens when shoppers can try before they buy",
+          "stats": [
+            { "value": "52", "label": "Reduction in returns", "suffix": "%" },
+            { "value": "28", "label": "Conversion rate lift", "suffix": "%" },
+            { "value": "2.8", "label": "Higher AOV with try-on", "suffix": "x" },
+            { "value": "<1", "label": "Hour to integrate", "suffix": "hr" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "More than a gimmick. A revenue engine.",
+          "layout": "alternating",
+          "items": [
+            { "icon": "camera", "title": "Browser-based body scanning", "description": "No app required. Works on any modern smartphone browser. Ten seconds to scan, instant results." },
+            { "icon": "shirt", "title": "Photorealistic visualization", "description": "Our generative model renders real fabric behavior — how silk drapes, how denim hugs, how knitwear stretches. Not a paper doll." },
+            { "icon": "zap", "title": "Auto garment digitization", "description": "Upload product photos and we create 3D garment models automatically. No manual scanning, no 3D modeling team needed." },
+            { "icon": "trendingUp", "title": "Fit analytics dashboard", "description": "See which sizes customers scan most, where fit anxiety causes drop-off, and which products need sizing adjustments." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Brands seeing the difference",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our return rate dropped from 34% to 16% in the first month. That's $200K in recovered margin on an annual basis. Sizing paid for itself in week two.", "author": "Julia Marchetti", "role": "E-commerce Director, Reformation" },
+            { "quote": "Customers spend twice as long on product pages now — but they're not hesitating, they're trying things on. Engagement and conversion both went up.", "author": "Marcus Chen", "role": "Head of Digital, Everlane" },
+            { "quote": "We integrated Sizing on a Thursday afternoon and had it live across 400 SKUs by Friday morning. The auto-digitization is genuinely magical.", "author": "Priya Sharma", "role": "CTO, Staud" }
+          ]
+        }
+      ],
+      "companyEmail": "sizing-store@tryartha.com",
+      "domain": "sizing-store.tryartha.com",
+      "projectSlug": "sizing-store",
+      "animationPreset": "smooth",
+      "shadowStyle": "dreamy"
+    }
+  },
+  {
+    "name": "Bazaar",
+    "slug": "bazaar-market",
+    "tagline": "Where artisans meet the world",
+    "description": "Bazaar is a curated marketplace connecting independent artisans and craftspeople with conscious consumers globally. From hand-thrown ceramics in Oaxaca to woven textiles in Rajasthan, Bazaar handles discovery, translation, payments, and logistics so makers can focus on their craft and buyers can shop with meaning.",
+    "mission": "The world's most extraordinary products are made by people who will never set foot in a trade show or pitch a buyer at Nordstrom. In villages across Mexico, India, Morocco, and Indonesia, artisans create objects of stunning beauty and craftsmanship using techniques passed down through generations. Most of these makers earn a fraction of what their work is worth because they have no way to reach the customers who would value it most.\n\nBazaar was born from trips to artisan communities where we watched master craftspeople sell $200 worth of pottery for $15 to a middleman because that was their only channel. The internet was supposed to flatten this. Instead, platforms like Etsy became saturated with mass-produced goods marketed as handmade, and the real artisans got buried.\n\nWe're building a different kind of marketplace — one where curation is the product. Every maker on Bazaar is verified through our on-the-ground network of scouts and cultural liaisons. Every listing tells the story of the maker and the tradition behind the craft. Buyers aren't just shopping; they're connecting with the human hands behind every object.\n\nThe logistics challenge is real and we don't pretend otherwise. Shipping handmade ceramics from a workshop in rural Portugal to an apartment in Brooklyn requires specialized packaging, customs navigation, and quality assurance. Bazaar handles all of it, providing makers with shipping kits, pre-negotiated carrier rates, and a support team fluent in 14 languages.\n\nWe believe commerce can be a force for cultural preservation. Every sale on Bazaar directly funds the continuation of craft traditions that are disappearing. That's not marketing — it's the reason we exist.",
+    "marketResearch": "The global handmade and artisan goods market is valued at $780B, with online artisan commerce growing at 18% CAGR. The conscious consumer segment — buyers willing to pay premium prices for ethically sourced, handmade products — represents $120B and is expanding at 24% annually, driven by Gen Z and millennial purchasing preferences for authenticity and sustainability.\n\nBazaar's SAM focuses on the curated artisan marketplace opportunity, estimated at $18B globally. Our SOM targets English-speaking conscious consumers in North America and Western Europe with household incomes above $75K, representing approximately $3.6B in near-term addressable spend. We prioritize categories with high artisan value-add and shippability: ceramics, textiles, jewelry, leather goods, and home decor.\n\nThe competitive landscape includes Etsy (massive but diluted by mass-produced goods), Novica (National Geographic-affiliated but dated UX), and The Citizenry (curated but brand-owned, not a marketplace). Bazaar's differentiators are threefold: verified artisan provenance with maker stories and process documentation, an end-to-end logistics solution designed for fragile handmade goods, and a curation model that maintains quality as the platform scales through regional scouts rather than open listing.\n\nOur business model takes a 20% commission on sales (competitive with Etsy's effective 20-25% take rate) while providing significantly more value through logistics coordination, translation, and customer support. Early metrics show a $94 average order value (3x Etsy's), 42% repeat purchase rate within 6 months, and NPS of 78. Our primary acquisition channels are Instagram content marketing featuring maker stories and partnerships with home and design publications.",
+    "landingPage": {
+      "companyName": "Bazaar",
+      "tagline": "Where artisans meet the world",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#B45309",
+          "primaryLight": "#D97706",
+          "primaryDark": "#92400E",
+          "accent": "#DC2626",
+          "background": "#FFFBEB",
+          "surface": "#FFFFFF",
+          "text": "#292524",
+          "textMuted": "#78716C",
+          "border": "#E7D5B0"
+        },
+        "fontFamily": "'Lora', serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Handmade by masters. Delivered to your door.",
+        "subheadline": "Bazaar connects you directly with verified artisans in 40+ countries. Every piece tells a story. Every purchase preserves a tradition. Curated quality, global reach, fair prices for makers.",
+        "ctaText": "Explore the collection",
+        "ctaHref": "#collections"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Every object has a maker. Meet yours.",
+        "subheadline": "Join 80,000+ conscious shoppers who buy directly from the world's finest artisans.",
+        "buttonText": "Start browsing"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What makes Bazaar different",
+          "layout": "grid",
+          "items": [
+            { "icon": "checkCircle", "title": "Verified artisans", "description": "Every maker is visited and verified by our regional scouts. We document their workshop, their techniques, and their story. No mass-produced goods posing as handmade." },
+            { "icon": "globe", "title": "Global logistics, solved", "description": "We handle packaging, customs, and shipping for fragile handmade goods across 40+ countries. Makers get shipping kits. Buyers get tracking and insurance." },
+            { "icon": "heart", "title": "Fair pricing, always", "description": "Artisans set their own prices. Our 20% commission funds the platform, logistics, and the scout network that makes it all possible. No race to the bottom." },
+            { "icon": "book", "title": "Maker stories", "description": "Every listing includes the artisan's story, workshop photos, and the cultural context behind their craft. You're not just buying a product — you're supporting a tradition." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "A marketplace built on meaning",
+          "stats": [
+            { "value": "2,400", "label": "Verified artisans", "suffix": "+" },
+            { "value": "42", "label": "Countries represented", "suffix": "" },
+            { "value": "94", "label": "Average order value", "suffix": "$" },
+            { "value": "78", "label": "Net Promoter Score", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From makers and buyers",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Before Bazaar, I sold my ceramics to a dealer for 200 pesos each. Now I sell directly to people in New York and London for what my work is actually worth. My workshop has grown from two people to eight.", "author": "Rosa Hernandez", "role": "Ceramicist, Oaxaca, Mexico" },
+            { "quote": "I've tried Etsy, I've tried antique markets. Bazaar is the only place where I know every piece is genuinely handmade and the maker is being paid fairly. The quality is extraordinary.", "author": "Catherine Wells", "role": "Interior Designer, London" },
+            { "quote": "The packaging arrived like it was shipped by a museum. My hand-blown vase traveled from Morocco to Portland without a scratch. That logistics piece is what makes Bazaar work.", "author": "Daniel Park", "role": "Customer, Portland OR" },
+            { "quote": "I weave traditional Kente cloth the way my grandmother taught me. Bazaar sends a translator, photographs my process, and handles everything after I finish weaving. I just create.", "author": "Ama Asante", "role": "Textile Artisan, Bonwire, Ghana" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How do you verify artisans?", "answer": "Our network of 60+ regional scouts visits every maker's workshop in person. They document the materials, techniques, and working conditions. Only artisans who meet our authenticity and quality standards are listed." },
+            { "question": "What if something arrives damaged?", "answer": "Every order includes free shipping insurance. If an item arrives damaged, we'll replace it or issue a full refund — and work with the artisan to improve packaging for future shipments." },
+            { "question": "How long does shipping take?", "answer": "Shipping times vary by origin: 5-8 days from Europe, 8-14 days from Asia, 7-12 days from Latin America, and 10-16 days from Africa. All orders include tracking." }
+          ]
+        }
+      ],
+      "companyEmail": "bazaar-market@tryartha.com",
+      "domain": "bazaar-market.tryartha.com",
+      "projectSlug": "bazaar-market",
+      "animationPreset": "subtle",
+      "shadowStyle": "flat"
+    }
+  },
+  {
+    "name": "Restock",
+    "slug": "restock-cart",
+    "tagline": "Never run out. Never overstock. Just right.",
+    "description": "Restock is an AI-powered inventory demand forecasting platform for DTC brands. It predicts exactly when you'll run out of every SKU, recommends optimal reorder quantities, and factors in seasonality, promotions, and supply chain lead times. Stop guessing — start forecasting.",
+    "mission": "Inventory is the biggest bet every product brand makes, and most of them are making it blind. A DTC brand founder ordering their next production run is essentially guessing how much demand they'll see in 60-90 days. Order too much and you're sitting on dead stock that eats your cash flow. Order too little and you're out of stock on your best sellers, losing revenue and frustrating customers who won't come back.\n\nRestock was built by a team that lived this problem firsthand. Our founders ran a DTC brand that nearly went under twice — once from a $400K overstock of a product that didn't sell, and once from a stockout on their hero SKU during Black Friday that cost them their best month of the year. Both problems were preventable with better forecasting.\n\nThe challenge is that demand forecasting for DTC brands requires synthesizing dozens of signals: historical sales velocity, seasonality patterns, marketing calendar effects, website traffic trends, social media momentum, competitor activity, and supply chain lead times. Enterprise retailers have teams of demand planners and million-dollar forecasting tools. DTC brands have a spreadsheet and a gut feeling.\n\nRestock brings enterprise-grade demand intelligence to brands of every size. Our AI ingests your sales data, connects to your marketing and analytics tools, and produces SKU-level demand forecasts with confidence intervals. It tells you not just how much to order, but when to order it, factoring in your supplier lead times and cash flow constraints.\n\nWe're building toward a future where no product brand loses a sale to stockouts or a dollar to dead stock. Inventory should be a solved problem, not a source of existential anxiety.",
+    "marketResearch": "The demand forecasting software market is valued at $7.9B globally in 2025, growing at 21% CAGR. The DTC-specific segment — brands selling primarily through owned channels — is underserved by existing enterprise tools (SAP IBP, Oracle Demantra) that cost $100K+ annually and require dedicated planning teams. The addressable market for DTC-focused demand forecasting is estimated at $3.4B.\n\nRestock's SAM targets DTC and digitally-native brands with $1M-$100M in annual revenue managing 50-10,000 active SKUs. This encompasses approximately 45,000 brands in North America and Europe, representing a $1.8B annual opportunity. Our initial SOM focuses on Shopify-based brands in fashion, beauty, supplements, and food/beverage — roughly 12,000 brands and $480M in near-term addressable revenue.\n\nCompetitors include Inventory Planner by Sage (spreadsheet-like, rules-based), Flieber (newer entrant, limited ML capabilities), and Cogsy (consumer-focused, shallow forecasting). Restock differentiates through genuine machine learning that improves with each demand cycle, multi-signal ingestion (marketing data, traffic, social signals — not just historical sales), and a cash-flow-aware reorder engine that optimizes for working capital constraints, not just demand matching.\n\nPilot brand results show 34% reduction in stockout events, 28% decrease in overstock inventory, and 18% improvement in inventory turnover. Our pricing scales with SKU count: $199/month for up to 200 SKUs, $499/month for up to 2,000 SKUs, and custom pricing above that. The average pilot brand reports $4.20 in recovered revenue for every $1 spent on Restock.",
+    "landingPage": {
+      "companyName": "Restock",
+      "tagline": "Never run out. Never overstock. Just right.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#3B82F6",
+          "primaryLight": "#93C5FD",
+          "primaryDark": "#1D4ED8",
+          "accent": "#22D3EE",
+          "background": "#0B1120",
+          "surface": "#131E33",
+          "text": "#EFF6FF",
+          "textMuted": "#94A3B8",
+          "border": "#1E3050"
+        },
+        "fontFamily": "'Space Grotesk', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "AI that knows what your customers will buy before they do",
+        "subheadline": "Restock predicts demand for every SKU, recommends reorder quantities, and factors in your marketing calendar, lead times, and cash flow. Enterprise forecasting for DTC brands.",
+        "ctaText": "Start forecasting free",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your spreadsheet can't predict demand. Our AI can.",
+        "subheadline": "Connect your store in 5 minutes. Get your first forecast in 24 hours.",
+        "buttonText": "Connect your store"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Forecasting that actually works for DTC",
+          "layout": "bento",
+          "items": [
+            { "icon": "trendingUp", "title": "SKU-level forecasting", "description": "Demand predictions for every product variant with confidence intervals. Know which SKUs are accelerating, which are fading, and which are seasonal." },
+            { "icon": "calendar", "title": "Marketing-aware models", "description": "Connect your ad accounts and email platform. Restock factors upcoming campaigns into demand predictions so you're stocked for the spike." },
+            { "icon": "dollarSign", "title": "Cash-flow optimization", "description": "Reorder recommendations that balance demand coverage with working capital constraints. Order what you need, when you can afford it." },
+            { "icon": "clock", "title": "Lead time intelligence", "description": "Track actual vs. quoted supplier lead times. Restock learns your supply chain's real behavior and adjusts reorder timing accordingly." },
+            { "icon": "alertTriangle", "title": "Stockout alerts", "description": "Get warned 30, 14, and 7 days before a projected stockout. Enough time to expedite or adjust marketing spend." },
+            { "icon": "layers", "title": "Multi-channel sync", "description": "Unified forecasting across Shopify, Amazon, wholesale, and retail channels. One demand picture, multiple fulfillment paths." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Results from brands that stopped guessing",
+          "stats": [
+            { "value": "34", "label": "Fewer stockout events", "suffix": "%" },
+            { "value": "28", "label": "Less overstock inventory", "suffix": "%" },
+            { "value": "4.2", "label": "Revenue recovered per $1 spent", "suffix": "x" },
+            { "value": "18", "label": "Better inventory turnover", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Plans that grow with your catalog",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "$99", "period": "/month", "features": ["Up to 100 SKUs", "Weekly demand forecasts", "Stockout alerts", "Single channel", "Email support"], "ctaText": "Start trial" },
+            { "name": "Growth", "price": "$299", "period": "/month", "features": ["Up to 1,000 SKUs", "Daily demand forecasts", "Marketing-aware models", "Multi-channel sync", "Cash flow optimizer", "Priority support"], "ctaText": "Start trial", "highlight": true },
+            { "name": "Enterprise", "price": "Custom", "period": "", "features": ["Unlimited SKUs", "Real-time forecasting", "API access", "Custom integrations", "Dedicated CSM", "SLA guarantee"], "ctaText": "Talk to sales" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Brands that ditched the spreadsheet",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Last Black Friday we stocked out on our top three sellers. This year Restock predicted the surge six weeks out. We had exactly the right amount and did 2x the revenue.", "author": "Kayla Morrison", "role": "Founder, SunPop Skincare" },
+            { "quote": "We had $320K in dead stock from bad purchase orders. Six months with Restock and our inventory turns went from 3x to 5.2x. Our cash flow has never been healthier.", "author": "Thomas Ng", "role": "COO, Batch & Co." }
+          ]
+        }
+      ],
+      "companyEmail": "restock-cart@tryartha.com",
+      "domain": "restock-cart.tryartha.com",
+      "projectSlug": "restock-cart",
+      "animationPreset": "minimal",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Lookbook",
+    "slug": "lookbook-shop",
+    "tagline": "Editorial content that sells",
+    "description": "Lookbook transforms fashion brand content into shoppable experiences. Embed product tags in editorial shoots, style guides, and influencer content — letting readers buy what they see without ever leaving the story. Content becomes commerce, seamlessly.",
+    "mission": "Fashion brands spend millions on editorial content — stunning photo shoots, carefully curated style guides, influencer collaborations — and then dump all of it into a social feed where it lives for 24 hours and dies. Meanwhile, their product pages are clinical grids of white-background images that strip away all the context and aspiration that makes fashion compelling.\n\nLookbook bridges this absurd gap. We believe content and commerce shouldn't live in separate worlds. When a reader sees a model in a beautiful outfit, they should be able to buy every piece in that look without switching tabs, searching product names, or guessing at links. The editorial experience should be the shopping experience.\n\nOur platform lets fashion brands tag products in any visual content — photoshoots, style articles, influencer posts, even video — and create shoppable editorial pages that live on their own domain. The reader browses the content as they naturally would, tapping on items that catch their eye to see details, sizes, and price, adding to cart without ever leaving the editorial flow.\n\nThe data we've seen from early brands is striking: shoppable editorial content converts at 4.6x the rate of standard product pages. This makes intuitive sense. When you see a dress on a product page, you see a dress. When you see it styled in an editorial with the right bag, shoes, and jewelry, you see yourself. Context sells.\n\nOur vision is to make every piece of fashion content a potential point of sale. The future of fashion retail isn't better product pages — it's better stories with seamless commerce woven in.",
+    "marketResearch": "The shoppable content and social commerce tools market is valued at $6.8B in 2025, projected to reach $18B by 2029 at a 28% CAGR. Fashion brands allocate 25-40% of marketing budgets to content creation but recoup only a fraction directly in sales due to the disconnect between content and commerce. The specific market for fashion content-to-commerce tools is approximately $2.4B.\n\nLookbook's SAM targets fashion and lifestyle brands with $5M-$500M in annual online revenue that invest heavily in editorial content. This represents roughly 8,000 brands across North America and Europe, yielding a $960M annual opportunity. Our initial SOM focuses on DTC fashion brands and digitally-native lifestyle brands on Shopify Plus — approximately 2,200 brands and $264M in near-term addressable revenue.\n\nCompetitors include Curalate (acquired by Bazaarvoice, broadly focused on UGC), LikeToKnow.It (consumer app, not embeddable), and Shopify's native content tools (basic, limited editorial capability). Lookbook differentiates by creating full editorial experiences rather than simple product tagging, offering a WYSIWYG editor designed for fashion creatives, and providing content attribution analytics that track revenue from every editorial piece, influencer, and individual product placement.\n\nPilot brand data shows a 4.6x conversion rate from editorial pages vs. standard PDPs, 2.1x average order value (styled looks drive multi-item purchases), and 340% more time-on-page compared to traditional product pages. Our pricing model — $499-$2,499/month based on pageviews and features — positions us as a premium but justifiable investment for content-forward fashion brands.",
+    "landingPage": {
+      "companyName": "Lookbook",
+      "tagline": "Editorial content that sells",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#18181B",
+          "primaryLight": "#3F3F46",
+          "primaryDark": "#09090B",
+          "accent": "#D4AF37",
+          "background": "#FAFAFA",
+          "surface": "#FFFFFF",
+          "text": "#09090B",
+          "textMuted": "#71717A",
+          "border": "#E4E4E7"
+        },
+        "fontFamily": "'Playfair Display', serif",
+        "borderRadius": "0rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Make every editorial shoppable",
+        "subheadline": "Lookbook turns your fashion content into seamless commerce. Tag products in photoshoots, style guides, and influencer content. Readers buy what they see without ever leaving the story.",
+        "ctaText": "See it in action",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your content is already selling the dream. Let it close the sale.",
+        "subheadline": "Free demo with your own editorial content. See the revenue you're leaving on the table.",
+        "buttonText": "Book a demo"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Content meets commerce",
+          "layout": "alternating",
+          "items": [
+            { "icon": "tag", "title": "Invisible product tags", "description": "Tap any item in a photo to reveal product details, price, and sizes. Tags feel native to the editorial experience — not like ads bolted on." },
+            { "icon": "edit", "title": "Editorial page builder", "description": "A WYSIWYG editor built for fashion creatives. Drag-and-drop layouts, full-bleed imagery, and text styling that matches your brand. No developers needed." },
+            { "icon": "shoppingBag", "title": "In-content checkout", "description": "Add to cart without leaving the story. The shopping experience flows naturally from editorial to cart, keeping the aspirational momentum alive." },
+            { "icon": "pieChart", "title": "Revenue attribution", "description": "Track exactly which editorial, which influencer, and which product placement drives sales. Know the ROI of every piece of content you create." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Why editorial commerce outperforms",
+          "stats": [
+            { "value": "4.6", "label": "Higher conversion vs. PDPs", "suffix": "x" },
+            { "value": "2.1", "label": "Higher average order value", "suffix": "x" },
+            { "value": "340", "label": "More time on page", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Editorial pages vs. product pages",
+          "comparisonOurName": "Lookbook Editorial",
+          "comparisonCompetitorName": "Standard PDP",
+          "comparisonRows": [
+            { "feature": "Conversion rate", "us": "8.2%", "competitor": "1.8%" },
+            { "feature": "Avg. order value", "us": "$186", "competitor": "$89" },
+            { "feature": "Time on page", "us": "4m 20s", "competitor": "58s" },
+            { "feature": "Items per order", "us": "2.4", "competitor": "1.1" },
+            { "feature": "Repeat visit rate", "us": "38%", "competitor": "12%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From brands that made content shoppable",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our spring editorial generated more revenue than our entire homepage last quarter. We're now producing weekly shoppable editorials as our primary sales channel.", "author": "Elise Moreau", "role": "Creative Director, Sezane" },
+            { "quote": "Lookbook finally closed the loop between our content team and revenue. For the first time, we can prove that editorial investment has a direct ROI.", "author": "James Wu", "role": "CMO, Aritzia Digital" }
+          ]
+        }
+      ],
+      "companyEmail": "lookbook-shop@tryartha.com",
+      "domain": "lookbook-shop.tryartha.com",
+      "projectSlug": "lookbook-shop",
+      "animationPreset": "fade",
+      "shadowStyle": "none"
+    }
+  },
+  {
+    "name": "Crate",
+    "slug": "crate-store",
+    "tagline": "Build a subscription box your community will obsess over",
+    "description": "Crate is a full-stack subscription box platform for niche communities. From curation tools and supplier management to fulfillment logistics and subscriber analytics, Crate gives passionate entrepreneurs everything they need to launch and scale a subscription box business without the operational nightmare.",
+    "mission": "Subscription boxes are a $38 billion market, and it's growing because the model works. People love receiving curated surprises tailored to their passions — whether that's specialty coffee, indie board games, Japanese snacks, or vintage vinyl. The problem isn't demand. The problem is that launching a subscription box is an operational hellscape.\n\nA subscription box founder needs to source products from multiple suppliers, negotiate wholesale pricing, design packaging, coordinate fulfillment for thousands of boxes on the same day each month, manage subscriber billing with upgrade/downgrade/pause/cancel flows, and handle customer service — all while curating a box compelling enough to reduce churn. Most founders burn out within six months.\n\nCrate consolidates the entire subscription box operation into a single platform. Our supplier marketplace connects box creators with vetted product suppliers across dozens of niche categories. Our curation tools help design each month's box with cost tracking, margin analysis, and subscriber preference matching. Our fulfillment engine coordinates with 3PL partners to ship thousands of boxes on schedule. And our subscriber management platform handles billing, pausing, gifting, and all the edge cases that break generic subscription tools.\n\nWe're building for the long tail of passion — the person who wants to build a monthly astronomy box, a Korean beauty box, or a vintage tea box. These niche communities are small individually but massive in aggregate, and they're dramatically underserved by generic e-commerce tools that treat subscriptions as an afterthought.",
+    "marketResearch": "The global subscription box market reached $38.2B in 2025, growing at 14% CAGR. While major players (Birchbox, FabFitFun) have defined the category, the market is fragmenting toward niche communities. Over 70% of new subscription box launches target specific interest communities with fewer than 50,000 potential subscribers — a segment underserved by existing infrastructure.\n\nCrate's TAM encompasses the full subscription box enablement market, estimated at $4.2B including SaaS, logistics, and supplier services. Our SAM targets aspiring and active subscription box entrepreneurs in North America and Europe, representing approximately $1.6B in annual opportunity. Our initial SOM focuses on first-time box launchers and existing boxes doing under $50K MRR seeking operational consolidation — roughly 15,000 businesses and $360M in addressable revenue.\n\nCompetitors include Cratejoy (marketplace-focused, outdated platform), Subbly (basic subscription management), and Recharge (Shopify plugin, not box-specific). None offer the end-to-end solution that subscription box businesses actually need: supplier sourcing, curation tooling, fulfillment coordination, and subscriber management in one platform. Crate's integrated approach eliminates the patchwork of 6-8 tools most box operators currently use.\n\nEarly traction includes 340 active box businesses on the platform, with an average time-to-first-box-shipped of 23 days (vs. 90+ days industry average). Retention is strong: 89% of boxes that launch on Crate are still active after 12 months, compared to the industry average of 52%. Our revenue model combines a $79-$399/month SaaS fee with a per-box fulfillment fee of $2-5, creating dual revenue streams that scale with customer success.",
+    "landingPage": {
+      "companyName": "Crate",
+      "tagline": "Build a subscription box your community will obsess over",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F97316",
+          "primaryLight": "#FDBA74",
+          "primaryDark": "#C2410C",
+          "accent": "#A78BFA",
+          "background": "#1A0F0A",
+          "surface": "#2A1D15",
+          "text": "#FFF7ED",
+          "textMuted": "#C4A882",
+          "border": "#3D2E22"
+        },
+        "fontFamily": "'Sora', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Launch your subscription box in weeks, not months",
+        "subheadline": "Crate handles sourcing, curation, fulfillment, and subscriber management so you can focus on building a box your community will love. From idea to first shipment in 23 days on average.",
+        "ctaText": "Start building your box",
+        "ctaHref": "#get-started"
+      },
+      "cta": {
+        "layout": "card",
+        "headline": "Your community is waiting for their monthly surprise",
+        "subheadline": "Free to start. No commitments. Ship your first box before you pay a dime.",
+        "buttonText": "Launch my box"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Everything you need. One platform.",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Source products", "description": "Browse our supplier marketplace with 2,000+ vetted vendors across 80 niche categories. Request samples, negotiate pricing, and lock in inventory — all from your dashboard." },
+            { "icon": "2", "title": "Curate the box", "description": "Design each month's box with our visual curation tool. Track per-box costs, calculate margins, and match products to subscriber preference segments." },
+            { "icon": "3", "title": "Ship and delight", "description": "Our fulfillment engine coordinates with 3PL partners to assemble and ship every box on schedule. Subscribers get tracking, you get analytics." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built specifically for subscription boxes",
+          "layout": "grid",
+          "items": [
+            { "icon": "package", "title": "Supplier marketplace", "description": "2,000+ vetted suppliers across niche categories. Sample ordering, wholesale pricing, and inventory reservation built in." },
+            { "icon": "layout", "title": "Visual curation tools", "description": "Design boxes visually. Drag products in, see real-time cost and margin calculations, preview the unboxing experience." },
+            { "icon": "truck", "title": "Fulfillment engine", "description": "Integrated 3PL coordination. Kitting instructions, shipping schedules, and inventory management for monthly box shipments." },
+            { "icon": "users", "title": "Subscriber management", "description": "Billing, pausing, gifting, upgrades, downgrades, and cancellation flows designed specifically for subscription box businesses." },
+            { "icon": "barChart", "title": "Churn analytics", "description": "Understand why subscribers leave and when. Predictive churn scoring identifies at-risk subscribers before they cancel." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing that scales with you",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Launch", "price": "$79", "period": "/month", "features": ["Up to 200 subscribers", "Supplier marketplace access", "Basic curation tools", "Standard fulfillment", "Email support"], "ctaText": "Start free trial" },
+            { "name": "Grow", "price": "$199", "period": "/month", "features": ["Up to 2,000 subscribers", "Advanced curation tools", "Preference matching", "Priority fulfillment", "Churn analytics", "Phone support"], "ctaText": "Start free trial", "highlight": true },
+            { "name": "Scale", "price": "$399", "period": "/month", "features": ["Unlimited subscribers", "Custom packaging design", "White-label experience", "Dedicated account manager", "API access", "Custom integrations"], "ctaText": "Talk to us" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Box creators who found their platform",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was using seven different tools to run my tea subscription box. Crate replaced all of them and I shipped my best month ever in the first month on the platform.", "author": "Nina Petrova", "role": "Founder, Steepwell Box" },
+            { "quote": "The supplier marketplace alone was worth switching for. I found three new vendors for my vintage stationery box that I never would have discovered on my own.", "author": "Ira Goldsmith", "role": "Creator, PaperTrail Monthly" },
+            { "quote": "We went from idea to 400 paying subscribers in 11 weeks. Crate's fulfillment engine handled the first shipment flawlessly. I didn't touch a single box.", "author": "Carlos Reyes", "role": "Founder, Merienda Box" }
+          ]
+        }
+      ],
+      "companyEmail": "crate-store@tryartha.com",
+      "domain": "crate-store.tryartha.com",
+      "projectSlug": "crate-store",
+      "animationPreset": "playful",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Pricetag",
+    "slug": "pricetag-retail",
+    "tagline": "Pricing that thinks faster than your market moves",
+    "description": "Pricetag is a dynamic pricing engine for e-commerce brands. It monitors competitor prices, demand signals, inventory levels, and margin targets in real time, then automatically adjusts your prices to maximize revenue. Stop leaving money on the table with static pricing.",
+    "mission": "Every product in your store has an optimal price at any given moment. That price depends on what competitors are charging, how much demand exists right now, how much inventory you're holding, what your margin floor is, and what your customer is willing to pay. Static pricing ignores all of this. You set a price when you launch a product and hope it's right for the next six months.\n\nPricetag was founded because we believe dynamic pricing shouldn't be exclusive to airlines and hotels. Every e-commerce brand — from a 50-SKU Shopify store to a 50,000-SKU marketplace seller — deserves pricing that responds to market conditions in real time.\n\nOur engine monitors competitor prices across dozens of retailers, tracks demand signals from your own traffic and conversion data, and factors in your inventory levels and margin targets. When conditions change, Pricetag adjusts your prices automatically within the guardrails you set. You stay competitive without racing to the bottom, and you capture margin when demand allows.\n\nWhat makes us different from legacy repricing tools is intelligence. We don't just match the lowest competitor price — that's a race to zero. Pricetag's AI understands price elasticity at the SKU level. It knows that your premium yoga mat can hold a $10 premium over competitors while your basic mat needs to match. It knows that demand spikes on Tuesday evenings for your product category and prices accordingly.\n\nThe future of e-commerce pricing is autonomous. Not reckless — autonomous within the strategic boundaries you define. Pricetag is building that future, one SKU at a time.",
+    "marketResearch": "The global dynamic pricing software market is valued at $4.1B in 2025, growing at 24% CAGR as e-commerce competition intensifies and price transparency increases. While dynamic pricing is standard in travel and hospitality, adoption in retail e-commerce remains below 15%, representing a massive greenfield opportunity. The total addressable market for e-commerce pricing optimization is $8.6B.\n\nPricetag's SAM targets online retailers and DTC brands with $2M-$500M in annual revenue managing price-sensitive product catalogs. This encompasses approximately 30,000 businesses in North America and Europe, representing a $2.4B annual opportunity. Our SOM initially targets Shopify Plus merchants and Amazon/marketplace sellers in electronics, fashion, home goods, and sporting goods — roughly 8,000 businesses and $640M in near-term addressable revenue.\n\nCompetitors include Prisync (competitor monitoring only, no automation), Intelligence Node (enterprise-focused, $50K+ annually), and Amazon's built-in repricing (race-to-bottom algorithm). Pricetag differentiates through AI-powered price elasticity modeling (not just competitor matching), multi-channel price coordination (DTC site, Amazon, Walmart simultaneously), and margin-aware optimization that maximizes revenue within profitability constraints rather than simply undercutting competitors.\n\nBeta results from 60+ merchants show an average 12% revenue increase and 8% margin improvement within 90 days. The revenue increase comes from both directions: capturing more margin when demand is strong and staying competitive when the market tightens. Our pricing model charges 0.15-0.25% of monthly GMV processed through the engine, aligning our revenue directly with merchant success.",
+    "landingPage": {
+      "companyName": "Pricetag",
+      "tagline": "Pricing that thinks faster than your market moves",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#059669",
+          "primaryLight": "#34D399",
+          "primaryDark": "#047857",
+          "accent": "#7C3AED",
+          "background": "#F0FDF4",
+          "surface": "#FFFFFF",
+          "text": "#14332A",
+          "textMuted": "#6B7B74",
+          "border": "#D1FAE5"
+        },
+        "fontFamily": "'Manrope', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Set the right price. Every product. Every hour.",
+        "subheadline": "Pricetag monitors competitors, tracks demand, and adjusts your prices automatically to maximize revenue within your margin targets. Dynamic pricing for e-commerce, finally accessible.",
+        "ctaText": "Calculate your revenue uplift",
+        "ctaHref": "#calculator"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your competitors' prices changed three times today. Did yours?",
+        "subheadline": "Free 30-day trial. See the revenue impact before you commit.",
+        "buttonText": "Start free trial"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Intelligent pricing in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Connect your store and set guardrails", "description": "Link your Shopify, Amazon, or custom store. Set minimum margins, price floors, and competitive positioning rules for each product category." },
+            { "icon": "2", "title": "Pricetag learns your market", "description": "We monitor competitor prices, analyze your demand patterns, and build price elasticity models for every SKU. The engine gets smarter with each sales cycle." },
+            { "icon": "3", "title": "Prices optimize automatically", "description": "Within your guardrails, prices adjust to maximize revenue. Capture margin when demand is hot. Stay competitive when the market tightens. All on autopilot." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Smarter than a spreadsheet. Safer than your gut.",
+          "layout": "bento",
+          "items": [
+            { "icon": "eye", "title": "Competitor monitoring", "description": "Track prices across 50+ retail sites in real time. Get alerts when competitors make significant moves. Understand market positioning at a glance." },
+            { "icon": "brain", "title": "Elasticity modeling", "description": "AI learns price sensitivity at the SKU level. Your premium products hold premium pricing while commodity items match the market." },
+            { "icon": "sliders", "title": "Margin guardrails", "description": "Set minimum margins, price floors, and maximum discount depths per product or category. Pricetag never crosses your boundaries." },
+            { "icon": "layers", "title": "Multi-channel sync", "description": "Coordinate pricing across your DTC site, Amazon, Walmart, and other channels. Maintain pricing strategy consistency everywhere." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Real results from real merchants",
+          "stats": [
+            { "value": "12", "label": "Average revenue increase", "suffix": "%" },
+            { "value": "8", "label": "Margin improvement", "suffix": "%" },
+            { "value": "50", "label": "Retail sites monitored", "suffix": "+" },
+            { "value": "90", "label": "Days to measurable ROI", "suffix": "" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Merchants who priced smarter",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We sell 3,000 SKUs across Shopify and Amazon. Manually repricing was eating 15 hours a week. Pricetag handles it automatically and we're making 11% more revenue.", "author": "Rachel Kim", "role": "Founder, Lux Home Goods" },
+            { "quote": "The elasticity modeling is the differentiator. Our competitor just undercuts everyone. Pricetag knows which products can hold premium and which need to compete on price.", "author": "David Okafor", "role": "Head of E-commerce, Peak Performance" },
+            { "quote": "I was terrified of automated pricing until I saw the guardrails. I set my floors and margins, and Pricetag does the rest. Revenue went up 14% in the first quarter.", "author": "Lisa Fernandez", "role": "Owner, CasaBella Shop" }
+          ]
+        }
+      ],
+      "companyEmail": "pricetag-retail@tryartha.com",
+      "domain": "pricetag-retail.tryartha.com",
+      "projectSlug": "pricetag-retail",
+      "animationPreset": "smooth",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Parcel",
+    "slug": "parcel-cart",
+    "tagline": "Ship sustainably without the headache",
+    "description": "Parcel is sustainable packaging-as-a-service for online retailers. We replace plastic mailers and styrofoam with beautiful, protective, compostable packaging — designed for your brand, delivered to your warehouse, and priced competitively with conventional materials. Sustainability without sacrifice.",
+    "mission": "E-commerce generates 2.4 billion pounds of plastic packaging waste every year, and the number is growing. Most online retailers know their packaging is a problem. They've seen the social media posts of customers frustrated by excessive bubble wrap and plastic mailers. They've read the studies showing 72% of consumers prefer brands with sustainable packaging. But when they try to switch, they hit a wall.\n\nSustainable packaging has historically been expensive, unreliable, and ugly. Compostable mailers that fall apart in transit. Recycled boxes that look cheap. Mushroom packaging that costs three times the conventional alternative. The gap between intention and adoption isn't awareness — it's execution.\n\nParcel closes that gap. We design custom sustainable packaging for e-commerce brands that is beautiful, protective, and priced within 10-15% of conventional materials. Our packaging engineers work with each brand to create packaging that reflects their identity — because a luxury skincare brand and an outdoor gear company need very different unboxing experiences, even if both want to ditch plastic.\n\nWe handle the entire supply chain: material sourcing from certified compostable and recycled suppliers, design and prototyping, manufacturing, quality testing, and delivery to your warehouse or 3PL. Brands get one invoice, one point of contact, and packaging that their customers will Instagram instead of cursing.\n\nOur long-term play is to make sustainable packaging the default, not the premium option. As we scale, our material costs drop. As material science advances, our options expand. We're already seeing compostable materials approach price parity with plastic in several categories, and we're investing in next-generation materials that will eliminate the gap entirely.",
+    "marketResearch": "The sustainable packaging market is valued at $310B globally in 2025, growing at 11.2% CAGR driven by regulatory pressure (EU Single-Use Plastics Directive, US state-level packaging laws), consumer demand, and corporate ESG commitments. The e-commerce-specific sustainable packaging segment is $42B, growing at 18% CAGR as online retail continues to expand.\n\nParcel's SAM focuses on mid-market e-commerce brands spending $10K-$500K annually on packaging materials. This represents approximately 40,000 brands in North America and Europe, yielding a $3.2B annual opportunity. Our initial SOM targets DTC brands in beauty, wellness, fashion, and food categories — approximately 12,000 brands and $960M in near-term addressable revenue.\n\nCompetitors include noissue (design-focused but limited materials), EcoEnclose (catalog-based, no custom design), and Lumi (packaging procurement marketplace). Parcel differentiates through our full-service model: unlike competitors that sell packaging products, we provide a packaging service — from brand-specific design through delivery, with ongoing optimization. Our packaging engineers become an extension of the brand's team.\n\nPilot data shows brands experience a 22% increase in social media mentions of packaging after switching to Parcel, 15% improvement in customer satisfaction scores, and measurably lower return rates (well-designed protective packaging reduces damage). Our pricing model is a per-unit packaging fee with annual commitments, typically 10-15% above conventional packaging costs. At scale, we project reaching parity by 2027.",
+    "landingPage": {
+      "companyName": "Parcel",
+      "tagline": "Ship sustainably without the headache",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#15803D",
+          "primaryLight": "#4ADE80",
+          "primaryDark": "#166534",
+          "accent": "#92400E",
+          "background": "#F7FBF4",
+          "surface": "#FFFFFF",
+          "text": "#1A2E1A",
+          "textMuted": "#5F7A5F",
+          "border": "#D5E8D0"
+        },
+        "fontFamily": "'Nunito Sans', sans-serif",
+        "borderRadius": "1.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Packaging your customers will love and the planet won't hate",
+        "subheadline": "Parcel replaces plastic mailers and styrofoam with beautiful, compostable packaging designed for your brand. Full-service: design, manufacturing, and delivery to your warehouse.",
+        "ctaText": "Get a packaging audit",
+        "ctaHref": "#audit"
+      },
+      "cta": {
+        "layout": "card",
+        "headline": "Your product is sustainable. Your packaging should be too.",
+        "subheadline": "Free packaging audit shows your environmental impact and the cost to fix it.",
+        "buttonText": "Get my free audit"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From plastic problem to brand asset",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "We audit your current packaging", "description": "Our team analyzes your product mix, shipping patterns, and brand guidelines. We identify where sustainable swaps make the biggest impact." },
+            { "icon": "2", "title": "Design and prototype", "description": "Our packaging engineers create custom solutions using compostable, recycled, and plant-based materials. You approve samples before production." },
+            { "icon": "3", "title": "Manufacturing and delivery", "description": "We handle production, quality control, and delivery to your warehouse or 3PL. Reorders happen automatically based on your shipping volume." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Full-service sustainable packaging",
+          "layout": "grid",
+          "items": [
+            { "icon": "leaf", "title": "Certified compostable", "description": "All materials meet BPI, TUV, or OK Compost certification standards. Your customers can compost at home or in municipal facilities." },
+            { "icon": "palette", "title": "Brand-custom design", "description": "Packaging that looks like your brand, not generic kraft paper. Full-color printing, custom inserts, and unboxing experiences that get shared on social." },
+            { "icon": "shield", "title": "Protection guaranteed", "description": "Our materials are tested against drop, compression, and moisture standards. Sustainable doesn't mean fragile — your products arrive perfect." },
+            { "icon": "repeat", "title": "Auto-replenishment", "description": "Connected to your fulfillment data, Parcel automatically manufactures and delivers packaging before you run out. No manual reorders." },
+            { "icon": "fileText", "title": "Impact reporting", "description": "Monthly reports showing plastic displaced, carbon saved, and waste diverted. Use the data in your sustainability marketing." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Brands that made the switch",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our customers used to complain about plastic packaging. Now they post unboxing videos showing off the compostable mailers. Our packaging became a marketing asset.", "author": "Sophie Laurent", "role": "Founder, Botanical Beauty Co." },
+            { "quote": "I expected sustainable packaging to be a cost center. The increase in repeat purchases and social media mentions from the packaging switch actually made it revenue-positive.", "author": "Jordan Blake", "role": "CEO, TrailForge Gear" },
+            { "quote": "Parcel handled everything. I approved a prototype and three weeks later, beautiful compostable packaging showed up at our 3PL. Zero operational burden on our side.", "author": "Ximena Gutierrez", "role": "Ops Lead, Cocina Foods" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions about sustainable packaging",
+          "layout": "faq",
+          "faqs": [
+            { "question": "How much more does sustainable packaging cost?", "answer": "Typically 10-15% more than conventional plastic packaging. For most brands, this translates to $0.15-0.40 per shipment. Our customers consistently report that the brand value and customer satisfaction gains far exceed the incremental cost." },
+            { "question": "Will compostable packaging protect my products?", "answer": "Yes. All Parcel materials are tested against ISTA and ASTM drop, compression, and moisture standards. We design for protection first, sustainability second. If a material can't protect your product, we don't use it." },
+            { "question": "What's the minimum order quantity?", "answer": "We work with brands shipping as few as 500 orders per month. Custom design and prototyping is included at all volume levels — no extra fees for small brands." }
+          ]
+        }
+      ],
+      "companyEmail": "parcel-cart@tryartha.com",
+      "domain": "parcel-cart.tryartha.com",
+      "projectSlug": "parcel-cart",
+      "animationPreset": "subtle",
+      "shadowStyle": "dreamy"
+    }
+  },
+  {
+    "name": "Ensemble",
+    "slug": "ensemble-market",
+    "tagline": "Your AI stylist lives on every product page",
+    "description": "Ensemble is an AI personal stylist that integrates into fashion e-commerce stores. It understands each shopper's style, body type, existing wardrobe, and occasion needs, then curates personalized outfit recommendations from the store's catalog. Not product recs — complete styled looks that drive multi-item purchases.",
+    "mission": "Fashion e-commerce has a styling problem. Product recommendation engines can tell you that people who bought this dress also bought that necklace. What they can't do is understand that you're a pear-shaped creative director who dresses minimalist for work but loves bold prints on weekends, and that you need an outfit for a rooftop wedding in May.\n\nEnsemble was founded on the belief that every online shopper deserves the experience of working with a great personal stylist — someone who knows your body, your style, your life, and your budget, and who can pull together complete looks that make you feel confident. That experience has historically been reserved for people who can afford $500-an-hour styling sessions or who live near a Nordstrom with a good personal shopping team.\n\nOur AI stylist integrates directly into fashion retailers' websites. When a shopper visits a product page, Ensemble doesn't just say \"you might also like.\" It assembles a complete outfit: this top with these pants, this belt, these shoes, this bag. The outfit is styled for the shopper's expressed preferences, body type (if provided), and the occasion they're shopping for. Every recommendation comes from the retailer's own catalog, driving multi-item purchases rather than single-product conversions.\n\nThe economic impact for retailers is transformative. Shoppers who engage with Ensemble add 2.4 items to cart on average versus 1.1 for standard browsing. Average order value increases 68%. Return rates drop because customers buy coordinated outfits rather than individual pieces that may not work together.\n\nWe see a future where personal styling is a standard feature of every fashion website — as expected as search or filtering. Ensemble is building that future by making world-class styling accessible to every shopper and affordable for every retailer.",
+    "marketResearch": "The AI in fashion retail market is projected to reach $11.4B by 2028, growing at 29% CAGR. Within this, personalization and styling recommendations represent a $3.8B opportunity. The specific gap Ensemble fills — complete outfit curation rather than single-product recommendations — is an emerging category with less than 5% market penetration among fashion retailers.\n\nEnsemble's SAM targets online fashion retailers with $5M-$1B in annual revenue and catalogs of 500+ SKUs. This encompasses approximately 15,000 retailers globally, representing a $2.7B annual opportunity. Our initial SOM focuses on mid-market fashion brands on Shopify Plus and custom platforms in North America and Europe — roughly 4,000 retailers and $720M in near-term addressable revenue.\n\nCompetitors include Amazon's StyleSnap (limited to Amazon ecosystem), Stitch Fix (subscription model, not SaaS), and various product recommendation engines (Nosto, Dynamic Yield) that lack outfit-level intelligence. Ensemble's key differentiator is styling context — we don't recommend individual products, we curate complete outfits that account for style coherence, color coordination, occasion appropriateness, and body type compatibility.\n\nPilot results with 25 fashion retailers show 68% average order value increase, 2.4x items per order, and 31% reduction in return rates for outfit purchases versus individual items. Customer engagement metrics are equally strong: shoppers who interact with Ensemble spend 3.2x longer on site and visit 4.8x more product pages. Our pricing model charges a percentage of incremental revenue attributed to Ensemble-driven purchases, typically 3-5%, creating direct ROI alignment.",
+    "landingPage": {
+      "companyName": "Ensemble",
+      "tagline": "Your AI stylist lives on every product page",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#D946EF",
+          "primaryLight": "#E879F9",
+          "primaryDark": "#A21CAF",
+          "accent": "#FDE68A",
+          "background": "#150018",
+          "surface": "#1F0025",
+          "text": "#FDF4FF",
+          "textMuted": "#C084FC",
+          "border": "#3B0949"
+        },
+        "fontFamily": "'Clash Display', sans-serif",
+        "borderRadius": "2rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Not recommendations. Complete outfits.",
+        "subheadline": "Ensemble's AI stylist curates personalized outfits from your catalog for every shopper. Style-aware, body-conscious, occasion-ready. Average order value jumps 68%.",
+        "ctaText": "See Ensemble in action",
+        "ctaHref": "#demo"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Give every shopper a personal stylist",
+        "subheadline": "You only pay for the incremental revenue Ensemble generates. Aligned incentives, zero risk.",
+        "buttonText": "Request a demo"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From single product to complete look",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Ensemble understands your catalog", "description": "Our AI analyzes every product for style attributes, color relationships, formality level, and seasonal relevance. It understands fashion, not just metadata." },
+            { "icon": "2", "title": "Shoppers see styled outfits", "description": "On every product page, Ensemble presents complete outfit suggestions styled for the shopper's preferences and the occasion. Not \"you may also like\" — \"here's how to wear it.\"" },
+            { "icon": "3", "title": "Multi-item carts, fewer returns", "description": "Shoppers add coordinated outfits instead of individual pieces. AOV jumps 68%. Returns drop because items are bought to work together." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The outfit effect",
+          "stats": [
+            { "value": "68", "label": "Average order value increase", "suffix": "%" },
+            { "value": "2.4", "label": "Items per order (vs 1.1)", "suffix": "x" },
+            { "value": "31", "label": "Reduction in returns", "suffix": "%" },
+            { "value": "3.2", "label": "Longer time on site", "suffix": "x" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Styling intelligence, not just recommendations",
+          "layout": "alternating",
+          "items": [
+            { "icon": "sparkles", "title": "Style-aware curation", "description": "Ensemble understands that minimalist and maximalist don't mix. It curates outfits with coherent style DNA, not random accessories thrown together." },
+            { "icon": "user", "title": "Body-type awareness", "description": "When shoppers share their measurements or body type, Ensemble adjusts silhouette recommendations. No more crop tops suggested for someone who prefers high-waisted." },
+            { "icon": "calendar", "title": "Occasion matching", "description": "Shopping for a summer wedding? A job interview? Weekend brunch? Ensemble styles outfits for the moment, not just the product." },
+            { "icon": "palette", "title": "Color intelligence", "description": "Our model understands color theory — complementary pairings, seasonal palettes, and skin-tone harmonies. Every outfit is chromatically intentional." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Fashion retailers seeing the difference",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our average order went from $89 to $152 in the first month with Ensemble. Shoppers aren't just buying a dress anymore — they're buying the whole look. It changed our business.", "author": "Victoria Chen", "role": "E-commerce VP, Club Monaco" },
+            { "quote": "The styling quality genuinely surprised us. Ensemble's outfit suggestions are as good as what our human stylists create, and it does it for every single visitor at scale.", "author": "Omar Hassan", "role": "CTO, ASOS Marketplace" },
+            { "quote": "Return rates on Ensemble-driven purchases are 31% lower than our baseline. When people buy coordinated outfits, everything works together. Fewer disappointments at the door.", "author": "Natalie Bergstrom", "role": "Head of Merchandising, Revolve" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "We win when you win",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Growth", "price": "3%", "period": "of incremental revenue", "features": ["Up to 5,000 SKUs", "Basic style engine", "Product page integration", "A/B testing dashboard", "Email support"], "ctaText": "Get started" },
+            { "name": "Pro", "price": "4%", "period": "of incremental revenue", "features": ["Up to 50,000 SKUs", "Advanced style engine", "Occasion & body-type matching", "Custom styling rules", "Priority support", "API access"], "ctaText": "Request demo", "highlight": true },
+            { "name": "Enterprise", "price": "Custom", "period": "", "features": ["Unlimited SKUs", "White-label experience", "Custom AI training", "Dedicated stylist team", "SLA guarantee", "Multi-store support"], "ctaText": "Contact sales" }
+          ]
+        }
+      ],
+      "companyEmail": "ensemble-market@tryartha.com",
+      "domain": "ensemble-market.tryartha.com",
+      "projectSlug": "ensemble-market",
+      "animationPreset": "energetic",
+      "shadowStyle": "glow"
+    }
+  }
+]

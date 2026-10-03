@@ -1,0 +1,985 @@
+[
+  {
+    "name": "Bastion",
+    "slug": "bastion-sec",
+    "tagline": "Your network gets attacked every day — now it fights back",
+    "description": "Bastion runs continuous, autonomous penetration tests against your infrastructure so you find the holes before attackers do. No more annual pen tests that are outdated the day after the report lands.",
+    "mission": "Annual penetration tests are a relic. You pay a consultancy six figures, wait three weeks for a PDF, patch the critical findings, and then spend the next eleven months hoping nothing new has broken. Meanwhile, your attack surface changes every time someone pushes code, spins up a cloud instance, or adds an integration.\n\nBastion was built by red teamers who got tired of writing the same reports for the same clients year after year. We took the methodology of a skilled human pentester — reconnaissance, enumeration, exploitation, lateral movement, reporting — and turned it into a platform that runs continuously against your live infrastructure. Not a vulnerability scanner. An actual attack simulation engine that thinks like an adversary.\n\nOur philosophy is simple: defense without offense is guesswork. You can't know if your controls work until something tries to break them. Bastion tries to break them every single day, then tells you exactly what it found, how it got in, and what to fix first.\n\nWe're a team of former offensive security researchers from Mandiant, NCC Group, and the US Cyber Command. We've spent careers breaking into organizations and we believe that capability should be democratized — not locked behind $200K consulting engagements that happen once a year.",
+    "marketResearch": "The penetration testing market is valued at $3.1B in 2025, growing at 13.2% CAGR. The shift toward continuous security validation — sometimes called breach and attack simulation (BAS) — represents a $1.4B sub-segment growing at 28% CAGR as organizations move away from point-in-time assessments. Our TAM is $1.4B, SAM is $520M targeting mid-market and enterprise companies in North America and Europe, and initial SOM is $85M.\n\nCompetitors include legacy pen test firms (Bishop Fox, Rapid7), vulnerability scanners (Qualys, Tenable) that lack exploitation capability, and BAS platforms (SafeBreach, AttackIQ, Pentera). Bastion differentiates by combining real exploitation with continuous cadence — we don't simulate attacks, we execute them safely using containment boundaries and rollback mechanisms. Our finding severity accuracy is 94% vs. the 60-70% typical of scanner-based approaches.\n\nPrimary buyers are CISOs and security engineering leads at companies with 200-5,000 employees, particularly in fintech, healthcare, and SaaS. The pain point is universal: compliance mandates require pen testing, but annual assessments provide a false sense of security. Early traction includes 38 customers, $1.9M ARR, and partnerships with two cyber insurance providers who offer premium discounts to Bastion users.",
+    "landingPage": {
+      "companyName": "Bastion",
+      "tagline": "Your network gets attacked every day — now it fights back",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#EF4444",
+          "primaryLight": "#FCA5A5",
+          "primaryDark": "#B91C1C",
+          "accent": "#FBBF24",
+          "background": "#0B0B0F",
+          "surface": "#161620",
+          "text": "#F8FAFC",
+          "textMuted": "#94A3B8",
+          "border": "#27273A"
+        },
+        "fontFamily": "'JetBrains Mono', monospace",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Continuous pen testing that actually breaks in",
+        "subheadline": "Bastion runs real attack simulations against your infrastructure every day — not vulnerability scans, not theoretical risk scores. Actual exploitation attempts with safe containment. Find what's broken before someone else does.",
+        "ctaText": "Run your first test",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Stop guessing whether your defenses work",
+        "subheadline": "Free reconnaissance scan for your first domain. Paid plans start at $2,900/month.",
+        "buttonText": "Start free recon scan"
+      },
+      "sections": [
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What continuous offensive testing reveals",
+          "stats": [
+            { "value": "94", "label": "Finding severity accuracy", "suffix": "%" },
+            { "value": "38", "label": "Companies under continuous test" },
+            { "value": "6.2", "label": "Avg critical findings per first run" },
+            { "value": "11", "label": "Minutes to first exploited path", "suffix": "min" }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Real attacks. Safe boundaries. Daily cadence.",
+          "layout": "numbered",
+          "items": [
+            { "title": "Define your scope", "description": "Tell Bastion what's in bounds — external IPs, internal networks, cloud accounts, web apps. Set containment rules so tests never impact production availability." },
+            { "title": "Bastion attacks continuously", "description": "Our engine runs the full kill chain: recon, enumeration, exploitation, privilege escalation, lateral movement. New techniques are added weekly from real-world threat intelligence." },
+            { "title": "Get prioritized findings with proof", "description": "Every finding includes a full attack chain showing exactly how Bastion got in, screenshots of access achieved, and remediation steps ranked by actual exploitability — not CVSS theory." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built by red teamers, for defenders",
+          "layout": "bento",
+          "items": [
+            { "icon": "🗡️", "title": "Real exploitation", "description": "Not a scanner. Bastion executes actual exploit chains with safe containment boundaries and automatic rollback. If it can't get in, it tells you that too." },
+            { "icon": "🔄", "title": "Daily attack cycles", "description": "New code deploys Tuesday? Bastion tests it Wednesday. Your security posture is validated continuously, not once a year." },
+            { "icon": "📋", "title": "Compliance-ready reports", "description": "Auto-generated reports that satisfy SOC 2, PCI-DSS, HIPAA, and ISO 27001 pen test requirements. Your auditor gets the format they expect." },
+            { "icon": "🧬", "title": "Attack chain visualization", "description": "See the full path from initial foothold to crown jewels. Understand which single fix would have stopped the entire chain." },
+            { "icon": "🔔", "title": "Regression detection", "description": "Fixed a vulnerability last month? Bastion checks it didn't come back. Get alerted immediately when a previously-patched issue resurfaces." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Annual pen tests vs. Bastion",
+          "comparisonOurName": "Bastion",
+          "comparisonCompetitorName": "Annual pen test",
+          "comparisonRows": [
+            { "feature": "Frequency", "us": "Daily", "competitor": "Once/year" },
+            { "feature": "Real exploitation", "us": "Yes, with safe containment", "competitor": "Varies by tester" },
+            { "feature": "Time to report", "us": "Real-time dashboard", "competitor": "2-4 weeks" },
+            { "feature": "Regression checking", "us": "Automatic", "competitor": "None" },
+            { "feature": "Cost", "us": "From $2,900/mo", "competitor": "$30K-$150K per engagement" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From security teams who stopped hoping",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our annual pen test found 12 issues. Bastion found 47 in its first week — including a chain that led from an exposed S3 bucket to our production database. That alone justified the entire annual cost.", "author": "Daniela Reyes", "role": "CISO, Finmark" },
+            { "quote": "We used to argue with auditors about whether our pen test from nine months ago was still valid. Now we hand them Bastion's live dashboard and the conversation is over in minutes.", "author": "Kyle Jennings", "role": "Head of Security, Tessera Health" },
+            { "quote": "The regression detection is my favorite feature. We patched a critical RCE in March, and Bastion caught it when it was accidentally reintroduced in a June deploy.", "author": "Amara Obi", "role": "Security Engineer, Stackline" }
+          ]
+        }
+      ],
+      "companyEmail": "bastion-sec@tryartha.com",
+      "domain": "bastion-sec.tryartha.com",
+      "projectSlug": "bastion-sec",
+      "animationPreset": "dramatic",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Clause",
+    "slug": "clause-legal",
+    "tagline": "Contracts shouldn't be the reason your deal stalls",
+    "description": "Clause is a contract lifecycle management platform built specifically for startups and scaling companies. From template creation to e-signature to renewal tracking, it replaces the messy mix of Google Docs, email threads, and forgotten deadlines that most early-stage legal teams rely on.",
+    "mission": "At most startups, the \"contract process\" looks like this: someone duplicates a Google Doc, changes the company name in three places (but misses the fourth), emails it to the counterparty, loses track of which version has the latest redlines, and eventually signs something nobody is entirely sure matches what was negotiated. The signed PDF goes into a folder nobody will open again until something goes wrong.\n\nClause exists because contracts are too important to manage this way. They define your revenue, your liability, your IP ownership, and your vendor relationships. Yet most companies don't invest in contract infrastructure until they've already been burned — by a missed renewal that auto-renewed for two years, by an indemnification clause nobody caught, or by a customer claiming terms that aren't in the signed version.\n\nWe're not building for BigLaw or Fortune 500 legal departments. We're building for the startup GC who is also the head of HR and the compliance officer. For the founder who signs 30 contracts a quarter without a lawyer on staff. For the ops lead who just needs a vendor NDA that doesn't take three weeks to close.\n\nOur platform handles the full lifecycle — template library, clause bank, approval workflows, e-signature, obligation tracking, and renewal alerts — in a product that feels like Notion, not SAP. We believe contract management should be as intuitive as the tools startups already love.",
+    "marketResearch": "The CLM market is projected to reach $7.7B by 2030, growing at 14.9% CAGR. However, the vast majority of CLM spend is concentrated in enterprise (1,000+ employees), leaving a massive underserved segment of startups and mid-market companies. Our TAM for SMB and mid-market CLM is $2.1B, SAM targeting companies with 20-500 employees in North America is $680M, and initial SOM is $95M.\n\nEnterprise CLM tools (Ironclad, Icertis, Agiloft) are powerful but require months of implementation and cost $50K-$500K annually. Startup-friendly tools (SpotDraft, Juro, Precisely) are growing but still emphasize feature complexity over simplicity. Clause differentiates through radical simplicity — 15-minute setup, pre-built template libraries by industry, and a pricing model that starts at $0 for up to 10 contracts per month.\n\nOur target buyer is the first legal hire, head of operations, or founder at companies with 20-200 employees. The trigger event is typically crossing 50+ active contracts where Google Docs and email become unmanageable. Early traction: 220 companies, $890K ARR, 91% retention. Our PLG funnel converts 14% of free users to paid within 60 days, driven by the renewal alert feature that immediately demonstrates value when it catches a forgotten auto-renewal.",
+    "landingPage": {
+      "companyName": "Clause",
+      "tagline": "Contracts shouldn't be the reason your deal stalls",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#4338CA",
+          "primaryLight": "#A5B4FC",
+          "primaryDark": "#312E81",
+          "accent": "#0EA5E9",
+          "background": "#FAFBFE",
+          "surface": "#FFFFFF",
+          "text": "#1E1B4B",
+          "textMuted": "#6B7280",
+          "border": "#E0E7FF"
+        },
+        "fontFamily": "'Source Serif 4', serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Contract management that actually fits how startups work",
+        "subheadline": "Templates, approvals, e-signatures, and renewal tracking in one place. Set up in 15 minutes. No implementation consultants required.",
+        "ctaText": "Start free",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your next missed renewal could cost you six figures",
+        "subheadline": "Free for up to 10 contracts. Paid plans from $49/month.",
+        "buttonText": "Get started free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything you need, nothing you don't",
+          "layout": "cards",
+          "items": [
+            { "icon": "📝", "title": "Smart templates", "description": "Start from industry-specific templates or import your own. Dynamic fields auto-populate company details, dates, and terms." },
+            { "icon": "🔄", "title": "Version tracking", "description": "Every change is tracked with full history. Compare any two versions side-by-side. No more \"final_v3_REAL_final.docx\"." },
+            { "icon": "✍️", "title": "Built-in e-signature", "description": "Send for signature directly from Clause. Legally binding, audit-trailed, and integrated so the signed version is automatically archived." },
+            { "icon": "🔔", "title": "Renewal alerts", "description": "Never miss a renewal or termination deadline again. Automated reminders hit 90, 60, and 30 days before key dates." },
+            { "icon": "👥", "title": "Approval workflows", "description": "Route contracts through the right approvers based on value, type, or custom rules. No more Slack DMs asking \"can you sign this?\"" },
+            { "icon": "📊", "title": "Contract analytics", "description": "See your entire contract portfolio at a glance — total value, upcoming renewals, expiring agreements, and average cycle time." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From chaos to clarity in three steps",
+          "layout": "numbered",
+          "items": [
+            { "title": "Import or create", "description": "Upload your existing contracts (PDF, Word, or Google Docs) or start from our template library. Clause extracts key terms, dates, and obligations automatically." },
+            { "title": "Collaborate and sign", "description": "Share drafts, collect redlines, route for approval, and send for e-signature — all without leaving the platform. Counterparties don't need an account." },
+            { "title": "Track and renew", "description": "Every obligation, deadline, and renewal date is automatically tracked. Get alerts before anything slips through the cracks." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing that grows with you",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "Free", "period": "", "features": ["10 contracts/month", "3 templates", "E-signature included", "Email support"], "ctaText": "Start free" },
+            { "name": "Growth", "price": "$49", "period": "/month", "features": ["Unlimited contracts", "Unlimited templates", "Approval workflows", "Renewal alerts", "Analytics dashboard"], "ctaText": "Start trial" },
+            { "name": "Business", "price": "$199", "period": "/month", "features": ["Everything in Growth", "Custom clause library", "API access", "SSO & permissions", "Priority support"], "ctaText": "Talk to us" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Startups that stopped losing contracts",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We caught a vendor contract that was about to auto-renew for $48K within our first week on Clause. The renewal alert feature paid for three years of the platform in one notification.", "author": "Maya Krishnan", "role": "Head of Operations, Trove" },
+            { "quote": "We went from a 14-day average contract cycle to 3 days. The e-signature integration means I'm not chasing PDFs across email threads anymore.", "author": "Josh Ramirez", "role": "Founder & CEO, Upstream" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions we hear a lot",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Can I import my existing contracts?", "answer": "Yes. Upload PDFs or Word docs and Clause automatically extracts key terms, dates, parties, and obligations. Most companies have their full portfolio imported within an hour." },
+            { "question": "Are the e-signatures legally binding?", "answer": "Yes. Our e-signatures comply with ESIGN, UETA, and eIDAS regulations. Every signature includes a full audit trail with IP address, timestamp, and authentication details." },
+            { "question": "Do counterparties need a Clause account?", "answer": "No. External parties receive a secure link to review, comment, and sign. They never need to create an account or install anything." },
+            { "question": "How is this different from DocuSign or PandaDoc?", "answer": "Those tools focus on the signature step. Clause manages the entire lifecycle — from template creation and negotiation through signature, obligation tracking, and renewal management. Think of it as your contract operating system, not just a signing tool." }
+          ]
+        }
+      ],
+      "companyEmail": "clause-legal@tryartha.com",
+      "domain": "clause-legal.tryartha.com",
+      "projectSlug": "clause-legal",
+      "animationPreset": "subtle",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Ember HR",
+    "slug": "ember-hr",
+    "tagline": "You can't fix culture if you can't see it",
+    "description": "Ember HR measures what surveys miss — the real-time engagement, collaboration patterns, and sentiment signals that reveal whether your remote team is thriving or quietly burning out. Think of it as a health dashboard for your company culture.",
+    "mission": "Remote work solved the commute problem and created a visibility problem. When your team was in an office, you could feel the energy — the hallway conversations, the lunch table debates, the subtle shift when morale started dipping. Now that signal is gone, replaced by green dots on Slack and an annual engagement survey that tells you what people felt six months ago.\n\nEmber HR was born from a conviction that culture isn't something you measure once a year. It's a living system that shifts weekly, sometimes daily, and the companies that thrive remotely are the ones that can see those shifts as they happen. Not through surveillance — through signal.\n\nWe aggregate anonymized data from the tools your team already uses — communication patterns, meeting loads, collaboration networks, recognition frequency, response times — and surface the cultural signals hidden in the noise. Which teams are siloed? Where is meeting fatigue concentrated? Are new hires integrating into the collaboration network or staying isolated?\n\nOur founding team includes organizational psychologists and data scientists who spent years studying what makes distributed teams work. We believe the future of HR isn't more surveys — it's passive, ethical sensing that gives people leaders the context to act before problems become crises.",
+    "marketResearch": "The employee engagement and analytics market is valued at $1.5B, growing at 15% CAGR as remote and hybrid work become permanent. The broader HR tech market exceeds $35B, but engagement analytics specifically is being reshaped by the shift away from annual surveys toward continuous listening platforms. Our TAM is $1.5B, SAM targeting remote-first and hybrid companies with 50-2,000 employees is $480M, and SOM is $72M.\n\nCompetitors include survey-based platforms (Culture Amp, Lattice, 15Five) that rely on active employee participation, and workforce analytics tools (Microsoft Viva Insights, Worklytics) that focus on productivity metrics rather than cultural health. Ember differentiates by combining passive behavioral signals with AI-driven cultural analysis — no survey fatigue, no self-report bias, and insights that update weekly rather than quarterly.\n\nOur target buyer is the VP of People or Head of Remote at companies with 50+ remote employees. The trigger event is usually a retention crisis or a failed engagement survey that revealed problems too late to prevent departures. Early traction: 85 companies, $1.2M ARR, with net retention of 118%. Our product-led motion starts with a free team health snapshot that connects to Slack and calendar data, converting 22% to paid within 90 days.",
+    "landingPage": {
+      "companyName": "Ember HR",
+      "tagline": "You can't fix culture if you can't see it",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#F97316",
+          "primaryLight": "#FDBA74",
+          "primaryDark": "#C2410C",
+          "accent": "#8B5CF6",
+          "background": "#FFFBF5",
+          "surface": "#FFFFFF",
+          "text": "#1C1917",
+          "textMuted": "#78716C",
+          "border": "#FED7AA"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "See your remote culture in real time, not in a quarterly survey",
+        "subheadline": "Ember connects to the tools your team already uses and surfaces the engagement signals that surveys miss. No forms to fill out. No survey fatigue. Just clarity.",
+        "ctaText": "Get your free culture snapshot",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "The best people leave quietly — unless you see the signals early",
+        "subheadline": "Free culture snapshot for your team. Paid plans from $6/person/month.",
+        "buttonText": "Start your free snapshot"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Culture analytics that don't require a survey",
+          "layout": "alternating",
+          "items": [
+            { "icon": "📡", "title": "Passive signal collection", "description": "Ember reads anonymized metadata from Slack, calendar, and collaboration tools. No employee action required. No message content is ever accessed." },
+            { "icon": "🌡️", "title": "Team health scores", "description": "Weekly culture health scores for every team, broken down by engagement, collaboration, workload balance, and new-hire integration." },
+            { "icon": "🔍", "title": "Isolation detection", "description": "Spot employees who are drifting out of the collaboration network before they become flight risks. Early signals, not exit interview surprises." },
+            { "icon": "📈", "title": "Trend analysis", "description": "See how culture metrics shift over time. Correlate changes with events — reorgs, product launches, leadership changes — to understand cause and effect." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What Ember customers are seeing",
+          "stats": [
+            { "value": "34", "label": "Reduction in voluntary turnover", "suffix": "%" },
+            { "value": "85", "label": "Remote teams using Ember" },
+            { "value": "2.3", "label": "Weeks earlier flight risk detection", "suffix": "wk" },
+            { "value": "0", "label": "Surveys required" }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From connected to informed in one day",
+          "layout": "numbered",
+          "items": [
+            { "title": "Connect your tools", "description": "Integrate Slack, Google Workspace or Microsoft 365, and your HRIS in minutes. Ember only accesses metadata — never message content, document text, or private channels." },
+            { "title": "Ember builds your culture map", "description": "Within 48 hours, you'll see your organization's collaboration network, team health scores, and early warning indicators across every team." },
+            { "title": "Act on signals, not guesses", "description": "Get weekly digests with specific, actionable recommendations. \"Team X's cross-functional collaboration dropped 40% after the reorg\" — not vague sentiment scores." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "People leaders who see the signals now",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Ember flagged that our engineering team's collaboration network had fractured after we split into squads. We restructured our rituals and cross-team meetings — turnover in that group dropped from 22% to 8% in two quarters.", "author": "Rachel Torres", "role": "VP People, Lattice" },
+            { "quote": "We used to find out someone was disengaged during their exit interview. Now Ember's isolation detection gives us a 6-8 week warning window. That's enough time to actually intervene.", "author": "David Okonkwo", "role": "Head of Remote, Doist" },
+            { "quote": "The meeting load analysis alone was worth it. We discovered that our managers were spending 31 hours per week in meetings. No wonder engagement was tanking.", "author": "Sarah Kim", "role": "Chief People Officer, Mural" }
+          ]
+        }
+      ],
+      "companyEmail": "ember-hr@tryartha.com",
+      "domain": "ember-hr.tryartha.com",
+      "projectSlug": "ember-hr",
+      "animationPreset": "playful",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Sentinel",
+    "slug": "sentinel-comply",
+    "tagline": "Compliance that watches while you build",
+    "description": "Sentinel monitors your fintech infrastructure in real time against regulatory requirements — SOX, PCI-DSS, SOC 2, state money transmitter laws — and alerts you the moment something drifts out of compliance. No more quarterly audits revealing surprises from three months ago.",
+    "mission": "Fintech compliance is a paradox. You need to move fast to compete, but every new feature, every infrastructure change, every third-party integration can push you out of compliance with regulations that carry seven-figure penalties. Most fintech companies discover compliance gaps the worst possible way: during an audit, during a breach investigation, or when a regulator comes knocking.\n\nSentinel was founded by compliance engineers and former bank examiners who watched fintech after fintech fail the same way — not because they didn't care about compliance, but because they couldn't see it in real time. Their compliance posture was a snapshot taken during the last audit, not a live signal.\n\nWe built Sentinel to make compliance observable. Our platform continuously monitors your infrastructure, code deployments, access controls, data flows, and vendor connections against the specific regulatory frameworks that apply to your business. When something drifts — a new S3 bucket without encryption, an access policy that violates SOX segregation of duties, a data flow that crosses a jurisdictional boundary — Sentinel flags it in minutes, not months.\n\nOur vision is a world where compliance is a CI/CD check, not a quarterly fire drill. Where every deploy is validated against regulatory requirements before it hits production. Where your compliance team spends their time on strategic risk management, not manual evidence collection.",
+    "marketResearch": "The regulatory technology (RegTech) market is projected to reach $44B by 2030, with fintech compliance specifically representing a $6.2B segment growing at 22% CAGR. The explosion of fintech companies — now over 26,000 globally — combined with increasing regulatory scrutiny has created urgent demand for continuous compliance monitoring. Our TAM is $6.2B, SAM is $1.8B targeting fintech companies in North America with $10M+ in annual payment volume, and SOM is $180M.\n\nCompetitors include GRC platforms (Vanta, Drata, Secureframe) that focus on SOC 2 and ISO 27001 but lack depth in financial regulations, and legacy RegTech tools (ComplyAdvantage, Alloy) that focus on transaction monitoring rather than infrastructure compliance. Sentinel differentiates by combining infrastructure-level monitoring with financial regulatory expertise — we understand both your Kubernetes cluster and your state money transmitter obligations.\n\nTarget buyers are compliance leads, CTOs, and heads of engineering at fintech companies with 30-500 employees. The acute pain point is audit readiness — our customers report 80% reduction in audit preparation time. Early traction: 42 fintech companies, $2.4M ARR, zero customer churn in the last 12 months. Our land-and-expand motion starts with SOC 2 monitoring and expands into PCI-DSS, SOX, and state-specific requirements.",
+    "landingPage": {
+      "companyName": "Sentinel",
+      "tagline": "Compliance that watches while you build",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#10B981",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#047857",
+          "accent": "#3B82F6",
+          "background": "#0A0F0E",
+          "surface": "#131C19",
+          "text": "#ECFDF5",
+          "textMuted": "#86EFAC",
+          "border": "#1A3A2F"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Real-time compliance monitoring built for fintech",
+        "subheadline": "Sentinel watches your infrastructure, code deploys, and data flows against SOX, PCI-DSS, SOC 2, and state regulations. When something drifts, you know in minutes — not during the next audit.",
+        "ctaText": "See your compliance posture",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Your next audit shouldn't be a surprise",
+        "subheadline": "Free compliance posture scan for one framework. Plans from $1,200/month.",
+        "buttonText": "Run your free scan"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Compliance as code, not compliance as paperwork",
+          "layout": "bento",
+          "items": [
+            { "icon": "🔍", "title": "Continuous monitoring", "description": "Real-time checks against 200+ controls across SOC 2, PCI-DSS, SOX, and state money transmitter requirements. Not quarterly screenshots — live signals." },
+            { "icon": "🚨", "title": "Drift alerts", "description": "When a deploy, config change, or access policy pushes you out of compliance, Sentinel alerts the right person within minutes — with remediation steps included." },
+            { "icon": "📋", "title": "Audit-ready evidence", "description": "Every compliance check generates timestamped evidence automatically. When the auditor asks, you hand them a link instead of scrambling for screenshots." },
+            { "icon": "🔗", "title": "CI/CD integration", "description": "Add compliance gates to your deployment pipeline. Block non-compliant changes before they reach production. Works with GitHub Actions, GitLab CI, and Jenkins." },
+            { "icon": "🏛️", "title": "Multi-framework mapping", "description": "One control often satisfies multiple frameworks. Sentinel maps overlaps so you're not duplicating evidence collection across SOC 2, PCI, and SOX." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Compliance metrics that matter",
+          "stats": [
+            { "value": "80", "label": "Less audit prep time", "suffix": "%" },
+            { "value": "42", "label": "Fintech companies monitored" },
+            { "value": "0", "label": "Customer churn (12 months)" },
+            { "value": "4.2", "label": "Minutes avg drift detection time", "suffix": "min" }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From connected to compliant in 48 hours",
+          "layout": "numbered",
+          "items": [
+            { "title": "Connect your infrastructure", "description": "Sentinel integrates with AWS, GCP, Azure, GitHub, identity providers, and your HRIS. Read-only access — we observe, we never modify." },
+            { "title": "Map your regulatory surface", "description": "Tell us which frameworks apply to your business. Sentinel maps your infrastructure to specific controls and identifies gaps immediately." },
+            { "title": "Monitor continuously", "description": "Every change to your infrastructure is evaluated against your compliance requirements in real time. Drift triggers alerts. Evidence is collected automatically." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Fintech teams that stopped dreading audits",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our SOC 2 audit used to take 6 weeks of preparation. With Sentinel, our last audit prep took 3 days. The auditors were genuinely impressed by the real-time evidence dashboard.", "author": "Marcus Webb", "role": "CTO, Plaid" },
+            { "quote": "Sentinel caught that a junior engineer had disabled encryption on a new data store within 8 minutes of the change. Without it, we would have found out during our quarterly review — if we were lucky.", "author": "Elena Vasquez", "role": "Head of Compliance, Ramp" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Which regulatory frameworks do you support?", "answer": "SOC 2 Type II, PCI-DSS v4.0, SOX (IT controls), state money transmitter requirements for all 50 US states, and GDPR. We're adding DORA and MAS TRM in Q3 2026." },
+            { "question": "Does Sentinel replace our auditor?", "answer": "No. Sentinel makes your auditor's job dramatically easier by providing continuous, timestamped evidence. Your auditor still performs the attestation — they just spend less time asking you for screenshots." },
+            { "question": "What access does Sentinel need?", "answer": "Read-only API access to your cloud infrastructure, identity provider, and code repository. We never need write access and we never store your source code or customer data." }
+          ]
+        }
+      ],
+      "companyEmail": "sentinel-comply@tryartha.com",
+      "domain": "sentinel-comply.tryartha.com",
+      "projectSlug": "sentinel-comply",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Redline",
+    "slug": "redline-legal",
+    "tagline": "Negotiate contracts like you've read a thousand of them — because we have",
+    "description": "Redline is a contract redlining tool that reads agreements, compares them against market standards and your company's positions, and suggests specific edits with plain-language explanations. It's the senior associate who never sleeps and has reviewed every contract type.",
+    "mission": "Contract negotiation is one of the last business processes where the quality of the output depends almost entirely on the experience of the individual doing the work. A first-year associate reviewing an MSA will miss things a tenth-year partner catches instantly — not because they're careless, but because pattern recognition takes thousands of reps to develop.\n\nRedline compresses that learning curve to zero. Our platform reads incoming contracts, identifies clauses that deviate from market norms or your company's preferred positions, and suggests specific redline edits with natural-language explanations of why each change matters. Not flags. Not risk scores. Actual suggested language that your team can accept, modify, or reject with full context.\n\nWe built Redline because we watched brilliant lawyers spend hours on mechanical analysis that machines can do in seconds, while the strategic work — the creative structuring, the relationship navigation, the judgment calls — went under-resourced. We want every lawyer to negotiate like a senior partner from day one.\n\nOur approach is fundamentally different from contract review tools that just highlight risks. Highlighting a problem without suggesting a solution creates more work, not less. Redline provides the solution: specific counter-language, calibrated to your company's risk tolerance, benchmarked against what similarly-situated companies accept in comparable deals.",
+    "marketResearch": "The legal AI market is projected to reach $6.5B by 2030, with contract analysis tools representing $2.8B of that. The specific segment of AI-assisted contract negotiation — tools that suggest edits rather than just identify risks — is nascent but growing at 35% CAGR as legal teams demand more actionable output from their AI investments. TAM is $2.8B, SAM is $820M targeting in-house legal teams and mid-size law firms in English-speaking markets, SOM is $110M.\n\nCompetitors divide into risk-flagging tools (Kira Systems, Luminance, Evisort) that identify issues but don't suggest language, and CLM platforms (Ironclad, SpotDraft) with AI features bolted on. Redline is the first tool purpose-built for the redlining step specifically — the moment where a lawyer reads incoming language and decides what to change. Our benchmark database of 2M+ negotiated clauses gives us a unique data advantage.\n\nTarget buyers are GCs, legal ops leads, and managing partners at firms with 10-200 lawyers. Pain point is clear: redlining is the bottleneck in every deal cycle, and senior lawyer time is the scarcest resource. Early traction: 156 legal teams, $1.6M ARR, with average review time reduced from 3.5 hours to 25 minutes. Our Word and Google Docs plugins drive adoption by meeting lawyers in their existing workflow.",
+    "landingPage": {
+      "companyName": "Redline",
+      "tagline": "Negotiate contracts like you've read a thousand of them — because we have",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#DC2626",
+          "primaryLight": "#FCA5A5",
+          "primaryDark": "#991B1B",
+          "accent": "#1D4ED8",
+          "background": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "text": "#171717",
+          "textMuted": "#737373",
+          "border": "#E5E5E5"
+        },
+        "fontFamily": "'Crimson Pro', serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Stop flagging contract risks. Start fixing them.",
+        "subheadline": "Redline reads incoming agreements and suggests specific edits — with plain-language explanations — benchmarked against 2M+ negotiated clauses. Your team reviews suggestions, not raw contracts.",
+        "ctaText": "Redline your first contract",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Every hour spent on mechanical redlining is an hour not spent on strategy",
+        "subheadline": "Free for 3 contracts/month. Pro plans from $99/user/month.",
+        "buttonText": "Try free"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From incoming contract to suggested redlines in 90 seconds",
+          "layout": "numbered",
+          "items": [
+            { "title": "Upload or paste the contract", "description": "Drop a PDF or Word doc into Redline, or use our Word/Google Docs plugin to analyze directly in your editor. We support 30+ agreement types." },
+            { "title": "Redline reads and compares", "description": "Every clause is compared against market benchmarks and your company's preferred positions. Deviations are identified, severity is assessed, and counter-language is drafted." },
+            { "title": "Review suggestions, not raw text", "description": "Accept, modify, or reject each suggestion with full context: what the clause says, why it matters, what we suggest, and what comparable companies typically accept." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Redlining that thinks like a senior partner",
+          "layout": "cards",
+          "items": [
+            { "icon": "✏️", "title": "Actual suggested language", "description": "Not risk flags. Not yellow highlights. Specific counter-language you can accept with one click or customize to your liking." },
+            { "icon": "📊", "title": "Market benchmarks", "description": "Every suggestion is calibrated against 2M+ negotiated clauses. Know whether a position is standard, aggressive, or unusual for your deal type and industry." },
+            { "icon": "🧠", "title": "Playbook learning", "description": "Redline learns your company's preferred positions, fallback language, and deal-breakers. Suggestions get more precise with every contract you review." },
+            { "icon": "💬", "title": "Plain-language explanations", "description": "Every suggestion comes with a clear explanation a non-lawyer can understand. Perfect for sharing context with business stakeholders." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What legal teams measure",
+          "stats": [
+            { "value": "93", "label": "Reduction in redlining time", "suffix": "%" },
+            { "value": "156", "label": "Legal teams active" },
+            { "value": "2M", "label": "Clause benchmark database", "suffix": "+" },
+            { "value": "25", "label": "Avg minutes per contract review", "suffix": "min" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From lawyers who redline smarter",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Redline caught an unlimited liability clause in a vendor MSA that I would have flagged but spent 45 minutes drafting counter-language for. It had the exact fallback position we use — ready to accept in one click.", "author": "Catherine Park", "role": "General Counsel, Notion" },
+            { "quote": "Our junior associates now produce redlines that look like they came from a 10-year partner. The quality floor has gone up dramatically and our review cycle dropped from a week to two days.", "author": "Michael Osei", "role": "Managing Partner, Kirkland & Ellis" },
+            { "quote": "The market benchmark data is what sold us. Being able to tell a counterparty 'this position is outside the 90th percentile for comparable deals' completely changes the negotiation dynamic.", "author": "Lisa Huang", "role": "VP Legal, Stripe" }
+          ]
+        }
+      ],
+      "companyEmail": "redline-legal@tryartha.com",
+      "domain": "redline-legal.tryartha.com",
+      "projectSlug": "redline-legal",
+      "animationPreset": "subtle",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Tessera",
+    "slug": "tessera-hr",
+    "tagline": "Hire for what people can do, not where they went to school",
+    "description": "Tessera is a skills-based hiring platform that replaces resume screening with structured skill assessments and blind evaluation. It removes the biases baked into traditional hiring — school name, employer brand, gaps in employment — and surfaces candidates based on demonstrated ability.",
+    "mission": "The resume is a terrible predictor of job performance. Study after study shows that unstructured resume screening introduces bias at every level — against women, against minorities, against career changers, against anyone whose path doesn't match the recruiter's mental model of what a \"good\" candidate looks like. And yet resumes remain the foundation of nearly every hiring process on Earth.\n\nTessera was founded on a radical but evidence-backed premise: if you evaluate candidates on what they can do instead of where they've been, you get better hires and more diverse teams simultaneously. These aren't competing goals — they're the same goal, because bias is noise, and removing noise improves signal.\n\nOur platform replaces the resume screen with structured skill evaluations designed by I/O psychologists and calibrated to actual job performance. Candidates complete relevant assessments — coding challenges, writing samples, case analyses, design exercises — and their work is evaluated blindly by reviewers who never see a name, photo, school, or employer. Only skills and demonstrated ability.\n\nWe're not anti-resume as a philosophical stance. We're anti-resume because the data is overwhelming: structured skill evaluation predicts job performance 2-4x better than resume screening. Companies that switch to skills-based hiring see broader talent pools, faster time-to-hire, higher offer acceptance rates, and dramatically better diversity outcomes. It's not a trade-off. It's strictly better.",
+    "marketResearch": "The global recruiting software market is $3.2B, projected to reach $5.3B by 2030 at 7.5% CAGR. Within this, skills-based hiring platforms are the fastest-growing segment at 28% CAGR, driven by increasing recognition that traditional screening methods underperform and introduce bias. TAM is $3.2B, SAM targeting mid-market and enterprise companies in North America committed to skills-based hiring is $920M, SOM is $105M.\n\nCompetitors include assessment platforms (HackerRank, Codility) focused only on technical roles, ATS tools (Greenhouse, Lever) that bolt on basic screening, and emerging skills platforms (Eightfold, Beamery) focused on internal mobility rather than external hiring. Tessera differentiates by covering all role types — not just engineering — with blind evaluation built into the core workflow rather than added as an optional step.\n\nTarget buyers are VPs of Talent, Heads of DEI, and CHROs at companies with 200+ employees actively committed to reducing bias in hiring. Our sales trigger is typically a failed diversity initiative or a realization that existing processes aren't delivering diverse candidate slates. Early traction: 64 companies, $980K ARR, with customers reporting 3.2x more diverse finalist slates and 28% improvement in 12-month retention for skills-based hires vs. resume-screened hires.",
+    "landingPage": {
+      "companyName": "Tessera",
+      "tagline": "Hire for what people can do, not where they went to school",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#A78BFA",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#7C3AED",
+          "accent": "#F472B6",
+          "background": "#0F0B1A",
+          "surface": "#1A1429",
+          "text": "#F5F3FF",
+          "textMuted": "#A5A0C0",
+          "border": "#2E2650"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "1rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Better hires. Broader talent pools. Zero resume bias.",
+        "subheadline": "Tessera replaces resume screening with blind, structured skill assessments. Candidates are evaluated on demonstrated ability — not school name, employer brand, or demographic signals. The result: better hires and more diverse teams.",
+        "ctaText": "See how it works",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "The best candidate for the job might not have the best resume",
+        "subheadline": "Free pilot for your next 3 open roles. See the difference skills-based hiring makes.",
+        "buttonText": "Start your free pilot"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Skills in. Bias out.",
+          "layout": "numbered",
+          "items": [
+            { "title": "Define the skills that matter", "description": "Work with Tessera to identify the 4-6 skills that actually predict success in the role. Not proxies like \"top-tier university\" — actual capabilities like analytical reasoning, technical depth, or written communication." },
+            { "title": "Candidates demonstrate, don't describe", "description": "Instead of screening resumes, candidates complete structured assessments relevant to the job. Coding challenges, writing exercises, case analyses, design tasks — tailored to your role." },
+            { "title": "Blind evaluation surfaces the best", "description": "Reviewers evaluate work samples without seeing any identifying information. No names, no photos, no schools, no employers. Just skills. Your shortlist is ranked by demonstrated ability." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "What the data shows",
+          "stats": [
+            { "value": "3.2", "label": "More diverse finalist slates", "suffix": "x" },
+            { "value": "28", "label": "Better 12-month retention", "suffix": "%" },
+            { "value": "64", "label": "Companies hired skills-first" },
+            { "value": "41", "label": "Faster time-to-hire", "suffix": "% faster" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for every role, not just engineering",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🧪", "title": "Assessment library", "description": "200+ validated assessments across engineering, design, marketing, sales, finance, and operations roles. Custom assessment design available for specialized positions." },
+            { "icon": "🕶️", "title": "True blind review", "description": "Identifying information is stripped at ingestion. Reviewers see work product only. Bias literally can't enter the evaluation because the signal isn't there." },
+            { "icon": "📐", "title": "Calibrated scoring", "description": "Rubrics designed by I/O psychologists ensure consistency across reviewers. Scoring is anchored to job-relevant criteria, not subjective impressions." },
+            { "icon": "📊", "title": "Diversity analytics", "description": "Track pipeline diversity, conversion rates by demographic group, and hiring outcomes. Identify where bias enters your funnel — even outside of Tessera." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From teams that hire differently now",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Our first skills-based hire was a career-changer from teaching who outperformed every traditionally-screened candidate in her cohort. Her resume would never have made it past our old ATS filters.", "author": "Priya Gupta", "role": "VP Talent, Figma" },
+            { "quote": "We ran Tessera in parallel with our existing process for one quarter. The skills-based shortlists were more diverse and the hires had better 6-month performance ratings. We switched fully after that.", "author": "Jordan Ellis", "role": "CHRO, Canva" },
+            { "quote": "The blind evaluation removed a bias I didn't even know I had. When I couldn't see where candidates went to school, I was surprised by how differently I ranked the work samples.", "author": "Alex Moreno", "role": "Engineering Director, Vercel" },
+            { "quote": "Tessera opened up our talent pool to candidates we were systematically overlooking. Our last three hires came from non-traditional backgrounds and are among our strongest performers.", "author": "Nina Okonkwo", "role": "Head of DEI, Shopify" }
+          ]
+        }
+      ],
+      "companyEmail": "tessera-hr@tryartha.com",
+      "domain": "tessera-hr.tryartha.com",
+      "projectSlug": "tessera-hr",
+      "animationPreset": "playful",
+      "shadowStyle": "glow"
+    }
+  },
+  {
+    "name": "Lockstep",
+    "slug": "lockstep-sec",
+    "tagline": "Know what's in your supply chain before attackers do",
+    "description": "Lockstep scans your open-source dependencies for security vulnerabilities, malicious packages, license risks, and maintainer health signals. It goes beyond CVE databases to assess the actual risk of every package in your dependency tree.",
+    "mission": "The average modern application has over 1,200 dependencies. Most engineering teams can name maybe a dozen of them. The rest are transitive — pulled in by libraries that pulled in other libraries — forming an invisible supply chain that nobody audited and everybody trusts implicitly.\n\nThen Log4Shell happened. Then the ua-parser-js compromise. Then the colors.js sabotage. Each incident reminded the industry of something supply chain security researchers had been saying for years: your application is only as secure as your least-maintained transitive dependency.\n\nLockstep was founded to make supply chain risk visible and manageable. We don't just check CVE databases — that's table stakes. We analyze maintainer activity, funding status, bus factor, known vulnerabilities in transitive deps, typosquatting risk, behavioral anomalies in recent releases, and license compliance across your entire dependency tree. The question isn't just \"is this package vulnerable?\" — it's \"should you trust this package at all?\"\n\nOur founding team built dependency management systems at npm and GitHub, and we saw firsthand how little visibility most organizations had into what they were actually shipping. We're building the supply chain intelligence layer that every engineering organization needs but almost none have today.",
+    "marketResearch": "The software supply chain security market is valued at $2.8B in 2025, growing at 31% CAGR — one of the fastest-growing segments in cybersecurity. Executive orders mandating SBOMs (Software Bill of Materials) and increasing insurance requirements are accelerating adoption. TAM is $2.8B, SAM targeting engineering organizations with 20+ developers shipping production software is $1.1B, SOM is $140M.\n\nCompetitors include vulnerability scanners (Snyk, Mend.io, Dependabot) that focus primarily on known CVEs, SBOM tools (Anchore, Syft) that catalog without assessing risk, and emerging supply chain platforms (Socket.dev, Phylum) with overlapping but narrower scope. Lockstep differentiates through depth of analysis — we assess 14 risk signals per package vs. the 2-3 that CVE-focused tools check — and through our maintainer health scoring, which predicts abandonment and compromise risk before incidents occur.\n\nTarget buyers are security engineering leads and VP Engineering at software companies with 50+ engineers. The sales trigger is typically a supply chain incident (their own or a high-profile public one) or a compliance mandate requiring SBOMs. Early traction: 92 companies, $1.7M ARR, scanning 340M+ packages monthly. Our open-source CLI drives bottom-up adoption, converting 18% of active users to paid team plans within 120 days.",
+    "landingPage": {
+      "companyName": "Lockstep",
+      "tagline": "Know what's in your supply chain before attackers do",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#06B6D4",
+          "primaryLight": "#67E8F9",
+          "primaryDark": "#0891B2",
+          "accent": "#F59E0B",
+          "background": "#0C1015",
+          "surface": "#151C24",
+          "text": "#E2E8F0",
+          "textMuted": "#8899AA",
+          "border": "#1E2A36"
+        },
+        "fontFamily": "'Space Grotesk', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Your app has 1,200 dependencies. How many have you actually vetted?",
+        "subheadline": "Lockstep scans your entire dependency tree — including transitive deps — for vulnerabilities, malicious packages, license risks, and maintainer health signals. Supply chain security that goes beyond CVEs.",
+        "ctaText": "Scan your repo free",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "The next Log4Shell is already in someone's dependency tree",
+        "subheadline": "Free for open-source projects. Team plans from $29/developer/month.",
+        "buttonText": "Start scanning free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "14 risk signals per package. Not just CVEs.",
+          "layout": "bento",
+          "items": [
+            { "icon": "🔬", "title": "Deep dependency analysis", "description": "Scans your full transitive dependency tree — not just direct deps. Most critical vulnerabilities hide 3-4 levels deep where nobody's looking." },
+            { "icon": "👤", "title": "Maintainer health scoring", "description": "Is the maintainer active? Are there multiple contributors? Is the project funded? Low maintainer health predicts future compromise and abandonment." },
+            { "icon": "🎭", "title": "Malicious package detection", "description": "Behavioral analysis catches typosquatting, dependency confusion, and compromised releases that CVE databases miss. We flag suspicious install scripts and data exfiltration attempts." },
+            { "icon": "📜", "title": "License compliance", "description": "Map license obligations across your entire dependency tree. Catch GPL contamination, conflicting licenses, and undeclared license changes in updates." },
+            { "icon": "📦", "title": "SBOM generation", "description": "Generate CycloneDX and SPDX SBOMs automatically from every build. Meet compliance requirements without adding steps to your pipeline." },
+            { "icon": "🔗", "title": "CI/CD gates", "description": "Block merges that introduce high-risk dependencies. Policy-as-code lets you define acceptable risk thresholds per project." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Supply chain visibility at scale",
+          "stats": [
+            { "value": "340M", "label": "Packages scanned monthly", "suffix": "+" },
+            { "value": "14", "label": "Risk signals per package" },
+            { "value": "92", "label": "Engineering teams protected" },
+            { "value": "23", "label": "Avg high-risk deps found per repo" }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "Beyond vulnerability scanning",
+          "comparisonOurName": "Lockstep",
+          "comparisonCompetitorName": "CVE scanners",
+          "comparisonRows": [
+            { "feature": "Known vulnerability detection", "us": true, "competitor": true },
+            { "feature": "Malicious package detection", "us": true, "competitor": false },
+            { "feature": "Maintainer health scoring", "us": true, "competitor": false },
+            { "feature": "Transitive dependency analysis", "us": "Full tree", "competitor": "Direct deps only" },
+            { "feature": "License compliance", "us": true, "competitor": "Basic" },
+            { "feature": "SBOM generation", "us": "CycloneDX + SPDX", "competitor": "Limited" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From teams that know their supply chain now",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Lockstep found a compromised npm package four levels deep in our dependency tree that was exfiltrating environment variables. Our vulnerability scanner had no idea it was there.", "author": "James Chen", "role": "Security Lead, Vercel" },
+            { "quote": "The maintainer health scoring is brilliant. It flagged a critical dependency whose sole maintainer hadn't committed in 8 months. We migrated to an alternative before it became a crisis.", "author": "Fatima Al-Hassan", "role": "Staff Engineer, Datadog" }
+          ]
+        }
+      ],
+      "companyEmail": "lockstep-sec@tryartha.com",
+      "domain": "lockstep-sec.tryartha.com",
+      "projectSlug": "lockstep-sec",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Arbiter",
+    "slug": "arbiter-legal",
+    "tagline": "Resolve disputes in days, not months",
+    "description": "Arbiter is an online dispute resolution platform for e-commerce marketplaces, SaaS companies, and digital platforms. When buyers and sellers disagree, Arbiter provides structured negotiation, mediation, and binding resolution — all without lawyers, courts, or months of waiting.",
+    "mission": "E-commerce is a $6 trillion industry running on a dispute resolution system designed for the physical world. When a buyer and seller disagree about a transaction — the item wasn't as described, the service wasn't delivered, the refund wasn't processed — the options are bleak: a credit card chargeback (adversarial, expensive, and binary), small claims court (slow, inaccessible, and impractical for cross-border transactions), or eating the loss and leaving a bad review.\n\nArbiter was built to give digital commerce a native dispute resolution layer. Our platform guides both parties through a structured process — first attempting automated resolution based on platform policies, then offering mediated negotiation with AI assistance, and finally providing binding arbitration by qualified human neutrals when needed. The entire process happens online, typically resolves in 3-5 days, and costs a fraction of traditional alternatives.\n\nWe believe that trust is the infrastructure of commerce. Marketplaces that resolve disputes fairly and quickly see higher buyer confidence, higher seller retention, and fewer chargebacks. Our mission is to make fair resolution accessible to every transaction, regardless of size or geography.\n\nOur founding team includes former eBay dispute resolution architects, AAA arbitrators, and marketplace operators. We've collectively resolved over 2 million disputes and we're bringing that expertise to every platform that needs it.",
+    "marketResearch": "The online dispute resolution (ODR) market is valued at $890M in 2025, projected to reach $3.2B by 2030 at 29% CAGR. Growth is driven by the explosion of e-commerce, increasing cross-border transactions, and platform liability regulations like the EU's Digital Services Act. TAM is $3.2B, SAM targeting e-commerce marketplaces and digital platforms processing $10M+ in annual GMV is $840M, SOM is $95M.\n\nCompetitors include traditional arbitration bodies (AAA, JAMS) adapting to online formats but lacking platform integration, chargeback management tools (Chargebacks911, Midigator) that address symptoms rather than root causes, and marketplace-native systems (eBay, Amazon) that are proprietary and unavailable to other platforms. Arbiter differentiates by offering embeddable dispute resolution as an API — marketplaces integrate our system into their existing workflow without building their own.\n\nTarget buyers are marketplace operations leads, trust & safety teams, and platform product managers at companies processing 1,000+ monthly transactions. The pain points are chargebacks (costing platforms 1-2% of GMV), customer churn from poor dispute experience, and regulatory pressure for fair resolution mechanisms. Early traction: 18 platforms integrated, $720K ARR, resolving 12,000+ disputes per month with an average resolution time of 3.8 days and 87% mutual satisfaction rate.",
+    "landingPage": {
+      "companyName": "Arbiter",
+      "tagline": "Resolve disputes in days, not months",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0F766E",
+          "primaryLight": "#5EEAD4",
+          "primaryDark": "#134E4A",
+          "accent": "#D97706",
+          "background": "#F0FDFA",
+          "surface": "#FFFFFF",
+          "text": "#134E4A",
+          "textMuted": "#5F8A85",
+          "border": "#CCFBF1"
+        },
+        "fontFamily": "'General Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Give your marketplace a fair, fast dispute resolution system",
+        "subheadline": "Arbiter embeds directly into your platform — guiding buyers and sellers through structured negotiation, AI-assisted mediation, and binding resolution. Average resolution: 3.8 days. No lawyers required.",
+        "ctaText": "See the demo",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "outline",
+        "headline": "Every unresolved dispute is a customer you'll never see again",
+        "subheadline": "Usage-based pricing starting at $0.50 per dispute filed. No monthly minimums.",
+        "buttonText": "Talk to our team"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Three stages. One resolution.",
+          "layout": "numbered",
+          "items": [
+            { "title": "Automated resolution", "description": "Arbiter applies your platform's policies to attempt instant resolution — refunds for late shipping, partial credits for damage, etc. Resolves 45% of disputes automatically." },
+            { "title": "Guided negotiation", "description": "If automatic resolution doesn't apply, both parties enter structured negotiation. AI suggests fair outcomes based on comparable disputes, helping parties find common ground." },
+            { "title": "Binding arbitration", "description": "When negotiation fails, a qualified human arbiter reviews evidence from both sides and issues a binding decision within 48 hours. Fair, final, and enforceable." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Resolution metrics that matter",
+          "stats": [
+            { "value": "3.8", "label": "Average days to resolution" },
+            { "value": "87", "label": "Mutual satisfaction rate", "suffix": "%" },
+            { "value": "12K", "label": "Disputes resolved monthly", "suffix": "+" },
+            { "value": "62", "label": "Chargeback reduction for platforms", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for platforms, embedded in your product",
+          "layout": "cards",
+          "items": [
+            { "icon": "🔌", "title": "API-first integration", "description": "Embed Arbiter into your marketplace with a few API calls. White-labeled to match your brand. Buyers and sellers never leave your platform." },
+            { "icon": "⚖️", "title": "Policy engine", "description": "Configure automated resolution rules based on your platform policies. Late delivery? Auto-refund. Item not as described? Route to mediation with evidence upload." },
+            { "icon": "🤖", "title": "AI mediation assist", "description": "During negotiation, AI suggests fair outcomes based on thousands of comparable resolved disputes. Helps parties anchor on reasonable positions." },
+            { "icon": "👨‍⚖️", "title": "Human arbiters on demand", "description": "When AI can't resolve it, qualified human neutrals step in. Background-checked, trained in online dispute resolution, and available within hours." },
+            { "icon": "📈", "title": "Trust analytics", "description": "Track dispute rates by category, seller, product type, and geography. Identify systemic issues before they become trust crises." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Platforms that turned disputes into trust",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Before Arbiter, our chargeback rate was 1.8% and growing. Six months after integration, it's 0.7%. The structured negotiation resolves most issues before anyone reaches for a chargeback.", "author": "Marcus Rivera", "role": "VP Operations, Poshmark" },
+            { "quote": "We were spending 40 hours per week manually mediating buyer-seller disputes. Arbiter handles 93% of them automatically or through guided negotiation. Our trust & safety team focuses on fraud now, not refund arguments.", "author": "Aisha Nakamura", "role": "Head of Trust & Safety, Mercari" },
+            { "quote": "The white-label integration is seamless. Our users don't know they're using Arbiter — it just feels like our platform has a really good dispute process now.", "author": "Tom Andersson", "role": "CTO, Vinted" }
+          ]
+        }
+      ],
+      "companyEmail": "arbiter-legal@tryartha.com",
+      "domain": "arbiter-legal.tryartha.com",
+      "projectSlug": "arbiter-legal",
+      "animationPreset": "playful",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Cadre",
+    "slug": "cadre-hr",
+    "tagline": "Equity shouldn't require a law degree to understand",
+    "description": "Cadre is an employee equity management platform for startups. It handles cap table management, offer letter generation, vesting schedules, 409A valuations, and employee equity education — so founders stop explaining stock options on napkins and employees actually understand what they own.",
+    "mission": "Startup equity is broken — not the concept, but the execution. Founders grant options without understanding dilution. Employees accept equity packages without grasping vesting cliffs, exercise windows, or tax implications. Early hires leave money on the table because nobody explained the difference between ISOs and NSOs. And the cap table lives in a spreadsheet that hasn't been reconciled since the seed round.\n\nCadre exists because equity is the most powerful tool startups have for attracting and retaining talent, and it's being wasted by bad tooling and worse communication. We've built a platform that handles the mechanics — cap table management, option grants, vesting tracking, 409A valuations, exercise workflows — and, just as importantly, the education. Every employee gets a personalized equity dashboard that shows what they own, what it could be worth, and what decisions they need to make (and when).\n\nWe're a team of former startup CFOs, equity compensation lawyers, and product designers who watched the same equity literacy gap cause problems at every company we worked at. The engineer who didn't exercise before the 90-day window. The early employee who didn't understand their tax obligation. The founder who accidentally issued more shares than authorized.\n\nOur mission is to make equity work the way it was supposed to: as a genuine wealth-creation mechanism that aligns incentives, attracts exceptional people, and rewards the risk of joining early. That only happens when everyone — founders, employees, and investors — can see the same clear picture.",
+    "marketResearch": "The equity management software market is valued at $620M in 2025, projected to reach $1.8B by 2030 at 23% CAGR. Growth is driven by the increasing use of equity compensation beyond tech (healthcare, biotech, professional services), regulatory changes around equity tax treatment, and the sheer volume of VC-backed startups granting options. TAM is $1.8B, SAM targeting VC-backed startups with 10-500 employees in North America is $520M, SOM is $68M.\n\nCompetitors include Carta (dominant incumbent, $7.4B valuation but increasingly expensive and enterprise-focused), Pulley (strong SMB challenger, narrower feature set), and Shareworks/E*Trade (enterprise, post-IPO focus). Cadre differentiates through two dimensions: radical simplicity for early-stage companies (setup in under an hour, not weeks) and best-in-class employee equity education (personalized dashboards, tax scenario modeling, exercise decision guidance).\n\nTarget buyers are founders, CFOs, and heads of people at VC-backed startups from seed through Series C. The trigger event is typically hiring employee #10-20 when equity administration becomes too complex for spreadsheets. Early traction: 180 companies, $1.1M ARR, managing $2.4B in total equity value. Our PLG motion starts with a free cap table tool for up to 20 stakeholders, converting 26% to paid when companies need option grants, 409A valuations, or employee portals.",
+    "landingPage": {
+      "companyName": "Cadre",
+      "tagline": "Equity shouldn't require a law degree to understand",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F59E0B",
+          "primaryLight": "#FCD34D",
+          "primaryDark": "#D97706",
+          "accent": "#34D399",
+          "background": "#0F0E0A",
+          "surface": "#1C1A14",
+          "text": "#FEFCE8",
+          "textMuted": "#A8A080",
+          "border": "#2E2B1F"
+        },
+        "fontFamily": "'Satoshi', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Cap table, option grants, 409A, and employee education — in one place",
+        "subheadline": "Cadre replaces the equity spreadsheet with a platform that handles the mechanics and the communication. Founders manage equity confidently. Employees actually understand what they own.",
+        "ctaText": "Start your free cap table",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your employees' equity is only valuable if they understand it",
+        "subheadline": "Free cap table for up to 20 stakeholders. Full platform from $149/month.",
+        "buttonText": "Create your cap table free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything equity, nothing else",
+          "layout": "bento",
+          "items": [
+            { "icon": "📊", "title": "Cap table management", "description": "Track shares, options, warrants, SAFEs, and convertible notes in real time. Model dilution scenarios for future rounds. Export for investors and auditors." },
+            { "icon": "📄", "title": "Option grant workflows", "description": "Generate board-approved option grants with one click. Automated vesting schedules, cliff tracking, and exercise windows. No more manual spreadsheet updates." },
+            { "icon": "💰", "title": "409A valuations", "description": "Order audit-defensible 409A valuations directly from the platform. Delivered in 5-7 business days by accredited valuation firms. Pricing starts at $1,200." },
+            { "icon": "🎓", "title": "Employee equity education", "description": "Every employee gets a personalized dashboard showing their equity, current estimated value, vesting progress, and plain-language explanations of ISOs vs. NSOs." },
+            { "icon": "🧮", "title": "Tax scenario modeling", "description": "Employees can model exercise timing scenarios — early exercise, exercise at each vesting date, or wait — and see estimated tax implications for each path." },
+            { "icon": "📬", "title": "Automated offer letters", "description": "Generate equity-included offer letters with your branding. Candidates see their grant details, vesting schedule, and what their equity could be worth at various outcomes." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Set up in an hour, not a quarter",
+          "layout": "numbered",
+          "items": [
+            { "title": "Import your cap table", "description": "Upload your existing spreadsheet, Carta export, or legal docs. Cadre parses and structures everything — shares, options, SAFEs, notes — into a clean cap table in minutes." },
+            { "title": "Grant equity confidently", "description": "Use our compensation benchmarking data to set grant sizes, generate board resolutions, and issue options with proper documentation. Everything your lawyers need, auto-generated." },
+            { "title": "Educate your team", "description": "Invite employees to their personalized equity portal. They see what they own, what it's worth, what's vesting next, and what decisions they should be thinking about." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Grows with your cap table",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Seed", "price": "Free", "period": "", "features": ["Cap table for 20 stakeholders", "Basic dilution modeling", "Shareholder reports", "Email support"], "ctaText": "Start free" },
+            { "name": "Growth", "price": "$149", "period": "/month", "features": ["Unlimited stakeholders", "Option grant workflows", "Employee equity portal", "409A ordering ($1,200)", "Tax scenario modeling"], "ctaText": "Start trial" },
+            { "name": "Scale", "price": "$499", "period": "/month", "features": ["Everything in Growth", "Automated offer letters", "Board consent generation", "Compensation benchmarking", "API access", "Dedicated support"], "ctaText": "Talk to us" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Founders who stopped explaining equity on napkins",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We migrated from Carta because it was designed for Series D companies and we're Series A. Cadre took 45 minutes to set up and our employees actually use their equity portal — which never happened with Carta.", "author": "Rina Patel", "role": "CEO & Co-founder, Terrace" },
+            { "quote": "The employee education piece is what sold us. Three employees came to me after launching the Cadre portal and said it was the first time they truly understood their equity. One decided to early exercise and saved $40K in taxes.", "author": "Ben Hawkins", "role": "Head of People, Runway" },
+            { "quote": "I used to spend 2 hours per offer letter getting the equity section right with our lawyers. Cadre generates everything — grant details, vesting schedule, outcome scenarios — in about 30 seconds.", "author": "Sophie Laurent", "role": "CFO, Mistral" }
+          ]
+        }
+      ],
+      "companyEmail": "cadre-hr@tryartha.com",
+      "domain": "cadre-hr.tryartha.com",
+      "projectSlug": "cadre-hr",
+      "animationPreset": "subtle",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Perimeter",
+    "slug": "perimeter-shield",
+    "tagline": "Zero trust that doesn't make your team want to quit",
+    "description": "Perimeter is a zero-trust network access platform built for remote-first companies. It replaces VPNs with identity-based access controls that are invisible when they should be and ironclad when they need to be. Security without the friction.",
+    "mission": "VPNs were designed for a world where the office was the perimeter. You connected to the corporate network and you were \"inside\" — trusted to access everything. That model was already crumbling when remote work accelerated its collapse. Now your \"network\" is 400 employees on home wifi, coffee shop connections, and airport lounges, and the VPN is a bottleneck that everyone hates and many bypass.\n\nPerimeter replaces the VPN with zero-trust network access — the principle that no user, device, or connection is inherently trusted. Every access request is verified against identity, device health, location, behavior patterns, and the specific resource being requested. The result is security that's simultaneously stronger and less annoying than a VPN.\n\nWe built Perimeter because we watched security teams deploy zero-trust architectures that were technically sound and operationally miserable. Constant MFA prompts. Broken workflows. Developers who couldn't access staging because their device score dropped. Zero trust doesn't have to mean zero productivity.\n\nOur approach is invisible by default and strict when it matters. Accessing your normal tools from your managed device on your home network? Seamless. Accessing the production database from an unrecognized device in a new country? That's when Perimeter asks questions. Context-aware security that adapts its posture to actual risk, not blanket paranoia.",
+    "marketResearch": "The zero-trust security market is valued at $31.6B in 2025, projected to reach $67B by 2030 at 16.5% CAGR. The ZTNA sub-segment specifically — replacing VPNs with identity-based access — is $4.8B and growing at 25% CAGR. TAM is $4.8B, SAM targeting remote-first and hybrid companies with 50-5,000 employees is $1.6B, SOM is $190M.\n\nCompetitors include established ZTNA vendors (Zscaler, Cloudflare Access, Palo Alto Prisma) that are powerful but complex and enterprise-priced, and newer entrants (Tailscale, Twingate) that simplify access but offer limited policy engines. Perimeter differentiates by combining frictionless user experience with deep policy controls — context-aware access that adapts to risk signals in real time without interrupting low-risk workflows.\n\nTarget buyers are CISOs, IT leads, and heads of remote at companies with 100-2,000 remote employees. The pain point is universal: VPNs are a security liability and a productivity drain. The trigger event is usually a security incident traced to VPN credentials, or a new CISO mandate to implement zero trust. Early traction: 56 companies, $2.8M ARR, 98% user adoption rate (vs. 60-70% typical for VPN). Our free tier for up to 10 users drives bottom-up adoption in engineering teams, expanding to company-wide deployment.",
+    "landingPage": {
+      "companyName": "Perimeter",
+      "tagline": "Zero trust that doesn't make your team want to quit",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#2563EB",
+          "primaryLight": "#93C5FD",
+          "primaryDark": "#1D4ED8",
+          "accent": "#10B981",
+          "background": "#F8FAFC",
+          "surface": "#FFFFFF",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'Plus Jakarta Sans', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "minimal",
+        "headline": "Replace your VPN with something your team will actually use",
+        "subheadline": "Perimeter gives every employee secure access to the tools they need — verified by identity, device health, and context — without the lag, complexity, and frustration of a VPN. Zero trust that works with your team, not against them.",
+        "ctaText": "Try with your team",
+        "ctaHref": "#early-access"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your VPN is both your biggest security risk and your team's biggest complaint",
+        "subheadline": "Free for up to 10 users. Team plans from $8/user/month.",
+        "buttonText": "Start free"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Security your team won't bypass",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🔑", "title": "Identity-based access", "description": "Every request is authenticated against user identity, device trust, and context. No network-level trust. No implicit access. Just verified identity at every layer." },
+            { "icon": "🖥️", "title": "Device health checks", "description": "Is the OS patched? Is disk encryption enabled? Is the device managed? Perimeter checks device posture continuously and adjusts access permissions in real time." },
+            { "icon": "🌍", "title": "Context-aware policies", "description": "Same user, same device, different risk. Accessing Notion from home? Seamless. Accessing AWS console from a new country? Step-up authentication. Context changes the response." },
+            { "icon": "⚡", "title": "Zero latency", "description": "Unlike VPNs that route all traffic through a central point, Perimeter connects users directly to resources via encrypted tunnels. No backhauling. No slowdowns." },
+            { "icon": "📊", "title": "Access visibility", "description": "See who accessed what, from where, on which device, and when. Complete audit trail for compliance. Real-time dashboards for security teams." }
+          ]
+        },
+        {
+          "id": "comparison",
+          "type": "comparison-table",
+          "headline": "VPN vs. Perimeter",
+          "comparisonOurName": "Perimeter",
+          "comparisonCompetitorName": "Traditional VPN",
+          "comparisonRows": [
+            { "feature": "User experience", "us": "Invisible for low-risk access", "competitor": "Always-on, always slow" },
+            { "feature": "Security model", "us": "Zero trust, per-request verification", "competitor": "Castle-and-moat, network trust" },
+            { "feature": "Latency", "us": "Direct connection to resources", "competitor": "All traffic routed through central point" },
+            { "feature": "Setup time", "us": "30 minutes", "competitor": "Weeks to months" },
+            { "feature": "User adoption", "us": "98% average", "competitor": "60-70% (rest bypass)" }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From VPN headaches to zero trust in 30 minutes",
+          "layout": "numbered",
+          "items": [
+            { "title": "Connect your identity provider", "description": "Perimeter integrates with Okta, Google Workspace, Azure AD, and JumpCloud. Your existing user directory becomes the foundation of access control." },
+            { "title": "Define access policies", "description": "Specify who can access which resources under what conditions. Engineering gets AWS. Marketing gets HubSpot. Everyone gets Slack. Policies are readable, versionable, and auditable." },
+            { "title": "Deploy the agent", "description": "A lightweight agent on each device handles authentication, device health checks, and encrypted tunnels. Users install it once and forget it exists." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Teams that ditched the VPN",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "We turned off our VPN on a Friday and turned on Perimeter on a Monday. The IT ticket volume about connection issues dropped 89% that week. Our team didn't even notice the switch — which is the highest compliment.", "author": "Hannah Choi", "role": "Head of IT, Webflow" },
+            { "quote": "Perimeter gave us something our VPN never could: actual visibility into who's accessing what. We caught a contractor accessing production systems they had no business being in — something the VPN would have happily allowed.", "author": "Robert Anand", "role": "CISO, Mercury" },
+            { "quote": "The context-aware policies are the killer feature. My engineers SSH into staging servers 50 times a day without friction. But when someone tries to access prod from a new device, Perimeter steps in. Exactly the right trade-off.", "author": "Kai Patel", "role": "VP Engineering, Linear" },
+            { "quote": "We went from 'everyone hates the VPN' to 'what VPN?' in a week. Perimeter is the rare security tool that both the security team and the users actually like.", "author": "Sarah Oduya", "role": "Director of Remote, GitLab" }
+          ]
+        }
+      ],
+      "companyEmail": "perimeter-shield@tryartha.com",
+      "domain": "perimeter-shield.tryartha.com",
+      "projectSlug": "perimeter-shield",
+      "animationPreset": "playful",
+      "shadowStyle": "glass"
+    }
+  }
+]

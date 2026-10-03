@@ -1,0 +1,1032 @@
+[
+  {
+    "name": "Primer",
+    "slug": "primer-edu",
+    "tagline": "Where numbers come alive for curious kids",
+    "description": "Primer is a visual math learning platform for children ages 6-12 that transforms abstract concepts into interactive, colorful adventures. Kids don't just memorize formulas — they discover mathematical thinking through play, puzzles, and stories that make every concept stick.",
+    "mission": "Most children don't hate math. They hate feeling lost. The moment a kid falls behind — misses a concept, gets confused by notation, or simply zones out during a lecture — math becomes a wall instead of a window. And traditional approaches respond with more worksheets, more drilling, more of exactly what made them disengage in the first place.\n\nPrimer was built by a team of former math teachers, game designers, and child psychologists who believe that mathematical thinking is as natural to children as language. Watch any five-year-old sort their Halloween candy or argue about who got the bigger slice of pizza — they're already doing math. The problem isn't ability, it's presentation.\n\nOur platform turns every math concept into something you can see, touch, and play with. Fractions become pizza slices you actually divide. Multiplication becomes building blocks you stack into arrays. Geometry becomes treasure maps you navigate. Every interaction is designed around the way children's brains actually process spatial and numerical information — through pattern recognition, visual reasoning, and narrative context.\n\nWe work alongside school curricula rather than replacing them. Teachers assign Primer as practice and exploration, and our dashboard shows them exactly which concepts each student has internalized and which need more time. Parents see their kids asking to do math before bed — not because we've gamified it with hollow rewards, but because we've made it genuinely fascinating.\n\nOur north star is a generation of kids who see math not as a subject to survive, but as a superpower to wield. Every child deserves to feel the thrill of a pattern clicking into place.",
+    "marketResearch": "The K-12 edtech market reached $28 billion in 2025 and is projected to grow at 16% CAGR through 2030. Within this, math-specific learning platforms represent approximately $5.2 billion, driven by persistent achievement gaps — only 36% of U.S. fourth graders tested proficient in math on the 2024 NAEP assessment. Our SAM of $1.8 billion focuses on supplemental math tools for elementary students in English-speaking markets. Our initial SOM targets U.S. households with children 6-12 and progressive elementary schools, representing roughly $240 million.\n\nThe competitive landscape includes established players like Khan Academy Kids (free, broad but not math-focused), Prodigy Math (game-based but relies on extrinsic rewards over genuine understanding), and DreamBox (adaptive but visually dated and enterprise-focused). Newer entrants like Photomath focus on homework help rather than conceptual understanding. Primer differentiates through its visual-first pedagogy — every concept is taught through spatial manipulation and interactive models rather than video lectures or drill-and-kill exercises.\n\nOur primary customer segments are parents of elementary-age children seeking engaging math support (average willingness to pay $12-20/month for educational apps) and elementary schools looking to supplement core curricula with adaptive practice tools. The parental anxiety around math achievement creates strong demand — 78% of parents report concern about their child's math preparation.\n\nOur GTM motion combines organic virality (kids sharing progress with classmates) with targeted digital advertising to parents of 6-8 year olds during back-to-school and report card seasons. School adoption follows a teacher-champion model: free classroom accounts convert to district licenses when principals see engagement data.",
+    "landingPage": {
+      "companyName": "Primer",
+      "tagline": "Where numbers come alive for curious kids",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#FF6B35",
+          "primaryLight": "#FF9A6C",
+          "primaryDark": "#E84D0E",
+          "accent": "#6C63FF",
+          "background": "#FFFDF7",
+          "surface": "#FFFFFF",
+          "text": "#2D1B06",
+          "textMuted": "#8A7560",
+          "border": "#F5E6D3"
+        },
+        "fontFamily": "'Nunito', sans-serif",
+        "borderRadius": "1.25rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Math that kids actually want to do",
+        "subheadline": "Primer turns abstract math concepts into colorful, interactive adventures. Kids ages 6-12 discover multiplication through building blocks, fractions through pizza puzzles, and geometry through treasure hunts. No worksheets. No tears. Just genuine mathematical wonder.",
+        "ctaText": "Try a free lesson",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "playful",
+        "headline": "Ready to watch your kid fall in love with math?",
+        "subheadline": "Free for the first 20 lessons. No credit card needed. Cancel anytime.",
+        "buttonText": "Start the adventure"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Learning math should feel like play",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Pick a world", "description": "Kids choose from themed math worlds — Fraction Forest, Multiplication Mountain, Geometry Galaxy. Each world is a visual adventure built around a core concept cluster." },
+            { "icon": "2", "title": "Explore and discover", "description": "Interactive puzzles let kids manipulate shapes, split objects, and build patterns. The platform adapts difficulty in real-time based on how each child reasons through problems." },
+            { "icon": "3", "title": "Watch understanding grow", "description": "Parents and teachers see exactly which concepts have clicked and which need more exploration. Progress is measured in understanding, not just correct answers." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built around how kids actually learn",
+          "layout": "bento",
+          "items": [
+            { "icon": "🎨", "title": "Visual-first learning", "description": "Every concept starts with something kids can see and manipulate. Fractions are pizza slices. Arrays are building blocks. Angles are clock hands." },
+            { "icon": "🧩", "title": "Adaptive difficulty", "description": "Our engine detects when a child is breezing through or struggling and adjusts in real-time. No child gets bored. No child gets overwhelmed." },
+            { "icon": "📖", "title": "Story-driven lessons", "description": "Math concepts are woven into narratives that give kids a reason to solve problems. Help the explorer divide treasure. Build a bridge with the right angles." },
+            { "icon": "👩‍🏫", "title": "Teacher dashboard", "description": "Classroom reports show concept-level mastery for every student. Identify gaps before they become walls. Assign targeted practice with one click." },
+            { "icon": "🏠", "title": "Parent insights", "description": "Weekly reports show what your child learned, what they struggled with, and conversation starters for math talk at home." },
+            { "icon": "🌍", "title": "Curriculum aligned", "description": "Maps to Common Core, UK National Curriculum, and Singapore Math standards. Supplements classroom learning rather than competing with it." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Kids are thriving with Primer",
+          "stats": [
+            { "value": "89", "label": "Of kids ask to keep playing", "suffix": "%" },
+            { "value": "2.4", "label": "Grade levels gained per year", "suffix": "x" },
+            { "value": "340", "label": "Schools using Primer", "suffix": "+" },
+            { "value": "23", "label": "Minutes avg daily engagement", "suffix": "min" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Parents and teachers are noticing",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "My daughter used to cry during math homework. Now she finishes dinner and asks if she can do Primer before bed. I genuinely did not think this was possible.", "author": "Rachel Kim", "role": "Parent of 8-year-old" },
+            { "quote": "The fraction module alone is worth it. Kids who were completely lost with denominators started getting it within two weeks of using the visual manipulatives.", "author": "David Okafor", "role": "3rd Grade Teacher, Austin ISD" },
+            { "quote": "What I love is that Primer doesn't just drill facts. My son understands WHY 3x4 equals 12 because he built it with blocks. That conceptual foundation changes everything.", "author": "Maria Santos", "role": "Parent of 7-year-old" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Invest in your child's mathematical confidence",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Explorer", "price": "0", "period": "", "features": ["20 free lessons", "2 math worlds", "Basic progress tracking", "Works on any device"], "ctaText": "Start free" },
+            { "name": "Family", "price": "14", "period": "/month", "features": ["Unlimited lessons & worlds", "Up to 3 child profiles", "Detailed parent reports", "Offline mode", "Curriculum alignment view"], "ctaText": "Try 7 days free" },
+            { "name": "Classroom", "price": "6", "period": "/student/month", "features": ["Full teacher dashboard", "Class-wide gap analysis", "Assignment tools", "LMS integration", "District billing available"], "ctaText": "Start pilot" }
+          ]
+        }
+      ],
+      "companyEmail": "primer-edu@tryartha.com",
+      "domain": "primer-edu.tryartha.com",
+      "projectSlug": "primer-edu",
+      "animationPreset": "bouncy",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Fluent",
+    "slug": "fluent-learn",
+    "tagline": "Talk your way to fluency with AI conversation partners",
+    "description": "Fluent pairs language learners with AI conversation partners that adapt to their level, interests, and goals. Instead of memorizing vocabulary lists, learners practice real dialogue — ordering coffee in Paris, negotiating in Mandarin, or debating philosophy in German.",
+    "mission": "The language learning industry has a dirty secret: most people who complete a course still can't hold a conversation. They can conjugate verbs on paper but freeze when a taxi driver asks where they're going. The gap between classroom knowledge and real-world fluency is enormous, and traditional apps have made it worse by optimizing for streak counts instead of speaking confidence.\n\nFluent exists because the only way to learn to speak is to speak. Our AI conversation partners simulate the messy, unpredictable, context-rich experience of talking to a real person — complete with slang, cultural nuances, and the occasional misunderstanding. They're patient when you struggle, challenging when you're ready, and always available at 3am when insomnia and ambition collide.\n\nWhat makes our approach different from a chatbot is depth. Each AI partner has a persona, a backstory, and opinions. You're not practicing with a translation engine — you're having coffee with Sophia, a Roman architect who is passionate about urban design and will absolutely correct your subjunctive. The emotional engagement of genuine conversation is what makes language stick.\n\nWe build on decades of second-language acquisition research showing that comprehensible input — language slightly above the learner's current level — drives fluency faster than any other method. Our AI calibrates every response to sit in that sweet spot, pushing learners just enough to grow without overwhelming them into silence.\n\nOur vision is a world where anyone can become conversationally fluent in a new language within six months, without ever booking a flight or finding a conversation partner. The technology is finally here. We're making it accessible.",
+    "marketResearch": "The global language learning market hit $67 billion in 2025, growing at 18% CAGR. Digital language learning specifically represents $22 billion, with mobile-first platforms dominating consumer spend. The AI-powered conversation practice segment is nascent but growing rapidly as LLM capabilities improve. Our TAM is $22 billion in digital language learning, SAM is $6.5 billion targeting adults learning the top 10 global languages via mobile apps, and our initial SOM is $350 million focused on English speakers learning Spanish, French, German, Japanese, and Mandarin.\n\nDuolingo dominates with 100M+ monthly active users but is widely criticized for producing learners who can match pictures to words but struggle in real conversations. Babbel and Rosetta Stone offer more structured curricula but lack adaptive conversation practice. Italki and Preply connect learners with human tutors at $15-40/hour — effective but expensive and scheduling-dependent. Fluent occupies the gap: conversation-first practice at app pricing, available 24/7.\n\nOur target users are motivated adults (25-45) learning a language for career advancement, travel, or personal enrichment. This demographic spends an average of $180/year on language learning and values speaking ability over test scores. Secondary segments include expatriates needing rapid functional fluency and professionals preparing for international roles.\n\nGTM strategy starts with a freemium app offering 3 free conversations daily, converting to $16/month for unlimited practice and advanced personas. Viral growth comes from shareable conversation highlights and a referral program offering bonus conversation credits. B2B expansion targets corporate language training programs, replacing expensive tutor-based programs with scalable AI practice.",
+    "landingPage": {
+      "companyName": "Fluent",
+      "tagline": "Talk your way to fluency with AI conversation partners",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#34D399",
+          "primaryLight": "#6EE7B7",
+          "primaryDark": "#059669",
+          "accent": "#FBBF24",
+          "background": "#0A1628",
+          "surface": "#132038",
+          "text": "#F0FDF4",
+          "textMuted": "#94A3B8",
+          "border": "#1E3A5F"
+        },
+        "fontFamily": "'DM Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Stop studying languages. Start speaking them.",
+        "subheadline": "Fluent gives you AI conversation partners who adapt to your level, remember your progress, and never judge your accent. Practice real dialogue in Spanish, French, German, Japanese, and Mandarin — anytime, anywhere.",
+        "ctaText": "Have your first conversation",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Your next conversation is waiting",
+        "subheadline": "3 free conversations daily. Upgrade for unlimited practice with every persona.",
+        "buttonText": "Download Fluent free"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From hello to fluent in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Choose your scenario", "description": "Ordering food in Tokyo? Negotiating rent in Berlin? Chatting at a party in Barcelona? Pick a real-world situation and a persona who lives it." },
+            { "icon": "2", "title": "Have a real conversation", "description": "Speak or type in your target language. Your AI partner responds naturally, adjusting complexity to push you just past your comfort zone. Gentle corrections happen in context, not as interruptions." },
+            { "icon": "3", "title": "Review and grow", "description": "After each conversation, see a breakdown of new vocabulary, grammar patterns you used correctly, and areas to practice next. Spaced repetition locks in what you learned." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Why Fluent works when apps and textbooks don't",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🗣️", "title": "Real conversation, not fill-in-the-blank", "description": "Every session is a flowing dialogue. No multiple choice. No word banks. Just you and a partner figuring out how to communicate — like the real world." },
+            { "icon": "🎭", "title": "Personas with personality", "description": "Meet Sophia the Roman architect, Kenji the Osaka barista, or Clara the Berlin startup founder. Each persona has a life, opinions, and a unique way of speaking." },
+            { "icon": "🎯", "title": "Adaptive difficulty", "description": "Powered by comprehensible input theory. Every response is calibrated to be slightly above your current level — challenging enough to grow, clear enough to understand." },
+            { "icon": "🔊", "title": "Pronunciation coaching", "description": "Real-time feedback on your pronunciation with visual guides. Practice individual sounds or full sentences until they feel natural." },
+            { "icon": "📊", "title": "Fluency metrics that matter", "description": "Track conversation length, response time, vocabulary range, and grammatical complexity. Real fluency indicators, not streak counts." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From learners who found their voice",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I studied Spanish for three years on another app and couldn't order food in Mexico City. After two months of Fluent conversations, I had a 30-minute chat with my Uber driver about politics. In Spanish.", "author": "Jordan Mitchell", "role": "Product Manager, San Francisco" },
+            { "quote": "The personas are what make it addictive. I genuinely look forward to my morning coffee conversation with Kenji. My Japanese has improved more in 8 weeks than in 2 years of classes.", "author": "Emma Lindqvist", "role": "UX Designer, Stockholm" },
+            { "quote": "As someone with conversation anxiety, having an AI partner who never judges me was a game changer. I built confidence with Fluent before my first real tutoring session.", "author": "Tomasz Kowalski", "role": "Software Engineer, Warsaw" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Fluency shouldn't cost a fortune",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Free", "price": "0", "period": "", "features": ["3 conversations per day", "2 persona types", "Basic vocabulary review", "1 language"], "ctaText": "Start talking" },
+            { "name": "Fluent Plus", "price": "16", "period": "/month", "features": ["Unlimited conversations", "All personas and scenarios", "Pronunciation coaching", "Up to 3 languages", "Fluency analytics dashboard"], "ctaText": "Go unlimited" },
+            { "name": "Teams", "price": "12", "period": "/seat/month", "features": ["Everything in Plus", "Admin dashboard", "Progress tracking per employee", "Custom business scenarios", "Invoice billing"], "ctaText": "Contact sales" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Questions before your first conversation",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Which languages are available?", "answer": "We currently support Spanish, French, German, Japanese, and Mandarin Chinese. Portuguese, Italian, and Korean are launching in Q3 2026." },
+            { "question": "Do I need to speak out loud?", "answer": "You can speak or type. We recommend speaking for the best fluency results, but typing is great for practice in public spaces or when you're building initial confidence." },
+            { "question": "How is this different from ChatGPT for language practice?", "answer": "Fluent is purpose-built for language acquisition. Our AI calibrates every response to your exact proficiency level, tracks your vocabulary growth over time, provides pronunciation feedback, and uses pedagogically-designed personas that create engaging, progressive conversations." },
+            { "question": "Can complete beginners use Fluent?", "answer": "Yes. For beginners, conversations start with guided scenarios that mix your native language with the target language, gradually increasing the ratio as you grow. It feels like learning to swim in the shallow end." }
+          ]
+        }
+      ],
+      "companyEmail": "fluent-learn@tryartha.com",
+      "domain": "fluent-learn.tryartha.com",
+      "projectSlug": "fluent-learn",
+      "animationPreset": "smooth",
+      "shadowStyle": "minimal"
+    }
+  },
+  {
+    "name": "Meridian",
+    "slug": "meridian-academy",
+    "tagline": "The management training your company forgot to give you",
+    "description": "Meridian is a leadership development platform designed specifically for first-time managers. Through cohort-based programs, 1-on-1 AI coaching, and real-world practice exercises, new managers learn to lead teams with confidence instead of faking it until they break.",
+    "mission": "Every year, millions of talented individual contributors get promoted into management with virtually no preparation. One day you're writing code or closing deals, and the next you're responsible for other people's careers, performance reviews, and emotional well-being. The assumption is that being great at your job means you'll be great at managing others. This assumption is catastrophically wrong.\n\nMeridian was founded by three first-time managers who learned leadership the hard way — through painful feedback, lost team members, and years of trial and error that could have been compressed into months with the right guidance. We're building the training program we wish had existed on the day we first heard the words \"you're the new team lead.\"\n\nOur curriculum is ruthlessly practical. We don't teach leadership theory or make people read case studies about Jack Welch. We teach the specific, tactical skills that first-time managers need in their first 90 days: how to run a productive one-on-one, how to give feedback that doesn't destroy trust, how to manage someone who was your peer yesterday, how to have the performance conversation you've been dreading.\n\nEvery lesson comes with a practice exercise that managers complete with their actual team. Learn about effective delegation on Tuesday, practice it with a real project on Wednesday, debrief with your cohort on Thursday. The learning loop is tight, contextual, and immediately applicable.\n\nWe believe that good management is the single highest-leverage investment a company can make. One great manager affects eight to twelve people every single day. We're here to create more of them, faster.",
+    "marketResearch": "The corporate leadership development market is valued at $58 billion globally, yet most spending goes to senior executive programs. The specific segment of first-time manager training is underserved, representing roughly $8 billion in annual spend despite being the most critical transition point in any professional's career. Research from Gartner shows that 60% of new managers underperform in their first two years. Our SAM of $3.2 billion targets mid-market and enterprise companies in North America and Europe. Our SOM of $280 million focuses on tech companies with 200-5,000 employees where IC-to-manager transitions are frequent.\n\nCompetitors include BetterUp (coaching platform, $300-500/person/month, focused on senior leaders), Hone (live group training, broad leadership topics), and LinkedIn Learning (self-paced video, no practice or cohort component). Internal L&D teams often build ad hoc programs that vary wildly in quality. Meridian differentiates through its exclusive focus on first-time managers, its practice-with-your-real-team methodology, and its cohort model that creates peer accountability.\n\nOur primary buyer is the VP of People or Head of L&D at companies experiencing rapid growth, where the number of new managers is outpacing the organization's ability to train them. The average company promotes 15-20 new managers per year. At our per-seat pricing, this represents $15K-45K in annual contract value — well within departmental budgets.\n\nOur GTM starts with a self-serve tier for individual managers who are investing in themselves, building brand awareness and collecting testimonials. Enterprise sales follow, targeting HR leaders through content marketing, conference sponsorships, and a network of HR advisors who recommend Meridian during organizational scaling.",
+    "landingPage": {
+      "companyName": "Meridian",
+      "tagline": "The management training your company forgot to give you",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#1E40AF",
+          "primaryLight": "#60A5FA",
+          "primaryDark": "#1E3A8A",
+          "accent": "#DC2626",
+          "background": "#F8FAFC",
+          "surface": "#FFFFFF",
+          "text": "#0F172A",
+          "textMuted": "#64748B",
+          "border": "#E2E8F0"
+        },
+        "fontFamily": "'Lora', serif",
+        "borderRadius": "0.375rem"
+      },
+      "hero": {
+        "layout": "left-aligned",
+        "headline": "You got promoted. Now what?",
+        "subheadline": "Meridian is a 12-week leadership program built for first-time managers. Cohort-based learning, real-world practice exercises, and AI coaching that helps you lead your team with clarity from day one.",
+        "ctaText": "Explore the program",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your team deserves a trained manager",
+        "subheadline": "Next cohort starts the first Monday of every month. Individual and team enrollments available.",
+        "buttonText": "Enroll now"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "12 weeks from nervous to confident",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Join a cohort of 12 new managers", "description": "You're matched with peers at the same career stage across different companies. Small group size ensures everyone participates and connects." },
+            { "icon": "2", "title": "Learn tactical skills weekly", "description": "Each week covers one specific management skill: feedback delivery, delegation frameworks, difficult conversations, one-on-ones, hiring. No fluff, just what you need." },
+            { "icon": "3", "title": "Practice with your actual team", "description": "Every lesson comes with a real-world exercise. Use the delegation framework with a real project. Run an improved one-on-one this week. Debrief with your cohort." },
+            { "icon": "4", "title": "Get coached between sessions", "description": "AI-powered coaching available 24/7 for the situations that can't wait. Preparing for a tough conversation? Rehearse it with your AI coach first." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "What you'll actually learn",
+          "layout": "cards",
+          "items": [
+            { "icon": "💬", "title": "The feedback conversation", "description": "How to deliver constructive feedback that builds trust instead of destroying it. Practice scripts for the five most common feedback scenarios." },
+            { "icon": "🤝", "title": "Managing former peers", "description": "The awkward transition from teammate to boss. Frameworks for resetting relationships without losing authenticity." },
+            { "icon": "📋", "title": "Effective delegation", "description": "When to delegate, what to delegate, and how to delegate without micromanaging. The accountability framework that actually works." },
+            { "icon": "🎯", "title": "Running one-on-ones", "description": "Templates, question banks, and structures that turn status updates into the most valuable 30 minutes of your week." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Impact after 12 weeks",
+          "stats": [
+            { "value": "91", "label": "Managers report higher confidence", "suffix": "%" },
+            { "value": "3.2", "label": "Avg team engagement lift", "suffix": "pts" },
+            { "value": "840", "label": "Managers trained to date", "suffix": "+" },
+            { "value": "47", "label": "Less first-year manager turnover", "suffix": "%" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From managers who wished they'd started sooner",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was promoted six months before I found Meridian and had already made every mistake in the book. The cohort helped me reset my approach. My team's engagement scores went up 22 points in one quarter.", "author": "Andre Williams", "role": "Engineering Manager, Figma" },
+            { "quote": "The AI coaching saved me. I had a performance conversation I was dreading, rehearsed it with the coach three times, and it went better than any difficult conversation I've ever had.", "author": "Suki Tanaka", "role": "Product Lead, Notion" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "An investment that pays for itself in retained talent",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Individual", "price": "149", "period": "/month for 3 months", "features": ["Full 12-week cohort program", "AI coaching access", "Practice exercise library", "Peer network access", "Certificate of completion"], "ctaText": "Join next cohort" },
+            { "name": "Team", "price": "129", "period": "/person/month", "features": ["Everything in Individual", "5+ manager enrollment", "Company-specific exercises", "L&D admin dashboard", "Quarterly impact reports"], "ctaText": "Enroll your managers" },
+            { "name": "Enterprise", "price": "Custom", "period": "", "features": ["Unlimited seats", "Custom curriculum modules", "Executive coaching add-on", "Integration with HRIS", "Dedicated success partner"], "ctaText": "Talk to our team" }
+          ]
+        }
+      ],
+      "companyEmail": "meridian-academy@tryartha.com",
+      "domain": "meridian-academy.tryartha.com",
+      "projectSlug": "meridian-academy",
+      "animationPreset": "subtle",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Chalk",
+    "slug": "chalk-study",
+    "tagline": "Flashcards that write themselves, schedules that actually work",
+    "description": "Chalk is a spaced repetition platform that uses AI to generate high-quality flashcards from any source material — lecture notes, textbooks, PDFs, or even YouTube videos. Combined with a scientifically-optimized review schedule, Chalk ensures you remember everything you study.",
+    "mission": "Every student knows they should use flashcards and spaced repetition. The research is overwhelming — it's the most effective memorization technique ever studied. And yet most students don't use it, or they start and quit within a week. The reason is simple: creating good flashcards is tedious, and maintaining a review schedule requires discipline that vanishes during midterm season.\n\nChalk removes both barriers. Drop in your lecture slides, paste a textbook chapter, or link a YouTube lecture, and Chalk generates a complete flashcard deck in seconds — not just simple term-definition pairs, but cards that test understanding through cloze deletions, scenario questions, and conceptual connections. The AI doesn't just extract facts; it understands what's worth remembering and how to test for genuine comprehension.\n\nOnce your cards exist, Chalk's scheduling algorithm takes over. Built on a modernized version of the SM-2 algorithm enhanced with machine learning, it predicts exactly when you're about to forget each card and schedules a review at the optimal moment. Study ten minutes a day and retain months of material. The system learns your personal forgetting curves and adapts — everyone's memory works differently, and your schedule should too.\n\nWe're particularly focused on medical students, law students, and language learners — communities where the volume of memorization is immense and the stakes of forgetting are real. But the principles apply to anyone who needs knowledge to stick: certification preppers, professionals learning new domains, or curious people who are tired of reading books and remembering nothing.",
+    "marketResearch": "The digital flashcard and study tool market is valued at $3.8 billion, anchored by Quizlet's 60M monthly active users. The broader test prep and study aid market reaches $12 billion. Spaced repetition specifically is experiencing a renaissance driven by evidence-based learning advocates on social media and the growing demands of professional certification programs. Our TAM encompasses the $12 billion study tool market, SAM of $4.2 billion targets digital-first students and professionals in English-speaking markets, and SOM of $180 million focuses on medical students, law students, and IT certification preppers.\n\nQuizlet dominates flashcards but lacks intelligent scheduling — reviews are random, not spaced. Anki is the gold standard for spaced repetition but has an interface from 2006 and requires manual card creation that takes longer than studying itself. RemNote and Mochi bridge the gap partially but lack AI card generation. Chalk is the first platform to combine Anki-grade scheduling algorithms with AI-powered card generation and a modern mobile-first interface.\n\nOur primary users are medical students (1.1M in the U.S. alone, spending an average of $200/year on study tools), followed by law students, engineering students, and IT professionals pursuing certifications. These users face enormous memorization loads and are highly motivated to adopt evidence-based study methods. The medical student community in particular has a strong culture of tool-sharing, creating natural viral distribution.\n\nGTM strategy leverages the study tool influencer ecosystem on YouTube and Reddit. We sponsor popular study-with-me creators and provide free premium accounts to student ambassadors. Organic growth comes from shared decks — when one med student creates a pharmacology deck, their entire class adopts Chalk to study it.",
+    "landingPage": {
+      "companyName": "Chalk",
+      "tagline": "Flashcards that write themselves, schedules that actually work",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#A78BFA",
+          "primaryLight": "#C4B5FD",
+          "primaryDark": "#7C3AED",
+          "accent": "#F472B6",
+          "background": "#0F0B1E",
+          "surface": "#1A1430",
+          "text": "#F5F3FF",
+          "textMuted": "#9CA3AF",
+          "border": "#2E2550"
+        },
+        "fontFamily": "'Inter', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Remember everything you study",
+        "subheadline": "Chalk turns your notes, textbooks, and lectures into AI-generated flashcards with a scientifically-optimized review schedule. Ten minutes a day. Months of retention. Zero manual card creation.",
+        "ctaText": "Upload your first notes",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "card",
+        "headline": "Your next exam is closer than you think",
+        "subheadline": "Free for up to 200 cards. Pro unlocks unlimited decks and advanced AI features.",
+        "buttonText": "Start studying smarter"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From notes to knowledge in three steps",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Drop in your material", "description": "Upload PDFs, paste notes, link YouTube lectures, or snap photos of textbook pages. Chalk reads and understands the content in seconds." },
+            { "icon": "2", "title": "AI generates your cards", "description": "Get a complete deck with cloze deletions, concept questions, and scenario-based cards. Review and edit any card, or accept the whole deck with one tap." },
+            { "icon": "3", "title": "Study at the perfect time", "description": "Chalk schedules reviews at the exact moment you're about to forget. Your personal forgetting curve is modeled and adapted over time." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Smarter than a stack of index cards",
+          "layout": "bento",
+          "items": [
+            { "icon": "🧠", "title": "AI card generation", "description": "Not just definitions. Chalk creates cloze deletions, scenario questions, image occlusion cards, and conceptual relationship tests from your source material." },
+            { "icon": "📈", "title": "Adaptive scheduling", "description": "A modernized SM-2 algorithm enhanced with ML learns your personal memory patterns. Cards you struggle with appear more often. Easy cards fade to monthly reviews." },
+            { "icon": "🎓", "title": "Shared decks", "description": "Browse community-created decks for popular courses — USMLE Step 1, bar exam prep, AWS certifications. Use them as-is or remix with your own notes." },
+            { "icon": "📱", "title": "Study anywhere", "description": "Mobile-first design means you can knock out a review session on the bus, in a waiting room, or between classes. Offline mode included." },
+            { "icon": "📊", "title": "Retention analytics", "description": "See your predicted retention rate for every deck. Know exactly how prepared you are for your exam, not in feelings, but in data." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The science is clear. The results are better.",
+          "stats": [
+            { "value": "94", "label": "Average retention at exam time", "suffix": "%" },
+            { "value": "73", "label": "Less time creating cards", "suffix": "%" },
+            { "value": "18", "label": "Cards reviewed per session avg", "suffix": "M" },
+            { "value": "4.8", "label": "App Store rating", "suffix": "★" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From students who stopped cramming",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I used Anki for two years and spent more time making cards than reviewing them. Chalk generates better cards from my lecture slides in 30 seconds than I made in 30 minutes.", "author": "James Okafor", "role": "MS2, Johns Hopkins" },
+            { "quote": "The scheduling algorithm is eerily accurate. Cards show up right when I'm about to forget them. I scored a 262 on Step 1 and Chalk was my primary study tool.", "author": "Diana Reyes", "role": "MS3, UCLA" },
+            { "quote": "Passed all three AWS associate certifications in four months using Chalk. The AI-generated scenario questions were better than most practice exams.", "author": "Raj Patel", "role": "Cloud Engineer" },
+            { "quote": "As a law student, the volume of case law I need to memorize is insane. Chalk turned my case briefs into flashcards automatically. Game changer for bar prep.", "author": "Olivia Chen", "role": "3L, Columbia Law" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Free", "price": "0", "period": "", "features": ["200 active cards", "Basic AI generation", "Standard scheduling", "1 shared deck import"], "ctaText": "Get started" },
+            { "name": "Pro", "price": "9", "period": "/month", "features": ["Unlimited cards & decks", "Advanced AI card types", "Image occlusion", "Retention analytics", "Offline mode", "Priority AI generation"], "ctaText": "Go Pro" }
+          ]
+        }
+      ],
+      "companyEmail": "chalk-study@tryartha.com",
+      "domain": "chalk-study.tryartha.com",
+      "projectSlug": "chalk-study",
+      "animationPreset": "fade",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Orbit",
+    "slug": "orbit-lab",
+    "tagline": "A science experiment on your doorstep, every month",
+    "description": "Orbit delivers monthly hands-on science experiment kits to kids ages 5-14, paired with a digital companion app that extends each experiment into deeper learning. From building volcanoes to growing crystals to coding simple robots, every box turns kitchens into laboratories.",
+    "mission": "Science education has a paradox. Kids are natural scientists — they ask why the sky is blue, how magnets work, and what would happen if you mixed everything under the kitchen sink. But by middle school, most of them think science is boring. Somewhere between their natural curiosity and the standardized curriculum, the magic gets squeezed out.\n\nOrbit was created to protect that magic. Every month, we deliver a box that turns a kid's kitchen table into a laboratory. Inside is everything they need for a real experiment — not a craft project disguised as science, but a genuine investigation with a hypothesis, variables, and results that might actually surprise them. The baking soda volcano has its place, but we go further: kids extract DNA from strawberries, build simple circuits, grow bacterial cultures, and engineer bridges that hold real weight.\n\nWhat makes Orbit different from other subscription boxes is the depth. Each kit comes with a companion app that extends the experiment into the underlying science. After building an electromagnet, kids explore how MRI machines use the same principles. After growing crystals, they learn how geologists study mineral formation. We connect the hands-on experience to the bigger scientific picture, building genuine understanding rather than just a fun afternoon.\n\nWe calibrate every kit for safety, mess tolerance, and adult involvement. A five-year-old can do most experiments with a parent nearby. A twelve-year-old can run them independently. The goal is autonomy — we want kids to feel like scientists, not like they're following instructions. Each kit includes open-ended extension challenges that push curious kids to design their own experiments.\n\nOur dream is that every Orbit kid arrives at their first high school chemistry class already knowing what a hypothesis is, already comfortable with failure, and already hooked on the thrill of discovering something new.",
+    "marketResearch": "The children's educational subscription box market is valued at $4.2 billion, growing at 22% CAGR as parents increasingly seek alternatives to screen time. STEM-focused boxes represent approximately $1.4 billion of this market. Our TAM encompasses the $4.2 billion educational box market, our SAM of $1.8 billion targets STEM boxes for English-speaking families with children 5-14, and our SOM of $150 million focuses on households in the U.S. and UK with above-median income and children in the target age range.\n\nKiwiCo is the dominant player with an estimated $200M+ in annual revenue across multiple age-segmented lines (Kiwi Crate, Tinker Crate, etc.). MEL Science focuses on chemistry with strong production quality but narrow scope. Little Passports covers geography rather than STEM. Orbit differentiates through the digital companion app that transforms a physical kit from a one-afternoon activity into weeks of extended learning, and through our focus on real scientific methodology rather than craft-oriented projects.\n\nOur target customer is the \"science-curious parent\" — typically college-educated, household income above $80K, with children ages 5-10 as the primary entry point. These parents value educational enrichment and are willing to spend $25-40/month on quality STEM activities. Retention in subscription boxes averages 6-8 months; Orbit targets 10+ months by making each kit a building block that connects to previous experiments.\n\nGTM strategy combines Instagram and YouTube influencer partnerships with targeted Facebook ads during gifting seasons (birthdays, holidays, back-to-school). Gift subscriptions represent 35% of initial purchases and convert to self-subscriptions at a 28% rate. School partnerships — where teachers recommend Orbit as supplemental home science — provide a trusted endorsement channel.",
+    "landingPage": {
+      "companyName": "Orbit",
+      "tagline": "A science experiment on your doorstep, every month",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#0891B2",
+          "primaryLight": "#22D3EE",
+          "primaryDark": "#0E7490",
+          "accent": "#F97316",
+          "background": "#F0FDFA",
+          "surface": "#FFFFFF",
+          "text": "#134E4A",
+          "textMuted": "#5F8A85",
+          "border": "#CCFBF1"
+        },
+        "fontFamily": "'Quicksand', sans-serif",
+        "borderRadius": "1.5rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Turn your kitchen into a laboratory",
+        "subheadline": "Orbit delivers a real science experiment to your door every month. Kids ages 5-14 extract DNA, build circuits, grow crystals, and discover the scientific method through hands-on wonder. Everything they need is in the box.",
+        "ctaText": "Choose your first experiment",
+        "ctaHref": "#pricing"
+      },
+      "cta": {
+        "layout": "playful",
+        "headline": "The best gift is one that arrives every month",
+        "subheadline": "Give the gift of curiosity. Subscriptions start at $29/month with free shipping.",
+        "buttonText": "Gift a subscription"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From box to breakthrough",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "A box arrives", "description": "Every month, a new Orbit kit lands on your doorstep. Inside: all materials, a beautifully illustrated experiment guide, and a safety checklist for parents." },
+            { "icon": "2", "title": "The experiment begins", "description": "Kids follow the guide to run a real investigation — complete with hypothesis, procedure, and observation journal. Designed for independence with age-appropriate safety guardrails." },
+            { "icon": "3", "title": "The learning goes deeper", "description": "The companion app connects the experiment to real-world science. Built a volcano? Now explore how geologists predict eruptions. Each kit becomes a gateway to bigger questions." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Not just a box. A scientific education.",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🔬", "title": "Real experiments, not crafts", "description": "Every kit teaches a real scientific concept through investigation. Kids form hypotheses, control variables, and draw conclusions — the actual scientific method, made accessible." },
+            { "icon": "📱", "title": "Digital companion app", "description": "Extends each experiment into weeks of learning. AR visualizations, video explanations, quizzes, and extension challenges that connect hands-on results to real-world science." },
+            { "icon": "👶", "title": "Age-calibrated tracks", "description": "Explorer Track (5-7), Investigator Track (8-10), and Scientist Track (11-14). Same theme each month, different complexity levels. Siblings can experiment together." },
+            { "icon": "🧪", "title": "Everything included", "description": "No trips to the store. Every chemical, tool, and material is in the box, pre-measured and safety-tested. Just add curiosity and a kitchen table." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "What families are saying",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "My 7-year-old told her teacher she wants to be a chemist after the crystal growing kit. That box sparked something I couldn't have created with a textbook.", "author": "Sarah Johansson", "role": "Parent of two, Minneapolis" },
+            { "quote": "We've tried KiwiCo and MEL Science. Orbit is the only one where my kids actually learn the science behind the experiment instead of just following steps.", "author": "Marcus Thompson", "role": "Parent, Denver" },
+            { "quote": "The app is what makes it special. My daughter spent three weeks after the circuit kit exploring how different materials conduct electricity. She's nine.", "author": "Lin Wei", "role": "Parent, Seattle" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Plans for every young scientist",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Monthly", "price": "34", "period": "/month", "features": ["1 experiment kit per month", "Companion app access", "Illustrated experiment guide", "Free shipping", "Cancel anytime"], "ctaText": "Subscribe monthly" },
+            { "name": "6-Month", "price": "29", "period": "/month", "features": ["Everything in Monthly", "Save $30 over 6 months", "Bonus extension kit", "Early access to new themes"], "ctaText": "Best value", "highlighted": true },
+            { "name": "Annual", "price": "25", "period": "/month", "features": ["Everything in 6-Month", "Save $108 per year", "Exclusive annual-only kit", "Priority customer support", "Sibling add-on discount"], "ctaText": "Go annual" }
+          ]
+        }
+      ],
+      "companyEmail": "orbit-lab@tryartha.com",
+      "domain": "orbit-lab.tryartha.com",
+      "projectSlug": "orbit-lab",
+      "animationPreset": "bouncy",
+      "shadowStyle": "soft"
+    }
+  },
+  {
+    "name": "Folio",
+    "slug": "folio-edu",
+    "tagline": "Assessment that showcases what students can actually do",
+    "description": "Folio is a portfolio-based assessment platform for creative programs — design, art, writing, film, and architecture schools. Instead of reducing student work to letter grades, Folio lets students curate digital portfolios that demonstrate growth, process, and mastery to instructors and future employers.",
+    "mission": "Creative education has an assessment problem. You can't reduce a design thesis to a B+. You can't capture the evolution of a filmmaker's visual language in a percentage score. Yet most creative programs still rely on traditional grading systems that were designed for multiple-choice exams, forcing instructors to flatten nuanced, subjective evaluation into a number that tells students almost nothing about their growth.\n\nFolio reimagines assessment for disciplines where the work is the evidence. Our platform lets students build living portfolios throughout their program — uploading projects, documenting process, reflecting on decisions, and receiving structured feedback from instructors and peers. Assessment happens through rubric-based evaluation directly on the portfolio, creating a rich record of growth that a transcript could never capture.\n\nFor instructors, Folio solves the logistics nightmare of creative assessment. Instead of juggling USB drives, email attachments, and physical submissions, everything lives in one platform with inline annotation tools, customizable rubrics, and cohort-wide analytics that reveal patterns in student development. Faculty spend less time on administration and more time on the mentorship that actually matters.\n\nFor students, the portfolio they build in Folio becomes a career asset. Graduating with a curated, feedback-annotated portfolio is infinitely more valuable than a GPA when applying for creative roles. Our industry partnerships let students share their Folio profiles directly with employers who are tired of evaluating candidates through resumes alone.\n\nWe started with design schools because the portfolio tradition is strongest there, but our vision extends to any discipline where showing your work matters more than answering questions about it.",
+    "marketResearch": "The educational assessment technology market is valued at $7.3 billion, but the vast majority serves standardized testing. Portfolio-based assessment tools represent a niche of approximately $800 million, growing at 28% CAGR as creative programs expand and competency-based education gains mainstream acceptance. Our TAM encompasses the $800 million portfolio assessment market, our SAM of $320 million targets post-secondary creative programs in North America and Europe, and our SOM of $45 million focuses on design, art, and architecture programs at accredited institutions.\n\nExisting solutions include generic LMS platforms (Canvas, Blackboard) that treat portfolios as file uploads with no assessment workflow, Portfolium (acquired by Instructure, focused on career portfolios rather than formative assessment), and Seesaw (K-12 focused, lacks higher education features). Many programs use ad hoc solutions — Google Drive folders, WordPress sites, or physical exhibitions. Folio differentiates by integrating portfolio building, rubric-based assessment, peer review workflows, and industry-facing presentation into a single purpose-built platform.\n\nOur primary buyers are department chairs and program directors at design schools, art colleges, architecture programs, and creative writing MFAs. There are approximately 2,400 accredited creative programs in the U.S. alone. Secondary buyers include K-12 districts adopting project-based learning that requires portfolio assessment. Average contract value is $8-15K per program annually.\n\nGTM strategy targets the concentrated creative education community through conference sponsorships (AIGA, NASAD, CAA), partnerships with accreditation bodies that are increasingly requiring evidence-based assessment, and a faculty ambassador program. The pilot-to-adoption cycle in higher education averages 12-18 months, so we invest heavily in customer success during pilots to ensure department-wide rollout.",
+    "landingPage": {
+      "companyName": "Folio",
+      "tagline": "Assessment that showcases what students can actually do",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#9333EA",
+          "primaryLight": "#C084FC",
+          "primaryDark": "#7E22CE",
+          "accent": "#14B8A6",
+          "background": "#FEFBFF",
+          "surface": "#FFFFFF",
+          "text": "#1C0D33",
+          "textMuted": "#6B7280",
+          "border": "#F0E6FF"
+        },
+        "fontFamily": "'Outfit', sans-serif",
+        "borderRadius": "0.875rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Grades don't capture creative growth. Portfolios do.",
+        "subheadline": "Folio is the assessment platform built for design, art, writing, and architecture programs. Students build living portfolios. Instructors evaluate with structured rubrics. Everyone sees the full picture of creative development.",
+        "ctaText": "See how it works",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Ready to rethink creative assessment?",
+        "subheadline": "Start a free pilot with your program. No credit card, no commitment.",
+        "buttonText": "Request a pilot"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "Assessment that works like creative practice",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Students curate their portfolios", "description": "Upload projects, document process with photos and reflections, organize work by course or competency. The portfolio grows throughout the program — it's not a semester-end scramble." },
+            { "icon": "2", "title": "Instructors evaluate in context", "description": "Annotate directly on student work. Apply customizable rubrics that map to program learning outcomes. See each student's trajectory, not just their latest submission." },
+            { "icon": "3", "title": "Graduates showcase to employers", "description": "Students toggle their Folio to public mode, creating a polished portfolio site with instructor endorsements that hiring managers actually trust." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Built for how creative programs actually work",
+          "layout": "cards",
+          "items": [
+            { "icon": "🎨", "title": "Rich media support", "description": "Upload high-res images, video, 3D models, PDFs, code snippets, and audio. Every creative medium is a first-class citizen." },
+            { "icon": "📝", "title": "Inline annotation", "description": "Instructors leave feedback directly on the work — pinpoint a composition choice, highlight a code block, timestamp a video moment. Feedback meets the work where it lives." },
+            { "icon": "📐", "title": "Custom rubrics", "description": "Build rubrics that match your program's learning outcomes. Map criteria to accreditation standards. Reuse across courses and share with your department." },
+            { "icon": "👥", "title": "Peer review workflows", "description": "Structured peer critique with guided prompts and anonymous options. Students learn to give and receive feedback — a critical professional skill." },
+            { "icon": "📊", "title": "Program analytics", "description": "Cohort-level dashboards show where students are excelling and where they need support. Evidence for accreditation reviews, generated automatically." }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From programs that stopped reducing art to numbers",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "Folio transformed our review process. Instead of a stressful end-of-semester critique based on three pieces, we now see the full arc of each student's development. It's more fair and more informative.", "author": "Prof. Anita Desai", "role": "Chair, Graphic Design, RISD" },
+            { "quote": "Our accreditation reviewers were impressed that we could show student growth data across four years mapped to specific learning outcomes. Folio made that possible without any extra work from faculty.", "author": "Dr. Robert Lang", "role": "Dean of Fine Arts, SCAD" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Pricing for programs of every size",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Starter", "price": "Free", "period": "", "features": ["Up to 30 students", "Basic portfolio tools", "3 rubric templates", "Email support"], "ctaText": "Start free" },
+            { "name": "Department", "price": "8", "period": "/student/semester", "features": ["Unlimited students", "Custom rubrics", "Peer review workflows", "Program analytics", "LMS integration", "Priority support"], "ctaText": "Start pilot" },
+            { "name": "Institution", "price": "Custom", "period": "", "features": ["Multi-department deployment", "SSO & SIS integration", "Accreditation reporting", "Custom branding", "Dedicated success manager", "API access"], "ctaText": "Contact us" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Common questions from program leaders",
+          "layout": "faq",
+          "faqs": [
+            { "question": "Does Folio integrate with our LMS?", "answer": "Yes. We integrate with Canvas, Blackboard, and Moodle via LTI 1.3. Students can submit to Folio directly from their LMS course, and grades sync back automatically." },
+            { "question": "How much storage do students get?", "answer": "Department and Institution plans include unlimited storage. Starter plan includes 5GB per student. We support files up to 2GB each, covering even high-resolution video projects." },
+            { "question": "Can students keep their portfolio after graduating?", "answer": "Absolutely. Student portfolios are theirs to keep. After graduation, they transition to a free alumni account with full portfolio access and the ability to update and share their work." }
+          ]
+        }
+      ],
+      "companyEmail": "folio-edu@tryartha.com",
+      "domain": "folio-edu.tryartha.com",
+      "projectSlug": "folio-edu",
+      "animationPreset": "subtle",
+      "shadowStyle": "glow"
+    }
+  },
+  {
+    "name": "Beacon",
+    "slug": "beacon-learn",
+    "tagline": "New career. No lottery ticket required.",
+    "description": "Beacon runs intensive career transition bootcamps for mid-career professionals. Unlike traditional bootcamps aimed at recent grads, Beacon's programs are designed around the constraints of working adults — family obligations, existing skills to leverage, and the need for income continuity during the transition.",
+    "mission": "Career transitions are terrifying. You've spent ten years building expertise in one field, and now the market has shifted, your industry is shrinking, or you've simply realized you want something different. The options feel binary: quit your job and burn through savings in a bootcamp designed for 22-year-olds, or stay stuck and let resentment build.\n\nBeacon was founded by three people who made mid-career transitions themselves — a former journalist turned product manager, an accountant turned data scientist, and a teacher turned software engineer. We know the specific fears: Will anyone hire a 35-year-old junior developer? Can I afford to take a pay cut? Will my existing experience count for anything? The answers are yes, you probably won't have to, and absolutely — but only if the transition is designed around your reality, not a college sophomore's.\n\nOur bootcamps are structured for working professionals. Evening and weekend cohorts. Twelve to sixteen weeks. Curriculum that explicitly bridges from what you already know to what you need to learn. A marketing manager learning data analytics isn't starting from zero — they already understand business context, stakeholder communication, and strategic thinking. We build on those strengths instead of ignoring them.\n\nEvery Beacon graduate enters the job market with more than just new technical skills. Our career placement team works with each person to reframe their career narrative — not as someone starting over, but as someone bringing a unique combination of domain expertise and new capabilities that no 22-year-old bootcamp grad can match.\n\nWe measure success not by enrollment numbers but by placement rates and salary outcomes. If our graduates don't land roles they're excited about at compensation that respects their experience, we haven't done our job.",
+    "marketResearch": "The professional reskilling and career transition market is valued at $32 billion globally, driven by AI-induced displacement, industry consolidation, and increasing career mobility expectations among millennials and Gen X. The bootcamp segment specifically represents $5.8 billion, but the vast majority targets early-career learners. The mid-career transition niche — professionals with 8+ years of experience seeking to change fields — is severely underserved despite representing the fastest-growing segment of career changers. Our TAM is $5.8 billion in bootcamps, SAM of $2.1 billion targets career-change bootcamps for experienced professionals, and SOM of $180 million focuses on U.S. professionals transitioning into tech-adjacent roles.\n\nGeneral Assembly and Flatiron School dominate traditional bootcamps but design for early-career learners — their pace, pedagogy, and career support don't account for mid-career constraints. Springboard and Thinkful offer flexible online programs but lack the cohort intensity and career narrative work that career changers need. Corporate reskilling programs (Coursera for Business, Udacity Enterprise) serve employers, not individuals making voluntary transitions. Beacon differentiates through its exclusive focus on experienced professionals, part-time schedule design, and career narrative coaching.\n\nOur target learner is 30-45, has 8-15 years of professional experience, household income of $70-120K, and is seeking to transition into product management, data analytics, UX design, or software engineering. They need flexibility (can't quit their day job), credibility (want employer recognition), and confidence (need to believe their experience is an asset). Average willingness to pay is $6,000-12,000 per program.\n\nGTM strategy combines SEO content targeting career transition queries (\"how to switch careers at 35\"), LinkedIn thought leadership from our founders' personal transition stories, and alumni referrals. Corporate partnerships with companies laying off workers provide a talent pipeline with employer-sponsored tuition.",
+    "landingPage": {
+      "companyName": "Beacon",
+      "tagline": "New career. No lottery ticket required.",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#F59E0B",
+          "primaryLight": "#FCD34D",
+          "primaryDark": "#D97706",
+          "accent": "#3B82F6",
+          "background": "#111318",
+          "surface": "#1C1F26",
+          "text": "#FFFBEB",
+          "textMuted": "#9CA3AF",
+          "border": "#2D3039"
+        },
+        "fontFamily": "'Satoshi', sans-serif",
+        "borderRadius": "0.5rem"
+      },
+      "hero": {
+        "layout": "left-aligned",
+        "headline": "Your experience isn't a liability. It's your unfair advantage.",
+        "subheadline": "Beacon runs career transition bootcamps designed for professionals with 8+ years of experience. Part-time schedules. Curriculum that builds on what you already know. Career coaching that positions your background as a strength, not a gap.",
+        "ctaText": "Explore programs",
+        "ctaHref": "#features"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "Ready to make the leap?",
+        "subheadline": "Applications open for Q2 2026 cohorts. Payment plans and employer sponsorship available.",
+        "buttonText": "Apply now"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Programs built for experienced professionals",
+          "layout": "cards",
+          "items": [
+            { "icon": "📊", "title": "Data Analytics", "description": "12 weeks, evenings and weekends. For professionals who want to move into data-driven roles. SQL, Python, Tableau, and business analytics — all taught through the lens of real business problems." },
+            { "icon": "🎨", "title": "UX Design", "description": "14 weeks of user research, interaction design, and prototyping. Your years of understanding users and stakeholders become your design superpower." },
+            { "icon": "💻", "title": "Software Engineering", "description": "16 weeks of full-stack development. Built for career changers, not CS majors. Your domain expertise becomes the context that makes you a better engineer." },
+            { "icon": "📋", "title": "Product Management", "description": "10 weeks of product strategy, roadmapping, and stakeholder management. The career transition with the shortest bridge — your existing business skills are 70% of the job." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How Beacon works",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Apply and interview", "description": "We select for motivation and transferable skills, not technical background. Tell us your story. We'll help you see how it connects to where you're going." },
+            { "icon": "2", "title": "Learn without quitting your job", "description": "Evening and weekend sessions. 15-20 hours per week. Designed so you keep earning while you're learning. Live cohorts of 20 ensure accountability and connection." },
+            { "icon": "3", "title": "Build your career narrative", "description": "Our career coaches help you reframe your resume, LinkedIn, and interview story. You're not a junior anything — you're a professional with unique cross-domain expertise." },
+            { "icon": "4", "title": "Land the role", "description": "Employer introductions, mock interviews, and salary negotiation coaching. We don't stop until you're placed. 90-day job guarantee or your tuition back." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Outcomes that speak for themselves",
+          "stats": [
+            { "value": "89", "label": "Placed within 90 days", "suffix": "%" },
+            { "value": "22", "label": "Average salary increase", "suffix": "%" },
+            { "value": "38", "label": "Average age of graduates", "suffix": "yrs" },
+            { "value": "620", "label": "Career transitions completed", "suffix": "+" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From people who've been where you are",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was a high school teacher for 11 years. Every bootcamp I looked at felt like it was built for someone half my age. Beacon understood that my classroom experience — managing 30 stakeholders, designing curricula, explaining complex ideas — made me a better product manager, not a worse one.", "author": "Michelle Torres", "role": "Former Teacher, now PM at Shopify" },
+            { "quote": "The career narrative coaching was the most valuable part. I went from feeling like I was starting over at 37 to confidently explaining why my finance background makes me a uniquely effective data analyst.", "author": "David Park", "role": "Former Financial Analyst, now Data Analyst at Stripe" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Invest in your next chapter",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Standard", "price": "8,900", "period": "", "features": ["Full bootcamp program", "Live cohort sessions", "Career narrative coaching", "Job placement support", "90-day job guarantee", "12-month payment plan available"], "ctaText": "Apply now" },
+            { "name": "Premium", "price": "12,500", "period": "", "features": ["Everything in Standard", "1-on-1 executive coaching (8 sessions)", "Salary negotiation workshop", "Employer fast-track introductions", "Lifetime alumni network access"], "ctaText": "Apply for Premium" }
+          ]
+        }
+      ],
+      "companyEmail": "beacon-learn@tryartha.com",
+      "domain": "beacon-learn.tryartha.com",
+      "projectSlug": "beacon-learn",
+      "animationPreset": "smooth",
+      "shadowStyle": "elevated"
+    }
+  },
+  {
+    "name": "Syllabus",
+    "slug": "syllabus-academy",
+    "tagline": "Curriculum design tools that respect teachers' time and expertise",
+    "description": "Syllabus is a curriculum design platform for K-12 teachers that streamlines lesson planning, standards alignment, and resource organization. Built by former teachers who understand that planning shouldn't take longer than teaching.",
+    "mission": "Teaching is one of the most intellectually demanding jobs on earth, and curriculum design is the invisible engine that makes it work. Great teachers spend hours every week crafting lessons, finding resources, aligning to standards, differentiating for diverse learners, and adjusting plans based on what actually happened in class. Yet the tools they're given for this work are shocking — most teachers still plan in Word documents, Google Docs, or printed binder pages.\n\nSyllabus was built by a team of former classroom teachers who spent as many evenings planning lessons as we did teaching them. We experienced firsthand the absurdity of aligning a lesson to seventeen different standards by hand, the frustration of losing a great activity because it was buried in last year's Google Drive, and the guilt of using someone else's worksheet because we simply ran out of time to create something better.\n\nOur platform brings curriculum design into the modern era. Teachers build lesson plans with drag-and-drop components — warm-ups, direct instruction, activities, assessments — that automatically align to state and national standards. A built-in resource library lets teachers save, tag, and search everything they've ever created or collected. AI assists with the tedious parts — generating differentiated versions of activities, suggesting formative assessment questions, and identifying gaps in standards coverage across a unit.\n\nCritically, we don't try to replace teacher judgment. Syllabus is a power tool for skilled professionals, not a lesson-plan generator for anyone with a pulse. Teachers remain the architects. We just give them better blueprints, sharper tools, and a workspace that doesn't make them want to scream.\n\nOur north star is giving teachers back five hours a week — time that goes back to their families, their health, or the creative lesson design that drew them to teaching in the first place.",
+    "marketResearch": "The K-12 edtech market for teacher tools — including lesson planning, curriculum management, and instructional design — is valued at $4.6 billion, growing at 14% CAGR. Teachers in the U.S. spend an average of 7 hours per week on lesson planning and preparation, and 94% report spending personal funds on classroom resources. The market for purpose-built curriculum design tools is nascent, with most spending currently allocated to generic productivity tools or content marketplaces. Our TAM is $4.6 billion in K-12 teacher tools, SAM of $1.2 billion targets digital curriculum planning tools in English-speaking markets, and SOM of $85 million focuses on U.S. public school districts with 5,000+ students.\n\nCurrent alternatives include Planbook (simple calendar-based planning, no AI or standards alignment), Teachers Pay Teachers (marketplace for resources, not a planning tool), and district-mandated curriculum platforms (rigid, top-down, despised by teachers). LMS platforms like Canvas and Schoology handle assignment distribution but not curriculum design. Syllabus differentiates by being the first platform that treats curriculum design as a professional practice — combining planning, standards alignment, resource management, and AI assistance in one workflow.\n\nOur primary users are K-12 classroom teachers who take curriculum design seriously and are frustrated by inadequate tools. Early adopters are instructional coaches and curriculum coordinators who need to support teachers across a department or school. District-level buyers emerge when enough teachers within a district adopt Syllabus individually, creating bottom-up demand for institutional licenses.\n\nGTM strategy follows a teacher-first viral model. Free individual accounts spread through teacher social media communities (Instagram teacher influencers, education Twitter, Facebook groups). School and district licenses are sold through instructional leadership — principals and curriculum directors who see teacher adoption data. Conference presence at ISTE, ASCD, and state-level education technology conferences builds credibility.",
+    "landingPage": {
+      "companyName": "Syllabus",
+      "tagline": "Curriculum design tools that respect teachers' time and expertise",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#059669",
+          "primaryLight": "#34D399",
+          "primaryDark": "#047857",
+          "accent": "#8B5CF6",
+          "background": "#FAFDF7",
+          "surface": "#FFFFFF",
+          "text": "#1A2E1A",
+          "textMuted": "#6B7C6B",
+          "border": "#D4E8D4"
+        },
+        "fontFamily": "'Source Sans 3', sans-serif",
+        "borderRadius": "0.625rem"
+      },
+      "hero": {
+        "layout": "split",
+        "headline": "Plan lessons in minutes, not hours",
+        "subheadline": "Syllabus is the curriculum design platform that K-12 teachers actually want to use. Drag-and-drop lesson building, automatic standards alignment, a personal resource library, and AI that handles the tedious parts so you can focus on teaching.",
+        "ctaText": "Start planning free",
+        "ctaHref": "#features"
+      },
+      "cta": {
+        "layout": "card",
+        "headline": "You became a teacher to teach, not to plan in spreadsheets",
+        "subheadline": "Free forever for individual teachers. School licenses start at $4/teacher/month.",
+        "buttonText": "Create your free account"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Everything you need, nothing you don't",
+          "layout": "bento",
+          "items": [
+            { "icon": "🧱", "title": "Drag-and-drop lesson builder", "description": "Assemble lessons from reusable components — warm-ups, activities, checks for understanding, assessments. Rearrange in seconds. Clone and modify across classes." },
+            { "icon": "📏", "title": "Auto standards alignment", "description": "Tag any lesson component and Syllabus maps it to Common Core, NGSS, state standards, or your district's framework. Gap analysis shows what's covered and what's missing across a unit." },
+            { "icon": "📂", "title": "Personal resource vault", "description": "Save every worksheet, slide deck, video link, and activity you've ever created or found. Tag, search, and reuse across years. Never lose a great resource again." },
+            { "icon": "🤖", "title": "AI differentiation assistant", "description": "Generate modified versions of activities for different reading levels, ELL students, or advanced learners. You review and approve — the AI does the adaptation legwork." },
+            { "icon": "📊", "title": "Department collaboration", "description": "Share lesson plans and units with your department. Build a shared resource library. See how colleagues are covering the same standards." },
+            { "icon": "🔗", "title": "LMS sync", "description": "Push assignments directly to Google Classroom, Canvas, or Schoology. Plan in Syllabus, distribute through your LMS. No double entry." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Teachers are getting their evenings back",
+          "stats": [
+            { "value": "5.2", "label": "Hours saved per teacher per week", "suffix": "hrs" },
+            { "value": "14", "label": "Thousand teachers using Syllabus", "suffix": "K" },
+            { "value": "92", "label": "Would recommend to a colleague", "suffix": "%" },
+            { "value": "280", "label": "School districts onboarded", "suffix": "+" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From teachers who plan smarter, not harder",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I used to spend my entire Sunday afternoon planning for the week. With Syllabus, I'm done by noon. The standards alignment feature alone saves me an hour — I used to do that manually in a spreadsheet.", "author": "Carmen Ruiz", "role": "5th Grade Teacher, Houston ISD" },
+            { "quote": "The resource vault changed my life. I've been teaching for 12 years and had activities scattered across three Google accounts and two USB drives. Now everything is searchable and organized.", "author": "Tim O'Brien", "role": "High School Science, Chicago Public Schools" },
+            { "quote": "As an instructional coach supporting 14 teachers, Syllabus gives me visibility into lesson design across the department without being intrusive. I can offer targeted support instead of generic PD.", "author": "Dr. Keisha Johnson", "role": "Instructional Coach, Atlanta Public Schools" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Built for teachers. Priced for education budgets.",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Teacher", "price": "0", "period": "forever", "features": ["Unlimited lesson plans", "Standards alignment (1 framework)", "Personal resource vault (2GB)", "Google Classroom sync"], "ctaText": "Start free" },
+            { "name": "Teacher Pro", "price": "7", "period": "/month", "features": ["Everything in Teacher", "AI differentiation assistant", "All standards frameworks", "Unlimited storage", "Department sharing"], "ctaText": "Upgrade to Pro" },
+            { "name": "School", "price": "4", "period": "/teacher/month", "features": ["Everything in Pro", "Admin dashboard", "School-wide resource library", "PD tracking integration", "Canvas & Schoology sync", "Priority support"], "ctaText": "Get a school quote" },
+            { "name": "District", "price": "Custom", "period": "", "features": ["Everything in School", "District-wide standards mapping", "Cross-school analytics", "SSO & SIS integration", "Dedicated success team", "Custom onboarding"], "ctaText": "Contact us" }
+          ]
+        }
+      ],
+      "companyEmail": "syllabus-academy@tryartha.com",
+      "domain": "syllabus-academy.tryartha.com",
+      "projectSlug": "syllabus-academy",
+      "animationPreset": "fade",
+      "shadowStyle": "minimal"
+    }
+  },
+  {
+    "name": "Cognia",
+    "slug": "cognia-study",
+    "tagline": "Find what you don't know before the exam does",
+    "description": "Cognia is an adaptive testing platform that identifies precise knowledge gaps in any subject area. Rather than scoring what you got right, Cognia maps what you don't know and generates a targeted study plan to fill those gaps before they cost you points.",
+    "mission": "Traditional tests are autopsy reports. They tell you what went wrong after the damage is done. You get a score, maybe see which questions you missed, and then you're on your own figuring out what to actually do about it. The problem isn't the test — it's the timing and the follow-through.\n\nCognia flips the model. Our adaptive assessments are designed not to grade you, but to diagnose you. Using item response theory and Bayesian knowledge modeling, each question is selected based on what will reveal the most about your understanding. A 20-minute Cognia assessment provides more diagnostic precision than a three-hour traditional exam because every question is chosen to maximize information about where your knowledge breaks down.\n\nThe output isn't a score. It's a knowledge map — a visual, topic-level breakdown showing exactly what you understand deeply, what you partially grasp, and what you've completely missed. Partial understanding is where Cognia shines. Most students don't have binary know-it-or-don't relationships with concepts. They understand the basics of photosynthesis but confuse the light and dark reactions. They can solve linear equations but fall apart with word problems. Cognia detects these nuances and builds study plans that target the specific sub-concepts where understanding breaks down.\n\nWe serve two audiences: students preparing for high-stakes exams who need to optimize limited study time, and instructors who want to understand where their class actually stands instead of waiting for the final exam to find out. For both, Cognia replaces guesswork with precision.\n\nWe believe assessment should be an act of care, not judgment. When it's done right, a test is a gift — it shows you exactly where to focus so you can grow as efficiently as possible.",
+    "marketResearch": "The assessment and testing market in education is valued at $18 billion, with formative and diagnostic assessment growing at 21% CAGR as educators shift from summative to learning-oriented testing. Adaptive testing specifically represents $2.8 billion, dominated by standardized test providers (ETS, College Board) and state assessment contractors. The niche of student-facing diagnostic assessment tools is smaller but growing rapidly at 35% CAGR. Our TAM is $2.8 billion in adaptive assessment, SAM of $900 million targets diagnostic assessment for college students and professional exam preppers, and SOM of $95 million focuses on U.S. students preparing for MCAT, LSAT, GRE, CPA, and similar high-stakes exams.\n\nCompetitors include UWorld (question banks with explanations but no adaptive diagnostics), Magoosh (test prep with basic analytics), and ALEKS (adaptive learning for math/chemistry, owned by McGraw-Hill). Standardized testing companies offer practice tests but not diagnostic assessments designed to reveal specific knowledge gaps. Cognia differentiates through its diagnostic-first approach — the purpose isn't to simulate the test but to surgically identify gaps — and its Bayesian modeling that provides confidence intervals on each topic's mastery level.\n\nOur primary users are students preparing for graduate admissions exams (MCAT, LSAT, GRE), professional certifications (CPA, CFA, bar exam), and challenging undergraduate courses. These students face enormous content volumes and limited time — they need to know exactly where to focus. Secondary users are university instructors who want mid-semester diagnostic data on their class.\n\nGTM strategy targets high-stakes exam prep communities through content marketing (study strategy blogs), Reddit and Discord community engagement, and partnerships with tutoring companies that use Cognia diagnostics to guide their sessions. Student referrals drive organic growth — when a study group discovers Cognia, the entire group adopts it.",
+    "landingPage": {
+      "companyName": "Cognia",
+      "tagline": "Find what you don't know before the exam does",
+      "theme": {
+        "mode": "dark",
+        "colors": {
+          "primary": "#38BDF8",
+          "primaryLight": "#7DD3FC",
+          "primaryDark": "#0284C7",
+          "accent": "#FB923C",
+          "background": "#0B1120",
+          "surface": "#131D33",
+          "text": "#F0F9FF",
+          "textMuted": "#8899B0",
+          "border": "#1E2D4A"
+        },
+        "fontFamily": "'General Sans', sans-serif",
+        "borderRadius": "0.75rem"
+      },
+      "hero": {
+        "layout": "centered",
+        "headline": "Don't just take practice tests. Diagnose your knowledge.",
+        "subheadline": "Cognia's adaptive assessments pinpoint your exact knowledge gaps in 20 minutes. No more wasting study hours on topics you already know. Get a precision map of what to study next.",
+        "ctaText": "Take a free diagnostic",
+        "ctaHref": "#how-it-works"
+      },
+      "cta": {
+        "layout": "gradient",
+        "headline": "Your exam is coming. Study what actually matters.",
+        "subheadline": "Free diagnostic for any supported exam. Pro plans start at $19/month.",
+        "buttonText": "Start your diagnostic"
+      },
+      "sections": [
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "From blind studying to targeted precision",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Take the adaptive diagnostic", "description": "Answer 30-50 questions selected by our Bayesian engine. Each question is chosen to reveal maximum information about your understanding — not to trick you, but to map you." },
+            { "icon": "2", "title": "See your knowledge map", "description": "Get a topic-by-topic breakdown showing mastery levels with confidence intervals. See not just what you missed, but which sub-concepts within a topic are shaky." },
+            { "icon": "3", "title": "Follow your targeted study plan", "description": "Cognia generates a prioritized study plan based on your gaps, the exam's topic weighting, and your available study time. Every hour is optimized." }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Assessment designed to help, not judge",
+          "layout": "alternating",
+          "items": [
+            { "icon": "🎯", "title": "Bayesian knowledge modeling", "description": "Our engine doesn't just count right and wrong. It models your probability of knowing each concept with confidence intervals, detecting partial understanding that binary scoring misses." },
+            { "icon": "🗺️", "title": "Visual knowledge maps", "description": "See your understanding as a heat map across every exam topic. Green means solid. Yellow means shaky. Red means study here first. No ambiguity." },
+            { "icon": "⏱️", "title": "Time-optimized study plans", "description": "Tell Cognia how many hours you have until the exam. It builds a plan that maximizes expected score improvement per hour of study." },
+            { "icon": "📈", "title": "Progress tracking", "description": "Retake diagnostics to see gaps closing in real-time. Watch your knowledge map shift from red to green as you study. Motivation through visible progress." },
+            { "icon": "👩‍🏫", "title": "Instructor dashboard", "description": "Professors see class-level knowledge maps. Identify the three topics your whole class misunderstands and adjust your teaching before the final." }
+          ]
+        },
+        {
+          "id": "comparison-table",
+          "type": "comparison-table",
+          "headline": "Cognia vs. traditional practice tests",
+          "comparisonOurName": "Cognia",
+          "comparisonCompetitorName": "Practice Tests",
+          "comparisonRows": [
+            { "feature": "Identifies specific knowledge gaps", "us": true, "competitor": "Vaguely" },
+            { "feature": "Adapts questions to your level", "us": true, "competitor": false },
+            { "feature": "Generates targeted study plan", "us": true, "competitor": false },
+            { "feature": "Detects partial understanding", "us": true, "competitor": false },
+            { "feature": "Time to complete", "us": "20 minutes", "competitor": "3+ hours" },
+            { "feature": "Tracks progress over time", "us": "Precision heat maps", "competitor": "Score went up/down" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From students who studied smarter",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I was doing full-length MCAT practice tests every weekend and barely improving. Cognia showed me I was spending 60% of my study time on topics I already knew. Two weeks of targeted study on my actual gaps raised my score 8 points.", "author": "Aaliya Hassan", "role": "MD Candidate, Emory" },
+            { "quote": "The knowledge map is the most honest assessment tool I've ever used. It showed me I thought I understood statistics but actually only grasped descriptive stats — my inferential knowledge was full of holes.", "author": "Ryan Murphy", "role": "GRE Prep, scored 168Q" },
+            { "quote": "I started using Cognia diagnostics mid-semester in my organic chemistry class. For the first time, I could see exactly which students needed help with what. My DFW rate dropped by a third.", "author": "Prof. Lisa Chang", "role": "Chemistry, UC San Diego" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Know exactly where you stand",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Free", "price": "0", "period": "", "features": ["1 diagnostic per exam", "Basic knowledge map", "General study recommendations", "Community question bank"], "ctaText": "Take free diagnostic" },
+            { "name": "Pro", "price": "19", "period": "/month", "features": ["Unlimited diagnostics", "Detailed knowledge maps with confidence intervals", "Time-optimized study plans", "Progress tracking over time", "All supported exams"], "ctaText": "Go Pro" },
+            { "name": "Instructor", "price": "Free", "period": "for educators", "features": ["Class-level diagnostics", "Cohort knowledge maps", "Gap analysis reports", "LMS integration", "Custom assessments"], "ctaText": "Apply for access" }
+          ]
+        }
+      ],
+      "companyEmail": "cognia-study@tryartha.com",
+      "domain": "cognia-study.tryartha.com",
+      "projectSlug": "cognia-study",
+      "animationPreset": "subtle",
+      "shadowStyle": "sharp"
+    }
+  },
+  {
+    "name": "Atelier",
+    "slug": "atelier-lab",
+    "tagline": "Learn from the best, together",
+    "description": "Atelier is a platform for live, cohort-based courses taught by working creative professionals. Unlike pre-recorded content, Atelier courses are taught in real-time with small groups, peer feedback, and direct access to instructors who are actively practicing their craft.",
+    "mission": "The internet promised to democratize education, and in some ways it delivered. You can learn almost anything from YouTube and online courses. But the dirty secret of self-paced online learning is that almost nobody finishes. Completion rates for MOOCs hover around 5%. The content is there. The motivation isn't. And for creative skills — writing, design, illustration, photography, filmmaking — the feedback loop that self-paced learning can't provide is often more important than the content itself.\n\nAtelier exists because creative learning is inherently social. The workshop model — small groups, live instruction, peer critique, iterative projects — has produced great artists, designers, and writers for centuries. We're bringing that model online with the production quality and accessibility that the internet makes possible.\n\nEvery Atelier course is taught live by a working professional, not a career educator. Our instructors are practicing designers at studios, published authors, exhibited photographers, and working filmmakers. They teach from current experience, share real client work as case studies, and provide the kind of candid industry feedback that no pre-recorded course can offer. Classes are capped at 20 students to ensure everyone participates, gets feedback, and builds genuine connections with their cohort.\n\nThe cohort model solves the completion problem. When you're learning alongside 19 peers who see your work, give you feedback, and expect you to show up, the social accountability transforms outcomes. Our completion rate is 87% — not because we've gamified engagement, but because humans are wired to show up for other humans.\n\nWe started with creative disciplines because the feedback loop is most critical there, but the cohort-based live learning model applies to any skill where practice and critique matter more than information transfer. We're building the future of professional education — and it looks a lot like the past, reimagined for the internet.",
+    "marketResearch": "The online professional education market is valued at $46 billion, but cohort-based course platforms (CBCs) represent a rapidly growing segment estimated at $1.2 billion, growing at 40%+ CAGR. The shift from self-paced to live learning is driven by employer demand for practical skills and learner demand for accountability and community. Our TAM encompasses the $1.2 billion CBC market, SAM of $480 million targets creative and professional skills courses for English-speaking adults, and SOM of $65 million focuses on design, writing, photography, and illustration courses for working professionals in North America and Europe.\n\nMaven (founded by Gagan Biyani and Wes Kao) pioneered the cohort-based platform model but focuses broadly across business, tech, and creative skills. Skillshare offers creative courses but in a pre-recorded, self-paced format with low completion rates. MasterClass provides celebrity-taught content with no interactivity. Domestika offers high-quality creative courses but without live components. Atelier differentiates through its exclusive focus on creative professionals, strict 20-person cohort caps, and instructor-as-practitioner model that ensures teaching stays grounded in current industry practice.\n\nOur primary students are creative professionals with 2-8 years of experience who want to level up specific skills — a graphic designer learning motion design, a writer exploring screenwriting, or a photographer transitioning to directing. These professionals earn $50-120K and are willing to invest $300-800 per course for high-quality live instruction. Secondary students include career changers entering creative fields and hobbyists seeking structured community.\n\nGTM strategy leverages instructor audiences. Each Atelier instructor brings their existing social following (typically 10K-500K across Instagram, YouTube, and newsletters). We provide production support, curriculum design assistance, and a platform — they bring students and credibility. This instructor-led distribution keeps customer acquisition costs low while building a content moat that's impossible to replicate with pre-recorded courses.",
+    "landingPage": {
+      "companyName": "Atelier",
+      "tagline": "Learn from the best, together",
+      "theme": {
+        "mode": "light",
+        "colors": {
+          "primary": "#BE185D",
+          "primaryLight": "#F472B6",
+          "primaryDark": "#9D174D",
+          "accent": "#0D9488",
+          "background": "#FFFBF5",
+          "surface": "#FFFFFF",
+          "text": "#1A0D12",
+          "textMuted": "#78716C",
+          "border": "#FECDD3"
+        },
+        "fontFamily": "'Fraunces', serif",
+        "borderRadius": "0.25rem"
+      },
+      "hero": {
+        "layout": "left-aligned",
+        "headline": "World-class creative instruction. Live cohorts. Real feedback.",
+        "subheadline": "Atelier offers live, cohort-based courses taught by working creative professionals. Small groups of 20. Real projects with expert critique. The workshop model, reimagined for the internet.",
+        "ctaText": "Browse upcoming courses",
+        "ctaHref": "#features"
+      },
+      "cta": {
+        "layout": "minimal",
+        "headline": "The next cohort is forming now",
+        "subheadline": "New courses launch monthly in design, writing, photography, illustration, and filmmaking.",
+        "buttonText": "See the catalog"
+      },
+      "sections": [
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Upcoming courses",
+          "layout": "cards",
+          "items": [
+            { "icon": "🎬", "title": "Visual Storytelling for Short Film", "description": "Taught by Mira Asato, director of three Sundance-selected shorts. 6 weeks, Saturdays. You'll write, storyboard, and edit a complete short film with weekly feedback from Mira and your cohort." },
+            { "icon": "✏️", "title": "Editorial Illustration", "description": "Taught by Nate Williams, whose work has appeared in The New Yorker and NYT. 4 weeks, Tuesdays. Build a portfolio of editorial illustrations through live assignments and professional critique." },
+            { "icon": "📷", "title": "Documentary Photography", "description": "Taught by Alessandra Sanguinetti, Magnum photographer. 5 weeks, Thursdays. Develop a long-term documentary project with guidance from one of the world's most respected photographers." },
+            { "icon": "🖊️", "title": "Personal Essay Writing", "description": "Taught by Roxane Gay. 4 weeks, Wednesdays. Write, workshop, and polish two personal essays. Learn to find the universal in the specific and develop your narrative voice." }
+          ]
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "headline": "How Atelier works",
+          "layout": "numbered",
+          "items": [
+            { "icon": "1", "title": "Choose your course", "description": "Browse upcoming courses by discipline, instructor, or schedule. Each course page shows the instructor's portfolio, the syllabus, and alumni reviews." },
+            { "icon": "2", "title": "Join a cohort of 20", "description": "Small class sizes mean real relationships. You'll give and receive critique, collaborate on exercises, and build a network of peers in your discipline." },
+            { "icon": "3", "title": "Create with expert guidance", "description": "Every session is live. Instructors teach, demonstrate, and review your work in real-time. Office hours and async feedback between sessions keep momentum going." }
+          ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "The workshop model works",
+          "stats": [
+            { "value": "87", "label": "Course completion rate", "suffix": "%" },
+            { "value": "4.9", "label": "Average instructor rating", "suffix": "/5" },
+            { "value": "72", "label": "Of alumni take a second course", "suffix": "%" },
+            { "value": "140", "label": "Working professionals as instructors", "suffix": "+" }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "From students and instructors",
+          "layout": "testimonials",
+          "testimonials": [
+            { "quote": "I've taken dozens of online courses and never finished one. I finished Atelier's typography course and produced the best work of my career because 19 other people were counting on me to show up with my homework done.", "author": "Yuki Tanaka", "role": "Brand Designer, Tokyo" },
+            { "quote": "Teaching on Atelier is completely different from recording a course. The energy of a live cohort, seeing students apply feedback in real-time, the critiques that spark ideas I wouldn't have had alone — it's teaching as it should be.", "author": "Nate Williams", "role": "Illustrator & Atelier Instructor" },
+            { "quote": "The peer network alone is worth the price. Three months after my documentary photography course, two cohort-mates and I are collaborating on a photo book. Those connections don't happen in a MOOC.", "author": "Farah Al-Sharif", "role": "Photographer, London" },
+            { "quote": "I went from self-taught hobbyist to confident freelance illustrator in six months and two Atelier courses. The direct feedback from working professionals compressed years of trial and error.", "author": "Carlos Mendez", "role": "Freelance Illustrator, Mexico City" }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Invest in your craft",
+          "layout": "pricing",
+          "plans": [
+            { "name": "Single Course", "price": "349-799", "period": "", "features": ["Live cohort of 20", "4-6 weekly sessions", "Direct instructor feedback", "Peer critique workshops", "Lifetime access to recordings", "Alumni community access"], "ctaText": "Browse courses" },
+            { "name": "All Access", "price": "199", "period": "/month", "features": ["Unlimited courses", "Priority enrollment", "Exclusive masterclasses", "1-on-1 office hours (monthly)", "Full course archive", "Private alumni network"], "ctaText": "Join All Access" }
+          ]
+        }
+      ],
+      "companyEmail": "atelier-lab@tryartha.com",
+      "domain": "atelier-lab.tryartha.com",
+      "projectSlug": "atelier-lab",
+      "animationPreset": "smooth",
+      "shadowStyle": "elevated"
+    }
+  }
+]
